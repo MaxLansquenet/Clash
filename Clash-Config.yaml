@@ -6,9 +6,10 @@ proxy-providers:
     path: "./NoMoreWalls.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
-      interval: 300
+      interval: 600
       url: http://www.gstatic.com/generate_204
     proxy: DIRECT
+    exclude-filter: "CN|机场"
 
   Jsnzkpg:
     type: http
@@ -185,7 +186,7 @@ proxy-providers:
       interval: 300
       url: http://www.gstatic.com/generate_204
     proxy: DIRECT
-
+   
 mixed-port: 8086
 allow-lan: true
 mode: Rule
