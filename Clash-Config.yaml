@@ -218,6 +218,7 @@ proxy-groups:
         Ⓜ️ 微软服务
         🍎 苹果服务
         📢 谷歌FCM
+        GitHub
 
   - name: 🌍 国外媒体
     type: select
@@ -227,6 +228,13 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+ 
+  - name: GitHub
+    type: url-test
+    url: http://www.github.com/generate_204
+    include-all: true
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    proxies:
 
   - name: 🎥 奈飞视频
     type: url-test
@@ -317,6 +325,13 @@ proxy-groups:
 
 rule-providers:
 
+  GitHub:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
     
   Netflix:
     url: https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
@@ -447,11 +462,12 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT    
-  - "RULE-SET,Netflix,🎥 奈飞视频"
-  - "RULE-SET,YouTube,📹 油管视频"
-  - "RULE-SET,Tiktok,🎥 Tiktok"
-  - "RULE-SET,OpenAi,💬 OpenAi"
-  - "RULE-SET,google,📢 谷歌FCM"
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Tiktok,🎥 Tiktok
+  - RULE-SET,OpenAi,💬 OpenAi
+  - RULE-SET,google,📢 谷歌FCM
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
