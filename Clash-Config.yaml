@@ -197,7 +197,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - ♻️ 自动选择
       - DIRECT
@@ -208,13 +208,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🌍 国外媒体
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
@@ -223,7 +223,7 @@ proxy-groups:
   - name: 🎥 奈飞视频
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
@@ -232,7 +232,7 @@ proxy-groups:
   - name: 📹 油管视频
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
@@ -241,7 +241,7 @@ proxy-groups:
   - name: 🎥 Tiktok
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
@@ -250,7 +250,7 @@ proxy-groups:
   - name: 💬 OpenAi
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
@@ -259,7 +259,7 @@ proxy-groups:
   - name: 📲 电报信息
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
@@ -267,6 +267,7 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     include-all: true
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
@@ -274,7 +275,7 @@ proxy-groups:
   - name: 🍎 苹果服务
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
@@ -282,7 +283,7 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
@@ -290,7 +291,7 @@ proxy-groups:
 
   - name: 🎯 全球直连
     type: select
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - DIRECT
       - 🚀 节点选择
@@ -298,14 +299,14 @@ proxy-groups:
 
   - name: 🛑 全球拦截
     type: select
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - REJECT
       - DIRECT
 
   - name: 🍃 应用净化
     type: select
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - REJECT
       - DIRECT
@@ -313,7 +314,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     include-all: true
-    exclude-filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
@@ -323,7 +324,7 @@ proxy-groups:
   - name: 一般不用
     type: select
     include-all: true
-    filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
 rule-providers:
 
     
