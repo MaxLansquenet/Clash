@@ -307,6 +307,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
 
+
+  - name: 一般不用
+    type: select
+    include-all: true
+    filter: "香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
 rule-providers:
 
     
