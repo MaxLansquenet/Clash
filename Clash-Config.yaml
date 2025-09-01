@@ -239,7 +239,8 @@ proxy-groups:
       - 🎯 全球直连
 
   - name: 🎥 Tiktok
-    type: select
+    type: url-test
+    url: http://www.tiktok.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
