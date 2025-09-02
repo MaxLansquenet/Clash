@@ -461,16 +461,17 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 
-rules:
-    DOMAIN,cn,DIRECT    
+rules:  
+    
+  - RULE-SET,reject,REJECT   
+  - RULE-SET,Advertising,REJECT 
+  - DOMAIN,cn,DIRECT     
+  - RULE-SET,GitHub,GitHub
   - DOMAIN,uugpt.com,DIRECT    
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT   
-  - RULE-SET,Advertising,REJECT 
-  - RULE-SET,GitHub,GitHub
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Tiktok,🎥 Tiktok
