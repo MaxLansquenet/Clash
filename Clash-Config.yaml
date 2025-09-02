@@ -199,8 +199,6 @@ proxy-groups:
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
-      - ♻️ 自动选择
-      - DIRECT
 
   - name: ♻️ 自动选择
     type: url-test
@@ -210,20 +208,9 @@ proxy-groups:
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
-        - 📹 油管视频
-        - 🎥 Tiktok
-        - 🎥 奈飞视频
-        - 💬 OpenAi
-        - 📲 电报信息
-        - Ⓜ️ 微软服务
-        - 🍎 苹果服务
-        - 📢 谷歌FCM
-        - GitHub
 
   - name: 🌍 国外媒体
     type: select
-    include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
