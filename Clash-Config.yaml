@@ -219,6 +219,8 @@ proxy-groups:
   - name: GitHub
     type: url-test
     url: https://www.github.com/generate_204
+    interval: 300
+    tolerance: 50
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
@@ -227,6 +229,8 @@ proxy-groups:
     type: url-test
     url: https://www.netflix.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -234,6 +238,8 @@ proxy-groups:
     type: url-test
     url: https://www.youtube.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -241,6 +247,8 @@ proxy-groups:
     type: url-test
     url: https://www.tiktok.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -248,6 +256,8 @@ proxy-groups:
     type: url-test
     url: https://www.chatgpt.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -256,6 +266,8 @@ proxy-groups:
     type: url-test
     url: https://www.telegram.org/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -263,6 +275,8 @@ proxy-groups:
     type: url-test
     url: https://www.microsoft.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -270,6 +284,8 @@ proxy-groups:
     type: url-test
     url: https://www.apple.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -277,6 +293,8 @@ proxy-groups:
     type: url-test
     url: https://www.google.com/generate_204
     include-all: true
+    interval: 300
+    tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -285,6 +303,7 @@ proxy-groups:
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
+      - DIRECT
 
   - name: 🛑 全球拦截
     type: select
