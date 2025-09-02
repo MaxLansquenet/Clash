@@ -204,7 +204,7 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
@@ -231,35 +231,35 @@ proxy-groups:
  
   - name: GitHub
     type: url-test
-    url: http://www.github.com/generate_204
+    url: https://www.github.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🎥 奈飞视频
     type: url-test
-    url: http://www.netflix.com/generate_204
+    url: https://www.netflix.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 📹 油管视频
     type: url-test
-    url: http://www.youtube.com/generate_204
+    url: https://www.youtube.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🎥 Tiktok
     type: url-test
-    url: http://www.tiktok.com/generate_204
+    url: https://www.tiktok.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 💬 OpenAi
     type: url-test
-    url: http://www.chatgpt.com/generate_204
+    url: https://www.chatgpt.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
@@ -267,28 +267,28 @@ proxy-groups:
 
   - name: 📲 电报信息
     type: url-test
-    url: http://www.telegram.org/generate_204
+    url: https://www.telegram.org/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: Ⓜ️ 微软服务
     type: url-test
-    url: http://www.microsoft.com/generate_204
+    url: https://www.microsoft.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🍎 苹果服务
     type: url-test
-    url: http://www.apple.com/generate_204
+    url: https://www.apple.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 📢 谷歌FCM
     type: url-test
-    url: http://www.google.com/generate_204
+    url: https://www.google.com/generate_204
     include-all: true
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
