@@ -298,8 +298,6 @@ proxy-groups:
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择  
-      - DIRECT
 
   - name: 🛑 全球拦截
     type: select
@@ -464,6 +462,7 @@ rule-providers:
     interval: 86400
 
 rules:
+    
   - DOMAIN,uugpt.com,DIRECT    
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
