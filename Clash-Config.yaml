@@ -297,9 +297,9 @@ proxy-groups:
     type: select
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
-      - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
+      - ♻️ 自动选择  
+      - DIRECT
 
   - name: 🛑 全球拦截
     type: select
