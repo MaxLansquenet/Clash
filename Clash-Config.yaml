@@ -240,7 +240,7 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透|日本|JP|jp"
     proxies:
 
   - name: 🎥 Tiktok
