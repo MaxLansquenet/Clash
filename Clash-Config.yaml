@@ -209,6 +209,7 @@ proxy-groups:
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
         - 📹 油管视频
+        - GitHub
 
   - name: 🌍 国外媒体
     type: select
