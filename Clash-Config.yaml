@@ -197,8 +197,10 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
+        - ♻️ 自动选择
+        - DIRECT
+        - REJECT
 
   - name: ♻️ 自动选择
     type: url-test
@@ -308,6 +310,7 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
+      - 🚀 节点选择
 
   - name: 🍃 应用净化
     type: select
