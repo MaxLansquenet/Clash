@@ -2096,7 +2096,7 @@ rules:
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Tiktok,🎥 Tiktok
   - RULE-SET,OpenAi,💬 OpenAi
-  - RULE-SET,google,📢 谷歌FCM
+  - RULE-SET,google,DIRECT
 
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT
