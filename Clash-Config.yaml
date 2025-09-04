@@ -198,7 +198,9 @@ proxy-groups:
     type: select
     include-all: true
     proxies:
-
+        - ♻️ 自动选择
+        - DIRECT
+        - REJECT
 
   - name: ♻️ 自动选择
     type: url-test
