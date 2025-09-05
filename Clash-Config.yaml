@@ -413,7 +413,7 @@ rule-providers:
     path: ./ruleset/proxy.yaml
     interval: 86400
 
-  direct:
+  directto:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
@@ -2092,7 +2092,7 @@ rules:
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,dierct,DIRECT   
+  - RULE-SET,directto,DIRECT   
   - RULE-SET,private,DIRECT   
   - RULE-SET,cncidr,DIRECT
   - RULE-SET,lancidr,DIRECT
