@@ -303,6 +303,7 @@ proxy-groups:
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - ♻️ 自动选择
+      - 🚀 节点选择
       - DIRECT
 
   - name: 🛑 全球拦截
@@ -315,11 +316,10 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
+      - 🚀 节点选择
 
   - name: 🐟 漏网之鱼
     type: select
-    include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
       - 🚀 节点选择
       - 一般不用
