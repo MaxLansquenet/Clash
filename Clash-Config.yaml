@@ -309,7 +309,7 @@ proxy-groups:
     type: load-balance
     url: http://www.google.com/blank.html
     include-all: true
-    strategy: round-robin
+    strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
