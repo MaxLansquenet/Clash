@@ -195,6 +195,24 @@ proxies:
 
 proxy-groups:
     
+  - name: GLOBAL 
+    type: select
+    include-all: true 
+    proxies:
+        - ♻️ 自动选择
+        - GitHub
+        - 🎥 奈飞视频
+        - 📹 油管视频
+        - 🎥 Tiktok
+        - 💬 OpenAi
+        - 📲 电报信息
+        - Ⓜ️ 微软服务
+        - 🍎 苹果服务
+        - 📢 谷歌FCM
+        - 🚀 节点选择
+        - 一般不用
+
+
   - name: 🚀 节点选择
     type: select
     include-all: true
