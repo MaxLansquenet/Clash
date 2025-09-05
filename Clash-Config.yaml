@@ -314,15 +314,6 @@ proxy-groups:
     tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
-        - ♻️ 自动选择
-        - GitHub
-        - 🎥 奈飞视频
-        - 📹 油管视频
-        - 🎥 Tiktok
-        - 💬 OpenAi
-        - 📲 电报信息
-        - Ⓜ️ 微软服务
-        - 🍎 苹果服务
 
   - name: 🎯 全球直连
     type: select
