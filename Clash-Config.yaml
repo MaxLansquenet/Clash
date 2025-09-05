@@ -289,7 +289,7 @@ proxy-groups:
 
   - name: Ⓜ️ 微软服务
     type: url-test
-    url: https://www.microsoft.com/generate_204
+    url: http://www.msftncsi.com/ncsi.txt
     include-all: true
     interval: 300
     tolerance: 50
@@ -298,7 +298,7 @@ proxy-groups:
 
   - name: 🍎 苹果服务
     type: url-test
-    url: https://www.apple.com/generate_204
+    url: http://captive.apple.com
     include-all: true
     interval: 300
     tolerance: 50
@@ -306,9 +306,10 @@ proxy-groups:
     proxies:
 
   - name: 📢 谷歌FCM
-    type: url-test
+    type: load-balance
     url: http://www.google.com/blank.html
     include-all: true
+    strategy: LeastLoad
     interval: 300
     tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
