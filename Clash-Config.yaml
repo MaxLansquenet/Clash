@@ -2114,7 +2114,7 @@ rules:
   - RULE-SET,cncidr,DIRECT
   - RULE-SET,lancidr,DIRECT
 
-  - RULE-SET,GitHub,GitHub
+  - RULE-SET,GitHub,GitHub no-resolve
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Tiktok,🎥 Tiktok
