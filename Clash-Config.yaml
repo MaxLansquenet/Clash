@@ -200,7 +200,7 @@ proxy-groups:
     include-all: true 
     proxies:
         - ♻️ 自动选择
-        - GitHub
+        - 🎯 GitHub
         - 🎥 奈飞视频
         - 📹 油管视频
         - 🎥 Tiktok
