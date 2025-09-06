@@ -233,11 +233,12 @@ proxy-groups:
       - 🎯 全球直连
  
   - name: GitHub
-    type: url-test
+    type: load-balance
     url: https://www.github.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
+    strategy: consistent-hashing   #round-robin
     proxies:
         - DIRECT
 
