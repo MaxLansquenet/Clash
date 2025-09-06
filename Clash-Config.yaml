@@ -232,7 +232,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
  
-  - name: GitHub
+  - name: 🎯 GitHub
     type: load-balance
     url: https://www.github.com/generate_204
     interval: 300
@@ -2125,7 +2125,7 @@ rules:
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,IPTV_Mainland,DIRECT
 
-  - RULE-SET,GitHub,GitHub no-resolve
+  - RULE-SET,GitHub,🎯 GitHub no-resolve
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Tiktok,🎥 Tiktok
