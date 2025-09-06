@@ -209,6 +209,7 @@ proxy-groups:
         - Ⓜ️ 微软服务
         - 🍎 苹果服务
         - 📢 谷歌FCM
+        - DIRECT
 
 
   - name: 🚀 节点选择
