@@ -2120,7 +2120,7 @@ rules:
   - RULE-SET,Tiktok,🎥 Tiktok
   - RULE-SET,telegramcidr,🎥 Tiktok
   - RULE-SET,OpenAi,💬 OpenAi 
-  - RULE-SET,google,📢 谷歌FCM
+  - RULE-SET,google,📢 谷歌FCM no-resolve
   - RULE-SET,gfw,♻️ 自动选择
   - RULE-SET,tld-not-cn,♻️ 自动选择
 
