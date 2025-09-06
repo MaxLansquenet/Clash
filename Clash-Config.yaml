@@ -2125,13 +2125,13 @@ rules:
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,IPTV_Mainland,DIRECT
 
-  - RULE-SET,GitHub,🎯 GitHub no-resolve
+  - RULE-SET,GitHub,🎯 GitHub
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Tiktok,🎥 Tiktok
   - RULE-SET,telegramcidr,🎥 Tiktok
   - RULE-SET,OpenAi,💬 OpenAi 
-  - RULE-SET,google,📢 谷歌FCM no-resolve
+  - RULE-SET,google,📢 谷歌FCM
   - RULE-SET,gfw,♻️ 自动选择
   - RULE-SET,tld-not-cn,♻️ 自动选择
 
