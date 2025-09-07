@@ -219,11 +219,12 @@ proxy-groups:
     proxies:
 
   - name: ♻️ 自动选择
-    type: url-test
+    type: load-balance
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
+    strategy: round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
     
@@ -244,66 +245,73 @@ proxy-groups:
         - DIRECT
 
   - name: 🎥 奈飞视频
-    type: url-test
+    type: load-balance
     url: https://www.netflix.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 📹 油管视频
-    type: url-test
+    type: load-balance
     url: https://www.youtube.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🎥 Tiktok
-    type: url-test
+    type: load-balance
     url: https://www.tiktok.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 💬 OpenAi
-    type: url-test
+    type: load-balance
     url: https://www.chatgpt.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
 
   - name: 📲 电报信息
-    type: url-test
+    type: load-balance
     url: https://www.telegram.org/generate_204
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: Ⓜ️ 微软服务
-    type: url-test
+    type: load-balance
     url: http://www.msftncsi.com/ncsi.txt
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
   - name: 🍎 苹果服务
-    type: url-test
+    type: load-balance
     url: http://captive.apple.com
     include-all: true
     interval: 300
     tolerance: 50
+    strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
@@ -323,6 +331,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🚀 节点选择
+      - 🐟 漏网之鱼
       - DIRECT
 
   - name: 🛑 全球拦截
@@ -330,12 +339,14 @@ proxy-groups:
     proxies:
       - REJECT
       - 🚀 节点选择
+      - DIRECT
 
   - name: 🍃 应用净化
     type: select
     proxies:
       - REJECT
       - 🚀 节点选择
+      - DIRECT
 
   - name: 🐟 漏网之鱼
     type: select
@@ -4004,5 +4015,5 @@ rules:
   - IP-CIDR,101.198.200.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.208.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-  - RULE-SET,proxy,♻️ 自动选择
-  - MATCH,🐟 漏网之鱼
+  - RULE-SET,proxy,🎯 全球直连
+  - MATCH,🎯 全球直连
