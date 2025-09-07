@@ -1,15 +1,5 @@
 proxy-providers:
-  xiaoji235:
-    type: http
-    url: "https://github.com/xiaoji235/airport-free/blob/main/clash/clashnodecc.txt" # 订阅链接
-    interval: 86400
-    path: "./xiaoji235.yaml" # 配置文件缓存的位置
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-    proxy: DIRECT
-    
+
   mfuu:
     type: http
     url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml" # 订阅链接
@@ -20,7 +10,41 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
     proxy: DIRECT
-    
+
+  xiaoji235:
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt" # 订阅链接
+    interval: 86400
+    path: "./xiaoji235.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: DIRECT
+
+
+  naidounode:
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt" # 订阅链接
+    interval: 86400
+    path: "./naidounode.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: DIRECT
+
+  clashnodecc:
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt" # 订阅链接
+    interval: 86400
+    path: "./clashnodecc.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: DIRECT
+
   NoMoreWalls:
     type: http
     url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml" # 订阅链接
