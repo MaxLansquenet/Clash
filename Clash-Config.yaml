@@ -2174,9 +2174,9 @@ rules:
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,up.xcar.com.cn,🍃 应用净化
 
-  - DOMAIN,top81cn.cn,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
   - GEOIP,CN,DIRECT
-  - DOMAIN,cn,DIRECT  
+  - DOMAIN-SUFFIX,cn,DIRECT  
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
