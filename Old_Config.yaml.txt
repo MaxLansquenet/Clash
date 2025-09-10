@@ -26,6 +26,7 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
+
 - name: ⏰49@oneclickvpnkeys
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3001
@@ -33,6 +34,7 @@ proxies:
   sni: us4.1010991.xyz
   tls: false
   type: hysteria2
+
 - name: ⏰61@oneclickvpnkeys
   password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo
   port: 4410
