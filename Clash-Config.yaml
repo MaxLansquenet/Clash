@@ -3,7 +3,6 @@ proxy-providers:
   mfuu:
     type: http
     url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml" # 订阅链接
-    interval: 86400
     path: "./mfuu.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
