@@ -1,13 +1,4 @@
 proxy-providers:
-  oldnodes:
-    type: http
-    url: "https://github.com/MaxLansquenet/Clash/blob/master/Old_Nodes.yaml" # 订阅链接
-    path: "./oldnodes.yaml" # 配置文件缓存的位置
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-    proxy: DIRECT
 
   mfuu:
     type: http
@@ -234,6 +225,16 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml" # 订阅链接17
     interval: 86400
     path: "./chengaopan.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: DIRECT
+    
+  oldnodes:
+    type: http
+    url: "https://github.com/MaxLansquenet/Clash/blob/master/Old_Nodes.yaml" # 订阅链接
+    path: "./oldnodes.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
       interval: 600
