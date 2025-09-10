@@ -1,4 +1,13 @@
 proxy-providers:
+  oldnodes:
+    type: http
+    url: "https://github.com/MaxLansquenet/Clash/blob/master/Old_Config.yaml.txt" # 订阅链接
+    path: "./oldnodes.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: DIRECT
 
   mfuu:
     type: http
