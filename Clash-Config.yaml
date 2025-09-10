@@ -1,7 +1,7 @@
 proxy-providers:
   oldnodes:
     type: http
-    url: "https://github.com/MaxLansquenet/Clash/blob/master/Old_Config.yaml.txt" # 订阅链接
+    url: "https://github.com/MaxLansquenet/Clash/blob/master/Old_Nodes.yaml" # 订阅链接
     path: "./oldnodes.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
