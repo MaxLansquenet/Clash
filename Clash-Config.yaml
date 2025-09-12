@@ -5236,7 +5236,7 @@ proxy-groups:
 
   - name: 🎥 Tiktok
     type: load-balance
-    url: https://www.tiktok.com/generate_204
+    url: https://www.tiktok.com
     include-all: true
     interval: 300
     tolerance: 50
@@ -5246,7 +5246,7 @@ proxy-groups:
 
   - name: 💬 OpenAi
     type: load-balance
-    url: https://www.chatgpt.com/generate_204
+    url: https://www.chatgpt.com
     include-all: true
     interval: 300
     tolerance: 50
