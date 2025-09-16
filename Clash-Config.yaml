@@ -5160,7 +5160,7 @@ mixed-port: 8086
 allow-lan: true
 mode: Rule
 log-level: warning
-external-controller: :9097
+external-controller: 0.0.0.0:9097
 proxies:
 
 proxy-groups:
