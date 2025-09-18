@@ -5178,8 +5178,9 @@ proxy-groups:
         - Ⓜ️ 微软服务
         - 🍎 苹果服务
         - 📢 谷歌FCM
-        - DIRECT
-
+        - ✍ Mozilla
+        - 🚀 节点选择
+        - 一般不用
 
   - name: 🚀 节点选择
     type: select
@@ -5294,6 +5295,16 @@ proxy-groups:
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
 
+  - name: ✍ Mozilla
+    type: load-balance
+    url: http://www.mozilla.com
+    include-all: true
+    strategy: consistent-hashing   #round-robin
+    interval: 300
+    tolerance: 50
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
+    proxies:
+
   - name: 🎯 全球直连
     type: select
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
@@ -5331,6 +5342,14 @@ proxy-groups:
     proxies:
 
 rule-providers:
+
+  Mozillas:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.yaml
+    path: ./ruleset/Mozilla.yaml
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
   IPTV_Mainland:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IPTVMainland/IPTVMainland_Classical.yaml
@@ -7112,6 +7131,8 @@ rules:
   - RULE-SET,google,📢 谷歌FCM,no-resolve
   - RULE-SET,gfw,♻️ 自动选择
   - RULE-SET,tld-not-cn,♻️ 自动选择
+  - RULE-SET,Mozillas, ✍ Mozilla
+
 
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT
