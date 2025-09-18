@@ -7129,6 +7129,7 @@ rules:
   - RULE-SET,telegramcidr,🎥 Tiktok,no-resolve
   - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
   - RULE-SET,google,📢 谷歌FCM,no-resolve
+  - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
   - RULE-SET,gfw,♻️ 自动选择,no-resolve
   - RULE-SET,tld-not-cn,♻️ 自动选择,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
