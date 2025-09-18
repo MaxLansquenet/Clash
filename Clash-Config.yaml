@@ -5343,6 +5343,13 @@ proxy-groups:
     proxies:
 
 rule-providers:
+  Microsoft:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
   Mozillas:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.yaml
@@ -7095,6 +7102,20 @@ rules:
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,up.xcar.com.cn,🍃 应用净化
+  
+
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务,no-resolve
+  - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务,no-resolve
+  - RULE-SET,GitHub,🎯 GitHub,no-resolve
+  - DOMAIN-SUFFIX,github.com,🎯 GitHub,no-resolve
+  - RULE-SET,Netflix,🎥 奈飞视频,no-resolve
+  - RULE-SET,YouTube,📹 油管视频,no-resolve
+  - RULE-SET,Tiktok,🎥 Tiktok,no-resolve
+  - RULE-SET,telegramcidr,🎥 Tiktok,no-resolve
+  - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
+  - RULE-SET,google,📢 谷歌FCM,no-resolve
+  - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
+  - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
 
   - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
   - GEOIP,CN,DIRECT
@@ -7108,14 +7129,6 @@ rules:
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,IPTV_Mainland,DIRECT
 
-  - RULE-SET,GitHub,🎯 GitHub,no-resolve
-  - RULE-SET,Netflix,🎥 奈飞视频,no-resolve
-  - RULE-SET,YouTube,📹 油管视频,no-resolve
-  - RULE-SET,Tiktok,🎥 Tiktok,no-resolve
-  - RULE-SET,telegramcidr,🎥 Tiktok,no-resolve
-  - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
-  - RULE-SET,google,📢 谷歌FCM,no-resolve
-  - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
-  - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
+
 
   - MATCH,🎯 全球直连
