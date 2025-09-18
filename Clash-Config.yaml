@@ -5168,19 +5168,7 @@ proxy-groups:
     type: select
     include-all: true 
     proxies:
-        - ♻️ 自动选择
-        - 🎯 GitHub
-        - 🎥 奈飞视频
-        - 📹 油管视频
-        - 🎥 Tiktok
-        - 💬 OpenAi
-        - 📲 电报信息
-        - Ⓜ️ 微软服务
-        - 🍎 苹果服务
-        - 📢 谷歌FCM
-        - ✍ Mozilla
-        - 🚀 节点选择
-        - 一般不用
+        - 🎯 全球直连
 
   - name: 🚀 节点选择
     type: select
@@ -7118,6 +7106,7 @@ rules:
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
 
   - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
+
   - GEOIP,CN,DIRECT
   - DOMAIN-SUFFIX,cn,DIRECT  
   - RULE-SET,applications,DIRECT
