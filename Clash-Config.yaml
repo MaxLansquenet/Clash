@@ -5450,20 +5450,6 @@ rule-providers:
     path: ./ruleset/private.yaml
     interval: 86400
 
-  gfw:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-    path: ./ruleset/gfw.yaml
-    interval: 86400
-
-  tld-not-cn:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-    path: ./ruleset/tld-not-cn.yaml
-    interval: 86400
-
   telegramcidr:
     type: http
     behavior: ipcidr
@@ -7130,8 +7116,6 @@ rules:
   - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
   - RULE-SET,google,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
-  - RULE-SET,gfw,♻️ 自动选择,no-resolve
-  - RULE-SET,tld-not-cn,♻️ 自动选择,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
 
   - MATCH,🎯 全球直连
