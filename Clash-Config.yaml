@@ -5170,6 +5170,19 @@ proxy-groups:
     proxies:
         - 🎯 全球直连
 
+
+  - name: Š Steam
+    type: select
+    include-all: true
+    exclude-filter: "CN|中国|渗透"
+    url: https://store.steampowered.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - ♻️ 自动选择
+      - 🐟 漏网之鱼
+      - DIRECT
+
   - name: 🚀 节点选择
     type: select
     include-all: true
@@ -5182,7 +5195,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    strategy: round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|机场|渗透"
     proxies:
     
@@ -5330,6 +5342,15 @@ proxy-groups:
     proxies:
 
 rule-providers:
+
+  Steams:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/Steam.yaml
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+    
   Microsoft:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
@@ -7103,6 +7124,7 @@ rules:
   - RULE-SET,google,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
+  - RULE-SET,Steams, Š Steam
 
   - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
 
