@@ -5297,11 +5297,10 @@ proxy-groups:
     type: fallback
     include-all: true
     proxies:
-      - DIRECT
       - ♻️ 自动选择
       - 🚀 节点选择
       - 🐟 漏网之鱼
-
+      - DIRECT
 
   - name: 🛑 全球拦截
     type: select
