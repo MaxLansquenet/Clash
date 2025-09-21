@@ -5343,7 +5343,7 @@ proxy-groups:
 
 rule-providers:
 
-  AWAvenue-Ads-Rule-Clash-Classical:
+  AWAvenue:
     url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml
     path: ./ruleset/AWAvenue-Ads-Rule-Clash-Classical.yaml
     behavior: classical
@@ -5505,7 +5505,7 @@ rules:
     
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,Advertising,🛑 全球拦截
-  - RULE-SET,AWAvenue-Ads-Rule-Clash-Classical，🛑 全球拦截  
+  - RULE-SET,AWAvenue,🛑 全球拦截  
 
   - RULE-SET,Microsoft,Ⓜ️ 微软服务,no-resolve
   - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务,no-resolve
