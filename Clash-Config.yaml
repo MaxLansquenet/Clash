@@ -5507,6 +5507,8 @@ rules:
   - RULE-SET,Advertising,🛑 全球拦截
   - RULE-SET,AWAvenue,🛑 全球拦截  
 
+   - RULE-SET,icloud,🍎 苹果服务,no-resolve
+   - RULE-SET,apple,🍎 苹果服务,no-resolve
   - RULE-SET,Microsoft,Ⓜ️ 微软服务,no-resolve
   - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务,no-resolve
   - RULE-SET,GitHub,🎯 GitHub,no-resolve
@@ -5514,7 +5516,7 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频,no-resolve
   - RULE-SET,YouTube,📹 油管视频,no-resolve
   - RULE-SET,Tiktok,🎥 Tiktok,no-resolve
-  - RULE-SET,telegramcidr,🎥 Tiktok,no-resolve
+  - RULE-SET,telegramcidr,📲 电报信息,no-resolve
   - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
   - RULE-SET,google,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
