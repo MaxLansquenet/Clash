@@ -5507,8 +5507,8 @@ rules:
   - RULE-SET,Advertising,🛑 全球拦截
   - RULE-SET,AWAvenue,🛑 全球拦截  
 
-   - RULE-SET,icloud,🍎 苹果服务,no-resolve
-   - RULE-SET,apple,🍎 苹果服务,no-resolve
+  - RULE-SET,icloud,🍎 苹果服务,no-resolve
+  - RULE-SET,apple,🍎 苹果服务,no-resolve
   - RULE-SET,Microsoft,Ⓜ️ 微软服务,no-resolve
   - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务,no-resolve
   - RULE-SET,GitHub,🎯 GitHub,no-resolve
