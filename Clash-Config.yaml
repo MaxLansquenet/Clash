@@ -5505,7 +5505,7 @@ rules:
     
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,Advertising,🛑 全球拦截
-  - RULE-SET,RAWAvenue-Ads-Rule-Clash-Classical，🛑 全球拦截  
+  - RULE-SET,AWAvenue-Ads-Rule-Clash-Classical，🛑 全球拦截  
 
   - RULE-SET,Microsoft,Ⓜ️ 微软服务,no-resolve
   - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务,no-resolve
