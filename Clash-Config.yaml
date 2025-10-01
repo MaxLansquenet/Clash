@@ -5210,7 +5210,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "CN|中国|机场|渗透|中國"
+    exclude-filter: "CN|中国|渗透|中國"
     strategy: consistent-hashing   #round-robin
     proxies:
         - DIRECT
