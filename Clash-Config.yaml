@@ -5521,6 +5521,7 @@ rules:
   - RULE-SET,OpenAi,💬 OpenAi,no-resolve 
   - RULE-SET,google,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,google.com,📢 谷歌FCM,no-resolve
+  - DOMAIN-SUFFIX,googleapis.com,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,uptodown.com,📢 谷歌FCM,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
   - RULE-SET,Steams, Š Steam
