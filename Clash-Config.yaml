@@ -5304,6 +5304,16 @@ proxy-groups:
     tolerance: 50
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
+    
+  - name: APK_Apkpure
+    type: load-balance
+    url: http://apkpure.com/
+    include-all: true
+    strategy: consistent-hashing   #round-robin
+    interval: 300
+    tolerance: 50
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
+    proxies:
 
   - name: 🎯 全球直连
     type: fallback
@@ -5362,6 +5372,14 @@ rule-providers:
   Microsoft:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  Apkpure:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure/Apkpure.yaml
+    path: ./ruleset/Apkpure.yaml
     behavior: classical
     interval: 86400
     format: text
@@ -5524,6 +5542,7 @@ rules:
   - DOMAIN-SUFFIX,uptodown.com,📢 谷歌FCM,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
   - RULE-SET,Steams, Š Steam
+  - RULE-SET,Apkpure, APK_Apkpure,no-resolve
 
   - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
 
