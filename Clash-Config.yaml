@@ -5315,8 +5315,6 @@ proxy-groups:
 
   - name: 🎯 全球直连
     type: select
-    include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
     proxies:
       - ♻️ 自动选择
       - 🚀 节点选择
