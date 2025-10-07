@@ -5325,19 +5325,13 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
-      - ♻️ 自动选择
-      - 🚀 节点选择
-      - 🐟 漏网之鱼
-      - DIRECT
+      - 🎯 全球直连
 
   - name: 🍃 应用净化
     type: select
     proxies:
       - REJECT
-      - ♻️ 自动选择
-      - 🚀 节点选择
-      - 🐟 漏网之鱼
-      - DIRECT
+      - 🎯 全球直连
 
   - name: 🐟 漏网之鱼
     type: select
