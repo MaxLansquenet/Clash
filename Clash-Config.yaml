@@ -5213,7 +5213,6 @@ proxy-groups:
     exclude-filter: "CN|中国|渗透|中國|未知"
     strategy: consistent-hashing   #round-robin
     proxies:
-        - DIRECT
 
   - name: 🎥 奈飞视频
     type: url-test
