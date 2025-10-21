@@ -5203,7 +5203,7 @@ proxy-groups:
       - 🎯 全球直连
  
   - name: 🎯 GitHub
-    type: url-test
+    type: load-balance
     url: https://www.github.com/generate_204
     interval: 300
     tolerance: 50
@@ -5213,7 +5213,7 @@ proxy-groups:
     proxies:
 
   - name: 🎥 奈飞视频
-    type: url-test
+    type: load-balance
     url: https://www.netflix.com/generate_204
     include-all: true
     interval: 300
@@ -5223,7 +5223,7 @@ proxy-groups:
     proxies:
 
   - name: 📹 油管视频
-    type: url-test
+    type: load-balance
     url: https://www.youtube.com/generate_204
     include-all: true
     interval: 300
@@ -5233,7 +5233,7 @@ proxy-groups:
     proxies:
 
   - name: 🎥 Tiktok
-    type: url-test
+    type: load-balance
     url: https://www.tiktok.com
     include-all: true
     interval: 300
@@ -5243,7 +5243,7 @@ proxy-groups:
     proxies:
 
   - name: 💬 OpenAi
-    type: url-test
+    type: load-balance
     url: https://www.chatgpt.com
     include-all: true
     interval: 300
@@ -5254,7 +5254,7 @@ proxy-groups:
 
 
   - name: 📲 电报信息
-    type: url-test
+    type: load-balance
     url: https://www.telegram.org/generate_204
     include-all: true
     interval: 300
@@ -5264,7 +5264,7 @@ proxy-groups:
     proxies:
 
   - name: Ⓜ️ 微软服务
-    type: url-test
+    type: load-balance
     url: http://www.msftncsi.com/ncsi.txt
     include-all: true
     interval: 300
@@ -5274,7 +5274,7 @@ proxy-groups:
     proxies:
 
   - name: 🍎 苹果服务
-    type: url-test
+    type: load-balance
     url: http://captive.apple.com
     include-all: true
     interval: 300
@@ -5284,7 +5284,7 @@ proxy-groups:
     proxies:
 
   - name: 📢 谷歌FCM
-    type: url-test
+    type: load-balance
     url: http://www.google.com/blank.html
     include-all: true
     strategy: consistent-hashing   #round-robin
@@ -5294,7 +5294,7 @@ proxy-groups:
     proxies:
 
   - name: ✍ Mozilla
-    type: url-test
+    type: load-balance
     url: http://detectportal.firefox.com/success.txt
     include-all: true
     strategy: consistent-hashing   #round-robin
@@ -5304,7 +5304,7 @@ proxy-groups:
     proxies:
     
   - name: APK_Apkpure
-    type: url-test
+    type: load-balance
     url: http://apkpure.com/
     include-all: true
     strategy: consistent-hashing   #round-robin
