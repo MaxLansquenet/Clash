@@ -5543,7 +5543,7 @@ rules:
   - DOMAIN-SUFFIX,googleapis.com,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,uptodown.com,📢 谷歌FCM,no-resolve
   - RULE-SET,Mozillas, ✍ Mozilla,no-resolve
-  - RULE-SET,Steams, Š Steam
+  - RULE-SET,Steams, Š Steam,no-resolve
   - RULE-SET,Apkpure, APK_Apkpure,no-resolve
 
   - DOMAIN-SUFFIX,top81cn.cn,🐟 漏网之鱼
