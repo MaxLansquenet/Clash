@@ -5241,7 +5241,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
-        🎥 Tiktok_all
+        - 🎥 Tiktok_all
     
   - name: 🎥 Tiktok_all
     type: load-balance
