@@ -5174,7 +5174,7 @@ proxy-groups:
   - name: Š Steam
     type: select
     include-all: true
-    exclude-filter: "CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "CN|中国|渗透|中國|cn|未知"
     url: https://store.steampowered.com/generate_204
     interval: 300
     tolerance: 50
@@ -5184,7 +5184,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: ♻️ 自动选择
@@ -5193,7 +5193,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
     
   - name: 🌍 国外媒体
@@ -5219,7 +5219,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: 📹 油管视频
@@ -5229,7 +5229,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: 🎥 Tiktok
@@ -5239,7 +5239,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
         🎥 Tiktok_all
     
@@ -5250,7 +5250,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
     
   - name: 💬 OpenAi
@@ -5260,7 +5260,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
 
@@ -5271,7 +5271,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: Ⓜ️ 微软服务
@@ -5281,7 +5281,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: 🍎 苹果服务
@@ -5291,7 +5291,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: 📢 谷歌FCM
@@ -5301,7 +5301,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: ✍ Mozilla
@@ -5311,7 +5311,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
     
   - name: APK_Apkpure
@@ -5321,7 +5321,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
     proxies:
 
   - name: 🎯 全球直连
@@ -5354,7 +5354,7 @@ proxy-groups:
   - name: 一般不用
     type: select
     include-all: true
-    filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|cn|未知|机场"
+    filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|cn|未知"
     proxies:
 
 rule-providers:
