@@ -5233,6 +5233,17 @@ proxy-groups:
     proxies:
 
   - name: 🎥 Tiktok
+    type: select
+    url: https://www.tiktok.com
+    include-all: true
+    interval: 300
+    tolerance: 50
+    strategy: consistent-hashing   #round-robin
+    exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
+    proxies:
+        🎥 Tiktok_all
+    
+  - name: 🎥 Tiktok_all
     type: load-balance
     url: https://www.tiktok.com
     include-all: true
@@ -5241,7 +5252,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     exclude-filter: "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知|机场"
     proxies:
-
+    
   - name: 💬 OpenAi
     type: load-balance
     url: https://www.chatgpt.com
