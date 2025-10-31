@@ -1,186 +1,1911 @@
 [
-{"group":"ÑëÊÓ¼×","title":"CCTV-1 ×ÛºÏ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv1"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-2 ²Æ¾­","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv2"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-3 ×ÛÒÕ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv3"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-4 ÖĞÎÄ¹ú¼Ê£¨ÑÇ£©","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv4"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-5 ÌåÓı","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv5"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-6 µçÓ°","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv6"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-7 ¹ú·À¾üÊÂ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv7"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-8 µçÊÓ¾ç","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv8"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-9 ¼ÍÂ¼","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctvjilu"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-10 ¿Æ½Ì","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv10"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-11 Ï·Çú","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv11"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-12 Éç»áÓë·¨","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv12"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-13 ĞÂÎÅ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv13"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-14 ÉÙ¶ù","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctvchild"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-15 ÒôÀÖ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv15"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-16 °ÂÁÖÆ¥¿Ë","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv16"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-17 Å©ÒµÅ©´å","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv17"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-5+ ÌåÓıÈüÊÂ","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctv5plus"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-4 ÖĞÎÄ¹ú¼Ê£¨Å·£©","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctveurope"]},
-{"group":"ÑëÊÓ¼×","title":"CCTV-4 ÖĞÎÄ¹ú¼Ê£¨ÃÀ£©","started":"document.querySelector('.floatNav').style.display = 'none'","uris":["https://tv.cctv.com/live/cctvamerica"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-4K","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600002264"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-1","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001859"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-2","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001800"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-3","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001801"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-4","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001814"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-5","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001818"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-5+","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001817"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-6","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600108442"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-7","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600004092"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-8","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001803"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-9","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600004078"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-10","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001805"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-11","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001806"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-12","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001807"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-13","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001811"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-14","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001809"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-15","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001815"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-16","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600098637"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV-17","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600001810"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600014550"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN ·¨Óï","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600084704"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN ¶íÓï","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600084758"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN °¢À­²®Óï","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600084782"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN Î÷°àÑÀÓï","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600084744"]},
-{"group":"ÑëÊÓÒÒ","title":"CGTN ÍâÓï¼ÇÂ¼","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600084781"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ·çÔÆ¾ç³¡","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099658"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV µÚÒ»¾ç³¡","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099655"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV »³¾É¾ç³¡","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099620"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ÊÀ½çµØÀí","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099637"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ·çÔÆÒôÀÖ","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099660"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ±øÆ÷¿Æ¼¼","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099649"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ·çÓê×ãÇò","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099636"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ¸ß¶û·òÍøÇò","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099659"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV Å®ĞÔÊ±ÉĞ","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099650"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ÎÄ»¯¾«Æ·","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099653"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ÑëÊÓÌ¨Çò","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099652"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV µçÊÓÖ¸ÄÏ","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099656"]},
-{"group":"ÑëÊÓÒÒ","title":"CCTV ÎÀÉú½¡¿µ","block":["vconsole.min.js","three.js","VR.js"],"uris":["https://www.yangshipin.cn/tv/home?pid=600099651"]},
-{"group":"ÎÀÊÓ","title":"±±¾©ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002309"]},
-{"group":"ÎÀÊÓ","title":"½­ËÕÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002521"]},
-"group":"ÎÀÊÓ","title":"¶«·½ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002483"]},
-{"group":"ÎÀÊÓ","title":"Õã½­ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002520"]},
-{"group":"ÎÀÊÓ","title":"ºşÄÏÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002475"]},
-{"group":"ÎÀÊÓ","title":"ºş±±ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002508"]},
-{"group":"ÎÀÊÓ","title":"¹ã¶«ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002485"]},
-{"group":"ÎÀÊÓ","title":"¹ãÎ÷ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002509"]},
-{"group":"ÎÀÊÓ","title":"ºÚÁú½­ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002498"]},
-{"group":"ÎÀÊÓ","title":"º£ÄÏÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002506"]},
-{"group":"ÎÀÊÓ","title":"ÖØÇìÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002531"]},
-{"group":"ÎÀÊÓ","title":"ÉîÛÚÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002481"]},
-{"group":"ÎÀÊÓ","title":"ËÄ´¨ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002516"]},
-{"group":"ÎÀÊÓ","title":"ºÓÄÏÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002525"]},
-{"group":"ÎÀÊÓ","title":"¶«ÄÏÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002484"]},
-{"group":"ÎÀÊÓ","title":"¹óÖİÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002490"]},
-{"group":"ÎÀÊÓ","title":"½­Î÷ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002503"]},
-{"group":"ÎÀÊÓ","title":"ÁÉÄşÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002505"]},
-{"group":"ÎÀÊÓ","title":"°²»ÕÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002532"]},
-{"group":"ÎÀÊÓ","title":"ºÓ±±ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002493"]},
-{"group":"ÎÀÊÓ","title":"É½¶«ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600002513"]},
-{"group":"ÎÀÊÓ","title":"Ìì½òÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600152137"]},
-{"group":"ÎÀÊÓ","title":"¼ªÁÖÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190405"]},
-{"group":"ÎÀÊÓ","title":"ÉÂÎ÷ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190400"]},
-{"group":"ÎÀÊÓ","title":"¸ÊËàÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190408"]},
-{"group":"ÎÀÊÓ","title":"ÄşÏÄÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190737"]},
-{"group":"ÎÀÊÓ","title":"ÄÚÃÉ¹ÅÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190401"]},
-{"group":"ÎÀÊÓ","title":"ÔÆÄÏÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190402"]}
-{"group":"ÎÀÊÓ","title":"É½Î÷ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190407"]},
-{"group":"ÎÀÊÓ","title":"Çàº£ÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190406"]},
-{"group":"ÎÀÊÓ","title":"Î÷²ØÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600190403"]},
-{"group":"ÎÀÊÓ","title":"ÖĞ¹ú½ÌÓı","uris":["https://www.yangshipin.cn/tv/home?pid=600171827"]},
-{"group":"ÎÀÊÓ","title":"±øÍÅÎÀÊÓ","uris":["https://www.yangshipin.cn/tv/home?pid=600193252"]},
-{"group":"ºÚÁú½­","title":"ÎÀÊÓÆµµÀ","uris":["https://www.hljtv.com/live/folder418/"]},
-{"group":"ºÚÁú½­","title":"ÎÄÌåÆµµÀ","uris":["https://www.hljtv.com/live/folder423/"]},
-{"group":"ºÚÁú½­","title":"ĞÂÎÅ·¨ÖÆÆµµÀ","uris":["https://www.hljtv.com/live/folder424/"]},
-{"group":"ºÚÁú½­","title":"¶¼ÊĞÆµµÀ","uris":["https://www.hljtv.com/live/folder419/"]},
-{"group":"ºÚÁú½­","title":"Å©Òµ¡¤¿Æ½ÌÆµµÀ","uris":["https://www.hljtv.com/live/folder420/"]},
-{"group":"ºÚÁú½­","title":"ÉÙ¶ùÆµµÀ","uris":["https://www.hljtv.com/live/folder422/"]},
-{"group":"¼ªÁÖ","title":"×ÛÒÕÎÄ»¯","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=362"]},
-{"group":"¼ªÁÖ","title":"¹«¹²","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=358"]},
-{"group":"¼ªÁÖ","title":"Ïç´å","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=356"]},
-{"group":"¼ªÁÖ","title":"Éú»î","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=354"]},
-{"group":"¼ªÁÖ","title":"Ó°ÊÓ","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=352"]},
-{"group":"¼ªÁÖ","title":"¼ªÁÖÎÀÊÓ","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=351"]},
-{"group":"¼ªÁÖ","title":"Ï·Çú","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=319"]},
-{"group":"¼ªÁÖ","title":"¶¼ÊĞ","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=317"]},
-{"group":"¼ªÁÖ","title":"¼ÒÓĞ¹ºÎï","uris":["https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=14"]},
-{"group":"¼ªÁÖ","title":"ÑÓ±ßÎÀÊÓ","uris":["https://www.yb983.com/cys/index.html"]},
-{"group":"¼ªÁÖ","title":"ÑÓ±ßººÓï","uris":["https://www.yb983.com/ybtv2/index.html"]},
-{"group":"¼ªÁÖ","title":"ÑÓ±ß³¯ÏÊÓï","uris":["https://www.yb983.com/ybtv1/index.html"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÄÚÃÉ¹ÅÎÀÊÓ","uris":["https://www.nmtv.cn/liveTv#0"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÃÉ¹ÅÓïÎÀÊÓ","uris":["https://www.nmtv.cn/liveTv#1"]},
-{"group":"ÄÚÃÉ¹Å","title":"ĞÂÎÅ×ÛºÏ","uris":["https://www.nmtv.cn/liveTv#2"]},
-{"group":"ÄÚÃÉ¹Å","title":"¾­¼ÃÉú»î","uris":["https://www.nmtv.cn/liveTv#3"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÉÙ¶ùÆµµÀ","uris":["https://www.nmtv.cn/liveTv#4"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÎÄÌåÓéÀÖ","uris":["https://www.nmtv.cn/liveTv#5"]},
-{"group":"ÄÚÃÉ¹Å","title":"Å©ÄÁÆµµÀ","uris":["https://www.nmtv.cn/liveTv#6"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÃÉ¹ÅÓïÎÄ»¯","uris":["https://www.nmtv.cn/liveTv#7"]},
-{"group":"ÄÚÃÉ¹Å","title":"ºôºÍºÆÌØ","uris":["https://www.nmtv.cn/liveTv#8"]},
-{"group":"ÄÚÃÉ¹Å","title":"°üÍ·","uris":["https://www.nmtv.cn/liveTv#9"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÎÚº£","uris":["https://www.nmtv.cn/liveTv#10"]},
-{"group":"ÄÚÃÉ¹Å","title":"³à·å","uris":["https://www.nmtv.cn/liveTv#11"]},
-{"group":"ÄÚÃÉ¹Å","title":"ºôÂ×±´¶û","uris":["https://www.nmtv.cn/liveTv#12"]},
-{"group":"ÄÚÃÉ¹Å","title":"ĞË°²ÃË","uris":["https://www.nmtv.cn/liveTv#13"]},
-{"group":"ÄÚÃÉ¹Å","title":"Í¨ÁÉ","uris":["https://www.nmtv.cn/liveTv#14"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÎıÁÖ¹ùÀÕ","uris":["https://www.nmtv.cn/liveTv#15"]},
-{"group":"ÄÚÃÉ¹Å","title":"ÎÚÀ¼²ì²¼","uris":["https://www.nmtv.cn/liveTv#16"]},
-{"group":"ÄÚÃÉ¹Å","title":"¶õ¶û¶àË¹","uris":["https://www.nmtv.cn/liveTv#17"]},
-{"group":"ÄÚÃÉ¹Å","title":"°ÍÑåÄ×¶û","uris":["https://www.nmtv.cn/liveTv#18"]},
-{"group":"ÄÚÃÉ¹Å","title":"°¢À­ÉÆ","uris":["https://www.nmtv.cn/liveTv#19"]},
-{"group":"É½Î÷","title":"É½Î÷ÎÀÊÓ","uris":["https://www.sxrtv.com/tv/index.shtml#0"]},
-{"group":"É½Î÷","title":"»ÆºÓµçÊÓÌ¨","uris":["https://www.sxrtv.com/tv/index.shtml#1"]},
-{"group":"É½Î÷","title":"É½Î÷¾­¼ÃÓë¿Æ¼¼","uris":["https://www.sxrtv.com/tv/index.shtml#2"]},
-{"group":"É½Î÷","title":"É½Î÷Ó°ÊÓ","uris":["https://www.sxrtv.com/tv/index.shtml#3"]},
-{"group":"É½Î÷","title":"É½Î÷Éç»áÓë·¨ÖÆ","uris":["https://www.sxrtv.com/tv/index.shtml#4"]},
-{"group":"É½Î÷","title":"É½Î÷ÎÄÌåÉú»î","uris":["https://www.sxrtv.com/tv/index.shtml#5"]},
-{"group":"É½Î÷","title":"Ì«Ô­","uris":["https://www.sxrtv.com/tv/index.shtml#6"]},
-{"group":"É½Î÷","title":"Ë·Öİ","uris":["https://www.sxrtv.com/tv/index.shtml#7"]},
-{"group":"É½Î÷","title":"ĞÃÖİ","uris":["https://www.sxrtv.com/tv/index.shtml#8"]},
-{"group":"É½Î÷","title":"ÑôÈª","uris":["https://www.sxrtv.com/tv/index.shtml#9"]},
-{"group":"É½Î÷","title":"ÂÀÁº","uris":["https://www.sxrtv.com/tv/index.shtml#10"]},
-{"group":"É½Î÷","title":"½úÖĞ","uris":["https://www.sxrtv.com/tv/index.shtml#11"]},
-{"group":"É½Î÷","title":"³¤ÖÎ","uris":["https://www.sxrtv.com/tv/index.shtml#12"]},
-{"group":"É½Î÷","title":"½ú³Ç","uris":["https://www.sxrtv.com/tv/index.shtml#13"]},
-{"group":"É½Î÷","title":"ÁÙ·Ú","uris":["https://www.sxrtv.com/tv/index.shtml#14"]},
-{"group":"É½Î÷","title":"ÔË³Ç","uris":["https://www.sxrtv.com/tv/index.shtml#15"]},
-{"group":"ÉÂÎ÷","title":"ÉÂÎ÷ÎÀÊÓ","uris":["http://live.snrtv.com/star"]},
-{"group":"ÉÂÎ÷","title":"ĞÂÎÅ×ÊÑ¶","uris":["http://live.snrtv.com/1"]},
-{"group":"ÉÂÎ÷","title":"¶¼ÊĞÇà´º","uris":["http://live.snrtv.com/2"]},
-{"group":"ÉÂÎ÷","title":"Éú»îÆµµÀ","uris":["http://live.snrtv.com/3"]},
-{"group":"ÉÂÎ÷","title":"Ó°ÊÓÆµµÀ","uris":["http://www.snrtv.com/snr_dssps/a/2021/08/28/19915184.html","http://live.snrtv.com/4"]},
-{"group":"ÉÂÎ÷","title":"¹«¹²ÆµµÀ","uris":["http://live.snrtv.com/5"]},
-{"group":"ÉÂÎ÷","title":"ÀÖ¼Ò¹ºÎï","uris":["http://live.snrtv.com/6"]},
-{"group":"ÉÂÎ÷","title":"ÌåÓıĞİÏĞ","uris":["http://live.snrtv.com/7"]},
-{"group":"ÉÂÎ÷","title":"Å©ÁÖÎÀÊÓ","uris":["http://live.snrtv.com/nl"]},{"group":"ÉÂÎ÷","title":"ÒÆ¶¯µçÊÓ","uris":["http://live.snrtv.com/11"]},
-{"group":"ÄşÏÄ","title":"¹«¹²ÆµµÀ","uris":["https://www.nxtv.com.cn/live/gg/"]},
-{"group":"ÄşÏÄ","title":"ÎÀÊÓÆµµÀ","uris":["https://www.nxtv.com.cn/live/wsh/"]},
-{"group":"ÄşÏÄ","title":"¾­¼ÃÆµµÀ","uris":["https://www.nxtv.com.cn/live/jj/"]},
-{"group":"¸ÊËà","title":"¸ÊËàÎÀÊÓ","script":"document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"¸ÊËà","title":"ÎÄ»¯Ó°ÊÓ","script":"document.querySelectorAll('#channelContent li a')[1].click();document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"¸ÊËà","title":"¹«¹²Ó¦¼±","script":"document.querySelectorAll('#channelContent li a')[2].click();document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"¸ÊËà","title":"¹«¹²Ó¦¼±","script":"document.querySelectorAll('#channelContent li a')[3].click();document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"¸ÊËà","title":"¿Æ½ÌÆµµÀ","script":"document.querySelectorAll('#channelContent li a')[4].click();document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"¸ÊËà","title":"ÒÆ¶¯µçÊÓ","script":"document.querySelectorAll('#channelContent li a')[5].click();document.querySelector('button[title=\"Unmute\"]').click()","uris":["https://www.gstv.com.cn/zxc.jhtml"]},
-{"group":"ĞÂ½®","title":"ĞÂ½®ÎÀÊÓ","selector":".chnnel-item","index":0,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"Î¬Îá¶ûÓïĞÂÎÅ×ÛºÏ","selector":".chnnel-item","index":1,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"¹şÈø¿ËÓïĞÂÎÅ×ÛºÏ","selector":".chnnel-item","index":2,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"ººÓï×ÛÒÕ","selector":".chnnel-item","index":3,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"Î¬Îá¶ûÓïÓ°ÊÓ","selector":".chnnel-item","index":4,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"ººÓï¾­¼ÃÉú»î","selector":".chnnel-item","index":5,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"¹şÈø¿ËÓï×ÛÒÕ","selector":".chnnel-item","index":6,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"Î¬Îá¶ûÓï¾­¼ÃÉú»î","selector":".chnnel-item","index":7,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"ººÓïÌåÓı½¡¿µ","selector":".chnnel-item","index":8,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"ººÓïĞÅÏ¢·şÎñ","selector":".chnnel-item","index":9,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"ĞÂ½®","title":"ÉÙ¶ùÆµµÀ","selector":".chnnel-item","index":10,"uris":["https://www.xjtvs.com.cn/column/tv/437"]},
-{"group":"±øÍÅ","title":"±øÍÅÎÀÊÓ","uris":["https://www.btzx.com.cn/special/bofang/btzxjmd/index.shtml"]},
-{"group":"±±¾©","title":"±±¾©ÎÀÊÓ","selector":".module_live li","index":0,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"±±¾©ÎÄÒÕ","selector":".module_live li","index":1,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"¼ÍÊµ¿Æ½Ì","selector":".module_live li","index":2,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"±±¾©Ó°ÊÓ","selector":".module_live li","index":3,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"±±¾©²Æ¾­","selector":".module_live li","index":4,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"ÌåÓıĞİÏĞ","selector":".module_live li","index":5,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"±±¾©iÉú»î","selector":".module_live li","index":6,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"±±¾©ĞÂÎÅ","selector":".module_live li","index":7,"uris":["https://www.brtn.cn/btv/btvsy_index"]},
-{"group":"±±¾©","title":"¿¨¿áÉÙ¶ù","selector":".module_live li","index":8,"uris":["https://www.brtn.cn/btv/btvsy_index"]},{"group":"ºÓ±±","title":"ºÓ±±ÎÀÊÓ","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=0"]},{"group":"ºÓ±±","title":"¾­¼ÃÉú»î","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=1"]},{"group":"ºÓ±±","title":"Å©ÃñÆµµÀ","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=2"]},{"group":"ºÓ±±","title":"ºÓ±±¶¼ÊĞ","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=3"]},{"group":"ºÓ±±","title":"ºÓ±±Ó°ÊÓ¾ç","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=4"]},{"group":"ºÓ±±","title":"ÉÙ¶ù¿Æ½Ì","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=5"]},{"group":"ºÓ±±","title":"ºÓ±±¹«¹²","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=6"]},{"group":"ºÓ±±","title":"Èı¼Ñ¹ºÎï","uris":["https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=7"]},{"group":"ºÓÄÏ","title":"ºÓÄÏÎÀÊÓ","uris":["https://static.hntv.tv/kds/#/"]},{"group":"É½¶«","title":"É½¶«ÎÀÊÓ","uris":["https://v.iqilu.com/live/sdtv/index.html"]},{"group":"É½¶«","title":"ÆëÂ³ÆµµÀ","uris":["https://v.iqilu.com/live/qlpd/"]},{"group":"É½¶«","title":"ĞÂÎÅÆµµÀ","uris":["https://v.iqilu.com/live/ggpd/"]},{"group":"É½¶«","title":"Å©¿ÆÆµµÀ","uris":["https://v.iqilu.com/live/nkpd/"]},{"group":"É½¶«","title":"ÉÙ¶ùÆµµÀ","uris":["https://v.iqilu.com/live/sepd/"]},{"group":"É½¶«","title":"ÌåÓıÆµµÀ","uris":["https://v.iqilu.com/live/typd/"]},{"group":"É½¶«","title":"ÓĞÏßÓ°ÊÓ","uris":["https://v.iqilu.com/live/yspd/"]},{"group":"É½¶«","title":"ÓĞÏßÉú»î","uris":["https://v.iqilu.com/live/shpd/"]},{"group":"É½¶«","title":"ÓĞÏß×ÛÒÕ","uris":["https://v.iqilu.com/live/zypd/"]},{"group":"É½¶«","title":"QTV-1","uris":["http://www.qtv.com.cn/live/tv/index.shtml"]},{"group":"É½¶«","title":"QTV-2","uris":["http://www.qtv.com.cn/live/tv/tv_qtv2.shtml"]},{"group":"É½¶«","title":"QTV-3","uris":["http://www.qtv.com.cn/live/tv/tv_qtv3.shtml"]},{"group":"É½¶«","title":"QTV-4","uris":["http://www.qtv.com.cn/live/tv/tv_qtv4.shtml"]},{"group":"É½¶«","title":"QTV-5","uris":["http://www.qtv.com.cn/live/tv/tv_qtv5.shtml"]},{"group":"É½¶«","title":"QTV-6","uris":["http://www.qtv.com.cn/live/tv/tv_qtv6.shtml"]},{"group":"É½¶«","title":"Î«·»-1","selector":".pd","index":0,"uris":["https://www.wfcmw.cn/wfrtv_pdLive.html"]},{"group":"É½¶«","title":"Î«·»-2","selector":".pd","index":1,"uris":["https://www.wfcmw.cn/wfrtv_pdLive.html"]},{"group":"É½¶«","title":"Î«·»-3","selector":".pd","index":2,"uris":["https://www.wfcmw.cn/wfrtv_pdLive.html"]},{"group":"É½¶«","title":"Î«·»-4","selector":".pd","index":3,"uris":["https://www.wfcmw.cn/wfrtv_pdLive.html"]},{"group":"°²»Õ","title":"°²»ÕÎÀÊÓ","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=0"]},{"group":"°²»Õ","title":"¾­¼ÃÉú»î","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=1"]},{"group":"°²»Õ","title":"×ÛÒÕÌåÓı","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=2"]},{"group":"°²»Õ","title":"Ó°ÊÓÆµµÀ","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=3"]},{"group":"°²»Õ","title":"¹«¹²ÆµµÀ","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=4"]},{"group":"°²»Õ","title":"Å©Òµ¿Æ½Ì","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=5"]},{"group":"°²»Õ","title":"¹ú¼ÊÆµµÀ","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=6"]},{"group":"°²»Õ","title":"ÒÆ¶¯µçÊÓ","uris":["https://www.ahtv.cn/folder9000/folder20193?channelIndex=7"]},{"group":"½­ËÕ","title":"½­ËÕÎÀÊÓ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":0,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕ³ÇÊĞ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":1,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕ×ÛÒÕ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":2,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕÓ°ÊÓ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":3,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕĞÂÎÅ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":4,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕ½ÌÓı","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":5,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"ÌåÓıĞİÏĞ","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":6,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"ÓÅÂş¿¨Í¨","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":7,"uris":["https://live.jstv.com/"]},{"group":"½­ËÕ","title":"½­ËÕ¹ú¼Ê","finished":"setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)","selector":".item","index":8,"uris":["https://live.jstv.com/"]},{"group":"ÉÏº£","title":"¶«·½ÎÀÊÓ","uris":["https://live.kankanews.com/huikan?id=1"]},{"group":"ÉÏº£","title":"ĞÂÎÅ×ÛºÏ","uris":["https://live.kankanews.com/huikan?id=2"]},{"group":"ÉÏº£","title":"Ä§¶¼ÑÛ","uris":["https://live.kankanews.com/huikan?id=11"]},{"group":"ÉÏº£","title":"µÚÒ»²Æ¾­","uris":["https://live.kankanews.com/huikan?id=5"]},{"group":"ÉÏº£","title":"ĞÂ¼ÍÊµ","uris":["https://live.kankanews.com/huikan?id=12"]},{"group":"ÉÏº£","title":"ÎåĞÇÌåÓı","uris":["https://live.kankanews.com/huikan?id=10"]},{"group":"ÉÏº£","title":"¶¼ÊĞÆµµÀ","uris":["https://live.kankanews.com/huikan?id=4"]},{"group":"ÉÏº£","title":"¹ş¹şìÅ¶¯","uris":["https://live.kankanews.com/huikan?id=9"]},{"group":"ÉÏº£","title":"ÉÏº£½ÌÓıµçÊÓÌ¨","uris":["https://www.setv.sh.cn/#/tvshow"]},{"group":"ºş±±","title":"ºş±±ÎÀÊÓ","uris":["https://news.hbtv.com.cn/app/tv/431"]},{"group":"ºş±±","title":"ºş±±¾­ÊÓ","uris":["https://news.hbtv.com.cn/app/tv/432"]},{"group":"ºş±±","title":"ºş±±×ÛºÏ","uris":["https://news.hbtv.com.cn/app/tv/433"]},{"group":"ºş±±","title":"ºş±±Ó°ÊÓ","uris":["https://news.hbtv.com.cn/app/tv/435"]},{"group":"ºş±±","title":"ºş±±Éú»î","uris":["https://news.hbtv.com.cn/app/tv/436"]},{"group":"ºş±±","title":"ºş±±½ÌÓı","uris":["https://news.hbtv.com.cn/app/tv/437"]},{"group":"ºş±±","title":"ºş±±Â¢ÉÏ","uris":["https://news.hbtv.com.cn/app/tv/438"]},{"group":"ºşÄÏ","title":"¿ìÀÖ¹º","uris":["https://live.mgtv.com/?channelId=267"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏ¾­ÊÓ","uris":["https://live.mgtv.com/?channelId=280"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏÓéÀÖ","uris":["https://live.mgtv.com/?channelId=344"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏµçÓ°","uris":["https://live.mgtv.com/?channelId=221"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏ¶¼ÊĞ","uris":["https://live.mgtv.com/?channelId=346"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏµçÊÓ¾ç","uris":["https://live.mgtv.com/?channelId=484"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"½ğÓ¥¼ÍÊµ","uris":["https://live.mgtv.com/?channelId=316"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ºşÄÏ°®Íí","uris":["https://live.mgtv.com/?channelId=261"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"½ğÓ¥¿¨Í¨","uris":["https://live.mgtv.com/?channelId=287"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"¹ú¼ÊÆµµÀ","uris":["https://live.mgtv.com/?channelId=229"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"ÏÈ·æÆ¹Óğ","uris":["https://live.mgtv.com/?channelId=329"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"²èÆµµÀ","uris":["https://live.mgtv.com/?channelId=578"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"¿ìÀÖ´¹µö","uris":["https://live.mgtv.com/?channelId=218"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"³¤É³×ÛºÏ","uris":["https://live.mgtv.com/?channelId=269"],"block":["gototop.js"]},{"group":"ºşÄÏ","title":"³¤É³Õş·¨","uris":["https://live.mgtv.com/?channelId=254"],"block":["gototop.js"]},{"group":"ÖØÇì","title":"ĞÂÎÅ","uris":["https://www.cbg.cn/web/list/4918/1.html"]},{"group":"¹óÖİ","title":"¹óÖİÎÀÊÓ","uris":["https://www.gzstv.com/tv/ch01"]},{"group":"¹óÖİ","title":"¹óÖİ¹«¹²","uris":["https://www.gzstv.com/tv/ch02"]},{"group":"¹óÖİ","title":"¹óÖİÎÄÒÕ","uris":["https://www.gzstv.com/tv/ch03"]},{"group":"¹óÖİ","title":"´óÖÚÉú»î","uris":["https://www.gzstv.com/tv/ch04"]},{"group":"¹óÖİ","title":"ÉúÌ¬¡¤Ïç´å","uris":["https://www.gzstv.com/tv/ch05"]},{"group":"¹óÖİ","title":"¿Æ½Ì½¡¿µ","uris":["https://www.gzstv.com/tv/ch06"]},{"group":"¹óÖİ","title":"¹óÖİÒÆ¶¯µçÊÓ","uris":["https://www.gzstv.com/tv/ch13"]},{"group":"ÔÆÄÏ","title":"ÔÆÄÏÎÀÊÓ","uris":["https://www.yntv.cn/live.html"]},{"group":"ÔÆÄÏ","title":"ÔÆÄÏ¶¼ÊĞ","started":"document.querySelectorAll('.pindao-lmlist-item')[1].click()","uris":["https://www.yntv.cn/live.html"]},{"group":"ÔÆÄÏ","title":"ÔÆÄÏÓéÀÖ","started":"document.querySelectorAll('.pindao-lmlist-item')[2].click()","uris":["https://www.yntv.cn/live.html"]},{"group":"ÔÆÄÏ","title":"¿µÂÃÆµµÀ","started":"document.querySelectorAll('.pindao-lmlist-item')[3].click()","uris":["https://www.yntv.cn/live.html"]},{"group":"ÔÆÄÏ","title":"À½äØ¹ú¼Ê","started":"document.querySelectorAll('.pindao-lmlist-item')[4].click()","uris":["https://www.yntv.cn/live.html"]},{"group":"ÔÆÄÏ","title":"ÔÆÄÏÉÙ¶ù","started":"document.querySelectorAll('.pindao-lmlist-item')[5].click()","uris":["https://www.yntv.cn/live.html"]},{"group":"Çàº£","title":"Çàº£ÎÀÊÓ","uris":["http://www.qhbtv.com/new_index/live/folder2646/"]},{"group":"Çàº£","title":"Çàº£¾­ÊÓ","uris":["http://www.qhbtv.com/new_index/live/folder2647/"]},{"group":"Çàº£","title":"Çàº£¶¼ÊĞ","uris":["http://www.qhbtv.com/new_index/live/folder2648/"]},{"group":"Çàº£","title":"°²¶àÎÀÊÓ","uris":["http://www.qhtb.cn/onlin/onlin_tv/"]},{"group":"Î÷²Ø","title":"¿µ°ÍÎÀÊÓ","uris":["https://www.kangbatv.com/zb_22587/"]},{"group":"½­Î÷","title":"½­Î÷ÎÀÊÓ","uris":["https://www.jxntv.cn/live/#/jxtv1#1"]},{"group":"½­Î÷","title":"¶¼ÊĞÆµµÀ","uris":["https://www.jxntv.cn/live/#/jxtv2#1"]},{"group":"½­Î÷","title":"¾­¼ÃÉú»î","uris":["https://www.jxntv.cn/live/#/jxtv3#1"]},{"group":"½­Î÷","title":"Ó°ÊÓÂÃÓÎ","uris":["https://www.jxntv.cn/live/#/jxtv4"]},{"group":"½­Î÷","title":"¹«¹²Å©Òµ","uris":["https://www.jxntv.cn/live/#/jxtv5"]},{"group":"½­Î÷","title":"ÉÙ¶ù","uris":["https://www.jxntv.cn/live/#/jxtv6"]},{"group":"½­Î÷","title":"ĞÂÎÅ","uris":["https://www.jxntv.cn/live/#/jxtv7"]},{"group":"½­Î÷","title":"ÒÆ¶¯","uris":["https://www.jxntv.cn/live/#/jxtv8"]},{"group":"½­Î÷","title":"ÌÕ´É","uris":["https://www.jxntv.cn/live/#/tcpd"]},{"group":"½­Î÷","title":"·çÉĞ¹ºÎï","uris":["https://www.jxntv.cn/live/#/fsgw"]},{"group":"¸£½¨","title":"×ÛºÏÆµµÀ","uris":["https://live.fjtv.net/zhpd/"]},{"group":"¸£½¨","title":"¶«ÄÏÎÀÊÓ","uris":["https://live.fjtv.net/setv/"]},{"group":"¸£½¨","title":"¹«¹²ÆµµÀ","uris":["https://live.fjtv.net/ggpd/"]},{"group":"¸£½¨","title":"ĞÂÎÅÆµµÀ","uris":["https://live.fjtv.net/xwpd/"]},{"group":"¸£½¨","title":"µçÊÓ¾çÆµµÀ","uris":["https://live.fjtv.net/dsjpd/"]},{"group":"¸£½¨","title":"ÂÃÓÎÆµµÀ","uris":["https://live.fjtv.net/dspd/"]},{"group":"¸£½¨","title":"¾­ÊÓÆµµÀ","uris":["https://live.fjtv.net/jspd/"]},{"group":"¸£½¨","title":"ÎÄÌåÆµµÀ","uris":["https://live.fjtv.net/typd/"]},{"group":"¸£½¨","title":"ÉÙ¶ùÆµµÀ","uris":["https://live.fjtv.net/sepd/"]},{"group":"¸£½¨","title":"º£Ï¿ÎÀÊÓ","uris":["https://live.fjtv.net/hxtv/"]},{"group":"¹ãÎ÷","title":"¹ãÎ÷ÎÀÊÓ","uris":["https://tv.gxtv.cn/channel/channelivePlay_e7a7ab7df9fe11e88bcfe41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"×ÛÒÕÂÃÓÎÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"¶¼ÊĞÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"Ó°ÊÓÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"ĞÂÎÅÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"¹ú¼ÊÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_bfa17b64157f11e999f0e41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"ÀÖË¼¹ºÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_ed58bc4a207811e999f0e41f13b60c62.html"]},{"group":"¹ãÎ÷","title":"ÒÆ¶¯Êı×ÖµçÊÓÆµµÀ","uris":["https://tv.gxtv.cn/channel/channelivePlay_78dbfd44e6b74ab687204d2d8113cbf5.html"]},{"group":"¹ãÎ÷","title":"CETV1","uris":["https://tv.gxtv.cn/channel/channelivePlay_ffa6b6e1b32b4a16a73eb3ef66f8bfc7.html"]},{"group":"¹ãÎ÷","title":"CETV2","uris":["https://tv.gxtv.cn/channel/channelivePlay_80d0ffb42c114eaf9663708629ff0a3e.html"]},{"group":"¹ãÎ÷","title":"CETV4","uris":["https://tv.gxtv.cn/channel/channelivePlay_67eace939278435bb4bca90800fb4225.html"]},{"group":"¹ã¶«","title":"¹ã¶«ÎÀÊÓ","uris":["https://www.gdtv.cn/tvChannelDetail/43"]},{"group":"¹ã¶«","title":"¹ã¶«Öé½­","uris":["https://www.gdtv.cn/tvChannelDetail/44"]},{"group":"¹ã¶«","title":"¹ã¶«ĞÂÎÅ","uris":["https://www.gdtv.cn/tvChannelDetail/45"]},{"group":"¹ã¶«","title":"¹ã¶«ÃñÉú","uris":["https://www.gdtv.cn/tvChannelDetail/48"]},{"group":"¹ã¶«","title":"¹ã¶«ÌåÓı","uris":["https://www.gdtv.cn/tvChannelDetail/47"]},{"group":"¹ã¶«","title":"´óÍåÇøÎÀÊÓ","uris":["https://www.gdtv.cn/tvChannelDetail/51"]},{"group":"¹ã¶«","title":"´óÍåÇøÎÀÊÓ£¨º£Íâ°æ£©","uris":["https://www.gdtv.cn/tvChannelDetail/46"]},{"group":"¹ã¶«","title":"¾­¼Ã¿Æ½Ì","uris":["https://www.gdtv.cn/tvChannelDetail/49"]},{"group":"¹ã¶«","title":"¹ã¶«Ó°ÊÓ","uris":["https://www.gdtv.cn/tvChannelDetail/53"]},{"group":"¹ã¶«","title":"4K³¬¸ßÇå","uris":["https://www.gdtv.cn/tvChannelDetail/16"]},{"group":"¹ã¶«","title":"¹ã¶«ÉÙ¶ù","uris":["https://www.gdtv.cn/tvChannelDetail/54"]},{"group":"¹ã¶«","title":"¼Î¼Ñ¿¨Í¨","uris":["https://www.gdtv.cn/tvChannelDetail/66"]},{"group":"¹ã¶«","title":"ÄÏ·½¹ºÎï","uris":["https://www.gdtv.cn/tvChannelDetail/42"]},{"group":"¹ã¶«","title":"ÁëÄÏÏ·Çú","uris":["https://www.gdtv.cn/tvChannelDetail/15"]},{"group":"¹ã¶«","title":"ÏÖ´ú½ÌÓı","uris":["https://www.gdtv.cn/tvChannelDetail/13"]},{"group":"¹ã¶«","title":"¹ã¶«ÒÆ¶¯","uris":["https://www.gdtv.cn/tvChannelDetail/74"]},{"group":"¹ã¶«","title":"ÀóÖ¦Ì¨","uris":["https://www.gdtv.cn/tvChannelDetail/100"]},{"group":"¹ã¶«","title":"¼ÍÂ¼Æ¬","uris":["https://www.gdtv.cn/tvChannelDetail/94"]},{"group":"¹ã¶«","title":"GRTN½¡¿µÆµµÀ","uris":["https://www.gdtv.cn/tvChannelDetail/99"]},{"group":"¹ã¶«","title":"GRTNÎÄ»¯ÆµµÀ","uris":["https://www.gdtv.cn/tvChannelDetail/75"]},{"group":"¹ã¶«","title":"GRTNÉú»îÆµµÀ","uris":["https://www.gdtv.cn/tvChannelDetail/102"]},{"group":"¹ã¶«","title":"GRTN½ÌÓıÆµµÀ","uris":["https://www.gdtv.cn/tvChannelDetail/104"]},{"group":"ÉîÛÚ","title":"ÉîÛÚÎÀÊÓ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7867"]},{"group":"ÉîÛÚ","title":"¶¼ÊĞÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7868"]},{"group":"ÉîÛÚ","title":"µçÊÓ¾çÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7880"]},{"group":"ÉîÛÚ","title":"¹«¹²ÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7874"]},{"group":"ÉîÛÚ","title":"²Æ¾­ÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7871"]},{"group":"ÉîÛÚ","title":"ÓéÀÖÉú»îÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7872"]},{"group":"ÉîÛÚ","title":"ÉÙ¶ùÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7881"]},{"group":"ÉîÛÚ","title":"ÒÆ¶¯µçÊÓ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7869"]},{"group":"ÉîÛÚ","title":"ÒËºÍ¹ºÎïÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7878"]},{"group":"ÉîÛÚ","title":"¹ú¼ÊÆµµÀ","uris":["https://www.sztv.com.cn/pindao/index.html?id=7944"]},{"group":"º£ÄÏ","title":"º£ÄÏÎÀÊÓ","uris":["http://tc.hnntv.cn/","https://www.hnntv.cn/live.html?playType=livePlay&channelId=13&referPage=home"]},{"group":"º£ÄÏ","title":"ÈıÉ³ÎÀÊÓ","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=5&referPage=home"]},{"group":"º£ÄÏ","title":"º£ÄÏ×ÔÃ³","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home"]},{"group":"º£ÄÏ","title":"º£ÄÏĞÂÎÅ","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=3&referPage=home"]},{"group":"º£ÄÏ","title":"º£ÄÏ¹«¹²","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=4&referPage=home"]},{"group":"º£ÄÏ","title":"º£ÄÏÎÄÂÃ","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=6&referPage=home"]},{"group":"º£ÄÏ","title":"º£ÄÏÉÙ¶ù","uris":["https://www.hnntv.cn/live.html?playType=livePlay&channelId=7&referPage=home"]}
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-1 ç»¼åˆ",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv1" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-2 è´¢ç»",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv2" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-3 ç»¼è‰º",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv3" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-4 ä¸­æ–‡å›½é™…ï¼ˆäºšï¼‰",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv4" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-5 ä½“è‚²",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv5" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-6 ç”µå½±",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv6" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-7 å›½é˜²å†›äº‹",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv7" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-8 ç”µè§†å‰§",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv8" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-9 çºªå½•",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctvjilu" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-10 ç§‘æ•™",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv10" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-11 æˆæ›²",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv11" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-12 ç¤¾ä¼šä¸æ³•",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv12" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-13 æ–°é—»",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv13" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-14 å°‘å„¿",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctvchild" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-15 éŸ³ä¹",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv15" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-16 å¥¥æ—åŒ¹å…‹",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv16" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-17 å†œä¸šå†œæ‘",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv17" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-5+ ä½“è‚²èµ›äº‹",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctv5plus" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-4 ä¸­æ–‡å›½é™…ï¼ˆæ¬§ï¼‰",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctveurope" ]
+  },
+  {
+    "group": "å¤®è§†ç”²",
+    "title": "CCTV-4 ä¸­æ–‡å›½é™…ï¼ˆç¾ï¼‰",
+    "started": "document.querySelector('.floatNav').style.display = 'none'",
+    "uris": [ "https://tv.cctv.com/live/cctvamerica" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-4K",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002264" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-1",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001859" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-2",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001800" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-3",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001801" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-4",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001814" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-5",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001818" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-5+",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001817" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-6",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600108442" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-7",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600004092" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-8",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001803" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-9",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600004078" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-10",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001805" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-11",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001806" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-12",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001807" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-13",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001811" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-14",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001809" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-15",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001815" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-16",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600098637" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV-17",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600001810" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600014550" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN æ³•è¯­",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600084704" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN ä¿„è¯­",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600084758" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN é˜¿æ‹‰ä¼¯è¯­",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600084782" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN è¥¿ç­ç‰™è¯­",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600084744" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CGTN å¤–è¯­è®°å½•",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600084781" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV é£äº‘å‰§åœº",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099658" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV ç¬¬ä¸€å‰§åœº",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099655" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV æ€€æ—§å‰§åœº",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099620" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV ä¸–ç•Œåœ°ç†",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099637" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV é£äº‘éŸ³ä¹",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099660" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV å…µå™¨ç§‘æŠ€",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099649" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV é£é›¨è¶³çƒ",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099636" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV é«˜å°”å¤«ç½‘çƒ",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099659" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV å¥³æ€§æ—¶å°š",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099650" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV æ–‡åŒ–ç²¾å“",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099653" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV å¤®è§†å°çƒ",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099652" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV ç”µè§†æŒ‡å—",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099656" ]
+  },
+  {
+    "group": "å¤®è§†ä¹™",
+    "title": "CCTV å«ç”Ÿå¥åº·",
+    "block": [ "vconsole.min.js", "three.js", "VR.js" ],
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600099651" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "åŒ—äº¬å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002309" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ±Ÿè‹å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002521" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "ä¸œæ–¹å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002483" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æµ™æ±Ÿå«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002520" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ¹–å—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002475" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ¹–åŒ—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002508" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å¹¿ä¸œå«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002485" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å¹¿è¥¿å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002509" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "é»‘é¾™æ±Ÿå«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002498" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æµ·å—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002506" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "é‡åº†å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002531" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ·±åœ³å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002481" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å››å·å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002516" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ²³å—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002525" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "ä¸œå—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002484" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "è´µå·å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002490" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ±Ÿè¥¿å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002503" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "è¾½å®å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002505" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å®‰å¾½å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002532" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "æ²³åŒ—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002493" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å±±ä¸œå«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600002513" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å¤©æ´¥å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600152137" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å‰æ—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190405" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "é™•è¥¿å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190400" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "ç”˜è‚ƒå«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190408" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å®å¤å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190737" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å†…è’™å¤å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190401" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "äº‘å—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190402" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å±±è¥¿å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190407" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "é’æµ·å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190406" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "è¥¿è—å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600190403" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "ä¸­å›½æ•™è‚²",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600171827" ]
+  },
+  {
+    "group": "å«è§†",
+    "title": "å…µå›¢å«è§†",
+    "uris": [ "https://www.yangshipin.cn/tv/home?pid=600193252" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "å«è§†é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder418/" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "æ–‡ä½“é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder423/" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "æ–°é—»æ³•åˆ¶é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder424/" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "éƒ½å¸‚é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder419/" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "å†œä¸šÂ·ç§‘æ•™é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder420/" ]
+  },
+  {
+    "group": "é»‘é¾™æ±Ÿ",
+    "title": "å°‘å„¿é¢‘é“",
+    "uris": [ "https://www.hljtv.com/live/folder422/" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "ç»¼è‰ºæ–‡åŒ–",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=362" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å…¬å…±",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=358" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "ä¹¡æ‘",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=356" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "ç”Ÿæ´»",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=354" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å½±è§†",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=352" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å‰æ—å«è§†",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=351" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "æˆæ›²",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=319" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "éƒ½å¸‚",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=317" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å®¶æœ‰è´­ç‰©",
+    "uris": [ "https://www.jlntv.cn/newpc/wlt/live/index.php?channel_id=14" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å»¶è¾¹å«è§†",
+    "uris": [ "https://www.yb983.com/cys/index.html" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å»¶è¾¹æ±‰è¯­",
+    "uris": [ "https://www.yb983.com/ybtv2/index.html" ]
+  },
+  {
+    "group": "å‰æ—",
+    "title": "å»¶è¾¹æœé²œè¯­",
+    "uris": [ "https://www.yb983.com/ybtv1/index.html" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å†…è’™å¤å«è§†",
+    "uris": [ "https://www.nmtv.cn/liveTv#0" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "è’™å¤è¯­å«è§†",
+    "uris": [ "https://www.nmtv.cn/liveTv#1" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "æ–°é—»ç»¼åˆ",
+    "uris": [ "https://www.nmtv.cn/liveTv#2" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "ç»æµç”Ÿæ´»",
+    "uris": [ "https://www.nmtv.cn/liveTv#3" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å°‘å„¿é¢‘é“",
+    "uris": [ "https://www.nmtv.cn/liveTv#4" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "æ–‡ä½“å¨±ä¹",
+    "uris": [ "https://www.nmtv.cn/liveTv#5" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å†œç‰§é¢‘é“",
+    "uris": [ "https://www.nmtv.cn/liveTv#6" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "è’™å¤è¯­æ–‡åŒ–",
+    "uris": [ "https://www.nmtv.cn/liveTv#7" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å‘¼å’Œæµ©ç‰¹",
+    "uris": [ "https://www.nmtv.cn/liveTv#8" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "åŒ…å¤´",
+    "uris": [ "https://www.nmtv.cn/liveTv#9" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "ä¹Œæµ·",
+    "uris": [ "https://www.nmtv.cn/liveTv#10" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "èµ¤å³°",
+    "uris": [ "https://www.nmtv.cn/liveTv#11" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å‘¼ä¼¦è´å°”",
+    "uris": [ "https://www.nmtv.cn/liveTv#12" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å…´å®‰ç›Ÿ",
+    "uris": [ "https://www.nmtv.cn/liveTv#13" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "é€šè¾½",
+    "uris": [ "https://www.nmtv.cn/liveTv#14" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "é”¡æ—éƒ­å‹’",
+    "uris": [ "https://www.nmtv.cn/liveTv#15" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "ä¹Œå…°å¯Ÿå¸ƒ",
+    "uris": [ "https://www.nmtv.cn/liveTv#16" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "é„‚å°”å¤šæ–¯",
+    "uris": [ "https://www.nmtv.cn/liveTv#17" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "å·´å½¦æ·–å°”",
+    "uris": [ "https://www.nmtv.cn/liveTv#18" ]
+  },
+  {
+    "group": "å†…è’™å¤",
+    "title": "é˜¿æ‹‰å–„",
+    "uris": [ "https://www.nmtv.cn/liveTv#19" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å±±è¥¿å«è§†",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#0" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "é»„æ²³ç”µè§†å°",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#1" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å±±è¥¿ç»æµä¸ç§‘æŠ€",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#2" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å±±è¥¿å½±è§†",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#3" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å±±è¥¿ç¤¾ä¼šä¸æ³•åˆ¶",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#4" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å±±è¥¿æ–‡ä½“ç”Ÿæ´»",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#5" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å¤ªåŸ",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#6" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "æœ”å·",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#7" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å¿»å·",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#8" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "é˜³æ³‰",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#9" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "å•æ¢",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#10" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "æ™‹ä¸­",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#11" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "é•¿æ²»",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#12" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "æ™‹åŸ",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#13" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "ä¸´æ±¾",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#14" ]
+  },
+  {
+    "group": "å±±è¥¿",
+    "title": "è¿åŸ",
+    "uris": [ "https://www.sxrtv.com/tv/index.shtml#15" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "é™•è¥¿å«è§†",
+    "uris": [ "http://live.snrtv.com/star" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "æ–°é—»èµ„è®¯",
+    "uris": [ "http://live.snrtv.com/1" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "éƒ½å¸‚é’æ˜¥",
+    "uris": [ "http://live.snrtv.com/2" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "ç”Ÿæ´»é¢‘é“",
+    "uris": [ "http://live.snrtv.com/3" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "å½±è§†é¢‘é“",
+    "uris": [ "http://www.snrtv.com/snr_dssps/a/2021/08/28/19915184.html", "http://live.snrtv.com/4" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "å…¬å…±é¢‘é“",
+    "uris": [ "http://live.snrtv.com/5" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "ä¹å®¶è´­ç‰©",
+    "uris": [ "http://live.snrtv.com/6" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "ä½“è‚²ä¼‘é—²",
+    "uris": [ "http://live.snrtv.com/7" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "å†œæ—å«è§†",
+    "uris": [ "http://live.snrtv.com/nl" ]
+  },
+  {
+    "group": "é™•è¥¿",
+    "title": "ç§»åŠ¨ç”µè§†",
+    "uris": [ "http://live.snrtv.com/11" ]
+  },
+  {
+    "group": "å®å¤",
+    "title": "å…¬å…±é¢‘é“",
+    "uris": [ "https://www.nxtv.com.cn/live/gg/" ]
+  },
+  {
+    "group": "å®å¤",
+    "title": "å«è§†é¢‘é“",
+    "uris": [ "https://www.nxtv.com.cn/live/wsh/" ]
+  },
+  {
+    "group": "å®å¤",
+    "title": "ç»æµé¢‘é“",
+    "uris": [ "https://www.nxtv.com.cn/live/jj/" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "ç”˜è‚ƒå«è§†",
+    "script": "document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "æ–‡åŒ–å½±è§†",
+    "script": "document.querySelectorAll('#channelContent li a')[1].click();document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "å…¬å…±åº”æ€¥",
+    "script": "document.querySelectorAll('#channelContent li a')[2].click();document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "å…¬å…±åº”æ€¥",
+    "script": "document.querySelectorAll('#channelContent li a')[3].click();document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "ç§‘æ•™é¢‘é“",
+    "script": "document.querySelectorAll('#channelContent li a')[4].click();document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "ç”˜è‚ƒ",
+    "title": "ç§»åŠ¨ç”µè§†",
+    "script": "document.querySelectorAll('#channelContent li a')[5].click();document.querySelector('button[title=\"Unmute\"]').click()",
+    "uris": [ "https://www.gstv.com.cn/zxc.jhtml" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "æ–°ç–†å«è§†",
+    "selector": ".chnnel-item",
+    "index": 0,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "ç»´å¾å°”è¯­æ–°é—»ç»¼åˆ",
+    "selector": ".chnnel-item",
+    "index": 1,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "å“ˆè¨å…‹è¯­æ–°é—»ç»¼åˆ",
+    "selector": ".chnnel-item",
+    "index": 2,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "æ±‰è¯­ç»¼è‰º",
+    "selector": ".chnnel-item",
+    "index": 3,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "ç»´å¾å°”è¯­å½±è§†",
+    "selector": ".chnnel-item",
+    "index": 4,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "æ±‰è¯­ç»æµç”Ÿæ´»",
+    "selector": ".chnnel-item",
+    "index": 5,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "å“ˆè¨å…‹è¯­ç»¼è‰º",
+    "selector": ".chnnel-item",
+    "index": 6,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "ç»´å¾å°”è¯­ç»æµç”Ÿæ´»",
+    "selector": ".chnnel-item",
+    "index": 7,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "æ±‰è¯­ä½“è‚²å¥åº·",
+    "selector": ".chnnel-item",
+    "index": 8,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "æ±‰è¯­ä¿¡æ¯æœåŠ¡",
+    "selector": ".chnnel-item",
+    "index": 9,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "æ–°ç–†",
+    "title": "å°‘å„¿é¢‘é“",
+    "selector": ".chnnel-item",
+    "index": 10,
+    "uris": [ "https://www.xjtvs.com.cn/column/tv/437" ]
+  },
+  {
+    "group": "å…µå›¢",
+    "title": "å…µå›¢å«è§†",
+    "uris": [ "https://www.btzx.com.cn/special/bofang/btzxjmd/index.shtml" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬å«è§†",
+    "selector": ".module_live li",
+    "index": 0,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬æ–‡è‰º",
+    "selector": ".module_live li",
+    "index": 1,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "çºªå®ç§‘æ•™",
+    "selector": ".module_live li",
+    "index": 2,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬å½±è§†",
+    "selector": ".module_live li",
+    "index": 3,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬è´¢ç»",
+    "selector": ".module_live li",
+    "index": 4,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "ä½“è‚²ä¼‘é—²",
+    "selector": ".module_live li",
+    "index": 5,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬iç”Ÿæ´»",
+    "selector": ".module_live li",
+    "index": 6,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "åŒ—äº¬æ–°é—»",
+    "selector": ".module_live li",
+    "index": 7,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "åŒ—äº¬",
+    "title": "å¡é…·å°‘å„¿",
+    "selector": ".module_live li",
+    "index": 8,
+    "uris": [ "https://www.brtn.cn/btv/btvsy_index" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "æ²³åŒ—å«è§†",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=0" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "ç»æµç”Ÿæ´»",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=1" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "å†œæ°‘é¢‘é“",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=2" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "æ²³åŒ—éƒ½å¸‚",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=3" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "æ²³åŒ—å½±è§†å‰§",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=4" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "å°‘å„¿ç§‘æ•™",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=5" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "æ²³åŒ—å…¬å…±",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=6" ]
+  },
+  {
+    "group": "æ²³åŒ—",
+    "title": "ä¸‰ä½³è´­ç‰©",
+    "uris": [ "https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=7" ]
+  },
+  {
+    "group": "æ²³å—",
+    "title": "æ²³å—å«è§†",
+    "uris": [ "https://static.hntv.tv/kds/#/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "å±±ä¸œå«è§†",
+    "uris": [ "https://v.iqilu.com/live/sdtv/index.html" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "é½é²é¢‘é“",
+    "uris": [ "https://v.iqilu.com/live/qlpd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æ–°é—»é¢‘é“",
+    "uris": [ "https://v.iqilu.com/live/ggpd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "å†œç§‘é¢‘é“",
+    "uris": [ "https://v.iqilu.com/live/nkpd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "å°‘å„¿é¢‘é“",
+    "uris": [ "https://v.iqilu.com/live/sepd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "ä½“è‚²é¢‘é“",
+    "uris": [ "https://v.iqilu.com/live/typd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æœ‰çº¿å½±è§†",
+    "uris": [ "https://v.iqilu.com/live/yspd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æœ‰çº¿ç”Ÿæ´»",
+    "uris": [ "https://v.iqilu.com/live/shpd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æœ‰çº¿ç»¼è‰º",
+    "uris": [ "https://v.iqilu.com/live/zypd/" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-1",
+    "uris": [ "http://www.qtv.com.cn/live/tv/index.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-2",
+    "uris": [ "http://www.qtv.com.cn/live/tv/tv_qtv2.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-3",
+    "uris": [ "http://www.qtv.com.cn/live/tv/tv_qtv3.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-4",
+    "uris": [ "http://www.qtv.com.cn/live/tv/tv_qtv4.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-5",
+    "uris": [ "http://www.qtv.com.cn/live/tv/tv_qtv5.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "QTV-6",
+    "uris": [ "http://www.qtv.com.cn/live/tv/tv_qtv6.shtml" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æ½åŠ-1",
+    "selector": ".pd",
+    "index": 0,
+    "uris": [ "https://www.wfcmw.cn/wfrtv_pdLive.html" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æ½åŠ-2",
+    "selector": ".pd",
+    "index": 1,
+    "uris": [ "https://www.wfcmw.cn/wfrtv_pdLive.html" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æ½åŠ-3",
+    "selector": ".pd",
+    "index": 2,
+    "uris": [ "https://www.wfcmw.cn/wfrtv_pdLive.html" ]
+  },
+  {
+    "group": "å±±ä¸œ",
+    "title": "æ½åŠ-4",
+    "selector": ".pd",
+    "index": 3,
+    "uris": [ "https://www.wfcmw.cn/wfrtv_pdLive.html" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "å®‰å¾½å«è§†",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=0" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "ç»æµç”Ÿæ´»",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=1" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "ç»¼è‰ºä½“è‚²",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=2" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "å½±è§†é¢‘é“",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=3" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "å…¬å…±é¢‘é“",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=4" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "å†œä¸šç§‘æ•™",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=5" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "å›½é™…é¢‘é“",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=6" ]
+  },
+  {
+    "group": "å®‰å¾½",
+    "title": "ç§»åŠ¨ç”µè§†",
+    "uris": [ "https://www.ahtv.cn/folder9000/folder20193?channelIndex=7" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹å«è§†",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 0,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹åŸå¸‚",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 1,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹ç»¼è‰º",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 2,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹å½±è§†",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 3,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹æ–°é—»",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 4,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹æ•™è‚²",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 5,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "ä½“è‚²ä¼‘é—²",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 6,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "ä¼˜æ¼«å¡é€š",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 7,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "æ±Ÿè‹",
+    "title": "æ±Ÿè‹å›½é™…",
+    "finished": "setTimeout(() => document.querySelector('.xgplayer-volume xg-icon').click(), 1000)",
+    "selector": ".item",
+    "index": 8,
+    "uris": [ "https://live.jstv.com/" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "ä¸œæ–¹å«è§†",
+    "uris": [ "https://live.kankanews.com/huikan?id=1" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "æ–°é—»ç»¼åˆ",
+    "uris": [ "https://live.kankanews.com/huikan?id=2" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "é­”éƒ½çœ¼",
+    "uris": [ "https://live.kankanews.com/huikan?id=11" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "ç¬¬ä¸€è´¢ç»",
+    "uris": [ "https://live.kankanews.com/huikan?id=5" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "æ–°çºªå®",
+    "uris": [ "https://live.kankanews.com/huikan?id=12" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "äº”æ˜Ÿä½“è‚²",
+    "uris": [ "https://live.kankanews.com/huikan?id=10" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "éƒ½å¸‚é¢‘é“",
+    "uris": [ "https://live.kankanews.com/huikan?id=4" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "å“ˆå“ˆç‚«åŠ¨",
+    "uris": [ "https://live.kankanews.com/huikan?id=9" ]
+  },
+  {
+    "group": "ä¸Šæµ·",
+    "title": "ä¸Šæµ·æ•™è‚²ç”µè§†å°",
+    "uris": [ "https://www.setv.sh.cn/#/tvshow" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—å«è§†",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/431" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—ç»è§†",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/432" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—ç»¼åˆ",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/433" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—å½±è§†",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/435" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—ç”Ÿæ´»",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/436" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—æ•™è‚²",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/437" ]
+  },
+  {
+    "group": "æ¹–åŒ—",
+    "title": "æ¹–åŒ—å„ä¸Š",
+    "uris": [ "https://news.hbtv.com.cn/app/tv/438" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "å¿«ä¹è´­",
+    "uris": [ "https://live.mgtv.com/?channelId=267" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—ç»è§†",
+    "uris": [ "https://live.mgtv.com/?channelId=280" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—å¨±ä¹",
+    "uris": [ "https://live.mgtv.com/?channelId=344" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—ç”µå½±",
+    "uris": [ "https://live.mgtv.com/?channelId=221" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—éƒ½å¸‚",
+    "uris": [ "https://live.mgtv.com/?channelId=346" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—ç”µè§†å‰§",
+    "uris": [ "https://live.mgtv.com/?channelId=484" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "é‡‘é¹°çºªå®",
+    "uris": [ "https://live.mgtv.com/?channelId=316" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "æ¹–å—çˆ±æ™š",
+    "uris": [ "https://live.mgtv.com/?channelId=261" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "é‡‘é¹°å¡é€š",
+    "uris": [ "https://live.mgtv.com/?channelId=287" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "å›½é™…é¢‘é“",
+    "uris": [ "https://live.mgtv.com/?channelId=229" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "å…ˆé”‹ä¹’ç¾½",
+    "uris": [ "https://live.mgtv.com/?channelId=329" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "èŒ¶é¢‘é“",
+    "uris": [ "https://live.mgtv.com/?channelId=578" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "å¿«ä¹å‚é’“",
+    "uris": [ "https://live.mgtv.com/?channelId=218" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "é•¿æ²™ç»¼åˆ",
+    "uris": [ "https://live.mgtv.com/?channelId=269" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "æ¹–å—",
+    "title": "é•¿æ²™æ”¿æ³•",
+    "uris": [ "https://live.mgtv.com/?channelId=254" ],
+    "block": [ "gototop.js" ]
+  },
+  {
+    "group": "é‡åº†",
+    "title": "æ–°é—»",
+    "uris": [ "https://www.cbg.cn/web/list/4918/1.html" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "è´µå·å«è§†",
+    "uris": [ "https://www.gzstv.com/tv/ch01" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "è´µå·å…¬å…±",
+    "uris": [ "https://www.gzstv.com/tv/ch02" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "è´µå·æ–‡è‰º",
+    "uris": [ "https://www.gzstv.com/tv/ch03" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "å¤§ä¼—ç”Ÿæ´»",
+    "uris": [ "https://www.gzstv.com/tv/ch04" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "ç”Ÿæ€Â·ä¹¡æ‘",
+    "uris": [ "https://www.gzstv.com/tv/ch05" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "ç§‘æ•™å¥åº·",
+    "uris": [ "https://www.gzstv.com/tv/ch06" ]
+  },
+  {
+    "group": "è´µå·",
+    "title": "è´µå·ç§»åŠ¨ç”µè§†",
+    "uris": [ "https://www.gzstv.com/tv/ch13" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "äº‘å—å«è§†",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "äº‘å—éƒ½å¸‚",
+    "started": "document.querySelectorAll('.pindao-lmlist-item')[1].click()",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "äº‘å—å¨±ä¹",
+    "started": "document.querySelectorAll('.pindao-lmlist-item')[2].click()",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "åº·æ—…é¢‘é“",
+    "started": "document.querySelectorAll('.pindao-lmlist-item')[3].click()",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "æ¾œæ¹„å›½é™…",
+    "started": "document.querySelectorAll('.pindao-lmlist-item')[4].click()",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "äº‘å—",
+    "title": "äº‘å—å°‘å„¿",
+    "started": "document.querySelectorAll('.pindao-lmlist-item')[5].click()",
+    "uris": [ "https://www.yntv.cn/live.html" ]
+  },
+  {
+    "group": "é’æµ·",
+    "title": "é’æµ·å«è§†",
+    "uris": [ "http://www.qhbtv.com/new_index/live/folder2646/" ]
+  },
+  {
+    "group": "é’æµ·",
+    "title": "é’æµ·ç»è§†",
+    "uris": [ "http://www.qhbtv.com/new_index/live/folder2647/" ]
+  },
+  {
+    "group": "é’æµ·",
+    "title": "é’æµ·éƒ½å¸‚",
+    "uris": [ "http://www.qhbtv.com/new_index/live/folder2648/" ]
+  },
+  {
+    "group": "é’æµ·",
+    "title": "å®‰å¤šå«è§†",
+    "uris": [ "http://www.qhtb.cn/onlin/onlin_tv/" ]
+  },
+  {
+    "group": "è¥¿è—",
+    "title": "åº·å·´å«è§†",
+    "uris": [ "https://www.kangbatv.com/zb_22587/" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "æ±Ÿè¥¿å«è§†",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv1#1" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "éƒ½å¸‚é¢‘é“",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv2#1" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "ç»æµç”Ÿæ´»",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv3#1" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "å½±è§†æ—…æ¸¸",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv4" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "å…¬å…±å†œä¸š",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv5" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "å°‘å„¿",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv6" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "æ–°é—»",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv7" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "ç§»åŠ¨",
+    "uris": [ "https://www.jxntv.cn/live/#/jxtv8" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "é™¶ç“·",
+    "uris": [ "https://www.jxntv.cn/live/#/tcpd" ]
+  },
+  {
+    "group": "æ±Ÿè¥¿",
+    "title": "é£å°šè´­ç‰©",
+    "uris": [ "https://www.jxntv.cn/live/#/fsgw" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "ç»¼åˆé¢‘é“",
+    "uris": [ "https://live.fjtv.net/zhpd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "ä¸œå—å«è§†",
+    "uris": [ "https://live.fjtv.net/setv/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "å…¬å…±é¢‘é“",
+    "uris": [ "https://live.fjtv.net/ggpd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "æ–°é—»é¢‘é“",
+    "uris": [ "https://live.fjtv.net/xwpd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "ç”µè§†å‰§é¢‘é“",
+    "uris": [ "https://live.fjtv.net/dsjpd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "æ—…æ¸¸é¢‘é“",
+    "uris": [ "https://live.fjtv.net/dspd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "ç»è§†é¢‘é“",
+    "uris": [ "https://live.fjtv.net/jspd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "æ–‡ä½“é¢‘é“",
+    "uris": [ "https://live.fjtv.net/typd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "å°‘å„¿é¢‘é“",
+    "uris": [ "https://live.fjtv.net/sepd/" ]
+  },
+  {
+    "group": "ç¦å»º",
+    "title": "æµ·å³¡å«è§†",
+    "uris": [ "https://live.fjtv.net/hxtv/" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "å¹¿è¥¿å«è§†",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_e7a7ab7df9fe11e88bcfe41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "ç»¼è‰ºæ—…æ¸¸é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "éƒ½å¸‚é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "å½±è§†é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "æ–°é—»é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "å›½é™…é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_bfa17b64157f11e999f0e41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "ä¹æ€è´­é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_ed58bc4a207811e999f0e41f13b60c62.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "ç§»åŠ¨æ•°å­—ç”µè§†é¢‘é“",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_78dbfd44e6b74ab687204d2d8113cbf5.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "CETV1",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_ffa6b6e1b32b4a16a73eb3ef66f8bfc7.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "CETV2",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_80d0ffb42c114eaf9663708629ff0a3e.html" ]
+  },
+  {
+    "group": "å¹¿è¥¿",
+    "title": "CETV4",
+    "uris": [ "https://tv.gxtv.cn/channel/channelivePlay_67eace939278435bb4bca90800fb4225.html" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œå«è§†",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/43" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œç æ±Ÿ",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/44" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œæ–°é—»",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/45" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œæ°‘ç”Ÿ",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/48" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œä½“è‚²",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/47" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¤§æ¹¾åŒºå«è§†",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/51" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¤§æ¹¾åŒºå«è§†ï¼ˆæµ·å¤–ç‰ˆï¼‰",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/46" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "ç»æµç§‘æ•™",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/49" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œå½±è§†",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/53" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "4Kè¶…é«˜æ¸…",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/16" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œå°‘å„¿",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/54" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å˜‰ä½³å¡é€š",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/66" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å—æ–¹è´­ç‰©",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/42" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å²­å—æˆæ›²",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/15" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "ç°ä»£æ•™è‚²",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/13" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "å¹¿ä¸œç§»åŠ¨",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/74" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "è”æå°",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/100" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "çºªå½•ç‰‡",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/94" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "GRTNå¥åº·é¢‘é“",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/99" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "GRTNæ–‡åŒ–é¢‘é“",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/75" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "GRTNç”Ÿæ´»é¢‘é“",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/102" ]
+  },
+  {
+    "group": "å¹¿ä¸œ",
+    "title": "GRTNæ•™è‚²é¢‘é“",
+    "uris": [ "https://www.gdtv.cn/tvChannelDetail/104" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "æ·±åœ³å«è§†",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7867" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "éƒ½å¸‚é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7868" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "ç”µè§†å‰§é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7880" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "å…¬å…±é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7874" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "è´¢ç»é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7871" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "å¨±ä¹ç”Ÿæ´»é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7872" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "å°‘å„¿é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7881" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "ç§»åŠ¨ç”µè§†",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7869" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "å®œå’Œè´­ç‰©é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7878" ]
+  },
+  {
+    "group": "æ·±åœ³",
+    "title": "å›½é™…é¢‘é“",
+    "uris": [ "https://www.sztv.com.cn/pindao/index.html?id=7944" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—å«è§†",
+    "uris": [ "http://tc.hnntv.cn/", "https://www.hnntv.cn/live.html?playType=livePlay&channelId=13&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "ä¸‰æ²™å«è§†",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=5&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—è‡ªè´¸",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—æ–°é—»",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=3&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—å…¬å…±",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=4&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—æ–‡æ—…",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=6&referPage=home" ]
+  },
+  {
+    "group": "æµ·å—",
+    "title": "æµ·å—å°‘å„¿",
+    "uris": [ "https://www.hnntv.cn/live.html?playType=livePlay&channelId=7&referPage=home" ]
+  }
 ]
