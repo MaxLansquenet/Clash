@@ -5208,7 +5208,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "CN|中国|渗透|中國|未知|机场"
+    exclude-filter: "CN|中国|渗透|中國|未知|机场|cn"
     strategy: consistent-hashing   #round-robin
     proxies:
 
