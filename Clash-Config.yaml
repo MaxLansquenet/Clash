@@ -5203,7 +5203,7 @@ proxy-groups:
       - 🎯 全球直连
  
   - name: 🎯 GitHub
-    type: load-balance
+    type: select
     url: https://www.github.com/generate_204
     interval: 300
     tolerance: 50
@@ -5223,7 +5223,7 @@ proxy-groups:
     proxies:
 
   - name: 📹 油管视频
-    type: load-balance
+    type: select
     url: https://www.youtube.com/generate_204
     include-all: true
     interval: 300
@@ -5295,7 +5295,7 @@ proxy-groups:
     proxies:
 
   - name: 📢 谷歌FCM
-    type: load-balance
+    type: select
     url: http://www.google.com/blank.html
     include-all: true
     strategy: consistent-hashing   #round-robin
