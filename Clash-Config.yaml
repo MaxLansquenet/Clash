@@ -5163,14 +5163,6 @@ proxies:
 
 
 proxy-groups:
-    
-  - name: GLOBAL 
-    type: select
-    include-all: true 
-    proxies:
-        - 🎯 全球直连
-
-
   - name: Š Steam
     type: select
     include-all: true
