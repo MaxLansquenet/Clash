@@ -35,7 +35,7 @@ proxy-providers:
 
   wisebobo:
     type: http
-    url: " https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules.yaml" # 订阅链接https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt"
+    url: "https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules.yaml" # 订阅链接
     interval: 86400
     path: "./wisebobo.yaml" # 配置文件缓存的位置
     health-check:
