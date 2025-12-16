@@ -33,11 +33,11 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
     proxy: 🎯 GitHub
 
-  clashnodecc:
+  wisebobo:
     type: http
-    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt" # 订阅链接
+    url: " https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules.yaml" # 订阅链接https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt"
     interval: 86400
-    path: "./clashnodecc.yaml" # 配置文件缓存的位置
+    path: "./wisebobo.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
       interval: 600
