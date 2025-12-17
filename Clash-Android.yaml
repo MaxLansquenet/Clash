@@ -1,4 +1,8 @@
 ﻿
+#https://raw.githubusercontent.com/MaxLansquenet/Clash/refs/heads/master/Clash-Android.yaml
+
+
+
 proxies:
   - {name: "[Trojan] AM_speednode_0011", server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: "[Trojan] AM_speednode_0012", server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
