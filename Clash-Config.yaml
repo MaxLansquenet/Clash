@@ -2,7 +2,7 @@ proxy-providers:
 
   Flikify:
     type: http
-    url: "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml" # 订阅链接
+    url: "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml," # 订阅链接
     path: "./Flikify.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
@@ -45,7 +45,7 @@ proxy-providers:
 
   naidounode:
     type: http
-    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt" # 订阅链接
+    url: "https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt"
     interval: 86400
     path: "./naidounode.yaml" # 配置文件缓存的位置
     health-check:
