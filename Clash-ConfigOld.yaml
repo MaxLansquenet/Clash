@@ -12,7 +12,7 @@ proxy-providers:
   Flikify:
     type: http
     url: "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml" # 订阅链接
-    path: "./Flikify.yaml" # 配置文件缓存的位置
+    path: "./Flikify.yaml" # 配置文件缓存的位
     health-check:
       enable: true
       interval: 600
