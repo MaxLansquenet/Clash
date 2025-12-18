@@ -1525,7 +1525,6 @@
   - {name: RELAY-172.67.166.170-3826, server: 172.67.166.170, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: irene.lat, network: ws, ws-opts: {path: /, headers: {Host: irene.lat}}}
   - {name: 美国 CloudFlare节点 27, server: 104.21.232.63, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
   - {name: 美国 CloudFlare节点 28, server: 104.21.221.95, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt1.ir}}}
-  - {name: "TG频道:@hkaa0▓美国\r_3", server: 47.76.185.99, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: "", host: ""}}
   - {name: _FR_法国, server: 51.159.155.52, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: JP-154.47.20.240-0742, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: "TG频道:@hkaa0▓香港\r", server: dx.xxmd.online, port: 7004, type: trojan, password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0, skip-cert-verify: false}
