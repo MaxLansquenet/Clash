@@ -1,3 +1,4 @@
+﻿
 https://raw.githubusercontent.com/MaxLansquenet/Clash/refs/heads/master/Clash-Config.yaml
 https://raw.githubusercontent.com/MaxLansquenet/Clash/refs/heads/master/Clash-Android.yaml
 https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml
