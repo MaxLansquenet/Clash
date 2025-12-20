@@ -8,6 +8,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 		Clash-Android.yaml = Clash-Android.yaml
 		Clash-Config.yaml = Clash-Config.yaml
 		Clash-ConfigOld.yaml = Clash-ConfigOld.yaml
+		Clash-ConfigOld1.yaml = Clash-ConfigOld1.yaml
+		Clash-ConfigOld10.yaml = Clash-ConfigOld10.yaml
+		Clash-ConfigOld2.yaml = Clash-ConfigOld2.yaml
+		Clash-ConfigOld3.yaml = Clash-ConfigOld3.yaml
+		Clash-ConfigOld4.yaml = Clash-ConfigOld4.yaml
+		Clash-ConfigOld5.yaml = Clash-ConfigOld5.yaml
+		Clash-ConfigOld6.yaml = Clash-ConfigOld6.yaml
+		Clash-ConfigOld7.yaml = Clash-ConfigOld7.yaml
+		Clash-ConfigOld8.yaml = Clash-ConfigOld8.yaml
+		Clash-ConfigOld9.yaml = Clash-ConfigOld9.yaml
 		README.md = README.md
 		tv.json = tv.json
 	EndProjectSection
