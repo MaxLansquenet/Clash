@@ -1527,7 +1527,7 @@ proxies:
   - {name: JP-154.47.20.240-0742, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: "TG频道:@hkaa0▓香港\r", server: dx.xxmd.online, port: 7004, type: trojan, password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0, skip-cert-verify: false}
   - {name: US-38.68.134.9-0860, server: 38.68.134.9, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 香港5|@ripaojiedian, server: 38.207.164.31, port: 26925, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cfhk.393930.xyz, network: ws, ws-opts: {path: /, headers: {Host: cfhk.393930.xyz}}}
+  - {name: a香港5|@ripaojiedian, server: 38.207.164.31, port: 26925, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cfhk.393930.xyz, network: ws, ws-opts: {path: /, headers: {Host: cfhk.393930.xyz}}}
   - {name: US-38.68.134.9-0863, server: 38.68.134.9, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: UA-5.188.6.8-0740, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: 日本 02, server: zhuanfayyds.xn--pssq69d.xyz, port: 64163, type: ss, cipher: chacha20-ietf-poly1305, password: a7810702-8fd1-4df6-a060-79e840a7b652}
