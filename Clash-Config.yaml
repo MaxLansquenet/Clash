@@ -1,7 +1,7 @@
 proxy-providers:
   ALL:
     type: http
-    url: "https://raw.githubusercontent.com/MaxLansquenet/Clash/refs/heads/master/Clash-Android.yaml" # 订阅链接
+    url: "https://raw.githubusercontent.com/MaxLansquenet/Clash/refs/heads/master/Clash-ConfigOld.yaml" # 订阅链接
     path: "./ALL.yaml" # 配置文件缓存的位置
     health-check:
       enable: true
