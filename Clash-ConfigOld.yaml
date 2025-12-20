@@ -9998,6 +9998,3 @@ proxies:
   - {name: V1-香港04∣K4线路∣ 2, server: 219.135.231.205, port: 21061, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: false, udp: true}
   - {name: V1-香港05∣K10线路∣ 2, server: 219.135.231.205, port: 21386, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: false, udp: true}
   - {name: V2-日本01∣K11线路∣ 2, server: 120.232.217.96, port: 21146, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: false, udp: true}
-
-
-  1000
