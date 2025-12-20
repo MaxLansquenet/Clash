@@ -1584,7 +1584,7 @@ proxies:
   - {name: US-38.107.226.238-7689, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: US-38.75.136.21-7277, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: RELAY-104.21.75.244-0144, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: janett.click, network: ws, ws-opts: {path: /, headers: {Host: janett.click}}}
-  - {name: 新加坡3|@ripaojiedian, server: vip.basicnode.host, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 10182:Ed7u0G, obfs-param: 5db9910182.microsoft.com}
+  - {name: a新加坡3|@ripaojiedian, server: vip.basicnode.host, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 10182:Ed7u0G, obfs-param: 5db9910182.microsoft.com}
   - {name: US-38.75.136.21-8028, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: TG频道:@hkaa0▓美国_1, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
   - {name: US-38.107.226.132-8222, server: 38.107.226.132, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
