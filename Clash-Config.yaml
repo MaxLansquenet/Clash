@@ -8,7 +8,47 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
     proxy: 🎯 GitHub
+
+  shuaidaoya:
+    type: http
+    url: "https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml" # 订阅链接
+    path: "./shuaidaoya.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: 🎯 GitHub
+
+  wisebobo:
+    type: http
+    url: "https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules_clash.yaml" # 订阅链接
+    path: "./wisebobo.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: 🎯 GitHub
+
+  wisebobo1:
+    type: http
+    url: "https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules.yaml" # 订阅链接
+    path: "./wisebobo1.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: 🎯 GitHub
       
+  NoMoreWalls:
+    type: http
+    url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml" # 订阅链接
+    path: "./NoMoreWalls.yaml" # 配置文件缓存的位置
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    proxy: 🎯 GitHub
+
 mixed-port: 8086
 allow-lan: true
 mode: Rule
