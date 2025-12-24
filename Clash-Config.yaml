@@ -124,18 +124,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
-    proxies:
-        - 🎥 Tiktok_all
-    
-  - name: 🎥 Tiktok_all
-    type: load-balance
-    url: https://www.tiktok.com
-    include-all: true
-    interval: 300
-    tolerance: 50
-    strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "渗透|未知|HK|香港|hk|hongkong|hong kong"
     proxies:
     
   - name: 💬 OpenAi
