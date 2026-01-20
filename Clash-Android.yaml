@@ -5,307 +5,251 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@MARAMBASHI 🇫🇷 4", server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
   - {name: 10-0285-CN, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
-  - {name: All-@V2rayAlpha--0, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
   - {name: "@HiByeVPNNBot✨❤️‍🔥💥 6", server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
-  - {name: "FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]", server: 13.39.135.243, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
-  - {name: "FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]", server: 13.39.135.243, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
-  - {name: 香港5|@ripaojiedian, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: "HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]", server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: HK3｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+trojan-HK+", skip-cert-verify: true}
+  - {name: US²_3|5.7MB/s|GPT|GM|YT|NF|X|History, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "@MARAMBASHI 🇫🇷 4", server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
+  - {name: US²_2|6.9MB/s|28%|GPT|GM|YT|X|History, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]", server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false}
+  - {name: HK120｜机房｜低风险, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5, alterId: 0, cipher: auto, tls: false}
+  - {name: All-@V2rayAlpha--0, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
+  - {name: "HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]", server: tunnel1.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false}
+  - {name: HK146｜机房｜低风险, server: tunnel1.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false}
+  - {name: HK44｜机房｜低风险, server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_speednode_0014, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: true}
   - {name: 美国(yudou6677.top 玉豆免费节点) 32, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: HK42｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: "HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]", server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: "HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]", server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: "HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]", server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: HK28｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+868+, skip-cert-verify: true}
-  - {name: HK16｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+945+, skip-cert-verify: true}
-  - {name: HK78｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bEbraSha%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b178%2b", skip-cert-verify: true}
-  - {name: HK79｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bEbraSha%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b83%2b", skip-cert-verify: true}
-  - {name: HK19｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b127%2b", skip-cert-verify: true}
-  - {name: HK77｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bEbraSha%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b88%2b", skip-cert-verify: true}
-  - {name: HK17｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%0a%5bBy%2bEbraSha%5d%2btrojan-HK%2b", skip-cert-verify: true}
+  - {name: DE55｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: 58.152.18.124, skip-cert-verify: true}
+  - {name: JP29｜机房｜低风险, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true}
   - {name: 英国 V2CROSS.COM 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: HK²_7|0.6MB/s|YT-CN|D+|X|History, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+", skip-cert-verify: true}
-  - {name: HK25｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b54%2b", skip-cert-verify: true}
-  - {name: HK85｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true}
-  - {name: HK80｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bEbraSha%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b160%2b", skip-cert-verify: true}
-  - {name: HK²_10|0.6MB/s|1%|YT-CN|X|History, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+, skip-cert-verify: true}
-  - {name: HK20｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b", skip-cert-verify: true}
-  - {name: HK23｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bEbraSha%5d%2bb2n.ir%2fv2ray-configs%2b", skip-cert-verify: true}
-  - {name: HK39｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd", skip-cert-verify: true}
-  - {name: HK²_8|0.5MB/s|1%|YT-CN|D+|X, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b54%2b", skip-cert-verify: true}
-  - {name: HK41｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%5bBy+EbraSha%5d+trojan-HK+, skip-cert-verify: true}
-  - {name: HK2｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+178+, skip-cert-verify: true}
-  - {name: HK4｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+, skip-cert-verify: true}
-  - {name: HK43｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.46.60, skip-cert-verify: true}
-  - {name: HK22｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252525252Fripaojiedian, skip-cert-verify: true}
-  - {name: HK²_11|0.6MB/s|X|History, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+178+", skip-cert-verify: true}
-  - {name: HK48｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+160+, skip-cert-verify: true}
-  - {name: HK45｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+trojan-HK+, skip-cert-verify: true}
-  - {name: HK15｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%2b%5bBy%2bEbraSha%5d%2btrojan-HK%2b, skip-cert-verify: true}
-  - {name: HK²_6|1.0MB/s|D+|X|Succeed, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bDukeMehdi%5d%2btrojan-HK%2b", skip-cert-verify: true}
-  - {name: HK32｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+88+", skip-cert-verify: true}
-  - {name: 香港3|@ripaojiedian, server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: HK62｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+, skip-cert-verify: true}
-  - {name: HK49｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +, skip-cert-verify: true}
-  - {name: HK35｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+, skip-cert-verify: true}
-  - {name: HK36｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%5bBy%2bEbraSha%5d%2btrojan-HK%2b", skip-cert-verify: true}
-  - {name: HK47｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+160+, skip-cert-verify: true}
-  - {name: HK50｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+178+", skip-cert-verify: true}
-  - {name: HK40｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: HK46｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+761+, skip-cert-verify: true}
-  - {name: HK84｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+, skip-cert-verify: true}
-  - {name: HK76｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2525252Fripaojiedian, skip-cert-verify: true}
-  - {name: HK44｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+868+", skip-cert-verify: true}
-  - {name: HK81｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b88%2b", skip-cert-verify: true}
-  - {name: HK86｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+, skip-cert-verify: true}
-  - {name: HK26｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2b%2b%2b%2b%2b%2b%2b%5bBy%2bDukeMehdi%5d%2bb2n.ir%2fv2ray-configs%2b%7c%2b78%2b", skip-cert-verify: true}
-  - {name: HK51｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+166+", skip-cert-verify: true}
-  - {name: HK30｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%0a%5bBy%2bDukeMehdi%5d%2btrojan-HK%2b", skip-cert-verify: true}
-  - {name: HK²_5|0.5MB/s|X|History, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+160+", skip-cert-verify: true}
-  - {name: HK82｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+", skip-cert-verify: true}
-  - {name: HK31｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+402+, skip-cert-verify: true}
-  - {name: HK34｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: ++++++%2b%5bBy%2bEbraSha%5d%2btrojan-HK%2b, skip-cert-verify: true}
-  - {name: HK18｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+789+, skip-cert-verify: true}
-  - {name: HK83｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+", skip-cert-verify: true}
-  - {name: HK21｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2b", skip-cert-verify: true}
-  - {name: HK²_13|0.7MB/s|YT-CN|D+|X|History, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+DukeMehdi%5d+b2n.ir%2fv2ray-configs+%7c+934+, skip-cert-verify: true}
-  - {name: FR5｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: HK33｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+449+", skip-cert-verify: true}
-  - {name: HK1｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+trojan-HK+", skip-cert-verify: true}
-  - {name: HK29｜家宽｜非常安全, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: +++++++%5bBy+EbraSha%5d+b2n.ir%2fv2ray-configs+%7c+88+, skip-cert-verify: true}
+  - {name: "HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]", server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: true}
+  - {name: "HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]", server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港2|@ripaojiedian, server: 103.149.183.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: JP3｜机房｜低风险, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true}
+  - {name: DE69｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]", server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, skip-cert-verify: true}
+  - {name: HK62｜家宽｜非常安全, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: 58.152.18.124, skip-cert-verify: true}
+  - {name: HK_speednode_0013, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: DE151｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: CN2｜家宽｜非常安全, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK67｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9d23ec89-a50a-4634-b09e-37330ce09b37, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: DE140｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: VN-103.186.155.33-5091, server: 103.186.155.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: HK70｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: HK69｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: abe81309-c37c-4ee8-9b2b-2e1b1073dd6c, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: HK79｜机房｜低风险, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 越南|@ripaojiedian, server: 103.186.155.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN-103.186.154.215-5043, server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN-103.186.154.63-5129, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_2|0.7MB/s|GPT⁺|X|History, server: 103.186.155.124, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: HK68｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 9d23ec89-a50a-4634-b09e-37330ce09b37, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: HK145｜家宽｜非常安全, server: 58.152.18.124, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: HK149｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: abe81309-c37c-4ee8-9b2b-2e1b1073dd6c, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: VN-103.186.154.175-5131, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: HK66｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: VN-103.186.155.123-4846, server: 103.186.155.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: US196｜家宽｜非常安全, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: abe81309-c37c-4ee8-9b2b-2e1b1073dd6c, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: US96｜家宽｜非常安全, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: GB12｜机房｜低风险, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: DE72｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: FR1｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: VN-103.186.154.175-5248, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]", server: 45.82.102.204, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11e520ccbe7365eb}
+  - {name: VN²_2|0.6MB/s|GPT⁺|X, server: 103.186.155.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: US195｜家宽｜非常安全, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: abe81309-c37c-4ee8-9b2b-2e1b1073dd6c, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: VN-103.186.154.158-5254, server: 103.186.154.158, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 香港3|@ripaojiedian, server: 58.152.18.98, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: US193｜家宽｜非常安全, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 9d23ec89-a50a-4634-b09e-37330ce09b37, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -324,82 +268,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港5|@ripaojiedian
+      - 香港2|@ripaojiedian
       - 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -407,230 +337,188 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -646,77 +534,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@MARAMBASHI 🇫🇷 4"
       - 10-0285-CN
-      - All-@V2rayAlpha--0
       - "@HiByeVPNNBot✨❤️‍🔥💥 6"
-      - FR²_2|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-      - FR²_1|5.4MB/s|1%|GPT⁺|X|[广播|机房]
-      - 香港5|@ripaojiedian
-      - HK²_4|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
-      - HK3｜家宽｜非常安全
+      - US²_3|5.7MB/s|GPT|GM|YT|NF|X|History
+      - "@MARAMBASHI 🇫🇷 4"
+      - US²_2|6.9MB/s|28%|GPT|GM|YT|X|History
+      - US²_3|3.1MB/s|GPT⁺|NF|X|History|[原生|机房]
+      - HK²_6|14.2MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK120｜机房｜低风险
+      - All-@V2rayAlpha--0
+      - HK²_1|4.9MB/s|5%|YT|NF|D+|X|[原生|机房]
+      - HK146｜机房｜低风险
+      - HK44｜机房｜低风险
+      - HK_speednode_0014
       - 美国(yudou6677.top 玉豆免费节点) 32
-      - HK42｜家宽｜非常安全
-      - HK²_1|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_12|6.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-      - HK²_9|2.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-      - HK28｜家宽｜非常安全
-      - HK16｜家宽｜非常安全
-      - HK78｜家宽｜非常安全
-      - HK79｜家宽｜非常安全
-      - HK19｜家宽｜非常安全
-      - HK77｜家宽｜非常安全
-      - HK17｜家宽｜非常安全
+      - DE55｜机房｜低风险
+      - HK²_2|9.9MB/s|1%|YT-CN|NF|D+|X
+      - JP29｜机房｜低风险
       - 英国 V2CROSS.COM 2
-      - HK²_7|0.6MB/s|YT-CN|D+|X|History
-      - HK25｜家宽｜非常安全
-      - HK85｜家宽｜非常安全
-      - HK80｜家宽｜非常安全
-      - HK²_10|0.6MB/s|1%|YT-CN|X|History
-      - HK20｜家宽｜非常安全
-      - HK23｜家宽｜非常安全
-      - HK39｜家宽｜非常安全
-      - HK²_8|0.5MB/s|1%|YT-CN|D+|X
-      - HK41｜家宽｜非常安全
-      - HK2｜家宽｜非常安全
-      - HK4｜家宽｜非常安全
-      - HK43｜家宽｜非常安全
-      - HK22｜家宽｜非常安全
-      - HK²_11|0.6MB/s|X|History
-      - HK48｜家宽｜非常安全
-      - HK45｜家宽｜非常安全
-      - HK15｜家宽｜非常安全
-      - HK²_6|1.0MB/s|D+|X|Succeed
-      - HK32｜家宽｜非常安全
-      - 香港3|@ripaojiedian
+      - HK²_2|12.5MB/s|2%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_3|13.5MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+      - US²_1|6.1MB/s|29%|GPT⁺|NF|X|[广播|机房]
+      - 香港2|@ripaojiedian
+      - JP3｜机房｜低风险
+      - DE69｜机房｜低风险
+      - HK²_4|10.3MB/s|1%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
       - HK62｜家宽｜非常安全
-      - HK49｜家宽｜非常安全
-      - HK35｜家宽｜非常安全
-      - HK36｜家宽｜非常安全
-      - HK47｜家宽｜非常安全
-      - HK50｜家宽｜非常安全
-      - HK40｜家宽｜非常安全
-      - HK46｜家宽｜非常安全
-      - HK84｜家宽｜非常安全
-      - HK76｜家宽｜非常安全
-      - HK44｜家宽｜非常安全
-      - HK81｜家宽｜非常安全
-      - HK86｜家宽｜非常安全
-      - HK26｜家宽｜非常安全
-      - HK51｜家宽｜非常安全
-      - HK30｜家宽｜非常安全
-      - HK²_5|0.5MB/s|X|History
-      - HK82｜家宽｜非常安全
-      - HK31｜家宽｜非常安全
-      - HK34｜家宽｜非常安全
-      - HK18｜家宽｜非常安全
-      - HK83｜家宽｜非常安全
-      - HK21｜家宽｜非常安全
-      - HK²_13|0.7MB/s|YT-CN|D+|X|History
-      - FR5｜机房｜低风险
-      - HK33｜家宽｜非常安全
-      - HK1｜家宽｜非常安全
-      - HK29｜家宽｜非常安全
+      - HK_speednode_0013
+      - DE151｜机房｜低风险
+      - CN2｜家宽｜非常安全
+      - HK67｜原生/疑似家宽｜非常安全
+      - DE140｜机房｜低风险
+      - VN-103.186.155.33-5091
+      - HK70｜原生/疑似家宽｜非常安全
+      - HK69｜原生/疑似家宽｜非常安全
+      - HK79｜机房｜低风险
+      - 越南|@ripaojiedian
+      - VN-103.186.154.215-5043
+      - VN-103.186.154.63-5129
+      - VN²_2|0.7MB/s|GPT⁺|X|History
+      - HK68｜原生/疑似家宽｜非常安全
+      - HK145｜家宽｜非常安全
+      - HK149｜原生/疑似家宽｜非常安全
+      - VN-103.186.154.175-5131
+      - HK66｜原生/疑似家宽｜非常安全
+      - VN-103.186.155.123-4846
+      - US196｜家宽｜非常安全
+      - US96｜家宽｜非常安全
+      - GB12｜机房｜低风险
+      - DE72｜机房｜低风险
+      - FR1｜机房｜低风险
+      - VN-103.186.154.175-5248
+      - RO²_1|3.2MB/s|37%|GPT⁺|D+|X|[广播|机房]
+      - VN²_2|0.6MB/s|GPT⁺|X
+      - US195｜家宽｜非常安全
+      - VN-103.186.154.158-5254
+      - 香港3|@ripaojiedian
+      - US193｜家宽｜非常安全
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
