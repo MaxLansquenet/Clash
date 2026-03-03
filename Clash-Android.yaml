@@ -5,131 +5,107 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: US190｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 广东省云浮市+移动, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: "12,13|新加坡|@ripaojiedian", server: 202.181.103.246, port: 3419, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 广东省云浮市+移动 2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: VN²_6|1.7MB/s|GPT⁺|X|History, server: 103.186.154.216, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN²_11|1.5MB/s|GPT⁺|X|History, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 广东省云浮市+移动 3, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: VN-103.186.154.80-5027, server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.107-0334, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN²_2|1.8MB/s|GPT⁺|X|History, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 美国3|@ripaojiedian, server: 18.162.51.53, port: 45285, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: GB_b5374_0008, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国|@ripaojiedian, server: 52.195.185.238, port: 1281, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]", server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: GB_2dd9d_0007, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 新加坡|@ripaojiedian, server: 202.181.103.246, port: 3419, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]", server: 103.186.154.73, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: "NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]", server: pub.ap20251212.com, port: 64013, type: vmess, uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c, alterId: 0, cipher: auto, tls: false}
-  - {name: DE26｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]", server: 203.202.232.78, port: 60299, type: ss, cipher: chacha20-ietf-poly1305, password: AVLbEUEtBD59FsRqcNyEib}
-  - {name: 广东省云浮市+移动 4, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
+  - {name: GB-82.38.31.99-0195 | 27.072MB, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.99-0194 | 23.756MB, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.99-0167 | 24.975MB, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.99-0218 | 39.296MB, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.99-0218 | 29.599MB, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]", server: c.cdn-bilibili.cn, port: 10201, type: ss, cipher: chacha20-ietf-poly1305, password: 26f936c5-e088-4fed-a72b-8a40e8a222d0}
-  - {name: ES-5.188.181.201-4555, server: 5.188.181.201, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: "US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]", server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: "12,13|美国3|@ripaojiedian", server: 18.162.51.53, port: 45285, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: "US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]", server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
+  - {name: 英国 V2CROSS.COM 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 英国 V2CROSS.COM 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: US²_10|6.4MB/s|GPT|X|History, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "VN²_7|1.6MB/s|GPT|X|[原生|机房]", server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]", server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_2|2.8MB/s|GPT⁺|X|History, server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_5|1.7MB/s|X, server: 103.186.155.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]", server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN-103.186.154.198-5002, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_3|3.0MB/s|GPT⁺|GM|X|History, server: 103.186.154.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_8|1.9MB/s|GPT⁺|GM|X|History, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN-103.186.154.204-5013, server: 103.186.154.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN²_5|2.0MB/s|GPT⁺|X, server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "VN²_6|2.7MB/s|GPT|X|History|[原生|机房]", server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,33 +124,27 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -185,98 +155,80 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,33 +244,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US190｜机房｜低风险
-      - 广东省云浮市+移动
-      - 12,13|新加坡|@ripaojiedian
-      - 广东省云浮市+移动 2
-      - VN²_6|1.7MB/s|GPT⁺|X|History
-      - VN²_11|1.5MB/s|GPT⁺|X|History
-      - 广东省云浮市+移动 3
-      - VN-103.186.154.80-5027
-      - VN-103.186.155.107-0334
-      - VN²_2|1.8MB/s|GPT⁺|X|History
-      - 美国3|@ripaojiedian
-      - GB_b5374_0008
-      - 美国|@ripaojiedian
-      - IN²_1|0.5MB/s|YT-CN|X|History|[广播|机房]
-      - GB_2dd9d_0007
-      - 新加坡|@ripaojiedian
-      - VN²_10|1.1MB/s|GPT⁺|YT-US|X|History|[原生|机房]
-      - NL²_4|5.3MB/s|34%|YT-CN|X|[原生|机房]
-      - DE26｜机房｜高风险 (黑名单)
-      - TR²_1|4.3MB/s|GPT⁺|X|[广播|商宽]
-      - 广东省云浮市+移动 4
+      - GB-82.38.31.99-0195 | 27.072MB
+      - GB-82.38.31.99-0194 | 23.756MB
+      - GB-82.38.31.99-0167 | 24.975MB
+      - GB-82.38.31.99-0218 | 39.296MB
+      - GB-82.38.31.99-0218 | 29.599MB
       - 英国 V2CROSS.COM
-      - HK²_3|13.8MB/s|0%|YT-CN|NF|D+|X|[广播|商宽]
-      - ES-5.188.181.201-4555
-      - US²_8|4.0MB/s|0%|GPT⁺|GM|YT|X|[广播|机房]
-      - 12,13|美国3|@ripaojiedian
-      - US²_4|1.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+      - 英国 V2CROSS.COM 2
+      - 英国 V2CROSS.COM 3
+      - US²_10|6.4MB/s|GPT|X|History
+      - VN²_7|1.6MB/s|GPT|X|[原生|机房]
+      - VN²_3|0.7MB/s|GPT⁺|YT-RU|X|History|[原生|机房]
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - VN²_4|2.7MB/s|GPT⁺|GM|YT|X|History
+      - VN²_5|1.7MB/s|X
+      - VN²_1|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - VN-103.186.154.198-5002
+      - VN²_3|3.0MB/s|GPT⁺|GM|X|History
+      - VN²_8|1.9MB/s|GPT⁺|GM|X|History
+      - VN-103.186.154.204-5013
+      - VN²_5|2.0MB/s|GPT⁺|X
+      - VN²_6|2.7MB/s|GPT|X|History|[原生|机房]
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
