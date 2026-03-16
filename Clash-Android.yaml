@@ -5,239 +5,451 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: GB-82.38.31.191-0245 | 29.035MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.191-0196 | 34.485MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.191-0207 | 31.094MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.191-0204, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: 中国 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: GB-82.38.31.191-0245 | 27.247MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.191-0222 | 35.785MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.191-0206 | 29.307MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: "11,12|香港5|@ripaojiedian", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: GB-82.38.31.191-0241 | 27.844MB, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: CN_11763_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: SG15｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: HK²_1|0.6MB/s|2%|D+|X, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: CN_speednode_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 电讯盈科有限公司, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: RELAY-104.21.25.226-0345, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: HK_speednode_0015, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: 香港5|@ripaojiedian, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "12,13|香港5|@ripaojiedian", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: VN-103.186.154.221-4761, server: 103.186.154.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 香港5|@ripaojiedian 2, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: VN-103.186.155.111-4933, server: 103.186.155.111, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: HK21｜机房｜低风险, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: US_speednode_0023, server: 143.20.236.51, port: 443, type: vless, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: "c39cc7310a" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-  - {name: US_speednode_0005, server: 143.20.236.51, port: 443, type: vless, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: "c39cc7310a" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: KR_speednode_0011, server: 220.73.70.34, port: 50001, type: vless, uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d, tls: true, servername: snippet.fgfw.de5.net, client-fingerprint: random, network: ws, ws-opts: {path: /danfeng, headers: {Host: snippet.fgfw.de5.net}}}
+  - {name: CN_14e8a_0005, server: 120.233.125.33, port: 30036, type: ss, cipher: aes-256-gcm, password: PiLr13pE}
+  - {name: 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "11,12|香港5|@ripaojiedian", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: DK-192.36.27.94-0300 | 1.082MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: CA-137.184.174.93-0172, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: DK-192.36.27.94-0253 | 3.57MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: SG10｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: PT-185.231.233.112-0320 | 0.024MB, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: DK-192.36.27.94-0264 | 1.128MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: DE9｜机房｜低风险, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|HK_speednode_0017, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: DK-192.36.27.94-0266 | 1.436MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: ZA-102.133.165.160-0229 | 11.585MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
+  - {name: DK-192.36.27.94-0296, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 13|NL_speednode_0027, server: 5.255.99.75, port: 1080, type: socks5}
+  - {name: 13|NL_speednode_0028, server: 161.35.82.57, port: 1080, type: socks5}
+  - {name: NL_speednode_0028, server: 161.35.82.57, port: 1080, type: socks5}
+  - {name: 广东省深圳市 移动, server: cn02.365cloud5878.com, port: 6050, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
   - {name: 中国 V2CROSS.COM 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_74411_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: SG13｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|KR_speednode_0022, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: ZA-102.133.165.160-0250 | 13.887MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
+  - {name: GB_14e8a_0013, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: ZA-102.133.165.160-4590 | 13.05MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
+  - {name: KR_speednode_0022, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: CA-137.184.174.93-0176 | 0.0MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 中国 V2CROSS.COM 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_speednode_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 亚太地区 V2CROSS.COM 2, server: 103.181.164.237, port: 52283, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 亚太地区 V2CROSS.COM 3, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: VN-103.186.155.147-4944, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: HK_ab359_0015, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: SG-103.36.91.32-4708 | 0.188MB, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: VN-103.186.155.58-4936, server: 103.186.155.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.147-4944 2, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.147-4994 | 0.0MB, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.29-5173, server: 103.186.155.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.154.66-4853, server: 103.186.154.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.103-4945, server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 亚太地区 V2CROSS.COM 4, server: 103.181.164.237, port: 52283, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: VN-103.186.154.248-4923, server: 103.186.154.248, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: VN-103.186.155.101-5037, server: 103.186.155.101, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: SG15｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_speednode_0005, server: 120.233.125.33, port: 30036, type: ss, cipher: aes-256-gcm, password: PiLr13pE}
+  - {name: ZA-102.133.165.160-0284, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
+  - {name: GB_11763_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_e57f4_0013, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_e57f4_0017, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: CA-137.184.174.93-0352 | 117.273MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: CA-137.184.174.93-0167 | 60.888MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: DK-192.36.27.94-0300 | 2.902MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: CA-137.184.174.93-0179 | 57.258MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: HK_14e8a_0017, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: DE_speednode_0012, server: 45.145.42.170, port: 8005, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, servername: sub.mot.ip-ddns.com, network: ws, ws-opts: {path: /, headers: {Host: sub.mot.ip-ddns.com}}}
+  - {name: 14|HK_speednode_0015, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: DE3｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_speednode_0009, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_speednode_0008, server: cn02.365cloud5878.com, port: 6003, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
   - {name: US74｜机房｜低风险, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: VN-103.186.154.74-4777, server: 103.186.154.74, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 广东省深圳市 移动 2, server: cn02.365cloud5878.com, port: 6032, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_74411_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_ab359_0009, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: VN-103.186.155.202-5146, server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: VN-103.186.155.18-4977, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: CN_74411_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 3, server: cn02.365cloud5878.com, port: 6050, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_f291a_0009, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_speednode_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: VN²_7|1.9MB/s|GPT⁺|X|History, server: 103.186.154.189, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 英国 V2CROSS.COM 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|NN_speednode_0029, server: 23.148.20.55, port: 443, type: vless, uuid: e5130eee-cf44-405e-ce04-25817f961399, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8, short-id: "ea80ef" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
+  - {name: VN-103.186.154.156-4938, server: 103.186.154.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: HK_f291a_0015, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: CA-137.184.174.93-0188 | 79.361MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: CA-137.184.174.93-0223 | 94.837MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: SG13｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚太地区 V2CROSS.COM 2, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 4, server: cn02.365cloud5878.com, port: 6043, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 5, server: cn02.365cloud5878.com, port: 6020, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚太地区 V2CROSS.COM 3, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: DE41｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: CA-137.184.174.93-0159 | 93.914MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: HK_speednode_0017, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: NL_speednode_0027, server: 5.255.99.75, port: 1080, type: socks5}
+  - {name: 英国 V2CROSS.COM 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]", server: 140.238.50.134, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\", tls: true, mux: false}}
+  - {name: DE41｜机房｜高风险 (黑名单) 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_speednode_0017 2, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: DK-192.36.27.94-0301 | 2.852MB, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]", server: 185.241.41.72, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\", tls: true, mux: false}}
+  - {name: CA-137.184.174.93-0226 | 79.144MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: CN_f7f93_0002, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚太地区+V2CROSS.COM, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj}
-  - {name: PT-185.231.233.112-4607 | 0.011MB, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: CN-59.37.143.140-0541, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj}
-  - {name: 广东省广州市+电信IDC机房, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj}
+  - {name: 亚太地区 V2CROSS.COM 4, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_5549d_0005, server: 120.233.125.33, port: 30036, type: ss, cipher: aes-256-gcm, password: PiLr13pE}
+  - {name: 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 6, server: cn02.365cloud5878.com, port: 6018, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_5549d_0013, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港5|@ripaojiedian, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: HK_5549d_0017, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: PT-185.231.233.112-0307 | 0.007MB, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: CN_speednode_0006, server: cn02.365cloud5878.com, port: 6001, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: SG-103.36.91.32-4708 | 0.318MB, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 13|DE_speednode_0012, server: 45.145.42.170, port: 8005, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, servername: sub.mot.ip-ddns.com, network: ws, ws-opts: {path: /, headers: {Host: sub.mot.ip-ddns.com}}}
+  - {name: CN_e57f4_0006, server: cn02.365cloud5878.com, port: 6001, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_e57f4_0008, server: cn02.365cloud5878.com, port: 6003, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: US56｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: PT-185.231.233.112-0294, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 亚太地区 V2CROSS.COM 5, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 亚太地区 V2CROSS.COM 6, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_speednode_0011, server: cn02.365cloud5878.com, port: 6019, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 7, server: cn02.365cloud5878.com, port: 6052, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: 广东省深圳市 移动 8, server: cn02.365cloud5878.com, port: 6036, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_e57f4_0011, server: cn02.365cloud5878.com, port: 6019, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_5549d_0010, server: cn02.365cloud5878.com, port: 6029, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_5549d_0011, server: cn02.365cloud5878.com, port: 6019, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: PT-185.231.233.112-0351 | 0.016MB, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "SG²_1|0.6MB/s|GPT|X|History|[原生|机房]", server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,248 +468,461 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
       - 11,12|香港5|@ripaojiedian
-      - 香港 电讯盈科有限公司
+      - 12|香港|@ripaojiedian
       - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
-      - 香港5|@ripaojiedian 2
+      - 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -513,60 +938,113 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB-82.38.31.191-0245 | 29.035MB
-      - GB-82.38.31.191-0196 | 34.485MB
-      - GB-82.38.31.191-0207 | 31.094MB
-      - GB-82.38.31.191-0204
       - 中国 V2CROSS.COM
-      - GB-82.38.31.191-0245 | 27.247MB
-      - GB-82.38.31.191-0222 | 35.785MB
-      - GB-82.38.31.191-0206 | 29.307MB
-      - 11,12|香港5|@ripaojiedian
-      - GB-82.38.31.191-0241 | 27.844MB
-      - CN_11763_0002
-      - SG15｜机房｜低风险
-      - HK²_1|0.6MB/s|2%|D+|X
-      - CN_speednode_0002
-      - 香港 电讯盈科有限公司
-      - RELAY-104.21.25.226-0345
-      - HK_speednode_0015
-      - 香港5|@ripaojiedian
-      - 12,13|香港5|@ripaojiedian
+      - 香港|@ripaojiedian
       - HK²_1|5.5MB/s|2%|YT-CN|D+|X|[原生|住宅]
-      - VN-103.186.154.221-4761
-      - 香港5|@ripaojiedian 2
-      - VN-103.186.155.111-4933
-      - HK21｜机房｜低风险
-      - US_speednode_0023
-      - US_speednode_0005
+      - KR_speednode_0011
+      - CN_14e8a_0005
+      - 香港|@ripaojiedian 2
+      - 11,12|香港5|@ripaojiedian
+      - DK-192.36.27.94-0300 | 1.082MB
+      - CA-137.184.174.93-0172
+      - DK-192.36.27.94-0253 | 3.57MB
+      - SG10｜机房｜低风险
+      - PT-185.231.233.112-0320 | 0.024MB
+      - DK-192.36.27.94-0264 | 1.128MB
+      - DE9｜机房｜低风险
+      - 英国 V2CROSS.COM
+      - 13|HK_speednode_0017
+      - DK-192.36.27.94-0266 | 1.436MB
+      - ZA-102.133.165.160-0229 | 11.585MB
+      - DK-192.36.27.94-0296
+      - 13|NL_speednode_0027
+      - 13|NL_speednode_0028
+      - NL_speednode_0028
+      - 广东省深圳市 移动
       - 中国 V2CROSS.COM 2
-      - CN_74411_0002
-      - SG13｜机房｜低风险
+      - 13|KR_speednode_0022
+      - ZA-102.133.165.160-0250 | 13.887MB
+      - GB_14e8a_0013
+      - ZA-102.133.165.160-4590 | 13.05MB
+      - KR_speednode_0022
+      - CA-137.184.174.93-0176 | 0.0MB
+      - 中国 V2CROSS.COM 3
+      - CN_speednode_0002
       - 亚太地区 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM 2
-      - 亚太地区 V2CROSS.COM 3
-      - VN-103.186.155.147-4944
-      - HK_ab359_0015
-      - SG-103.36.91.32-4708 | 0.188MB
-      - VN-103.186.155.58-4936
-      - VN-103.186.155.147-4944 2
-      - VN-103.186.155.147-4994 | 0.0MB
-      - VN-103.186.155.29-5173
-      - VN-103.186.154.66-4853
-      - VN-103.186.155.103-4945
-      - 亚太地区 V2CROSS.COM 4
-      - VN-103.186.154.248-4923
-      - VN-103.186.155.101-5037
+      - SG15｜机房｜低风险
+      - CN_speednode_0005
+      - ZA-102.133.165.160-0284
+      - GB_11763_0006
+      - GB_e57f4_0013
+      - HK_e57f4_0017
+      - CA-137.184.174.93-0352 | 117.273MB
+      - CA-137.184.174.93-0167 | 60.888MB
+      - DK-192.36.27.94-0300 | 2.902MB
+      - CA-137.184.174.93-0179 | 57.258MB
+      - HK_14e8a_0017
+      - DE_speednode_0012
+      - 14|HK_speednode_0015
+      - DE3｜机房｜高风险 (黑名单)
+      - GB_speednode_0009
+      - CN_speednode_0008
       - US74｜机房｜低风险
-      - VN-103.186.154.74-4777
+      - 广东省深圳市 移动 2
+      - GB_74411_0006
+      - GB_ab359_0009
+      - VN-103.186.155.202-5146
+      - VN-103.186.155.18-4977
+      - CN_74411_0002
+      - 广东省深圳市 移动 3
+      - GB_f291a_0009
+      - GB_speednode_0006
+      - VN²_7|1.9MB/s|GPT⁺|X|History
+      - 英国 V2CROSS.COM 2
+      - 13|NN_speednode_0029
+      - VN-103.186.154.156-4938
+      - HK_f291a_0015
+      - CA-137.184.174.93-0188 | 79.361MB
+      - CA-137.184.174.93-0223 | 94.837MB
+      - SG13｜机房｜低风险
+      - 亚太地区 V2CROSS.COM 2
+      - 广东省深圳市 移动 4
+      - 广东省深圳市 移动 5
+      - 亚太地区 V2CROSS.COM 3
+      - DE41｜机房｜高风险 (黑名单)
+      - CA-137.184.174.93-0159 | 93.914MB
+      - HK_speednode_0017
+      - NL_speednode_0027
+      - 英国 V2CROSS.COM 3
+      - JP¹-HK⁰_1|1.8MB/s|X|[广播|机房]
+      - DE41｜机房｜高风险 (黑名单) 2
+      - HK_speednode_0017 2
+      - DK-192.36.27.94-0301 | 2.852MB
+      - HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]
+      - CA-137.184.174.93-0226 | 79.144MB
       - CN_f7f93_0002
-      - 亚太地区+V2CROSS.COM
-      - PT-185.231.233.112-4607 | 0.011MB
-      - CN-59.37.143.140-0541
-      - 广东省广州市+电信IDC机房
+      - 亚太地区 V2CROSS.COM 4
+      - CN_5549d_0005
+      - 12|香港|@ripaojiedian
+      - 广东省深圳市 移动 6
+      - GB_5549d_0013
+      - 香港5|@ripaojiedian
+      - HK_5549d_0017
+      - PT-185.231.233.112-0307 | 0.007MB
+      - CN_speednode_0006
+      - SG-103.36.91.32-4708 | 0.318MB
+      - 13|DE_speednode_0012
+      - CN_e57f4_0006
+      - CN_e57f4_0008
+      - US56｜机房｜低风险
+      - 11|🇭🇰 香港|@ripaojiedian
       - PT-185.231.233.112-0294
-      - 亚太地区 V2CROSS.COM 5
-      - 亚太地区 V2CROSS.COM 6
+      - CN_speednode_0011
+      - 广东省深圳市 移动 7
+      - 广东省深圳市 移动 8
+      - CN_e57f4_0011
+      - CN_5549d_0010
+      - CN_5549d_0011
+      - PT-185.231.233.112-0351 | 0.016MB
+      - SG²_1|0.6MB/s|GPT|X|History|[原生|机房]
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
