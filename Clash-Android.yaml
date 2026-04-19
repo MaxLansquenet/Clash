@@ -62,7 +62,6 @@ proxies:
   - {name: "VN²_2|2.1MB/s|GPT⁺|GM|X|[原生|机房]", server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: VN²_16|1.4MB/s|GPT⁺|X, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: "VN²_10|1.6MB/s|GPT⁺|GM|X|[原生|机房]", server: 103.186.155.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: US_4fce1_0029, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560", tls: true, mux: false}}
   - {name: VN²_2|0.8MB/s|GPT⁺|YT-US|X, server: 103.186.155.231, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: VN²_4|2.2MB/s|GPT⁺|YT|X, server: 103.186.154.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: "VN²_6|3.2MB/s|GPT⁺|GM|YT|X|[原生|机房]", server: 103.186.155.130, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
@@ -110,14 +109,12 @@ proxies:
   - {name: "VN²_8|2.4MB/s|GPT⁺|YT|X|[原生|机房]", server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: "VN²_22|2.4MB/s|GPT⁺|GM|X|[原生|机房]", server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: 四川省达州市 移动, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: US_636c8_0054, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560", tls: true, mux: false}}
   - {name: RU_speednode_0019, server: 89.169.8.223, port: 443, type: ss, cipher: none, password: 79960b0b-7d31-4263-8915-6511b0e137a8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560", tls: true, mux: false}}
   - {name: VN-103.186.155.8-4963, server: 103.186.155.8, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: IR_a412a_0034, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: VN²_4|2.2MB/s|X, server: 103.186.155.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: IN-134.209.147.198-0275 | 0.098MB, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: GB_1ff06_0005, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: US_speednode_0029, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560", tls: true, mux: false}}
   - {name: "VN²_6|1.8MB/s|GPT⁺|GM|X|[原生|机房]", server: 103.186.154.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: US美国(ProxyGo免费节点分享) 6, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: RU_speednode_0010, server: 89.169.8.223, port: 443, type: ss, cipher: none, password: 79960b0b-7d31-4263-8915-6511b0e137a8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560", tls: true, mux: false}}
@@ -231,7 +228,6 @@ proxies:
   - {name: US_speednode_0023, server: 198.12.144.16, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560", tls: true, mux: false}}
   - {name: IN²_2|5.4MB/s|GPT⁺|GM|X, server: 139.59.24.173, port: 1080, type: socks5}
   - {name: CN_speednode_0002 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: US_1ff06_0017, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560", tls: true, mux: false}}
   - {name: US美国(ProxyGo免费节点分享) 4 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: US_e48b9_0015, server: store.ubi.com, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mfvpn.fuchen.indevs.in, path: "/3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560", tls: true, mux: false}}
   - {name: IN-134.209.147.198-0390 | 0.137MB, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -310,7 +306,6 @@ proxies:
   - {name: 四川省达州市 移动 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: 伊朗 V2CROSS.COM 4 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: US美国(ProxyGo免费节点分享) 9 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: US_636c8_0054 2, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false}}
   - {name: NL_ecabf_0015, server: 94.131.105.125, port: 4443, type: trojan, password: strong-secret-pass-777, skip-cert-verify: true}
   - {name: 中国 V2CROSS.COM 6, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: SG13｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
@@ -342,7 +337,6 @@ proxies:
   - {name: IR_bec3c_0017 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: 英国 V2CROSS.COM 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
   - {name: US美国(ProxyGo免费节点分享) 17 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: US_bec3c_0054, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false}}
   - {name: HK中国香港(ProxyGo免费节点分享) 5 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: 伊朗 V2CROSS.COM 6 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: NL_636c8_0030, server: 94.131.105.125, port: 4443, type: trojan, password: strong-secret-pass-777, sni: 94.131.105.125, skip-cert-verify: true}
