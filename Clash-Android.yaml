@@ -83,7 +83,6 @@ proxies:
   - {name: PT-185.231.233.112-0316, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: "US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]", server: 185.7.240.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.jpmj.dev}}}
   - {name: US_f6c5e_0023, server: 198.12.144.16, port: 443, type: ss, cipher: none, password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ylnhh.us.ci, path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560", tls: true, mux: false}}
-  - {name: US_speednode_0017, server: 199.181.197.38, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false}}
   - {name: CA_speednode_0028, server: 23.173.104.194, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.rocks}}}
   - {name: CA_speednode_0021, server: 23.173.104.214, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.rocks}}}
   - {name: CA_speednode_0038, server: 23.173.104.215, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.111000.v6.rocks}}}
@@ -103,7 +102,6 @@ proxies:
   - {name: RO_speednode_0015, server: 91.199.50.37, port: 443, type: vless, uuid: 43488128-319e-f480-64ea-0acdc712e2a8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw, short-id: "c906f73d3ba8211f" }, servername: www.alibaba.com, client-fingerprint: chrome, network: tcp}
   - {name: 香港 电讯盈科有限公司 3, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false}
   - {name: US_speednode_0028, server: st-2.globalcache.onnstreaming.ru, port: 443, type: vless, uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ, short-id: "aa69f619e4414362" }, servername: st-2.globalcache.onnstreaming.ru, client-fingerprint: chrome, network: tcp}
-  - {name: US_speednode_0045, server: store.ubi.com, port: 443, type: ss, cipher: none, password: 3e96ef7d-8637-42c2-ac73-75182196e755, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false}}
   - {name: 上海市 腾讯云, server: usgpt.slianrk.com, port: 13012, type: ss, cipher: chacha20-ietf-poly1305, password: e777513e-9df5-4dc3-bc84-74e564345a81}
   - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: MY-85.211.240.84-032, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
@@ -193,7 +191,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -213,7 +210,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -302,7 +298,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -322,7 +317,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -412,7 +406,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -432,7 +425,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -534,7 +526,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -554,7 +545,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -651,7 +641,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -671,7 +660,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -760,7 +748,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -780,7 +767,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -870,7 +856,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -890,7 +875,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
@@ -989,7 +973,6 @@ proxy-groups:
       - PT-185.231.233.112-0316
       - US¹-CA⁰_8|4.8MB/s|0%|GPT|GM|YT|TK|NF|D |X|[原生|机房]
       - US_f6c5e_0023
-      - US_speednode_0017
       - CA_speednode_0028
       - CA_speednode_0021
       - CA_speednode_0038
@@ -1009,7 +992,6 @@ proxy-groups:
       - RO_speednode_0015
       - 香港 电讯盈科有限公司 3
       - US_speednode_0028
-      - US_speednode_0045
       - 上海市 腾讯云
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
       - MY-85.211.240.84-032
