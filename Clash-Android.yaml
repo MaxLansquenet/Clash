@@ -5,7 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: TW_3e255_0030, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: FI_1|3.0MB/s, server: 66.234.150.157, port: 8443, type: vless, uuid: 98da482d-6316-4f99-80af-fa51c75578cf, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg, short-id: "f45c9665f3261108" }, servername: storage.yandex.net, client-fingerprint: firefox, network: tcp}
+  - {name: SE_1|1.1MB/s, server: 93.92.80.5, port: 2443, type: vless, uuid: 87c26575-4ccc-4d93-a967-21d98a8f05d8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: FuTPREnx4yIuC5tNUDrS1VOHBo9y9Dq22C354dritlM, short-id: "efbd846f848d8d37" }, servername: www.microsoft.com, client-fingerprint: firefox, network: tcp}
+  - {name: 俄罗斯 V2CROSS.COM 2, server: cdn3-87.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, network: tcp}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: TW_3e255_0030, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: "B - 🇯🇵 JP 06 TG: @nodpai", server: 103.127.243.55, port: 58051, type: vmess, uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: TW_speednode_0019, server: 103.127.243.59, port: 56738, type: vmess, uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: "C - 🇯🇵 JP 13 TG: @nodpai", server: 103.127.243.60, port: 55386, type: vmess, uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
@@ -105,20 +109,19 @@ proxies:
   - {name: VN²_19|1.2MB/s|GPT⁺|X, server: 103.186.155.83, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: VN-103.186.155.9-0482, server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: NL²_6|5.7MB/s|GPT⁺|X, server: 104.248.197.67, port: 1080, type: socks5}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
   - {name: IN-134.209.147.198-0336 | 0.056MB, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 挪威+V2CROSS.COM, server: 138.124.244.248, port: 443, type: vless, uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66, tls: true, reality-opts: {public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ, short-id: "e9a8" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 挪威 V2CROSS.COM, server: 138.124.244.248, port: 443, type: vless, uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66, tls: true, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
   - {name: IN²_2|5.4MB/s|GPT⁺|GM|X, server: 139.59.24.173, port: 1080, type: socks5}
   - {name: NL_3|2.7MB/s, server: 141.11.197.127, port: 55269, type: vless, uuid: 231e88bb-3a39-4f26-848e-908f83070283, tls: true, servername: vk.ru, client-fingerprint: chrome, network: tcp}
   - {name: US_speednode_0024, server: 144.31.127.61, port: 443, type: vless, uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba, tls: true, flow: xtls-rprx-vision, servername: gateway.icloud.com, client-fingerprint: chrome, network: tcp}
   - {name: SC-154.90.62.168-0273 | 0.3MB, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: DK_speednode_0067, server: 159.195.82.187, port: 9443, type: vless, uuid: 4649d681-7f26-4959-a3f2-02eb8866230f, tls: true, flow: xtls-rprx-vision, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%25253a%25252f%25252ft.me%25252fWangCai2%2525f0%25259f%252587%2525a8%2525f0%25259f%252587%2525b3, skip-cert-verify: true}
+  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%2525253a%2525252f%2525252ft.me%2525252fWangCai2%252525f0%2525259f%25252587%252525a8%252525f0%2525259f%25252587%252525b3, skip-cert-verify: true}
   - {name: NL²_3|5.6MB/s|GPT⁺|X, server: 161.35.82.57, port: 1080, type: socks5}
   - {name: 新加坡|@ripaojiedian, server: 18.181.199.223, port: 1180, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: "10,11|新加坡|@ripaojiedian", server: 18.181.199.223, port: 1180, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 西班牙+V2CROSS.COM, server: 185.18.250.127, port: 2096, type: vless, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, tls: true, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /graphql, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}}
+  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true}
+  - {name: 西班牙 V2CROSS.COM, server: 185.18.250.127, port: 2096, type: vless, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, tls: true, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}}
   - {name: TW-185.189.160.105-0279 | 3.703MB, server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 1@oneclickvpnkeys, server: 185.228.139.247, port: 4433, type: hysteria2, password: 2545ab46-6306-4f2b-badd-5531f384d55f, auth: 2545ab46-6306-4f2b-badd-5531f384d55f, sni: de2.xiaoliyu.cyou, skip-cert-verify: true}
   - {name: PT-185.231.233.112-0316, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -131,8 +134,8 @@ proxies:
   - {name: CA_speednode_0021, server: 23.173.104.214, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.rocks}}}
   - {name: CA_speednode_0038, server: 23.173.104.215, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.rocks, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.rocks}}}
   - {name: PY-38.165.233.93-0242 | 2.557MB, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%25252525252fripaojiedian, skip-cert-verify: true}
-  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%2525252525252fripaojiedian, skip-cert-verify: true}
+  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true}
   - {name: RU_speednode_0020, server: 45.139.77.52, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.army}}}
   - {name: MK-46.183.185.37-0233 | 0.007MB, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: SG_speednode_0048, server: 5.34.177.228, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe}
@@ -151,8 +154,8 @@ proxies:
   - {name: US美国(ProxyGo免费节点分享) 42 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
   - {name: GB-82.38.31.35-0197 | 90.712MB, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: "A - 🇸🇬 SG 15 TG: @nodpai", server: 83.229.126.127, port: 32237, type: vless, uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d, tls: true, servername: dcsrzh.ccwu.cc, network: ws, ws-opts: {path: /, headers: {Host: dcsrzh.ccwu.cc}}}
-  - {name: 西班牙+V2CROSS.COM 2, server: 84.21.189.197, port: 443, type: vless, uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA, short-id: "a1b2c3d4e5f6" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp}
-  - {name: 俄罗斯+V2CROSS.COM, server: 85.234.114.53, port: 22231, type: vless, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, tls: true, flow: xtls-rprx-vision, servername: r1.mizulina.top, client-fingerprint: chrome, network: tcp}
+  - {name: 西班牙 V2CROSS.COM 2, server: 84.21.189.197, port: 443, type: vless, uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0, tls: true, flow: xtls-rprx-vision, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp}
+  - {name: 俄罗斯 V2CROSS.COM, server: 85.234.114.53, port: 22231, type: vless, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, tls: true, flow: xtls-rprx-vision, servername: r1.mizulina.top, client-fingerprint: chrome, network: tcp}
   - {name: "B - 🇺🇸 US 33 TG: @nodpai", server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true}
   - {name: "B - 🇺🇸 US 35 TG: @nodpai", server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true}
   - {name: CH_2|1.3MB/s, server: 90081bb25c.node.tro.cac.cab, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true}
@@ -161,16 +164,15 @@ proxies:
   - {name: DE_4|1.2MB/s, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true}
   - {name: "B - 🇭🇰 HK 16 TG: @nodpai", server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true}
   - {name: RO_speednode_0015, server: 91.199.50.37, port: 443, type: vless, uuid: 43488128-319e-f480-64ea-0acdc712e2a8, tls: true, flow: xtls-rprx-vision, servername: www.alibaba.com, client-fingerprint: chrome, network: tcp}
-  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: 俄罗斯+V2CROSS.COM 2, server: cdn3-87.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, network: tcp}
+  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%252fripaojiedian, skip-cert-verify: true}
+  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%252fripaojiedian, skip-cert-verify: true}
   - {name: 香港 电讯盈科有限公司 3, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false}
   - {name: FR_1|1.3MB/s, server: fr.gryaz-vpn.com, port: 20567, type: vless, uuid: 40bf709c-4353-4552-ba26-406d2bf7821d, tls: true, flow: xtls-rprx-vision, servername: cloudflare.com, client-fingerprint: chrome, network: tcp}
   - {name: TR_speednode_0136, server: mouse2.1lil1.de, port: 443, type: vless, uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c, tls: true, flow: xtls-rprx-vision, servername: www.stackoverflow.com, client-fingerprint: firefox, network: tcp}
-  - {name: 俄罗斯 V2CROSS.COM, server: nl1.skysafe.online, port: 8443, type: vless, uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34, tls: true, flow: xtls-rprx-vision, servername: nl1.skysafe.online, client-fingerprint: chrome, network: tcp}
+  - {name: 俄罗斯 V2CROSS.COM 3, server: nl1.skysafe.online, port: 8443, type: vless, uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34, tls: true, flow: xtls-rprx-vision, servername: nl1.skysafe.online, client-fingerprint: chrome, network: tcp}
   - {name: US_speednode_0037, server: r1.mizulina.top, port: 22231, type: vless, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, tls: true, flow: xtls-rprx-vision, servername: r1.mizulina.top, client-fingerprint: edge, network: tcp}
-  - {name: 俄罗斯 V2CROSS.COM 2, server: renderer-stream-1-411.mirra.now, port: 443, type: vmess, uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b, alterId: 0, cipher: auto, tls: true, servername: renderer-stream-1-411.mirra.now, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-1-411.mirra.now}}}
-  - {name: TR-193.124.46.134-0208 | 0.0MB, server: tr-1.stunnel.cc, port: 8441, type: trojan, password: tunnel-ljlcf, skip-cert-verify: false}
+  - {name: 俄罗斯 V2CROSS.COM 2 2, server: renderer-stream-1-411.mirra.now, port: 443, type: vmess, uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b, alterId: 0, cipher: auto, tls: true, servername: renderer-stream-1-411.mirra.now, network: ws, ws-opts: {path: /, headers: {Host: renderer-stream-1-411.mirra.now}}}
+  - {name: TR-193.124.46.134-0208 | 0.0MB, server: tr-1.stunnel.cc, port: 8441, type: trojan, password: tunnel-ljlcf, skip-cert-verify: true}
   - {name: 上海市 腾讯云, server: usgpt.slianrk.com, port: 13012, type: ss, cipher: chacha20-ietf-poly1305, password: e777513e-9df5-4dc3-bc84-74e564345a81}
   - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
@@ -194,6 +196,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -294,9 +300,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -307,7 +312,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -340,8 +345,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -352,13 +357,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -382,6 +386,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -482,9 +490,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -495,7 +502,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -528,8 +535,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -540,13 +547,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -571,6 +577,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -671,9 +681,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -684,7 +693,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -717,8 +726,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -729,13 +738,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -772,6 +780,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -872,9 +884,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -885,7 +896,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -918,8 +929,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -930,13 +941,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -969,6 +979,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -1069,9 +1083,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -1082,7 +1095,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -1115,8 +1128,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -1127,13 +1140,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -1157,6 +1169,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -1257,9 +1273,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -1270,7 +1285,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -1303,8 +1318,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -1315,13 +1330,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -1346,6 +1360,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -1446,9 +1464,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -1459,7 +1476,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -1492,8 +1509,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -1504,13 +1521,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
@@ -1544,6 +1560,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - FI_1|3.0MB/s
+      - SE_1|1.1MB/s
+      - 俄罗斯 V2CROSS.COM 2
+      - KR_0b85e_0009
       - TW_3e255_0030
       - "B - 🇯🇵 JP 06 TG: @nodpai"
       - TW_speednode_0019
@@ -1644,9 +1664,8 @@ proxy-groups:
       - VN²_19|1.2MB/s|GPT⁺|X
       - VN-103.186.155.9-0482
       - NL²_6|5.7MB/s|GPT⁺|X
-      - KR_0b85e_0009
       - IN-134.209.147.198-0336 | 0.056MB
-      - 挪威+V2CROSS.COM
+      - 挪威 V2CROSS.COM
       - IN²_2|5.4MB/s|GPT⁺|GM|X
       - NL_3|2.7MB/s
       - US_speednode_0024
@@ -1657,7 +1676,7 @@ proxy-groups:
       - 新加坡|@ripaojiedian
       - 10,11|新加坡|@ripaojiedian
       - 日本|@ripaojiedian
-      - 西班牙+V2CROSS.COM
+      - 西班牙 V2CROSS.COM
       - TW-185.189.160.105-0279 | 3.703MB
       - 1@oneclickvpnkeys
       - PT-185.231.233.112-0316
@@ -1690,8 +1709,8 @@ proxy-groups:
       - US美国(ProxyGo免费节点分享) 42 2
       - GB-82.38.31.35-0197 | 90.712MB
       - "A - 🇸🇬 SG 15 TG: @nodpai"
-      - 西班牙+V2CROSS.COM 2
-      - 俄罗斯+V2CROSS.COM
+      - 西班牙 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM
       - "B - 🇺🇸 US 33 TG: @nodpai"
       - "B - 🇺🇸 US 35 TG: @nodpai"
       - CH_2|1.3MB/s
@@ -1702,13 +1721,12 @@ proxy-groups:
       - RO_speednode_0015
       - 11,12|美国3|@ripaojiedian
       - 美国3|@ripaojiedian
-      - 俄罗斯+V2CROSS.COM 2
       - 香港 电讯盈科有限公司 3
       - FR_1|1.3MB/s
       - TR_speednode_0136
-      - 俄罗斯 V2CROSS.COM
+      - 俄罗斯 V2CROSS.COM 3
       - US_speednode_0037
-      - 俄罗斯 V2CROSS.COM 2
+      - 俄罗斯 V2CROSS.COM 2 2
       - TR-193.124.46.134-0208 | 0.0MB
       - 上海市 腾讯云
       - 香港|@ripaojiedian
