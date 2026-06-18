@@ -5,10 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: DE_1|1.1MB/s, server: 194.5.193.58, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true}
+  - {name: SE_4|3.5MB/s, server: 207.2.120.46, port: 3478, type: ss, cipher: chacha20-ietf-poly1305, password: yu2XnSPWhmQjxn83iJA3DA}
+  - {name: "C - 🇸🇬 SG 28 TG: @nodpai", server: 103.182.97.12, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: ZA-102.133.165.160-0166 | 2.019MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
   - {name: ZA-102.37.156.224-0141 | 25.97MB, server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6}
   - {name: JP-103.106.228.175-0162 | 13.392MB, server: 103.106.228.175, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: TW_speednode_0048, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: TW_speednode_0048, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: "B - 🇯🇵 JP 06 TG: @nodpai", server: 103.127.243.55, port: 58051, type: vmess, uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: TW_speednode_0019, server: 103.127.243.59, port: 56738, type: vmess, uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
   - {name: "C - 🇯🇵 JP 13 TG: @nodpai", server: 103.127.243.60, port: 55386, type: vmess, uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
@@ -145,13 +149,13 @@ proxies:
   - {name: US-156.146.38.168-0119 | 133.659MB, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US-156.146.38.170-0121 | 137.062MB, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: DK_speednode_0067, server: 159.195.82.187, port: 9443, type: vless, uuid: 4649d681-7f26-4959-a3f2-02eb8866230f, tls: true, flow: xtls-rprx-vision, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%2525252525253a%2525252525252f%2525252525252ft.me%2525252525252fWangCai2%252525252525f0%2525252525259f%25252525252587%252525252525a8%252525252525f0%2525252525259f%25252525252587%252525252525b3, skip-cert-verify: true}
+  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%252525252525253a%252525252525252f%252525252525252ft.me%252525252525252fWangCai2%25252525252525f0%252525252525259f%2525252525252587%25252525252525a8%25252525252525f0%252525252525259f%2525252525252587%25252525252525b3, skip-cert-verify: true}
   - {name: NL²_3|5.6MB/s|GPT⁺|X, server: 161.35.82.57, port: 1080, type: socks5}
   - {name: 美国 CloudFlare节点, server: 162.159.36.5, port: 443, type: vless, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, tls: true, servername: octopusss4.com, network: ws, ws-opts: {path: /, headers: {Host: octopusss4.com}}}
   - {name: US-173.244.56.6-0128 | 88.832MB, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US-173.244.56.9-0116 | 58.651MB, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 新加坡|@ripaojiedian, server: 18.181.199.223, port: 1180, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%25252525252Fripaojiedian, skip-cert-verify: true}
+  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%2525252525252Fripaojiedian, skip-cert-verify: true}
   - {name: 西班牙 V2CROSS.COM, server: 185.18.250.127, port: 2096, type: vless, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, tls: true, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}}
   - {name: TW-185.189.160.105-0184 | 1.688MB, server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: NO-185.213.23.63-0144 | 0.325MB, server: 185.213.23.63, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
@@ -189,8 +193,8 @@ proxies:
   - {name: US-37.19.198.244-0108 | 159.874MB, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: PY-38.165.233.93-0242 | 2.557MB, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: AT-38.180.197.41-0198 | 0.237MB, server: 38.180.197.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%2525252525252525252fripaojiedian, skip-cert-verify: true}
-  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%25252525252Fripaojiedian, skip-cert-verify: true}
+  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%252525252525252525252fripaojiedian, skip-cert-verify: true}
+  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%2525252525252Fripaojiedian, skip-cert-verify: true}
   - {name: RU_speednode_0020, server: 45.139.77.52, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.army}}}
   - {name: MK-46.183.185.37-0233 | 0.007MB, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: SG_speednode_0048, server: 5.34.177.228, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe}
@@ -200,7 +204,7 @@ proxies:
   - {name: SE_2|1.7MB/s, server: 51.20.187.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: FR-51.254.128.106-0180 | 0.043MB, server: 51.254.128.106, port: 2083, type: ss, cipher: aes-256-gcm, password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=}
   - {name: US-62.146.231.112-0160 | 1.247MB, server: 62.146.231.112, port: 12012, type: ss, cipher: chacha20-ietf-poly1305, password: 4e287631dc4fc8fc}
-  - {name: FI_1|3.0MB/s, server: 66.234.150.157, port: 8443, type: vless, uuid: 98da482d-6316-4f99-80af-fa51c75578cf, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg, short-id: "f45c9665f3261108" }, servername: storage.yandex.net, client-fingerprint: firefox, network: tcp}
+  - {name: FI_1|3.0MB/s, server: 66.234.150.157, port: 8443, type: vless, uuid: 98da482d-6316-4f99-80af-fa51c75578cf, tls: true, flow: xtls-rprx-vision, servername: storage.yandex.net, client-fingerprint: firefox, network: tcp}
   - {name: 6@oneclickvpnkeys, server: 68.233.103.254, port: 4433, type: hysteria2, password: 2545ab46-6306-4f2b-badd-5531f384d55f, auth: 2545ab46-6306-4f2b-badd-5531f384d55f, sni: ln4.xiaoliyu.cyou, skip-cert-verify: true}
   - {name: DE_3|2.3MB/s, server: 77.110.106.1, port: 443, type: vless, uuid: 70800daf-1d64-476b-9875-2444e7f43275, tls: true, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
   - {name: GB_speednode_0010, server: 79.141.171.133, port: 443, type: vless, uuid: 4c3fe585-ac09-41df-b284-888818888188, tls: true, flow: xtls-rprx-vision, servername: apple.com, client-fingerprint: chrome, network: tcp}
@@ -244,8 +248,8 @@ proxies:
   - {name: RO_speednode_0015, server: 91.199.50.37, port: 443, type: vless, uuid: 43488128-319e-f480-64ea-0acdc712e2a8, tls: true, flow: xtls-rprx-vision, servername: www.alibaba.com, client-fingerprint: chrome, network: tcp}
   - {name: SE_1|1.1MB/s, server: 93.92.80.5, port: 2443, type: vless, uuid: 87c26575-4ccc-4d93-a967-21d98a8f05d8, tls: true, flow: xtls-rprx-vision, servername: www.microsoft.com, client-fingerprint: firefox, network: tcp}
   - {name: GB-94.156.250.148-0167 | 5.149MB, server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%252525252fripaojiedian, skip-cert-verify: true}
-  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%252525252fripaojiedian, skip-cert-verify: true}
+  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%25252525252fripaojiedian, skip-cert-verify: true}
+  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%25252525252fripaojiedian, skip-cert-verify: true}
   - {name: 俄罗斯 V2CROSS.COM 2, server: cdn3-87.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, network: tcp}
   - {name: TW-46.249.109.128-0193 | 0.099MB, server: download.riferoser.icu, port: 56594, type: ss, cipher: chacha20-ietf-poly1305, password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4}
   - {name: 香港 电讯盈科有限公司 3, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false}
@@ -284,6 +288,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -562,6 +570,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -841,6 +853,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -1132,6 +1148,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -1419,6 +1439,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -1697,6 +1721,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -1976,6 +2004,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
@@ -2264,6 +2296,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - DE_1|1.1MB/s
+      - SE_4|3.5MB/s
+      - "C - 🇸🇬 SG 28 TG: @nodpai"
+      - ID_2a61e_0010
       - ZA-102.133.165.160-0166 | 2.019MB
       - ZA-102.37.156.224-0141 | 25.97MB
       - JP-103.106.228.175-0162 | 13.392MB
