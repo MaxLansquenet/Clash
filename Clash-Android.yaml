@@ -20,7 +20,7 @@ proxies:
   - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: MY-85.211.240.84-032, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "B - 🇹🇼 TW 18 TG: @nodpai", server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 上海市 腾讯云, server: usgpt.slianrk.com, port: 13012, type: ss, cipher: chacha20-ietf-poly1305, password: e777513e-9df5-4dc3-bc84-74e564345a81}
@@ -35,6 +35,7 @@ proxies:
   - {name: 俄罗斯 V2CROSS.COM 3, server: nl1.skysafe.online, port: 8443, type: vless, uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34, tls: true, flow: xtls-rprx-vision, servername: nl1.skysafe.online, client-fingerprint: chrome, network: tcp}
   - {name: US_1|1.6MB/s, server: newyorkcity.instasup.ir, port: 1005, type: vless, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, tls: true, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
   - {name: TR_speednode_0136, server: mouse2.1lil1.de, port: 443, type: vless, uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c, tls: true, flow: xtls-rprx-vision, servername: www.stackoverflow.com, client-fingerprint: firefox, network: tcp}
+  - {name: HK-119.236.231.201-0703 | 2.441MB, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: false}
   - {name: FR_1|1.3MB/s, server: fr.gryaz-vpn.com, port: 20567, type: vless, uuid: 40bf709c-4353-4552-ba26-406d2bf7821d, tls: true, flow: xtls-rprx-vision, servername: cloudflare.com, client-fingerprint: chrome, network: tcp}
   - {name: 香港 电讯盈科有限公司 3, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false}
   - {name: TW-46.249.109.128-0193 | 0.099MB, server: download.riferoser.icu, port: 56594, type: ss, cipher: chacha20-ietf-poly1305, password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4}
@@ -42,8 +43,8 @@ proxies:
   - {name: CZ-46.8.113.142-0177 | 0.318MB, server: ch-2.bexum.fun, port: 443, type: trojan, password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu, sni: ch-2.bexum.fun, skip-cert-verify: true}
   - {name: 俄罗斯 V2CROSS.COM 2, server: cdn3-87.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, network: tcp}
   - {name: CN_54ab4_0001, server: board-04.ddnskunlun.com, port: 11973, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2525252525252525252fripaojiedian, skip-cert-verify: true}
-  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%2525252525252525252fripaojiedian, skip-cert-verify: true}
+  - {name: 美国3|@ripaojiedian, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%252525252525252525252fripaojiedian, skip-cert-verify: true}
+  - {name: "11,12|美国3|@ripaojiedian", server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%252525252525252525252fripaojiedian, skip-cert-verify: true}
   - {name: GB-94.156.250.148-0167 | 5.149MB, server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: SE_1|1.1MB/s, server: 93.92.80.5, port: 2443, type: vless, uuid: 87c26575-4ccc-4d93-a967-21d98a8f05d8, tls: true, flow: xtls-rprx-vision, servername: www.microsoft.com, client-fingerprint: firefox, network: tcp}
   - {name: RO_speednode_0015, server: 91.199.50.37, port: 443, type: vless, uuid: 43488128-319e-f480-64ea-0acdc712e2a8, tls: true, flow: xtls-rprx-vision, servername: www.alibaba.com, client-fingerprint: chrome, network: tcp}
@@ -101,8 +102,8 @@ proxies:
   - {name: ES-5.188.181.201-4426 | 2.111MB, server: 5.188.181.201, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
   - {name: MK-46.183.185.37-0233 | 0.007MB, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: RU_speednode_0020, server: 45.139.77.52, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.army}}}
-  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%252525252525252525252Fripaojiedian, skip-cert-verify: true}
-  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%25252525252525252525252525252fripaojiedian, skip-cert-verify: true}
+  - {name: 新加坡3|@ripaojiedian, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%25252525252525252525252Fripaojiedian, skip-cert-verify: true}
+  - {name: 香港5|@ripaojiedian, server: 43.199.206.175, port: 4886, type: trojan, password: BxceQaOe, sni: t.me%2525252525252525252525252525252fripaojiedian, skip-cert-verify: true}
   - {name: HK_2|1.2MB/s, server: 43.198.206.201, port: 2008, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: AT-38.180.197.41-0198 | 0.237MB, server: 38.180.197.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: PY-38.165.233.93-0242 | 2.557MB, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -146,15 +147,15 @@ proxies:
   - {name: TW-185.189.160.105-0184 | 1.688MB, server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 西班牙 V2CROSS.COM, server: 185.18.250.127, port: 2096, type: vless, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, tls: true, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}}
   - {name: DE-185.137.157.145-0728 | 4.67MB, server: 185.137.157.145, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true}
-  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252525252525252525252Fripaojiedian, skip-cert-verify: true}
+  - {name: 日本|@ripaojiedian, server: 18.183.163.141, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%25252525252525252525252Fripaojiedian, skip-cert-verify: true}
   - {name: 新加坡|@ripaojiedian, server: 18.181.199.223, port: 1180, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 新加坡3|@ripaojiedian 2, server: 18.162.50.252, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%2525252Fripaojiedian, skip-cert-verify: true}
+  - {name: 新加坡3|@ripaojiedian 2, server: 18.162.50.252, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252525252Fripaojiedian, skip-cert-verify: true}
   - {name: US-173.244.56.9-0116 | 58.651MB, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US-173.244.56.6-0128 | 88.832MB, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 美国 CloudFlare节点, server: 172.64.33.162, port: 443, type: vless, uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8, tls: true, servername: octopusss5.info, network: ws, ws-opts: {path: /, headers: {Host: octopusss5.info}}}
   - {name: 美国 CloudFlare节点 2, server: 162.159.36.5, port: 443, type: vless, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, tls: true, servername: octopusss4.com, network: ws, ws-opts: {path: /, headers: {Host: octopusss4.com}}}
   - {name: NL²_3|5.6MB/s|GPT⁺|X, server: 161.35.82.57, port: 1080, type: socks5}
-  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%25252525252525252525253a%25252525252525252525252f%25252525252525252525252ft.me%25252525252525252525252fWangCai2%2525252525252525252525f0%25252525252525252525259f%252525252525252525252587%2525252525252525252525a8%2525252525252525252525f0%25252525252525252525259f%252525252525252525252587%2525252525252525252525b3, skip-cert-verify: true}
+  - {name: "B - 🇹🇼 TW 01 TG: @nodpai", server: 160.187.100.109, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https%2525252525252525252525253a%2525252525252525252525252f%2525252525252525252525252ft.me%2525252525252525252525252fWangCai2%252525252525252525252525f0%2525252525252525252525259f%25252525252525252525252587%252525252525252525252525a8%252525252525252525252525f0%2525252525252525252525259f%25252525252525252525252587%252525252525252525252525b3, skip-cert-verify: true}
   - {name: DK_speednode_0067, server: 159.195.82.187, port: 9443, type: vless, uuid: 4649d681-7f26-4959-a3f2-02eb8866230f, tls: true, flow: xtls-rprx-vision, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
   - {name: US-156.146.38.170-0121 | 137.062MB, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: US-156.146.38.169-0100 | 111.619MB, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
@@ -182,9 +183,9 @@ proxies:
   - {name: 挪威 V2CROSS.COM, server: 138.124.244.248, port: 443, type: vless, uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66, tls: true, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
   - {name: CA-137.184.174.93-0105 | 88.122MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: IN-134.209.147.198-0336 | 0.056MB, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: US_speednode_0070, server: 134.195.101.127, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
-  - {name: US_1bf20_0067, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
-  - {name: US_9fb54_0071, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
+  - {name: US_speednode_0070, server: 134.195.101.127, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
+  - {name: US_1bf20_0067, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
+  - {name: US_9fb54_0071, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
   - {name: ID-130.94.94.15-0200 | 0.0MB, server: 130.94.94.15, port: 443, type: trojan, password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR, sni: 130.94.94.15, skip-cert-verify: true}
   - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
   - {name: HK-112.213.102.188-0167 | 5.157MB, server: 112.213.102.188, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
@@ -324,7 +325,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -339,6 +340,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -627,7 +629,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -642,6 +644,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -931,7 +934,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -946,6 +949,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -1247,7 +1251,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -1262,6 +1266,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -1559,7 +1564,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -1574,6 +1579,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -1862,7 +1868,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -1877,6 +1883,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -2166,7 +2173,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -2181,6 +2188,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
@@ -2479,7 +2487,7 @@ proxy-groups:
       - JP_speednode_0012
       - MY-85.211.240.84-032
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - "B - 🇹🇼 TW 18 TG: @nodpai"
       - 香港|@ripaojiedian
       - 上海市 腾讯云
@@ -2494,6 +2502,7 @@ proxy-groups:
       - 俄罗斯 V2CROSS.COM 3
       - US_1|1.6MB/s
       - TR_speednode_0136
+      - HK-119.236.231.201-0703 | 2.441MB
       - FR_1|1.3MB/s
       - 香港 电讯盈科有限公司 3
       - TW-46.249.109.128-0193 | 0.099MB
