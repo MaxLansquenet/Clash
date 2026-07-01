@@ -44,6 +44,33 @@ proxy-groups:
     tolerance: 50
     proxies:
     
+  - name: To-JP
+    type: url-test
+    include-all: true
+    filter: "🇯🇵|日本|JP"
+    url: https://store.steampowered.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+    
+  - name: To-KR
+    type: url-test
+    include-all: true
+    filter: "🇰🇷|韩国|KR"
+    url: https://store.steampowered.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+    
+  - name: In-CN
+    type: url-test
+    include-all: true
+    filter: "CN|中国|中國|cn"
+    url: https://store.steampowered.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+    
   - name: Š Steam
     type: select
     include-all: true
