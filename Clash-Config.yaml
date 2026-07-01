@@ -26,6 +26,16 @@ log-level: warning
 external-controller: 0.0.0.0:9097   
 
 proxy-groups:
+
+  - name: AT-HK
+    type: select
+    include-all: true
+    filter: "HK|香港|hk|hongkong|hong kong"
+    url: https://store.steampowered.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+    
   - name: Š Steam
     type: select
     include-all: true
