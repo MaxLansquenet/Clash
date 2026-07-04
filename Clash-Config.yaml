@@ -86,7 +86,12 @@ proxy-groups:
     include-all: true
     exclude-filter: "渗透|未知"
     proxies:
-
+        - To-TW
+        - To-HK
+        - To-KR
+        - To-JP
+        - To-SG
+        - To-JP
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
