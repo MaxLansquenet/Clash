@@ -5,75 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港_2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _SG_新加坡->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: JP_speednode_0012 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: GB_5d022_0017, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇬🇧_GB_英国, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: HK-119.236.231.201-0703 | 2.441MB, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
+  - {name: JP_speednode_0012 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇺🇸_US_美国, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: HK-119.236.231.201-0703 | 2.441MB, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
   - {name: RELAY-104.21.2.202-0152 | 6.278MB, server: hl112.cowjump.site, port: 443, type: vmess, uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hl112.cowjump.site}}}
-  - {name: RELAY-172.67.152.227-0143 | 3.284MB, server: hl112.cowjump.site, port: 443, type: vmess, uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hl112.cowjump.site}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,82 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _HK_中国香港_2
-      - _HK_中国香港->🇬🇧_GB_英国
-      - _HK_中国香港->🇺🇸_US_美国
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,19 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房]
-      - _HK_中国香港_2
-      - _SG_新加坡->🇩🇪_DE_德国
-      - JP_speednode_0012
-      - JP_speednode_0012 2
-      - GB_5d022_0017
-      - _HK_中国香港->🇬🇧_GB_英国
       - GB_5d022_0017 2
-      - HK-119.236.231.201-0703 | 2.441MB
+      - JP_speednode_0012 2
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - _HK_中国香港->🇺🇸_US_美国
+      - HK-119.236.231.201-0703 | 2.441MB
       - RELAY-104.21.2.202-0152 | 6.278MB
-      - RELAY-172.67.152.227-0143 | 3.284MB
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
