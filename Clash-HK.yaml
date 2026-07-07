@@ -15,7 +15,6 @@ proxies:
   - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: HK-119.236.231.201-0703 | 2.441MB 2, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
-  - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: HK_2|2.4MB/s, server: c722s3.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
   - {name: HK_3|3.2MB/s, server: c722s4.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
   - {name: HK_4|2.0MB/s, server: c722s5.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
@@ -50,6 +49,7 @@ proxies:
   - {name: _HK_中国香港_2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 香港|@ripaojiedian 2 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 12|香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_23100_0015 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -66,7 +66,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -101,6 +100,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -116,7 +116,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -151,6 +150,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -167,7 +167,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -202,6 +201,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -230,7 +230,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -265,6 +264,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -297,7 +297,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -332,6 +331,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -347,7 +347,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -382,6 +381,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -398,7 +398,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -433,6 +432,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -458,7 +458,6 @@ proxy-groups:
       - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
       - 12|香港|@ripaojiedian
       - HK-119.236.231.201-0703 | 2.441MB 2
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2 2
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
@@ -493,6 +492,7 @@ proxy-groups:
       - _HK_中国香港_2
       - 香港|@ripaojiedian 2 2
       - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
