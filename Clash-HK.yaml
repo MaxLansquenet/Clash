@@ -5,119 +5,211 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 9|🕹️53@oneclickvpnkeys, server: 13.229.60.114, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, skip-cert-verify: true}
-  - {name: _IR_伊朗->🇩🇪_DE_德国, server: 193.93.169.116, port: 5050, type: vmess, uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e, alterId: 0, cipher: auto, tls: false}
-  - {name: _KR_韩国, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, network: h2, h2-opts: {path: /}}
+  - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|48@NetFlowTools, server: 13.250.29.24, port: 443, type: hysteria2, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, auth: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: GB_5d022_0017, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _HK_中国香港->🇸🇬_SG_新加坡, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
+  - {name: HK-119.236.231.201-0703 | 2.441MB, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
+  - {name: _KR_韩国_1, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: GB_5d022_0017 3, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "B - 🇸🇬 SG 18 TG: @nodpai", server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _US_美国_1, server: 3.147.78.9, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _FR_法国, server: 35.180.255.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 9|🕹️58@oneclickvpnkeys, server: 66.234.150.237, port: 8449, type: hysteria2, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, auth: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
+  - {name: "B - 🇸🇬 SG 18 TG: @nodpai 2", server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _HK_中国香港->🇺🇸_US_美国_1 2, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "B - 🇸🇬 SG 18 TG: @nodpai 2 2", server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: TW_1|3.0MB/s, server: tttttt.ly123.edu.kg, port: 11886, type: vmess, uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad, alterId: 0, cipher: auto, tls: false}
+  - {name: JP_speednode_0012 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: HK-119.236.231.201-0703 | 2.441MB 2, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
+  - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: HK_2|2.4MB/s, server: c722s3.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
   - {name: HK_3|3.2MB/s, server: c722s4.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
   - {name: HK_4|2.0MB/s, server: c722s5.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
-  - {name: RELAY-104.21.2.202-0152 | 6.278MB, server: hl112.cowjump.site, port: 443, type: vmess, uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hl112.cowjump.site}}}
-  - {name: HK-119.236.231.201-0703 | 2.441MB, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true}
-  - {name: TW_1|3.0MB/s, server: tttttt.ly123.edu.kg, port: 11886, type: vmess, uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2", server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: JP_speednode_0012 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|🕹️53@oneclickvpnkeys, server: 13.229.60.114, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, skip-cert-verify: true}
+  - {name: JP_speednode_0012 2 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_2a61e_0010 2, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _KR_韩国, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "B - 🇸🇬 SG 18 TG: @nodpai 2", server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|🕹️58@oneclickvpnkeys, server: 66.234.150.237, port: 8449, type: hysteria2, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, auth: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
   - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _SG_新加坡->🇺🇸_US_美国 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "C - 🇺🇸 US 49 TG: @nodpai 2", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _HK_中国香港_2 2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _IR_伊朗->🇩🇪_DE_德国, server: 193.93.169.116, port: 5050, type: vmess, uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e, alterId: 0, cipher: auto, tls: false}
+  - {name: _FR_法国, server: 35.180.255.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: _HK_中国香港_2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 香港|@ripaojiedian 2 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 12|香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_23100_0015 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,125 +228,227 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港|@ripaojiedian 2
       - _HK_中国香港->🇺🇸_US_美国_1
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - 12|香港|@ripaojiedian
+      - _HK_中国香港_2 2
+      - _HK_中国香港_2 2 2
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,30 +464,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_0b85e_0009
-      - 9|🕹️53@oneclickvpnkeys
-      - _IR_伊朗->🇩🇪_DE_德国
-      - _KR_韩国
+      - JP_speednode_0012
+      - _JP_日本
+      - 9|48@NetFlowTools
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - GB_5d022_0017
+      - GB_5d022_0017 2
+      - _HK_中国香港->🇸🇬_SG_新加坡
+      - HK-119.236.231.201-0703 | 2.441MB
+      - _KR_韩国_1
+      - _JP_日本 2
+      - GB_5d022_0017 3
+      - "B - 🇸🇬 SG 18 TG: @nodpai"
       - _US_美国_1
-      - _FR_法国
-      - 9|🕹️58@oneclickvpnkeys
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
+      - _HK_中国香港->🇺🇸_US_美国_1 2
+      - "B - 🇸🇬 SG 18 TG: @nodpai 2 2"
+      - TW_1|3.0MB/s
+      - JP_speednode_0012 2
+      - ID_2a61e_0010
+      - HK-119.236.231.201-0703 | 2.441MB 2
+      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
+      - 12|香港|@ripaojiedian
       - HK_2|2.4MB/s
       - HK_3|3.2MB/s
       - HK_4|2.0MB/s
-      - RELAY-104.21.2.202-0152 | 6.278MB
-      - HK-119.236.231.201-0703 | 2.441MB
-      - TW_1|3.0MB/s
-      - 香港|@ripaojiedian 2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - US²_14|8.5MB/s|GPT⁺|NF|X|[原生|机房] 2
-      - JP_speednode_0012 2
-      - ID_2a61e_0010
-      - GB_5d022_0017 2
+      - 9|🕹️53@oneclickvpnkeys
+      - JP_speednode_0012 2 2
+      - ID_2a61e_0010 2
+      - _KR_韩国
       - _SG_新加坡->🇺🇸_US_美国
-      - "B - 🇸🇬 SG 18 TG: @nodpai 2"
-      - _JP_日本
-      - _HK_中国香港->🇺🇸_US_美国_1
+      - 9|🕹️58@oneclickvpnkeys
       - ID_23100_0015
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _HK_中国香港_2 2
+      - _SG_新加坡->🇺🇸_US_美国 2
+      - "C - 🇺🇸 US 49 TG: @nodpai 2"
+      - _HK_中国香港_2 2 2
+      - _IR_伊朗->🇩🇪_DE_德国
+      - _FR_法国
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港|@ripaojiedian 2
+      - KR_0b85e_0009
+      - _HK_中国香港_2
+      - 香港|@ripaojiedian 2 2
+      - 12|香港|@ripaojiedian 2
+      - ID_23100_0015 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
