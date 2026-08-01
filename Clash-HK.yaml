@@ -5,32 +5,42 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: US_speednode_0196, server: 3.91.76.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: SE_speednode_0168, server: 13.61.5.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: MX_speednode_0033, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}}
-  - {name: _IR_伊朗->🇳🇱_NL_荷兰, server: tun1.wizardx1.com, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: HK_speednode_0023, server: 43.198.98.22, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: _HK_中国香港_1, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: SE_2|2.5MB/s, server: 16.171.242.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_speednode_0030, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: _KR_韩国, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: US_speednode_0192, server: 13.62.231.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: SE_4|2.2MB/s, server: 13.62.20.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: SE_3|3.6MB/s, server: 13.53.38.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: DE_6|2.8MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true}
-  - {name: JP-13.115.71.81-6044 | 19.367MB, server: v2jp.k1.ssnss.live, port: 44184, type: trojan, password: d050aca3-9df2-4461-90ec-92373c1d7636, skip-cert-verify: false}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港->🇮🇳_IN_印度, server: oplosgru-c.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: HK_11c6a_0021, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: US_6|4.3MB/s, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: TW-114.25.8.182-6223 | 4.189MB, server: r3mrcg001287h3p.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
+  - {name: US_6|4.3MB/s, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: SE_4|2.2MB/s, server: 13.62.20.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8}
+  - {name: SE_speednode_0168, server: 13.61.5.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0030, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: CH_1|3.4MB/s, server: best.kovira2.ir, port: 25026, type: ss, cipher: chacha20-ietf-poly1305, password: xp6qduya33bvl863}
+  - {name: KR_6|2.5MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9001, type: ss, cipher: aes-128-gcm, password: ayucew2, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_5|3.3MB/s, server: 260323.1.0.l3.unclemanco.com, port: 810, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_4|2.0MB/s, server: 260323.1.0.l3.unclemanco.com, port: 921, type: ss, cipher: aes-128-gcm, password: ayucl243113, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_2|2.4MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9035, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_3|2.0MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9019, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_1|1.8MB/s, server: 260323.1.0.l3.unclemanco.com, port: 917, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: DE_6|2.8MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true}
+  - {name: CN_54ab4_0001, server: board-04.ddnskunlun.com, port: 11973, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
   - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _IR_伊朗->🇳🇱_NL_荷兰, server: tun1.wizardx1.com, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false}
+  - {name: MX_speednode_0033, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}}
+  - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _HK_中国香港_1, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: US_speednode_0196, server: 3.91.76.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK_speednode_0023, server: 43.198.98.22, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: SE_2|2.5MB/s, server: 16.171.242.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _KR_韩国, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: US_speednode_0192, server: 13.62.231.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SE_3|3.6MB/s, server: 13.53.38.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP-13.115.71.81-6044 | 19.367MB, server: v2jp.k1.ssnss.live, port: 44184, type: trojan, password: d050aca3-9df2-4461-90ec-92373c1d7636, skip-cert-verify: false}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: _HK_中国香港->🇮🇳_IN_印度, server: oplosgru-c.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: HK_11c6a_0021, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: TW-114.25.8.182-6223 | 4.189MB, server: r3mrcg001287h3p.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
   - {name: TW_1|2.7MB/s, server: 209.248.32.115, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true}
   - {name: TW_2|3.6MB/s, server: 209.248.32.116, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true}
   - {name: RU_speednode_0083, server: 195.133.23.200, port: 1291, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599}
@@ -38,8 +48,6 @@ proxies:
   - {name: HK_speednode_0007, server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: _HK_中国香港->🇮🇩_ID_印度尼西亚, server: oplosgru-c.catcat321.com, port: 20120, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: 12|CN_speednode_0008, server: rr1.tube-cat.com, port: 9450, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true}
-  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: CH_1|3.4MB/s, server: best.kovira2.ir, port: 25026, type: ss, cipher: chacha20-ietf-poly1305, password: xp6qduya33bvl863}
   - {name: ES-5.188.181.201-0172 | 0.0MB, server: 5.188.181.201, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
   - {name: UA_2|2.6MB/s, server: oplosgru-c.catcat321.com, port: 20066, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: _HK_中国香港->🇹🇭_TH_泰国, server: oplosgru-c.catcat321.com, port: 20023, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
@@ -54,7 +62,6 @@ proxies:
   - {name: HK_3|5.7MB/s, server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com, port: 32029, type: trojan, password: 246fb793-8e5e-4015-943e-22f41e4ea4a5, sni: pull-flv-q1-admin.douyincdn.com, skip-cert-verify: true}
   - {name: "10,11|香港4|@ripaojiedian", server: 95.40.61.23, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
   - {name: UA_4|2.6MB/s, server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com, port: 32019, type: trojan, password: 246fb793-8e5e-4015-943e-22f41e4ea4a5, sni: pull-flv-q1-admin.douyincdn.com, skip-cert-verify: true}
-  - {name: CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8}
   - {name: NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: ES-5.188.181.201-4426 | 2.111MB, server: 5.188.181.201, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
   - {name: ES-5.188.181.201-5968 | 1.247MB, server: 5.188.181.201, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
@@ -74,7 +81,7 @@ proxies:
   - {name: _IR_伊朗->🇧🇬_BG_保加利亚, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=}
   - {name: GB-82.38.31.15-0114 | 52.589MB, server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: FR_2|3.2MB/s, server: definite-giraffe.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: definite-giraffe.rooster465.autos, skip-cert-verify: true}
-  - {name: KR_5|3.3MB/s, server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
+  - {name: KR_5|3.3MB/s 2, server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
   - {name: PL-62.112.222.26-0522 | 38.724MB, server: 62.112.222.26, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
   - {name: PL-62.112.222.26-0513 | 38.207MB, server: upright-hamster.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
   - {name: DE_3|4.9MB/s, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -155,39 +162,48 @@ proxies:
   - {name: GB-82.38.31.218-0115 | 42.743MB, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: _US_美国_2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true}
   - {name: ES-5.188.181.201-0173 | 0.0MB, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: US_5|1.0MB/s, server: 100.59.198.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -195,8 +211,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -211,7 +225,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -231,7 +244,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -312,38 +325,47 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -351,8 +373,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -367,7 +387,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -387,7 +406,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -468,39 +487,48 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -508,8 +536,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -524,7 +550,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -544,7 +569,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -625,7 +650,6 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -644,32 +668,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -677,8 +711,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -693,7 +725,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -713,7 +744,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -794,18 +825,17 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港|@ripaojiedian
+      - _HK_中国香港_2 2
       - _HK_中国香港->🇺🇸_US_美国_1
       - _HK_中国香港_1
       - _HK_中国香港->🇮🇳_IN_印度
-      - _HK_中国香港_2 2
       - 10,11|香港3|@ripaojiedian
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
-      - 香港|@ripaojiedian
       - _HK_中国香港->🇹🇭_TH_泰国
       - _HK_中国香港->🇯🇵_JP_日本_1
       - 10,11|香港4|@ripaojiedian
@@ -819,32 +849,42 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -852,8 +892,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -868,7 +906,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -888,7 +925,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -969,38 +1006,47 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -1008,8 +1054,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -1024,7 +1068,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -1044,7 +1087,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -1125,39 +1168,48 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -1165,8 +1217,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -1181,7 +1231,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -1201,7 +1250,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -1282,7 +1331,6 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1298,32 +1346,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_speednode_0196
-      - SE_speednode_0168
-      - MX_speednode_0033
-      - _IR_伊朗->🇳🇱_NL_荷兰
-      - _HK_中国香港->🇺🇸_US_美国_1
-      - HK_speednode_0023
-      - _HK_中国香港_1
-      - JP_speednode_0012
-      - ID_23100_0015
-      - SE_2|2.5MB/s
-      - US_speednode_0030
-      - _KR_韩国
-      - US_speednode_0192
-      - SE_4|2.2MB/s
-      - SE_3|3.6MB/s
-      - DE_6|2.8MB/s
-      - JP-13.115.71.81-6044 | 19.367MB
-      - KR_0b85e_0009
-      - _SG_新加坡->🇺🇸_US_美国
-      - _HK_中国香港->🇮🇳_IN_印度
-      - HK_11c6a_0021
-      - US_6|4.3MB/s
+      - 香港|@ripaojiedian
       - _HK_中国香港_2 2
-      - TW-114.25.8.182-6223 | 4.189MB
+      - US_6|4.3MB/s
+      - SE_4|2.2MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - CA_speednode_0001
+      - SE_speednode_0168
+      - US_speednode_0030
+      - CH_1|3.4MB/s
+      - KR_6|2.5MB/s
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_3|2.0MB/s
+      - KR_1|1.8MB/s
+      - DE_6|2.8MB/s
+      - CN_54ab4_0001
       - ID_2a61e_0010
       - "C - 🇺🇸 US 49 TG: @nodpai"
+      - ID_23100_0015
+      - _SG_新加坡->🇺🇸_US_美国
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - MX_speednode_0033
+      - JP_speednode_0012
+      - _HK_中国香港_1
+      - US_speednode_0196
+      - HK_speednode_0023
+      - SE_2|2.5MB/s
+      - _KR_韩国
+      - US_speednode_0192
+      - SE_3|3.6MB/s
+      - JP-13.115.71.81-6044 | 19.367MB
+      - KR_0b85e_0009
+      - _HK_中国香港->🇮🇳_IN_印度
+      - HK_11c6a_0021
+      - TW-114.25.8.182-6223 | 4.189MB
       - TW_1|2.7MB/s
       - TW_2|3.6MB/s
       - RU_speednode_0083
@@ -1331,8 +1389,6 @@ proxy-groups:
       - HK_speednode_0007
       - _HK_中国香港->🇮🇩_ID_印度尼西亚
       - 12|CN_speednode_0008
-      - 香港|@ripaojiedian
-      - CH_1|3.4MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - UA_2|2.6MB/s
       - _HK_中国香港->🇹🇭_TH_泰国
@@ -1347,7 +1403,6 @@ proxy-groups:
       - HK_3|5.7MB/s
       - 10,11|香港4|@ripaojiedian
       - UA_4|2.6MB/s
-      - CA_speednode_0001
       - NL_speednode_0007
       - ES-5.188.181.201-4426 | 2.111MB
       - ES-5.188.181.201-5968 | 1.247MB
@@ -1367,7 +1422,7 @@ proxy-groups:
       - _IR_伊朗->🇧🇬_BG_保加利亚
       - GB-82.38.31.15-0114 | 52.589MB
       - FR_2|3.2MB/s
-      - KR_5|3.3MB/s
+      - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
       - PL-62.112.222.26-0513 | 38.207MB
       - DE_3|4.9MB/s
@@ -1448,7 +1503,6 @@ proxy-groups:
       - GB-82.38.31.218-0115 | 42.743MB
       - _US_美国_2
       - ES-5.188.181.201-0173 | 0.0MB
-      - US_5|1.0MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
