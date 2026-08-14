@@ -5,18 +5,29 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: US_6|4.3MB/s, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 香港3|@ripaojiedian, server: 2c.fast9988.com, port: 50887, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: KR_2|2.6MB/s, server: charming-puma.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_5|5.0MB/s, server: kind-grizzly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_3|5.0MB/s, server: fit-marten.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR-43.203.206.201-1630 | 18.381MB, server: massive-ocelot.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_1|1.5MB/s, server: good-hound.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR-3.38.152.121-1631 | 17.686MB, server: apt-whippet.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: DE_3|1.4MB/s, server: renewed-porpoise.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: _IR_伊朗->🇩🇪_DE_德国, server: 79.175.134.49, port: 39880, type: ss, cipher: aes-256-gcm, password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=}
+  - {name: SC_1|3.1MB/s, server: 117.27.228.29, port: 10000, type: vmess, uuid: 2c90af15-bac7-f850-4c7c-120c5a420636, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: CA_1|1.3MB/s, server: 51.222.12.127, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: US_speednode_0030, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: DE_1|1.0MB/s, server: 18.199.102.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _HK_中国香港->🇰🇷_KR_韩国, server: a8zbx9xj.catcat321.com, port: 20088, type: trojan, password: 0010996f-3eab-4804-9b3a-3a889d6767fc, sni: iepl.krz3.cat.bilibili.com, skip-cert-verify: true}
-  - {name: US_6|4.3MB/s, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _TW_中国台湾->🇺🇸_US_美国, server: lt.badns.help, port: 51360, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false}
   - {name: JP-13.115.71.81-6044 | 19.367MB, server: v2jp.k1.ssnss.live, port: 44184, type: trojan, password: d050aca3-9df2-4461-90ec-92373c1d7636, skip-cert-verify: false}
   - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
@@ -198,25 +209,38 @@ proxies:
   - {name: CA_1|2.8MB/s, server: c87s5.portablesubmarines.com, port: 18339, type: vmess, uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43, alterId: 0, cipher: auto, tls: false}
   - {name: US_7|3.3MB/s 2, server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @WangCai2)f6e348d:70852}}
   - {name: US_1|3.5MB/s, server: 18.190.176.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: FR_1|3.0MB/s, server: correct-pony.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true}
   - {name: _US_美国_2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true}
+  - {name: JP_1|1.1MB/s, server: great-wasp.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -398,24 +422,37 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -597,25 +634,38 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -797,7 +847,9 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -816,18 +868,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -1009,13 +1072,16 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港|@ripaojiedian
+      - 香港3|@ripaojiedian
       - _HK_中国香港_2 2
+      - 香港|@ripaojiedian
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - _HK_中国香港_1
@@ -1037,18 +1103,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -1230,24 +1307,37 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -1429,25 +1519,38 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -1629,7 +1732,9 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1645,18 +1750,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港|@ripaojiedian
-      - _HK_中国香港_2 2
-      - ID_23100_0015
-      - KR_0b85e_0009
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _SG_新加坡->🇺🇸_US_美国
       - ID_2a61e_0010
+      - ID_23100_0015
+      - US_6|4.3MB/s
+      - 香港3|@ripaojiedian
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - _HK_中国香港_2 2
+      - KR_0b85e_0009
+      - _JP_日本 2
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - 香港|@ripaojiedian
       - US_speednode_0030
       - DE_1|1.0MB/s
-      - _SG_新加坡->🇺🇸_US_美国
-      - _JP_日本 2
       - _HK_中国香港->🇰🇷_KR_韩国
-      - US_6|4.3MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - _TW_中国台湾->🇺🇸_US_美国
       - JP-13.115.71.81-6044 | 19.367MB
       - JP_speednode_0012
@@ -1838,7 +1954,9 @@ proxy-groups:
       - CA_1|2.8MB/s
       - US_7|3.3MB/s 2
       - US_1|3.5MB/s
+      - FR_1|3.0MB/s
       - _US_美国_2
+      - JP_1|1.1MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
