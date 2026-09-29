@@ -5,18 +5,22 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: GB-82.38.31.35-0115 | 0.129MB, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 瑞典 | SWE 3, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 瑞典 | SWE, server: 51.20.86.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SG_2|4.0MB/s, server: cn08.somethingstranges.com, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}}
   - {name: SG_3|3.8MB/s, server: cn07.somethingstranges.com, port: 8206, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}}
+  - {name: _US_美国_1, server: 54.90.169.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国 | USA 14, server: 192.236.151.43, port: 443, type: trojan, password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=, sni: 192.236.151.43, skip-cert-verify: true}
+  - {name: 瑞典 | SWE 2, server: 13.60.213.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: JP_1|2.9MB/s, server: 54.199.248.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_1|3.8MB/s, server: 13.113.166.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_4|2.8MB/s, server: 172.64.229.138, port: 2083, type: vmess, uuid: ac251237-576f-40c8-a543-554960c958b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /or3, headers: {Host: or.521166.xyz}}}
-  - {name: SG_2|4.0MB/s, server: cn08.somethingstranges.com, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}}
   - {name: 美国 | USA 13, server: 18.205.21.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 墨西哥 | MEX, server: 64.177.90.30, port: 8388, type: ss, cipher: aes-256-gcm, password: BWyPPTusFKhGgzKh}
-  - {name: 瑞典 | SWE, server: 51.20.86.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 瑞典 | SWE 3, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 瑞典 | SWE 2, server: 13.51.242.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 瑞典 | SWE 2 2, server: 13.51.242.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_3|3.0MB/s, server: 172.64.154.103, port: 2083, type: vmess, uuid: ac251237-576f-40c8-a543-554960c958b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /or3, headers: {Host: or.521166.xyz}}}
   - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
@@ -105,24 +109,290 @@ proxies:
   - {name: GB_1|1.2MB/s 2, server: 18.171.235.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: _PL_波兰->🇺🇦_UA_乌克兰, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: _PL_波兰->🇳🇴_NO_挪威_1, server: kkvlvvq-a.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: _PL_波兰->🇺🇦_UA_乌克兰_1, server: kkvlvvq-a.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: _PL_波兰->🇳🇴_NO_挪威, server: hkdcrtc-e.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: _PL_波兰->🇮🇹_IT_意大利, server: kkvlvvq-a.catcat321.com, port: 20065, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: JP_1|2.5MB/s, server: 121.46.230.136, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: IT_3|2.6MB/s, server: 211.91.158.44, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: IT_1|4.4MB/s, server: 211.91.158.26, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: US_6|3.5MB/s, server: 211.91.158.44, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_2|5.4MB/s, server: 211.91.158.26, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: SG_2|3.6MB/s, server: 211.91.158.26, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: TH_1|4.6MB/s, server: 211.91.158.44, port: 21123, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: IN_1|4.8MB/s, server: 211.91.158.26, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: IN_2|2.6MB/s, server: 211.91.158.44, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_4|5.7MB/s, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_3|5.9MB/s, server: 211.91.158.26, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_2|4.8MB/s, server: 211.91.158.26, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: US_7|4.3MB/s, server: 211.91.158.44, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_1|1.6MB/s, server: 211.91.158.26, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_4|4.3MB/s, server: 211.91.158.44, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: GB_2|1.7MB/s, server: 211.91.158.26, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: GB_1|3.5MB/s, server: 211.91.158.26, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: DE_2|4.5MB/s, server: 211.91.158.26, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: GB_3|4.3MB/s, server: 211.91.158.44, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: IT_2|4.2MB/s, server: 211.91.158.26, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: GB_4|4.4MB/s, server: 211.91.158.44, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: FR_6|4.3MB/s, server: 211.91.158.44, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: US_5|4.2MB/s, server: 211.91.158.26, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: FR_5|4.4MB/s, server: 211.91.158.26, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: FR_7|3.4MB/s, server: 211.91.158.44, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: IL_1|1.1MB/s, server: 211.91.158.44, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_3|2.4MB/s, server: 211.91.158.44, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: DE_3|1.7MB/s, server: 211.91.158.44, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: HK_5|4.6MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}}
+  - {name: _HK_中国香港, server: 212.192.15.46, port: 20990, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f}
+  - {name: _NL_荷兰_1, server: 134.98.133.122, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: aQFwKywVqx4Y1BOPkHwT78SgRbRf3/e6yf8nrwVANxU=}
+  - {name: _HK_中国香港_2, server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 香港3|@ripaojiedian, server: 2c.fast9988.com, port: 50887, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: FR_6|3.5MB/s, server: 51.44.170.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: DE_4|4.1MB/s, server: 63.176.139.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: DE_1|4.4MB/s, server: 63.186.69.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GB-82.38.31.15-0114 | 52.589MB, server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: FR_1|3.0MB/s, server: 13.38.46.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_5|2.8MB/s, server: 3.145.61.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: FR_5|1.4MB/s, server: 13.38.78.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US-54.244.169.225-4603 | 38.219MB, server: sharing-duck.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: sharing-duck.rooster465.autos, skip-cert-verify: false}
+  - {name: SG_4|1.7MB/s, server: 183.240.203.86, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: US-18.188.213.207-6261 | 51.893MB, server: 18.188.213.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 121.46.230.235, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: CN_speednode_0001, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: HK_7|5.7MB/s, server: 120.232.253.97, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: CN_speednode_0002, server: 121.46.230.234, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: DE_1|3.2MB/s, server: 63.178.246.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _JP_日本 3, server: wealthy-gobbler.rooster465.autos, port: 443, type: trojan, password: EQ30679154, sni: wealthy-gobbler.rooster465.autos, skip-cert-verify: true}
+  - {name: SG_3|4.3MB/s, server: 120.232.253.90, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: FR_1|1.7MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16644, type: vmess, uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com}}}
+  - {name: _HK_中国香港 2, server: 212.192.15.46, port: 60112, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f}
+  - {name: CN_speednode_0003, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: KR_3|5.1MB/s, server: 211.91.158.24, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_2|5.2MB/s, server: 211.91.158.24, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: KR_4|4.8MB/s, server: 211.91.158.27, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_4|2.4MB/s, server: 211.91.158.27, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_2|2.5MB/s, server: 211.91.158.24, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: _GB_英国, server: 104.248.167.79, port: 5624, type: trojan, password: fg20mtCFHy, sni: dsgvc.southbyte.xyz, skip-cert-verify: true}
+  - {name: _IN_印度, server: 157.245.99.215, port: 5750, type: trojan, password: fg20mtCFHy, sni: inyct.southbyte.xyz, skip-cert-verify: true}
+  - {name: _ES_西班牙, server: 172.233.107.18, port: 5575, type: trojan, password: fg20mtCFHy, sni: fgrsd.southbyte.xyz, skip-cert-verify: true}
+  - {name: JP_3|4.7MB/s, server: 211.91.158.27, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: JP_1|2.9MB/s 2, server: 211.91.158.24, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
+  - {name: _FR_法国 2, server: 15.237.189.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国 2, server: 173.255.247.228, port: 5444, type: trojan, password: fg20mtCFHy, sni: frsdata.southbyte.xyz, skip-cert-verify: true}
+  - {name: ID_23100_0015, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: HK_2|3.5MB/s, server: cn01.somethingstranges.com, port: 8103, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}}
+  - {name: HK_4|4.4MB/s, server: cn02.somethingstranges.com, port: 8108, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}}
+  - {name: AR_1|3.0MB/s, server: l.d.w.a.5.4.z.9.6.ar01-ae5.entry.v51124-3a.qpon, port: 20026, type: ss, cipher: aes-256-gcm, password: f552e8bf-9b43-3654-8efa-b7cb366431e8}
+  - {name: _IE_爱尔兰, server: summary-firefly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true}
+  - {name: IE_1|2.3MB/s, server: 3.253.78.205, port: 443, type: trojan, password: FH72359861, sni: balanced-heron.rooster465.autos, skip-cert-verify: false}
+  - {name: KR_5|2.0MB/s, server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true}
+  - {name: KR_2|5.5MB/s, server: 43.202.61.210, port: 443, type: trojan, password: FH72359861, sni: loyal-molly.rooster465.autos, skip-cert-verify: false}
+  - {name: KR_2|2.6MB/s, server: charming-puma.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_5|5.0MB/s, server: kind-grizzly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_3|5.0MB/s, server: fit-marten.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR-43.203.206.201-1630 | 18.381MB, server: massive-ocelot.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR_1|1.5MB/s, server: good-hound.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: KR-3.38.152.121-1631 | 17.686MB, server: apt-whippet.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: DE_3|1.4MB/s, server: renewed-porpoise.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: false}
+  - {name: _IR_伊朗->🇩🇪_DE_德国, server: 79.175.134.49, port: 39880, type: ss, cipher: aes-256-gcm, password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=}
+  - {name: SC_1|3.1MB/s, server: 117.27.228.29, port: 10000, type: vmess, uuid: 2c90af15-bac7-f850-4c7c-120c5a420636, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: CA_1|1.3MB/s, server: 51.222.12.127, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: US_speednode_0030, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: DE_1|1.0MB/s, server: 18.199.102.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _HK_中国香港->🇰🇷_KR_韩国, server: a8zbx9xj.catcat321.com, port: 20088, type: trojan, password: 0010996f-3eab-4804-9b3a-3a889d6767fc, sni: iepl.krz3.cat.bilibili.com, skip-cert-verify: true}
+  - {name: _TW_中国台湾->🇺🇸_US_美国, server: lt.badns.help, port: 51360, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false}
+  - {name: ES-5.188.181.201-0173 | 0.0MB, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: US_5|3.0MB/s, server: 18.166.226.204, port: 39024, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: HK_speednode_0012, server: 16.162.3.11, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: US-217.28.129.81-0456 | 0.035MB, server: autodiscover.fuzzyaytor.cyou, port: 42982, type: ss, cipher: chacha20-ietf-poly1305, password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS}
+  - {name: JP_19|5.5MB/s, server: nearby-egret.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: nearby-egret.rooster465.autos, skip-cert-verify: true}
+  - {name: _US_美国_1 2, server: 98.89.48.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GB-82.38.31.35-0446 | 2.234MB, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: HK-103.149.183.80-0172 | 0.0MB, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: JP_11|5.4MB/s, server: picked-guinea.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: picked-guinea.rooster465.autos, skip-cert-verify: true}
+  - {name: US_17|2.1MB/s, server: alert-monster.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: alert-monster.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_25|5.7MB/s, server: one-dove.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: one-dove.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_22|3.9MB/s, server: immune-grackle.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: immune-grackle.rooster465.autos, skip-cert-verify: false}
+  - {name: _HK_中国香港->🇮🇳_IN_印度, server: oplosgru-c.catcat321.com, port: 20034, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: DE_6|2.8MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true}
+  - {name: JP_28|4.7MB/s, server: stunning-mite.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: stunning-mite.rooster465.autos, skip-cert-verify: true}
+  - {name: _HK_中国香港->🇰🇷_KR_韩国 2, server: oplosgru-c.catcat321.com, port: 20088, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: _US_美国->🇩🇪_DE_德国_1, server: po.fastbrokencompony.com, port: 2053, type: vless, uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c, tls: true, network: ws, ws-opts: {path: /, headers: {Host: po.fastbrokencompony.com}}}
+  - {name: _HK_中国香港->🇲🇴_MO_中国澳门, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: MX_speednode_0033, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}}
+  - {name: JP_16|5.3MB/s, server: becoming-hare.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: becoming-hare.rooster465.autos, skip-cert-verify: true}
+  - {name: KR_8|5.2MB/s, server: uncommon-feline.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: uncommon-feline.rooster465.autos, skip-cert-verify: true}
+  - {name: SG_1|1.7MB/s, server: sacred-treefrog.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: sacred-treefrog.rooster465.autos, skip-cert-verify: true}
+  - {name: US_10|2.7MB/s, server: 98.93.33.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0192, server: 13.62.231.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0265, server: 38.180.135.39, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
+  - {name: NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: FR_1|2.5MB/s, server: great-krill.rooster465.autos, port: 443, type: trojan, password: QV31589740, skip-cert-verify: false}
+  - {name: JP_2|5.7MB/s, server: 13.231.179.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KR_13|5.0MB/s, server: striking-maggot.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: striking-maggot.rooster465.autos, skip-cert-verify: true}
+  - {name: JP_18|5.6MB/s, server: happy-mutt.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: happy-mutt.rooster465.autos, skip-cert-verify: true}
+  - {name: SE_4|1.0MB/s, server: 13.61.13.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _KR_韩国, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: KR_3|4.6MB/s, server: grateful-owl.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: grateful-owl.rooster465.autos, skip-cert-verify: true}
+  - {name: JP_3|6.0MB/s, server: 13.231.227.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_1|2.0MB/s, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: NL_3|2.2MB/s, server: 82.38.31.156, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: NL_2|1.6MB/s, server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: US_7|3.3MB/s 2, server: 3.85.61.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: RU_speednode_0083, server: 195.133.23.200, port: 1291, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599}
+  - {name: US_6|3.0MB/s, server: speed-01.aliyun-web-tracker.cn, port: 53199, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true}
+  - {name: TW_1|1.6MB/s, server: speed-01.aliyun-web-tracker.cn, port: 39221, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true}
+  - {name: JP_20|5.4MB/s, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: internal-sunbird.rooster465.autos, skip-cert-verify: true}
+  - {name: HK_11c6a_0021, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: SE_4|2.2MB/s, server: 13.62.20.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_11|1.9MB/s, server: 185.132.54.106, port: 55523, type: trojan, password: UaQmDQajuW, sni: b32-10.cmj0502.cn, skip-cert-verify: false}
+  - {name: JP_22|5.9MB/s, server: immense-gnu.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: immense-gnu.rooster465.autos, skip-cert-verify: true}
+  - {name: "10,11|香港4|@ripaojiedian", server: 95.40.61.23, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: UA_1|1.9MB/s, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: TW_1|4.2MB/s, server: xunlinknode.csdjhajkshdjkas.com, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad}
+  - {name: CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8}
+  - {name: _RU_俄罗斯_1, server: 185.22.154.103, port: 10921, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b}
+  - {name: ES_2|3.0MB/s, server: 5.188.181.201, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: _HK_中国香港->🇯🇵_JP_日本_1, server: hkdcrtc-e.catcat321.com, port: 20129, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: KR_6|2.5MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9001, type: ss, cipher: aes-128-gcm, password: ayucew2, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: SE_3|3.6MB/s, server: 13.53.38.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0272, server: 35.212.182.82, port: 2095, type: vmess, uuid: 0e119284-a44d-45a2-807a-bdb718d82e51, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /0e119284-a44d-45a2-807a-bdb718d82e51-vm, headers: {Host: www.bing.com}}}
+  - {name: KR_3|2.0MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9019, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: _CN_中国 2, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: 123}
+  - {name: ES-5.188.181.201-0172 | 0.0MB, server: 5.188.181.201, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: ES-5.188.181.201-5968 | 1.247MB, server: 5.188.181.201, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: JP_1|3.4MB/s, server: 16.163.57.145, port: 40138, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: UA_2|2.6MB/s, server: oplosgru-c.catcat321.com, port: 20066, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: HK_speednode_0007, server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: HK_speednode_0023, server: 43.198.98.22, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: UA_3|2.4MB/s, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true}
+  - {name: UA_1|3.4MB/s, server: 194.54.80.37, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: XF0klw7870vXn3uQIxe19Q}
+  - {name: _HK_中国香港->🇺🇸_US_美国_1, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: SE_2|2.5MB/s, server: 16.171.242.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SE_speednode_0168, server: 13.61.5.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "10,11|新加坡3|@ripaojiedian", server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: CN_54ab4_0001, server: board-04.ddnskunlun.com, port: 11973, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
+  - {name: SC_2|2.6MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: SC_3|2.2MB/s, server: 260323.1.0.l3.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: SC_1|2.2MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9054, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_7|1.7MB/s, server: 260323.1.0.l3.unclemanco.com, port: 920, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: US_9|2.0MB/s, server: 54.196.207.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SE_2|1.3MB/s, server: 16.171.111.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _IR_伊朗->🇳🇱_NL_荷兰, server: 94.182.88.61, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false}
+  - {name: _RU_俄罗斯_1 2, server: 176.32.35.51, port: 10910, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570}
+  - {name: KR_5|3.3MB/s, server: 260323.1.0.l3.unclemanco.com, port: 810, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_4|2.0MB/s, server: 260323.1.0.l3.unclemanco.com, port: 921, type: ss, cipher: aes-128-gcm, password: ayucl243113, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_2|2.4MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9035, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: KR_1|1.8MB/s, server: 260323.1.0.l3.unclemanco.com, port: 917, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
+  - {name: _IR_伊朗->🇳🇱_NL_荷兰 2, server: tun1.wizardx1.com, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false}
+  - {name: CH_1|3.4MB/s, server: best.kovira2.ir, port: 25026, type: ss, cipher: chacha20-ietf-poly1305, password: xp6qduya33bvl863}
+  - {name: US_speednode_0196, server: 3.91.76.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _HK_中国香港->🇮🇳_IN_印度 2, server: oplosgru-c.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: TW_1|2.7MB/s, server: 209.248.32.115, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true}
+  - {name: TW_2|3.6MB/s, server: 209.248.32.116, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true}
+  - {name: "10,11|香港3|@ripaojiedian", server: 18.167.20.3, port: 13118, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: _HK_中国香港->🇮🇩_ID_印度尼西亚, server: oplosgru-c.catcat321.com, port: 20120, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: 12|CN_speednode_0008, server: rr1.tube-cat.com, port: 9450, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true}
+  - {name: _HK_中国香港->🇹🇭_TH_泰国, server: oplosgru-c.catcat321.com, port: 20023, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: CN_speednode_0002 2, server: rr2.tube-cat.com, port: 9450, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true}
+  - {name: CH_speednode_0004, server: koviraaa.kovira2.ir, port: 25026, type: ss, cipher: chacha20-ietf-poly1305, password: kvrov4vd4iszb3aw}
+  - {name: ID_1|3.3MB/s, server: oplosgru-c.catcat321.com, port: 20056, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: NO_2|2.7MB/s, server: hkdcrtc-e.catcat321.com, port: 20085, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
+  - {name: HK_3|5.7MB/s, server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com, port: 32029, type: trojan, password: 246fb793-8e5e-4015-943e-22f41e4ea4a5, sni: pull-flv-q1-admin.douyincdn.com, skip-cert-verify: true}
+  - {name: UA_4|2.6MB/s, server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com, port: 32019, type: trojan, password: 246fb793-8e5e-4015-943e-22f41e4ea4a5, sni: pull-flv-q1-admin.douyincdn.com, skip-cert-verify: true}
+  - {name: _US_美国 3, server: 216.105.168.19, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Yq42Vx56a2SghCnLtOyOCF}
+  - {name: _US_美国_1 3, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国_1 4, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US-34.207.112.128-3198 | 65.247MB, server: 34.207.112.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_13|3.4MB/s, server: permission_level_01.unclemanco.com, port: 40031, type: ss, cipher: aes-128-gcm, password: ba2a429e-dcaa-4d94-a651-99b0a920ee38}
+  - {name: HK-103.149.183.12-0182 | 0.0MB, server: 103.149.183.12, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: SG_2|3.9MB/s, server: crucial-moth.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: crucial-moth.rooster465.autos, skip-cert-verify: false}
+  - {name: SG_3|5.0MB/s, server: glorious-glider.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: glorious-glider.rooster465.autos, skip-cert-verify: false}
+  - {name: _IR_伊朗->🇧🇬_BG_保加利亚, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=}
+  - {name: FR_2|3.2MB/s, server: definite-giraffe.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: definite-giraffe.rooster465.autos, skip-cert-verify: true}
+  - {name: KR_5|3.3MB/s 2, server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
+  - {name: PL-62.112.222.26-0522 | 38.724MB, server: 62.112.222.26, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
+  - {name: PL-62.112.222.26-0513 | 38.207MB, server: upright-hamster.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
+  - {name: DE_3|4.9MB/s, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_3|2.8MB/s, server: major-duckling.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
+  - {name: DE_4|3.0MB/s, server: aware-pika.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: aware-pika.rooster465.autos, skip-cert-verify: false}
+  - {name: KR_4|3.2MB/s, server: adjusted-labrador.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: adjusted-labrador.rooster465.autos, skip-cert-verify: true}
+  - {name: FR_3|3.8MB/s, server: humane-bird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
+  - {name: FR_6|3.2MB/s, server: firm-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: firm-warthog.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_4|2.8MB/s 2, server: enhanced-dassie.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: enhanced-dassie.rooster465.autos, skip-cert-verify: false}
+  - {name: PL_1|2.7MB/s, server: sensible-haddock.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: sensible-haddock.rooster465.autos, skip-cert-verify: false}
+  - {name: SG_2|2.5MB/s, server: still-mastodon.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: still-mastodon.rooster465.autos, skip-cert-verify: true}
+  - {name: SG_4|3.0MB/s, server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
+  - {name: NL_4|2.5MB/s, server: 185.247.117.209, port: 56431, type: trojan, password: 8240cd21ddf3112d50c4b6e52a70f0ce, sni: 185.247.117.209.sslip.io, skip-cert-verify: false}
+  - {name: GB_1|3.5MB/s 2, server: 13.135.169.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK_1|1.8MB/s, server: 91.110.182.6, port: 443, type: vless, uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4, tls: true, servername: s5gydl.936.us.ci, network: ws, ws-opts: {path: "/proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4", headers: {Host: s5gydl.936.us.ci}}}
+  - {name: GB_1|2.4MB/s, server: 52.56.188.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KR_1|4.6MB/s, server: quick-lab.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: KR_11|3.6MB/s, server: evolving-kangaroo.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: evolving-kangaroo.rooster465.autos, skip-cert-verify: false}
+  - {name: _US_美国->🇫🇷_FR_法国_2, server: 4cdn.njkrpl.com, port: 443, type: vmess, uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 4cdn.njkrpl.com}}}
+  - {name: KR_7|3.9MB/s, server: trusted-grouper.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: NL_4|2.0MB/s, server: actual-aardvark.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: actual-aardvark.rooster465.autos, skip-cert-verify: false}
+  - {name: NL_2|2.6MB/s, server: unique-gobbler.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: DE_5|2.2MB/s, server: summary-finch.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: summary-finch.rooster465.autos, skip-cert-verify: false}
+  - {name: KR_2|3.9MB/s, server: apt-magpie.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: NL_1|2.1MB/s, server: workable-crawdad.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: KR_6|4.3MB/s, server: settled-camel.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: DE_4|1.6MB/s, server: sensible-grubworm.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: KR_10|4.6MB/s, server: winning-polecat.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true}
+  - {name: ES-5.188.181.201-0175 | 0.0MB, server: 5.188.181.201, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: DE_3|4.0MB/s, server: 3.77.54.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _DE_德国_4, server: 3.75.172.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK_1|2.6MB/s, server: c722s2.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k}
+  - {name: HK_3|3.2MB/s, server: c722s4.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_4|2.0MB/s, server: c722s5.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_2|4.9MB/s, server: c722s1.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k}
+  - {name: HK_2|2.4MB/s, server: c722s3.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
+  - {name: JP_15|4.8MB/s, server: better-molly.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: better-molly.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_10|5.7MB/s, server: helped-jennet.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: helped-jennet.rooster465.autos, skip-cert-verify: true}
+  - {name: KR_8|2.1MB/s, server: mighty-lemming.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: mighty-lemming.rooster465.autos, skip-cert-verify: false}
+  - {name: KR_11|3.9MB/s, server: musical-mouse.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: musical-mouse.rooster465.autos, skip-cert-verify: false}
+  - {name: _US_美国_5, server: 45.158.23.138, port: 27272, type: vmess, uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: DE_4|5.0MB/s, server: 63.183.207.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: DE_3|1.6MB/s, server: 3.122.115.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_6|1.7MB/s, server: c722s801.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false}
+  - {name: SG_2|5.4MB/s, server: usable-dogfish.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: usable-dogfish.rooster465.autos, skip-cert-verify: true}
+  - {name: SG_5|3.8MB/s, server: eminent-hagfish.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: eminent-hagfish.rooster465.autos, skip-cert-verify: true}
+  - {name: GB_1|1.9MB/s, server: 18.133.180.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_28|5.4MB/s, server: allowing-ram.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: allowing-ram.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_34|2.1MB/s, server: prime-quail.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: prime-quail.rooster465.autos, skip-cert-verify: true}
+  - {name: JP_21|4.8MB/s, server: beloved-crow.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: beloved-crow.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_20|5.0MB/s, server: amusing-grub.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: amusing-grub.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_16|5.4MB/s, server: saving-drake.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: saving-drake.rooster465.autos, skip-cert-verify: false}
+  - {name: JP_30|5.3MB/s, server: golden-kangaroo.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: golden-kangaroo.rooster465.autos, skip-cert-verify: false}
+  - {name: _HK_中国香港 3, server: 18.163.5.109, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: JP_1|5.0MB/s, server: flexible-gannet.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: flexible-gannet.rooster465.autos, skip-cert-verify: true}
+  - {name: JP_6|5.7MB/s, server: joint-ewe.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: joint-ewe.rooster465.autos, skip-cert-verify: true}
+  - {name: _AU_澳大利亚_1, server: stirring-dane.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: stirring-dane.rooster465.autos, skip-cert-verify: true}
+  - {name: _HK_中国香港->🇺🇸_US_美国, server: 18.163.5.109, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
+  - {name: JP_11|4.9MB/s, server: ace-liger.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: ace-liger.rooster465.autos, skip-cert-verify: false}
+  - {name: SG_3|3.5MB/s, server: driving-antelope.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: driving-antelope.rooster465.autos, skip-cert-verify: false}
+  - {name: CA_1|2.8MB/s, server: c87s5.portablesubmarines.com, port: 18339, type: vmess, uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43, alterId: 0, cipher: auto, tls: false}
+  - {name: US_1|3.5MB/s, server: 18.190.176.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -211,23 +481,289 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -316,24 +852,290 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -422,6 +1224,268 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -440,18 +1504,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -540,6 +1608,268 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -548,24 +1878,46 @@ proxy-groups:
       - _HK_中国香港_1 2
       - 台湾 | TWN 3
       - _HK_中国香港_2 2
+      - _HK_中国香港
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - _HK_中国香港 2
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - _HK_中国香港->🇮🇳_IN_印度
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - 10,11|香港4|@ripaojiedian
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - _HK_中国香港 3
+      - _HK_中国香港->🇺🇸_US_美国
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -654,23 +2006,289 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -759,24 +2377,290 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -865,6 +2749,268 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -880,18 +3026,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
+      - GB-82.38.31.35-0115 | 0.129MB
+      - KR_0b85e_0009
+      - 瑞典 | SWE 3
+      - 瑞典 | SWE
+      - SG_2|4.0MB/s
       - SG_3|3.8MB/s
+      - _US_美国_1
+      - 美国 | USA 14
+      - 瑞典 | SWE 2
+      - _CN_中国
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
       - JP_4|2.8MB/s
-      - SG_2|4.0MB/s
       - 美国 | USA 13
       - 墨西哥 | MEX
-      - 瑞典 | SWE
-      - 瑞典 | SWE 3
-      - 瑞典 | SWE 2
-      - KR_0b85e_0009
+      - 瑞典 | SWE 2 2
       - JP_3|3.0MB/s
       - _SG_新加坡->🇺🇸_US_美国
       - GB_5d022_0017 2
@@ -980,6 +3130,268 @@ proxy-groups:
       - GB_1|1.2MB/s 2
       - _PL_波兰->🇺🇦_UA_乌克兰
       - _PL_波兰->🇳🇴_NO_挪威_1
+      - _PL_波兰->🇺🇦_UA_乌克兰_1
+      - _PL_波兰->🇳🇴_NO_挪威
+      - _PL_波兰->🇮🇹_IT_意大利
+      - JP_1|2.5MB/s
+      - IT_3|2.6MB/s
+      - IT_1|4.4MB/s
+      - US_6|3.5MB/s
+      - JP_2|5.4MB/s
+      - SG_2|3.6MB/s
+      - TH_1|4.6MB/s
+      - IN_1|4.8MB/s
+      - IN_2|2.6MB/s
+      - JP_4|5.7MB/s
+      - JP_3|5.9MB/s
+      - KR_2|4.8MB/s
+      - US_7|4.3MB/s
+      - KR_1|1.6MB/s
+      - KR_4|4.3MB/s
+      - GB_2|1.7MB/s
+      - GB_1|3.5MB/s
+      - DE_2|4.5MB/s
+      - GB_3|4.3MB/s
+      - IT_2|4.2MB/s
+      - GB_4|4.4MB/s
+      - FR_6|4.3MB/s
+      - US_5|4.2MB/s
+      - FR_5|4.4MB/s
+      - FR_7|3.4MB/s
+      - IL_1|1.1MB/s
+      - KR_3|2.4MB/s
+      - DE_3|1.7MB/s
+      - HK_5|4.6MB/s
+      - _HK_中国香港
+      - _NL_荷兰_1
+      - _HK_中国香港_2
+      - 香港3|@ripaojiedian
+      - FR_6|3.5MB/s
+      - DE_4|4.1MB/s
+      - DE_1|4.4MB/s
+      - GB-82.38.31.15-0114 | 52.589MB
+      - FR_1|3.0MB/s
+      - US_5|2.8MB/s
+      - FR_5|1.4MB/s
+      - US-54.244.169.225-4603 | 38.219MB
+      - SG_4|1.7MB/s
+      - US-18.188.213.207-6261 | 51.893MB
+      - _CN_中国->🇰🇷_KR_韩国
+      - CN_speednode_0001
+      - HK_7|5.7MB/s
+      - CN_speednode_0002
+      - DE_1|3.2MB/s
+      - _JP_日本 3
+      - SG_3|4.3MB/s
+      - FR_1|1.7MB/s
+      - _HK_中国香港 2
+      - CN_speednode_0003
+      - KR_3|5.1MB/s
+      - KR_2|5.2MB/s
+      - KR_4|4.8MB/s
+      - JP_4|2.4MB/s
+      - JP_2|2.5MB/s
+      - _GB_英国
+      - _IN_印度
+      - _ES_西班牙
+      - JP_3|4.7MB/s
+      - JP_1|2.9MB/s 2
+      - _FR_法国 2
+      - _US_美国 2
+      - ID_23100_0015
+      - HK_2|3.5MB/s
+      - HK_4|4.4MB/s
+      - AR_1|3.0MB/s
+      - _IE_爱尔兰
+      - IE_1|2.3MB/s
+      - KR_5|2.0MB/s
+      - KR_2|5.5MB/s
+      - KR_2|2.6MB/s
+      - KR_5|5.0MB/s
+      - KR_3|5.0MB/s
+      - KR-43.203.206.201-1630 | 18.381MB
+      - KR_1|1.5MB/s
+      - KR-3.38.152.121-1631 | 17.686MB
+      - DE_3|1.4MB/s
+      - _IR_伊朗->🇩🇪_DE_德国
+      - SC_1|3.1MB/s
+      - CA_1|1.3MB/s
+      - US_speednode_0030
+      - DE_1|1.0MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国
+      - _TW_中国台湾->🇺🇸_US_美国
+      - ES-5.188.181.201-0173 | 0.0MB
+      - US_5|3.0MB/s
+      - HK_speednode_0012
+      - US-217.28.129.81-0456 | 0.035MB
+      - JP_19|5.5MB/s
+      - _US_美国_1 2
+      - GB-82.38.31.35-0446 | 2.234MB
+      - HK-103.149.183.80-0172 | 0.0MB
+      - JP_11|5.4MB/s
+      - US_17|2.1MB/s
+      - JP_25|5.7MB/s
+      - JP_22|3.9MB/s
+      - _HK_中国香港->🇮🇳_IN_印度
+      - DE_6|2.8MB/s
+      - JP_28|4.7MB/s
+      - _HK_中国香港->🇰🇷_KR_韩国 2
+      - _US_美国->🇩🇪_DE_德国_1
+      - _HK_中国香港->🇲🇴_MO_中国澳门
+      - MX_speednode_0033
+      - JP_16|5.3MB/s
+      - KR_8|5.2MB/s
+      - SG_1|1.7MB/s
+      - US_10|2.7MB/s
+      - US_speednode_0192
+      - US_speednode_0265
+      - NL_speednode_0007
+      - FR_1|2.5MB/s
+      - JP_2|5.7MB/s
+      - KR_13|5.0MB/s
+      - JP_18|5.6MB/s
+      - SE_4|1.0MB/s
+      - _KR_韩国
+      - KR_3|4.6MB/s
+      - JP_3|6.0MB/s
+      - US_1|2.0MB/s
+      - NL_3|2.2MB/s
+      - NL_2|1.6MB/s
+      - US_7|3.3MB/s 2
+      - RU_speednode_0083
+      - US_6|3.0MB/s
+      - TW_1|1.6MB/s
+      - JP_20|5.4MB/s
+      - HK_11c6a_0021
+      - SE_4|2.2MB/s
+      - US_11|1.9MB/s
+      - JP_22|5.9MB/s
+      - 10,11|香港4|@ripaojiedian
+      - UA_1|1.9MB/s
+      - TW_1|4.2MB/s
+      - CA_speednode_0001
+      - _RU_俄罗斯_1
+      - ES_2|3.0MB/s
+      - _HK_中国香港->🇯🇵_JP_日本_1
+      - KR_6|2.5MB/s
+      - SE_3|3.6MB/s
+      - US_speednode_0272
+      - KR_3|2.0MB/s
+      - _CN_中国 2
+      - ES-5.188.181.201-0172 | 0.0MB
+      - ES-5.188.181.201-5968 | 1.247MB
+      - JP_1|3.4MB/s
+      - UA_2|2.6MB/s
+      - HK_speednode_0007
+      - HK_speednode_0023
+      - UA_3|2.4MB/s
+      - UA_1|3.4MB/s
+      - _HK_中国香港->🇺🇸_US_美国_1
+      - SE_2|2.5MB/s
+      - SE_speednode_0168
+      - 10,11|新加坡3|@ripaojiedian
+      - CN_54ab4_0001
+      - SC_2|2.6MB/s
+      - SC_3|2.2MB/s
+      - SC_1|2.2MB/s
+      - KR_7|1.7MB/s
+      - US_9|2.0MB/s
+      - SE_2|1.3MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰
+      - _RU_俄罗斯_1 2
+      - KR_5|3.3MB/s
+      - KR_4|2.0MB/s
+      - KR_2|2.4MB/s
+      - KR_1|1.8MB/s
+      - _IR_伊朗->🇳🇱_NL_荷兰 2
+      - CH_1|3.4MB/s
+      - US_speednode_0196
+      - _HK_中国香港->🇮🇳_IN_印度 2
+      - TW_1|2.7MB/s
+      - TW_2|3.6MB/s
+      - 10,11|香港3|@ripaojiedian
+      - _HK_中国香港->🇮🇩_ID_印度尼西亚
+      - 12|CN_speednode_0008
+      - _HK_中国香港->🇹🇭_TH_泰国
+      - CN_speednode_0002 2
+      - CH_speednode_0004
+      - ID_1|3.3MB/s
+      - NO_2|2.7MB/s
+      - HK_3|5.7MB/s
+      - UA_4|2.6MB/s
+      - _US_美国 3
+      - _US_美国_1 3
+      - _US_美国_1 4
+      - US-34.207.112.128-3198 | 65.247MB
+      - US_13|3.4MB/s
+      - HK-103.149.183.12-0182 | 0.0MB
+      - SG_2|3.9MB/s
+      - SG_3|5.0MB/s
+      - _IR_伊朗->🇧🇬_BG_保加利亚
+      - FR_2|3.2MB/s
+      - KR_5|3.3MB/s 2
+      - PL-62.112.222.26-0522 | 38.724MB
+      - PL-62.112.222.26-0513 | 38.207MB
+      - DE_3|4.9MB/s
+      - JP_3|2.8MB/s
+      - DE_4|3.0MB/s
+      - KR_4|3.2MB/s
+      - FR_3|3.8MB/s
+      - FR_6|3.2MB/s
+      - JP_4|2.8MB/s 2
+      - PL_1|2.7MB/s
+      - SG_2|2.5MB/s
+      - SG_4|3.0MB/s
+      - NL_4|2.5MB/s
+      - GB_1|3.5MB/s 2
+      - HK_1|1.8MB/s
+      - GB_1|2.4MB/s
+      - KR_1|4.6MB/s
+      - KR_11|3.6MB/s
+      - _US_美国->🇫🇷_FR_法国_2
+      - KR_7|3.9MB/s
+      - NL_4|2.0MB/s
+      - NL_2|2.6MB/s
+      - DE_5|2.2MB/s
+      - KR_2|3.9MB/s
+      - NL_1|2.1MB/s
+      - KR_6|4.3MB/s
+      - DE_4|1.6MB/s
+      - KR_10|4.6MB/s
+      - ES-5.188.181.201-0175 | 0.0MB
+      - DE_3|4.0MB/s
+      - _DE_德国_4
+      - HK_1|2.6MB/s
+      - HK_3|3.2MB/s
+      - HK_4|2.0MB/s
+      - HK_2|4.9MB/s
+      - HK_2|2.4MB/s
+      - JP_15|4.8MB/s
+      - JP_10|5.7MB/s
+      - KR_8|2.1MB/s
+      - KR_11|3.9MB/s
+      - _US_美国_5
+      - DE_4|5.0MB/s
+      - DE_3|1.6MB/s
+      - US_6|1.7MB/s
+      - SG_2|5.4MB/s
+      - SG_5|3.8MB/s
+      - GB_1|1.9MB/s
+      - JP_28|5.4MB/s
+      - JP_34|2.1MB/s
+      - JP_21|4.8MB/s
+      - JP_20|5.0MB/s
+      - JP_16|5.4MB/s
+      - JP_30|5.3MB/s
+      - _HK_中国香港 3
+      - JP_1|5.0MB/s
+      - JP_6|5.7MB/s
+      - _AU_澳大利亚_1
+      - _HK_中国香港->🇺🇸_US_美国
+      - JP_11|4.9MB/s
+      - SG_3|3.5MB/s
+      - CA_1|2.8MB/s
+      - US_1|3.5MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

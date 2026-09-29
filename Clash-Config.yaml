@@ -84,7 +84,7 @@ proxy-groups:
   - name: Š Steam
     type: select
     include-all: true
-    exclude-filter: "CN|中国|渗透|中國|cn|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     url: https://store.steampowered.com/generate_204
     interval: 300
     tolerance: 50
@@ -94,7 +94,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     include-all: true
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
         - To-TW
         - To-HK
@@ -108,12 +108,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
     
   - name: 🌍 国外媒体
     type: select
-    include-all: true
+    include-all: true    
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
       - 🎯 全球直连
  
@@ -123,7 +124,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     strategy: consistent-hashing   #round-robin
     proxies:
 
@@ -134,7 +135,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: 📹 油管视频
@@ -144,7 +145,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"   # "HK|香港|hk|hongkong|hong kong|CN|中国|渗透|中國|cn|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知|HK|香港|hk|hongkong|hong kong"
     proxies:
 
   - name: 🎥 Tiktok
@@ -154,7 +155,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知|HK|香港|hk|hongkong|hong kong"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知|HK|香港|hk|hongkong|hong kong"
     proxies:
     
   - name: 💬 OpenAi
@@ -164,7 +165,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
 
@@ -175,7 +176,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: Ⓜ️ 微软服务
@@ -185,7 +186,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: 🍎 苹果服务
@@ -195,7 +196,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     strategy: consistent-hashing   #round-robin
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: 📢 谷歌FCM
@@ -205,7 +206,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: ✍ Mozilla
@@ -215,7 +216,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
     
   - name: APK_Apkpure
@@ -225,7 +226,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: 🎯 全球直连
