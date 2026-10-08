@@ -226,7 +226,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "CN|中国|中國|cn|渗透|未知"933
+    exclude-filter: "CN|中国|中國|cn|渗透|未知"
     proxies:
 
   - name: 🎯 全球直连
