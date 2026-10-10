@@ -28,7 +28,7 @@ external-controller: 0.0.0.0:9097
 proxy-groups:
 
   - name: To-HK
-    type: url-test
+    type: select
     include-all: true
     filter: "HK|香港|hk|hongkong|hong kong"
     url: https://store.steampowered.com/generate_204
@@ -37,7 +37,7 @@ proxy-groups:
     proxies:
     
   - name: To-TW
-    type: url-test
+    type: select
     include-all: true
     filter: "台湾|TW"
     url: https://store.steampowered.com/generate_204
@@ -46,7 +46,7 @@ proxy-groups:
     proxies:
     
   - name: To-SG
-    type: url-test
+    type: select
     include-all: true
     filter: "新家坡|SG"
     url: https://store.steampowered.com/generate_204
@@ -55,7 +55,7 @@ proxy-groups:
     proxies:
     
   - name: To-JP
-    type: url-test
+    type: select
     include-all: true
     filter: "🇯🇵|日本|JP"
     url: https://store.steampowered.com/generate_204
@@ -64,7 +64,7 @@ proxy-groups:
     proxies:
     
   - name: To-KR
-    type: url-test
+    type: select
     include-all: true
     filter: "🇰🇷|韩国|KR"
     url: https://store.steampowered.com/generate_204
@@ -73,7 +73,7 @@ proxy-groups:
     proxies:
     
   - name: In-CN
-    type: url-test
+    type: select
     include-all: true
     filter: "CN|中国|中國|cn"
     url: https://store.steampowered.com/generate_204
@@ -102,6 +102,7 @@ proxy-groups:
         - To-JP
         - To-SG
         - To-JP
+        - In-CN
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
