@@ -53,6 +53,21 @@ proxies:
     sni: iosapps.itunes.apple.com
     skip-cert-verify: true
     udp: true
+  - name: "荷兰+V2CROSS.COM"
+    type: vless
+    server: 185.164.57.152
+    port: 443
+    uuid: "0de1d303-d7de-0001-8679-c4cb67e2e2cc"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: amd.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+      short-id: a696de84963656de
   - name: "美国+惠普HP"
     type: vless
     server: 3696b38bsg.murphyweb.sbs
@@ -189,15 +204,67 @@ proxies:
       public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
       short-id: 494afdc75f8c2fa8
   - {name: "香港 | HKG #1", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
+  - {name: "[www.v2nodes.com] ss-SG-1592...", server: ruot.ayucloudservices.nl, port: 40022, type: ss, cipher: aes-128-gcm, password: 85590bd2-807b-49b9-af20-1101c18b9eda}
+  - {name: PL_2|2.3MB/s, server: ruot.ayucloudservices.nl, port: 35031, type: ss, cipher: aes-128-gcm, password: 85590bd2-807b-49b9-af20-1101c18b9eda}
+  - {name: "亚太地区+AT&T", server: vpn-au-001.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-au-001.fastervpn.world, skip-cert-verify: true}
+  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 美国+V2CROSS.COM, server: 129.159.156.109, port: 50160, type: hysteria2, password: f25f19f29ce3fb53a35bf1b35b452a43, auth: f25f19f29ce3fb53a35bf1b35b452a43, sni: www.bing.com, skip-cert-verify: true}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: CN_广东省广州市+腾讯云, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
+  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "[www.v2nodes.com] ss-CA-1545... #1", server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: NL-193.29.139.204-0114 | 63.25MB, server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.203-0095 | 59.1MB, server: 82.38.31.203, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: NL-193.29.139.168-6055 | 82.648MB, server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: GB-82.38.31.47-0106 | 52.022MB, server: 82.38.31.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: "[www.v2nodes.com] ss-FI-1203...", server: 185.103.110.66, port: 18280, type: ss, cipher: aes-128-gcm, password: f9300a9bf39ae0347c3a3bfbc4dd7754}
+  - {name: GB-82.38.31.174-3154 | 93.12MB, server: 82.38.31.174, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: _NL_荷兰, server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.176-0203 | 0.0MB, server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB-149.102.132.184-2618 | 3.799MB, server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
+  - {name: NL_2|1.6MB/s, server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.49-6003 | 64.809MB, server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.210-0110 | 51.364MB, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB_1|3.1MB/s, server: 82.110.60.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: GB-82.38.31.217-0114 | 51.261MB, server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB-82.38.31.16-0081 | 36.49MB, server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.179-0206 | 0.0MB, server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB-82.38.31.214-5917 | 52.962MB, server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB-82.38.31.3-0067 | 54.547MB, server: 82.38.31.3, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: GB-82.38.31.170-0444 | 53.874MB, server: 82.38.31.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: GB-82.38.31.162-0103 | 58.621MB, server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: "[www.v2nodes.com] vless-TH-1...", server: 103.86.49.57, port: 80, type: vless, uuid: 3c52e091-6714-4915-949f-2149fe69951b, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: aIs.SpEeDtEsT.nEt}}}
+  - {name: "[www.v2nodes.com] vless-US-1... #1", server: 104.243.33.154, port: 45299, type: vless, uuid: 261f011c-e97a-4d72-b596-e6329b50b47b, tls: false, network: tcp}
+  - {name: ZA-102.133.165.160-0166 | 2.019MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
+  - {name: "[www.v2nodes.com] ss-TH-1591...", server: 103.107.52.106, port: 52351, type: ss, cipher: aes-256-gcm, password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=}
+  - {name: "爱尔兰 | IRL #2", server: adapting-basilisk.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: adapting-basilisk.rooster465.autos, skip-cert-verify: true}
+  - {name: "[www.v2nodes.com] ss-CA-1588...", server: 64.74.163.69, port: 18766, type: ss, cipher: aes-128-gcm, password: 4efe1af272e7292139b889f6a63ee071}
+  - {name: US-37.19.198.244-0108 | 159.874MB, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US-37.19.198.243-0068 | 175.776MB, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US-198.98.53.130-0217 | 266.702MB, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK}
+  - {name: US-156.146.38.170-0121 | 137.062MB, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US-173.244.56.6-0128 | 88.832MB, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: "日本 | JPN #6", server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: normal-macaque.rooster465.autos, skip-cert-verify: true}
+  - {name: GB-82.38.31.199-0184 | 0.019MB, server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: DE_1|2.6MB/s, server: 185.164.175.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: "[www.v2nodes.com] ss-GB-1292...", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
+  - {name: "德国 | DEU #11", server: 185.212.149.7, port: 2053, type: vmess, uuid: aeb3c019-ae83-4677-af97-846baa787ad5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/3x], headers: {Host: [down-cdn.dingtalk.com]}}}
+  - {name: "[www.v2nodes.com] ss-GB-1135...", server: 51.77.225.200, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: zRZNBszYyWo5}
+  - {name: NL-193.29.139.235-0117 | 0.133MB, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: "[www.v2nodes.com] ss-", server: 51.222.136.236, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: US-37.19.198.236-0067 | 223.453MB, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: "日本 | JPN #5", server: evident-ant.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evident-ant.rooster465.autos, skip-cert-verify: true}
+  - {name: CA-149.22.95.183-0122 | 57.23MB, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 美国+V2CROSS.COM 2, server: 152.70.237.123, port: 2053, type: hysteria2, password: maintell, auth: maintell, sni: 152.70.237.123, skip-cert-verify: true}
   - {name: _CN_中国->🇵🇭_PH_菲律宾, server: silversbgfgov.vip44.wogbcnmnagfwgov.com, port: 11244, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国->🇯🇵_JP_日本_1, server: silversbgfgov.vip31.wogbcnmnagfwgov.com, port: 11231, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 美国+V2CROSS.COM, server: 150-230-252-217.liao.kdns.fr, port: 50160, type: hysteria2, password: 9cfc9458e48c028ec03ff86ebc71c744, auth: 9cfc9458e48c028ec03ff86ebc71c744, sni: 150-230-252-217.liao.kdns.fr, skip-cert-verify: true}
+  - {name: 美国+V2CROSS.COM 3, server: 150-230-252-217.liao.kdns.fr, port: 50160, type: hysteria2, password: 9cfc9458e48c028ec03ff86ebc71c744, auth: 9cfc9458e48c028ec03ff86ebc71c744, sni: 150-230-252-217.liao.kdns.fr, skip-cert-verify: true}
   - {name: _CN_中国->🇯🇵_JP_日本, server: sbgfgov.vip6.wogacnmnagfwgov.com, port: 11206, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
   - {name: US_9|2.2MB/s, server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c47ab06:133288}}
-  - {name: 美国+V2CROSS.COM 2, server: 152.70.237.123, port: 2053, type: hysteria2, password: maintell, auth: maintell, sni: 152.70.237.123, skip-cert-verify: true}
   - {name: рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ, server: silversbgfgov.vip38.wogbcnmnagfwgov.com, port: 11238, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
-  - {name: 北京市+百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
+  - {name: CN_北京市+百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
   - {name: 美国+加利福尼亚州洛杉矶, server: vpn-hk-004.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-hk-004.fastervpn.world, skip-cert-verify: true}
   - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: _CN_中国 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -209,37 +276,25 @@ proxies:
   - {name: _KR_韩国, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: US_25|3.0MB/s, server: 142.171.48.179, port: 28167, type: vmess, uuid: bf0edee1-2c43-4b30-ba59-b2c1589fe5fe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: US-140.82.63.79-5267 | 123.597MB, server: 140.82.63.79, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZoZtfPOyVvmKARUN}
   - {name: "英国 | GBR #2", server: 172.67.142.177, port: 443, type: vmess, uuid: af4399b8-a152-486b-9cf6-acdd42d6c40c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /London3, headers: {Host: uk.lovehk.xyz}}}
   - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国_2, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: SG-103.36.91.32-0243 | 0.0MB, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: JP-84.247.155.196-4937 | 4.248MB, server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
   - {name: JP-84.247.155.196-5271 | 4.29MB, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
   - {name: SG-68.183.227.4-4970 | 2.194MB, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: "日本 | JPN #1", server: ruot.ayucloudservices.nl, port: 22069, type: ss, cipher: aes-256-gcm, password: bd962c9a-d6f2-4561-bd80-34206c4d5279}
   - {name: US-156.146.38.169-0100 | 111.619MB, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CA-149.22.95.183-0122 | 57.23MB, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: "香港 | HKG #8", server: 47.244.120.197, port: 23026, type: vmess, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}}
-  - {name: "日本 | JPN #5", server: evident-ant.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evident-ant.rooster465.autos, skip-cert-verify: true}
   - {name: "日本 | JPN #2", server: stable-python.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: stable-python.rooster465.autos, skip-cert-verify: true}
-  - {name: US-37.19.198.236-0067 | 223.453MB, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: "新加坡 | SGP #2", server: moral-basilisk.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: moral-basilisk.rooster465.autos, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] ss-US-1591... #1", server: 45.76.9.57, port: 8393, type: ss, cipher: aes-256-gcm, password: 618a13eda4b4d208a4bcdc85fcb8996df812d59dd48419f75ae3f5f5b46a94fb}
   - {name: "韩国 | KOR #3", server: central-jawfish.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: central-jawfish.rooster465.autos, skip-cert-verify: true}
   - {name: "新加坡 | SGP #5", server: 45.127.32.220, port: 55002, type: vmess, uuid: b25731af-0428-4274-be5d-31a273a8d632, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /b25731af-0428-4274-be5d-31a273a8d632-vm, headers: {Host: www.bing.com}}}
-  - {name: "[www.v2nodes.com] ss-", server: 51.222.136.236, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: KR-3.34.131.153-0514 | 2.66MB, server: 3.34.131.153, port: 443, type: trojan, password: UX82473651, sni: pretty-rat.rooster465.autos, skip-cert-verify: false}
   - {name: _HK_中国香港, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}}
-  - {name: NL-193.29.139.235-0117 | 0.133MB, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: HK-103.141.221.101-0150 | 2.291MB, server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: "[www.v2nodes.com] ss-GB-1135...", server: 51.77.225.200, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: zRZNBszYyWo5}
-  - {name: "德国 | DEU #11", server: 185.212.149.7, port: 2053, type: vmess, uuid: aeb3c019-ae83-4677-af97-846baa787ad5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/3x], headers: {Host: [down-cdn.dingtalk.com]}}}
-  - {name: "[www.v2nodes.com] ss-GB-1292...", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
-  - {name: DE_1|2.6MB/s, server: 185.164.175.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: GB-82.38.31.199-0184 | 0.019MB, server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: NL_3|2.2MB/s, server: 82.38.31.156, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: "[www.v2nodes.com] ss-KR-1594...", server: 43.155.223.71, port: 8388, type: ss, cipher: aes-256-gcm, password: UsIv5aKJabiqnYtY8IfWd6FfgjzrJlfZ}
   - {name: JP-149.22.87.241-0137 | 27.72MB, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
@@ -252,35 +307,23 @@ proxies:
   - {name: JP-149.22.87.204-0135 | 0.26MB, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: "韩国 | KOR #6", server: kind-stork.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: kind-stork.rooster465.autos, skip-cert-verify: true}
   - {name: KR-13.125.29.37-0500 | 22.387MB, server: fancy-skink.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: fancy-skink.rooster465.autos, skip-cert-verify: false}
-  - {name: 美国+V2CROSS.COM 3, server: 152.69.231.175, port: 50160, type: hysteria2, password: 1beb216e3f60aea9555dae60d219a5ca, auth: 1beb216e3f60aea9555dae60d219a5ca, sni: 152-69-231-175.liao.kdns.fr, skip-cert-verify: true}
+  - {name: 美国+V2CROSS.COM 4, server: 152.69.231.175, port: 50160, type: hysteria2, password: 1beb216e3f60aea9555dae60d219a5ca, auth: 1beb216e3f60aea9555dae60d219a5ca, sni: 152-69-231-175.liao.kdns.fr, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] ss-ES-1431...", server: 108.181.121.226, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: WSyL4XTwNsdv}
   - {name: "美国 | USA #4", server: pro-mako.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: pro-mako.rooster465.autos, skip-cert-verify: true}
   - {name: GB-94.156.250.148-0167 | 5.149MB, server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 新加坡+甲骨文机房, server: 138.2.73.238, port: 50160, type: hysteria2, password: f87376e17da040ed04c9665ce8972930, auth: f87376e17da040ed04c9665ce8972930, sni: 138.2.73.238, skip-cert-verify: true}
-  - {name: "日本 | JPN #6", server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: normal-macaque.rooster465.autos, skip-cert-verify: true}
-  - {name: US-173.244.56.6-0128 | 88.832MB, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US-156.146.38.170-0121 | 137.062MB, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: JP_1|1.2MB/s, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: true}
-  - {name: US-198.98.53.130-0217 | 266.702MB, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK}
   - {name: "新加坡 | SGP #1", server: 139.180.146.200, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 139.180.146.200, skip-cert-verify: true}
   - {name: "日本 | JPN #4", server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true}
-  - {name: US-37.19.198.243-0068 | 175.776MB, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US-37.19.198.244-0108 | 159.874MB, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: "[www.v2nodes.com] ss-CA-1588...", server: 64.74.163.69, port: 18766, type: ss, cipher: aes-128-gcm, password: 4efe1af272e7292139b889f6a63ee071}
   - {name: KR-211.178.105.134-0223 | 0.0MB, server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: "爱尔兰 | IRL #2", server: adapting-basilisk.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: adapting-basilisk.rooster465.autos, skip-cert-verify: true}
   - {name: DE-213.202.208.199-0179 | 14.777MB, server: 213.202.208.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: SG-13.229.59.187-2725 | 11.809MB, server: inspired-hound.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: inspired-hound.rooster465.autos, skip-cert-verify: false}
   - {name: NL-109.201.152.181-0112 | 59.772MB, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: "爱尔兰 | IRL #1", server: master-possum.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: master-possum.rooster465.autos, skip-cert-verify: true}
-  - {name: "[www.v2nodes.com] ss-TH-1591...", server: 103.107.52.106, port: 52351, type: ss, cipher: aes-256-gcm, password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=}
   - {name: US-37.19.198.160-0066 | 227.404MB, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: ZA-102.133.165.160-0166 | 2.019MB, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X}
   - {name: IN-152.67.8.205-0186 | 0.616MB, server: 152.67.8.205, port: 80, type: vmess, uuid: 9db4c708-aef8-4359-821b-38e47990be0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: ZA-102.37.156.224-0141 | 25.97MB, server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6}
-  - {name: "[www.v2nodes.com] vless-US-1... #1", server: 104.243.33.154, port: 45299, type: vless, uuid: 261f011c-e97a-4d72-b596-e6329b50b47b, tls: false, network: tcp}
   - {name: "英国 | GBR #1", server: 13.40.25.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "[www.v2nodes.com] vless-TH-1...", server: 103.86.49.57, port: 80, type: vless, uuid: 3c52e091-6714-4915-949f-2149fe69951b, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: aIs.SpEeDtEsT.nEt}}}
   - {name: "日本 | JPN #8", server: promoted-rattler.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: promoted-rattler.rooster465.autos, skip-cert-verify: true}
   - {name: US_1|2.0MB/s, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: "[www.v2nodes.com] ss- #3", server: 205.209.126.205, port: 19049, type: ss, cipher: aes-128-gcm, password: e72a793d634d99748cf908d21fd935c3}
@@ -288,14 +331,10 @@ proxies:
   - {name: CA-137.184.174.93-0105 | 88.122MB, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: "爱尔兰 | IRL #2 2", server: loved-shark.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: loved-shark.rooster465.autos, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] ss-CA-1559...", server: 51.222.141.125, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: GB-82.38.31.162-0103 | 58.621MB, server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.170-0444 | 53.874MB, server: 82.38.31.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.48-0138 | 57.188MB, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: _PL_波兰, server: cheerful-swan.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: cheerful-swan.rooster465.autos, skip-cert-verify: true}
   - {name: GB-82.38.31.202-0205 | 0.0MB, server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: "[www.v2nodes.com] ss-CA-1558...", server: 51.222.200.165, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: GB-82.38.31.3-0067 | 54.547MB, server: 82.38.31.3, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.155-0198 | 0.0MB, server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.192-0115 | 55.715MB, server: 82.38.31.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: "香港 | HKG #4", server: 47.243.153.153, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: i2psm3knof5qjjix.v.3dns.vip}}}
@@ -304,43 +343,26 @@ proxies:
   - {name: GB-82.38.31.184-0213 | 0.0MB, server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: GB-82.38.31.17-0085 | 91.428MB, server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: "德国 | DEU #8", server: 185.212.149.7, port: 52080, type: vmess, uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/3x], headers: {Host: [down-cdn.dingtalk.com]}}}
-  - {name: GB-82.38.31.214-5917 | 52.962MB, server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.179-0206 | 0.0MB, server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: 英国 | GBR 4, server: 51.38.71.51, port: 2083, type: ss, cipher: 2022-blake3-aes-256-gcm, password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=}
-  - {name: 中国+阿里云, server: 8.211.175.236, port: 8443, type: hysteria2, password: u63SxILNwtrQZ7Y1ZrFaZfsA, auth: u63SxILNwtrQZ7Y1ZrFaZfsA, sni: bing.com, skip-cert-verify: true}
+  - {name: CN_中国+阿里云, server: 8.211.175.236, port: 8443, type: hysteria2, password: u63SxILNwtrQZ7Y1ZrFaZfsA, auth: u63SxILNwtrQZ7Y1ZrFaZfsA, sni: bing.com, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] trojan-DE-... #1", server: pleased-albacore.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: pleased-albacore.rooster465.autos, skip-cert-verify: true}
   - {name: GB-82.38.31.10-0123 | 0.341MB, server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: NL-158.173.20.171-0096 | 0.113MB, server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: GB-82.38.31.16-0081 | 36.49MB, server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: GB-82.38.31.217-0114 | 51.261MB, server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: GB-82.38.31.207-0109 | 58.311MB, server: 82.38.31.207, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: GB-82.38.31.198-0112 | 0.35MB, server: 82.38.31.198, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB_1|3.1MB/s, server: 82.110.60.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: GB-82.38.31.216-0112 | 6.203MB, server: 82.38.31.216, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.210-0110 | 51.364MB, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: "香港 | HKG #7", server: 8.218.195.61, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: EX1oGt73NzPQKAc2.v.3dns.vip}}}
   - {name: GB-82.38.31.212-0881 | 48.178MB, server: 82.38.31.212, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.49-6003 | 64.809MB, server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: "[www.v2nodes.com] ss-FI-1203...", server: 185.103.110.68, port: 18283, type: ss, cipher: aes-128-gcm, password: f9300a9bf39ae0347c3a3bfbc4dd7754}
-  - {name: NL_2|1.6MB/s, server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: "[www.v2nodes.com] ss-FI-1203... 2", server: 185.103.110.68, port: 18283, type: ss, cipher: aes-128-gcm, password: f9300a9bf39ae0347c3a3bfbc4dd7754}
   - {name: NL-193.29.139.147-6114 | 87.423MB, server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: GB-82.38.31.149-0238 | 37.278MB, server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: GB-149.102.132.184-2618 | 3.799MB, server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: g5h5jleTRSyO3Rk4}
-  - {name: GB-82.38.31.176-0203 | 0.0MB, server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: _NL_荷兰, server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.189-5904 | 55.276MB, server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: GB-82.38.31.174-3154 | 93.12MB, server: 82.38.31.174, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.2-0166 | 8.022MB, server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: "[www.v2nodes.com] ss-FI-1203... 2", server: 185.103.110.66, port: 18280, type: ss, cipher: aes-128-gcm, password: f9300a9bf39ae0347c3a3bfbc4dd7754}
-  - {name: GB-82.38.31.47-0106 | 52.022MB, server: 82.38.31.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.35-0115 | 0.129MB, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-82.38.31.61-5010 | 60.984MB, server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: NL-193.29.139.151-0118 | 83.332MB, server: 193.29.139.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB-146.70.61.37-0240 | 19.949MB, server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: GB-82.38.31.218-0115 | 42.743MB, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: NL-193.29.139.168-6055 | 82.648MB, server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: GB-82.38.31.203-0095 | 59.1MB, server: 82.38.31.203, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: NL-193.29.139.204-0114 | 63.25MB, server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
   - {name: GB_1|2.0MB/s, server: 146.70.23.32, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: GB-82.38.31.181-0086 | 53.736MB, server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: GB-82.38.31.206-0110 | 57.975MB, server: 82.38.31.206, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
@@ -368,7 +390,6 @@ proxies:
   - {name: "[www.v2nodes.com] ss-ID-1553...", server: 103.160.63.199, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az}
   - {name: ES-5.188.181.201-5968 | 1.247MB, server: 5.188.181.201, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
   - {name: "[www.v2nodes.com] ss-IT-1559...", server: 66.245.207.70, port: 8388, type: ss, cipher: aes-256-gcm, password: qMvJmCbMduKUoeHq}
-  - {name: 美国+V2CROSS.COM 4, server: 129.159.156.109, port: 50160, type: hysteria2, password: f25f19f29ce3fb53a35bf1b35b452a43, auth: f25f19f29ce3fb53a35bf1b35b452a43, sni: www.bing.com, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] ss-US-1591...", server: 45.76.9.57, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6054f059036c3ff1e907aeb51377b2ac54e61ceb666226fd}
   - {name: _CA_加拿大_1, server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: IT-57.131.48.45-0119 | 37.789MB, server: 57.131.48.45, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321}
@@ -382,7 +403,6 @@ proxies:
   - {name: рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬, server: goldcnmltyljgfwgov.vip57.wogcnmnnagfwgov.com, port: 11257, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国->🇭🇰_HK_中国香港, server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
   - {name: _HK_中国香港_1, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "[www.v2nodes.com] ss-CA-1545... #1", server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: "[www.v2nodes.com] ss-GB-1451...", server: 158.173.24.73, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: ES-5.188.181.201-0173 | 0.0MB, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
   - {name: _KR_韩国_1, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
@@ -395,9 +415,8 @@ proxies:
   - {name: 美国 | USA 9, server: 103.11.76.248, port: 80, type: ss, cipher: none, password: ODI4ZjAwZGMtNDQz, plugin: obfs, plugin-opts: {mode: http, host: upay.10010.com}}
   - {name: ❓Other_2|4.3MB/s, server: 35.180.75.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "美国 | USA #6", server: 103.11.76.248, port: 28679, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NzJlOTQ5NWYtM2ZkYi00Cg==}
-  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _HK_中国香港_1 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 北京市+百度电信节点 2, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
+  - {name: CN_北京市+百度电信节点 2, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
   - {name: DE_6|4.1MB/s, server: 3.67.197.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 新加坡+腾讯云, server: 43.156.36.253, port: 8443, type: hysteria2, password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0, auth: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0, sni: 43.156.36.253, skip-cert-verify: true}
   - {name: FR-13.36.241.80-2667 | 25.925MB, server: 13.36.241.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -417,10 +436,10 @@ proxies:
   - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 美国 Xerox, server: pl.zhabulik.ru, port: 443, type: trojan, password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj, sni: pl.zhabulik.ru, skip-cert-verify: true}
   - {name: ES-5.188.181.201-0178 | 0.0MB, server: 5.188.181.201, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: 广东省东莞市+联通, server: 27.44.143.169, port: 14343, type: vless, uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158, tls: true, flow: xtls-rprx-vision, servername: thuk.huaweiyouxuan.com, client-fingerprint: chrome, network: tcp}
+  - {name: CN_广东省东莞市+联通, server: 27.44.143.169, port: 14343, type: vless, uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158, tls: true, flow: xtls-rprx-vision, servername: thuk.huaweiyouxuan.com, client-fingerprint: chrome, network: tcp}
   - {name: _FR_法国, server: 52.47.133.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: ES-5.188.181.201-0233 | 0.0MB, server: 5.188.181.201, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: 广东省东莞市+联通 2, server: 27.44.143.169, port: 33102, type: vless, uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01, tls: true, flow: xtls-rprx-vision, servername: sgg.knhqf.com, client-fingerprint: chrome, network: tcp}
+  - {name: CN_广东省东莞市+联通 2, server: 27.44.143.169, port: 33102, type: vless, uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01, tls: true, flow: xtls-rprx-vision, servername: sgg.knhqf.com, client-fingerprint: chrome, network: tcp}
   - {name: "罗马尼亚 | ROU #1", server: 77.74.123.106, port: 4443, type: trojan, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-test-italy.dynuddns.net, skip-cert-verify: true}
   - {name: 香港+电讯盈科有限公司, server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, skip-cert-verify: true}
   - {name: _KR_韩国 2, server: ikr100b.zxom.eu.org, port: 20007, type: trojan, password: 178c178666bb4ae5, sni: ikr100b.zxom.eu.org, skip-cert-verify: true}
@@ -668,12 +687,7 @@ proxies:
   - {name: UA_1|1.9MB/s, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: TW_1|4.2MB/s, server: xunlinknode.csdjhajkshdjkas.com, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad}
   - {name: CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8}
-  - {name: _RU_俄罗斯_1, server: 185.22.154.103, port: 10921, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b}
-  - {name: ES_2|3.0MB/s, server: 5.188.181.201, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: _HK_中国香港->🇯🇵_JP_日本_1, server: hkdcrtc-e.catcat321.com, port: 20129, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: KR_6|2.5MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9001, type: ss, cipher: aes-128-gcm, password: ayucew2, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}}
-  - {name: SE_3|3.6MB/s, server: 13.53.38.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 广东省广州市+腾讯云, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
+  - {name: 巴西+V2CROSS.COM 2, server: qcloudge1.exitvpn.shop, port: 20270, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: qcloudge1.exitvpn.shop, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -684,6 +698,7 @@ proxy-groups:
       - "🇵🇱 波兰 | POL"
       - "🇹🇼 🇨🇳 台湾 | TWN"
       - "🇺🇸 美国 | USA 5"
+      - "荷兰+V2CROSS.COM"
       - "美国+惠普HP"
       - "英国+桑德兰大学"
       - "巴西+V2CROSS.COM"
@@ -696,15 +711,67 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -716,37 +783,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -759,35 +814,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -795,14 +838,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -811,43 +850,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -875,7 +897,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -889,7 +910,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -902,9 +922,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -924,10 +943,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -1175,27 +1194,74 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -1207,37 +1273,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -1250,35 +1304,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -1286,14 +1328,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -1302,43 +1340,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -1366,7 +1387,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -1380,7 +1400,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -1393,9 +1412,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -1415,10 +1433,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -1666,12 +1684,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1679,15 +1692,67 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -1699,37 +1764,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -1742,35 +1795,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -1778,14 +1819,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -1794,43 +1831,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -1858,7 +1878,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -1872,7 +1891,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -1885,9 +1903,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -1907,10 +1924,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -2158,12 +2175,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2183,15 +2195,67 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -2203,37 +2267,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -2246,35 +2298,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -2282,14 +2322,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -2298,43 +2334,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -2362,7 +2381,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -2376,7 +2394,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -2389,9 +2406,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -2411,10 +2427,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -2662,12 +2678,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2696,7 +2707,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - 10,11|香港4|@ripaojiedian
-      - _HK_中国香港->🇯🇵_JP_日本_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -2704,15 +2714,67 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -2724,37 +2786,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -2767,35 +2817,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -2803,14 +2841,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -2819,43 +2853,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -2883,7 +2900,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -2897,7 +2913,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -2910,9 +2925,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -2932,10 +2946,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -3183,27 +3197,74 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -3215,37 +3276,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -3258,35 +3307,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -3294,14 +3331,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -3310,43 +3343,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -3374,7 +3390,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -3388,7 +3403,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -3401,9 +3415,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -3423,10 +3436,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -3674,12 +3687,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3687,15 +3695,67 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -3707,37 +3767,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -3750,35 +3798,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -3786,14 +3822,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -3802,43 +3834,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -3866,7 +3881,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -3880,7 +3894,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -3893,9 +3906,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -3915,10 +3927,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -4166,12 +4178,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4188,15 +4195,67 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "香港 | HKG #1"
+      - "[www.v2nodes.com] ss-SG-1592..."
+      - PL_2|2.3MB/s
+      - "亚太地区+AT&T"
+      - GB_5d022_0017 2
+      - 美国+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - KR_0b85e_0009
+      - CN_广东省广州市+腾讯云
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - "[www.v2nodes.com] ss-CA-1545... #1"
+      - NL-193.29.139.204-0114 | 63.25MB
+      - GB-82.38.31.203-0095 | 59.1MB
+      - NL-193.29.139.168-6055 | 82.648MB
+      - GB-82.38.31.47-0106 | 52.022MB
+      - "[www.v2nodes.com] ss-FI-1203..."
+      - GB-82.38.31.174-3154 | 93.12MB
+      - _NL_荷兰
+      - GB-82.38.31.176-0203 | 0.0MB
+      - GB-149.102.132.184-2618 | 3.799MB
+      - NL_2|1.6MB/s
+      - GB-82.38.31.49-6003 | 64.809MB
+      - GB-82.38.31.210-0110 | 51.364MB
+      - GB_1|3.1MB/s
+      - GB-82.38.31.217-0114 | 51.261MB
+      - GB-82.38.31.16-0081 | 36.49MB
+      - GB-82.38.31.179-0206 | 0.0MB
+      - GB-82.38.31.214-5917 | 52.962MB
+      - GB-82.38.31.3-0067 | 54.547MB
+      - GB-82.38.31.170-0444 | 53.874MB
+      - NL_speednode_0007
+      - GB-82.38.31.162-0103 | 58.621MB
+      - "[www.v2nodes.com] vless-TH-1..."
+      - "[www.v2nodes.com] vless-US-1... #1"
+      - ZA-102.133.165.160-0166 | 2.019MB
+      - "[www.v2nodes.com] ss-TH-1591..."
+      - "爱尔兰 | IRL #2"
+      - "[www.v2nodes.com] ss-CA-1588..."
+      - US-37.19.198.244-0108 | 159.874MB
+      - US-37.19.198.243-0068 | 175.776MB
+      - US-198.98.53.130-0217 | 266.702MB
+      - US-156.146.38.170-0121 | 137.062MB
+      - US-173.244.56.6-0128 | 88.832MB
+      - "日本 | JPN #6"
+      - GB-82.38.31.199-0184 | 0.019MB
+      - DE_1|2.6MB/s
+      - "[www.v2nodes.com] ss-GB-1292..."
+      - "德国 | DEU #11"
+      - "[www.v2nodes.com] ss-GB-1135..."
+      - NL-193.29.139.235-0117 | 0.133MB
+      - "[www.v2nodes.com] ss-"
+      - US-37.19.198.236-0067 | 223.453MB
+      - "日本 | JPN #5"
+      - CA-149.22.95.183-0122 | 57.23MB
+      - 美国+V2CROSS.COM 2
       - _CN_中国->🇵🇭_PH_菲律宾
       - _CN_中国->🇯🇵_JP_日本_1
-      - KR_0b85e_0009
-      - 美国+V2CROSS.COM
+      - 美国+V2CROSS.COM 3
       - _CN_中国->🇯🇵_JP_日本
       - US_9|2.2MB/s
-      - 美国+V2CROSS.COM 2
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮәрҹҮё_US_зҫҺеӣҪ
-      - 北京市+百度电信节点
+      - CN_北京市+百度电信节点
       - 美国+加利福尼亚州洛杉矶
       - _CN_中国
       - _CN_中国 2
@@ -4208,37 +4267,25 @@ proxy-groups:
       - _KR_韩国
       - US_25|3.0MB/s
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
       - _HK_中国香港_2 2
       - _CN_中国_2
-      - "C - 🇺🇸 US 49 TG: @nodpai"
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
       - JP-84.247.155.196-5271 | 4.29MB
       - SG-68.183.227.4-4970 | 2.194MB
       - "日本 | JPN #1"
       - US-156.146.38.169-0100 | 111.619MB
-      - CA-149.22.95.183-0122 | 57.23MB
       - "香港 | HKG #8"
-      - "日本 | JPN #5"
       - "日本 | JPN #2"
-      - US-37.19.198.236-0067 | 223.453MB
       - "新加坡 | SGP #2"
       - "[www.v2nodes.com] ss-US-1591... #1"
       - "韩国 | KOR #3"
       - "新加坡 | SGP #5"
-      - "[www.v2nodes.com] ss-"
       - KR-3.34.131.153-0514 | 2.66MB
       - _HK_中国香港
-      - NL-193.29.139.235-0117 | 0.133MB
       - HK-103.141.221.101-0150 | 2.291MB
-      - "[www.v2nodes.com] ss-GB-1135..."
-      - "德国 | DEU #11"
-      - "[www.v2nodes.com] ss-GB-1292..."
-      - DE_1|2.6MB/s
-      - GB-82.38.31.199-0184 | 0.019MB
       - NL_3|2.2MB/s
       - "[www.v2nodes.com] ss-KR-1594..."
       - JP-149.22.87.241-0137 | 27.72MB
@@ -4251,35 +4298,23 @@ proxy-groups:
       - JP-149.22.87.204-0135 | 0.26MB
       - "韩国 | KOR #6"
       - KR-13.125.29.37-0500 | 22.387MB
-      - 美国+V2CROSS.COM 3
+      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
       - GB-94.156.250.148-0167 | 5.149MB
       - 新加坡+甲骨文机房
-      - "日本 | JPN #6"
-      - US-173.244.56.6-0128 | 88.832MB
-      - US-156.146.38.170-0121 | 137.062MB
       - JP_1|1.2MB/s
-      - US-198.98.53.130-0217 | 266.702MB
       - "新加坡 | SGP #1"
       - "日本 | JPN #4"
-      - US-37.19.198.243-0068 | 175.776MB
-      - US-37.19.198.244-0108 | 159.874MB
-      - "[www.v2nodes.com] ss-CA-1588..."
       - KR-211.178.105.134-0223 | 0.0MB
-      - "爱尔兰 | IRL #2"
       - DE-213.202.208.199-0179 | 14.777MB
       - SG-13.229.59.187-2725 | 11.809MB
       - NL-109.201.152.181-0112 | 59.772MB
       - "爱尔兰 | IRL #1"
-      - "[www.v2nodes.com] ss-TH-1591..."
       - US-37.19.198.160-0066 | 227.404MB
-      - ZA-102.133.165.160-0166 | 2.019MB
       - IN-152.67.8.205-0186 | 0.616MB
       - ZA-102.37.156.224-0141 | 25.97MB
-      - "[www.v2nodes.com] vless-US-1... #1"
       - "英国 | GBR #1"
-      - "[www.v2nodes.com] vless-TH-1..."
       - "日本 | JPN #8"
       - US_1|2.0MB/s
       - "[www.v2nodes.com] ss- #3"
@@ -4287,14 +4322,10 @@ proxy-groups:
       - CA-137.184.174.93-0105 | 88.122MB
       - "爱尔兰 | IRL #2 2"
       - "[www.v2nodes.com] ss-CA-1559..."
-      - GB-82.38.31.162-0103 | 58.621MB
-      - NL_speednode_0007
-      - GB-82.38.31.170-0444 | 53.874MB
       - GB-82.38.31.48-0138 | 57.188MB
       - _PL_波兰
       - GB-82.38.31.202-0205 | 0.0MB
       - "[www.v2nodes.com] ss-CA-1558..."
-      - GB-82.38.31.3-0067 | 54.547MB
       - GB-82.38.31.155-0198 | 0.0MB
       - GB-82.38.31.192-0115 | 55.715MB
       - "香港 | HKG #4"
@@ -4303,43 +4334,26 @@ proxy-groups:
       - GB-82.38.31.184-0213 | 0.0MB
       - GB-82.38.31.17-0085 | 91.428MB
       - "德国 | DEU #8"
-      - GB-82.38.31.214-5917 | 52.962MB
-      - GB-82.38.31.179-0206 | 0.0MB
       - 英国 | GBR 4
-      - 中国+阿里云
+      - CN_中国+阿里云
       - "[www.v2nodes.com] trojan-DE-... #1"
       - GB-82.38.31.10-0123 | 0.341MB
       - NL-158.173.20.171-0096 | 0.113MB
-      - GB-82.38.31.16-0081 | 36.49MB
-      - GB-82.38.31.217-0114 | 51.261MB
       - GB-82.38.31.207-0109 | 58.311MB
       - GB-82.38.31.198-0112 | 0.35MB
-      - GB_1|3.1MB/s
       - GB-82.38.31.216-0112 | 6.203MB
-      - GB-82.38.31.210-0110 | 51.364MB
       - "香港 | HKG #7"
       - GB-82.38.31.212-0881 | 48.178MB
-      - GB-82.38.31.49-6003 | 64.809MB
-      - "[www.v2nodes.com] ss-FI-1203..."
-      - NL_2|1.6MB/s
+      - "[www.v2nodes.com] ss-FI-1203... 2"
       - NL-193.29.139.147-6114 | 87.423MB
       - GB-82.38.31.149-0238 | 37.278MB
-      - GB-149.102.132.184-2618 | 3.799MB
-      - GB-82.38.31.176-0203 | 0.0MB
-      - _NL_荷兰
       - GB-82.38.31.189-5904 | 55.276MB
-      - GB-82.38.31.174-3154 | 93.12MB
       - GB-82.38.31.2-0166 | 8.022MB
-      - "[www.v2nodes.com] ss-FI-1203... 2"
-      - GB-82.38.31.47-0106 | 52.022MB
       - GB-82.38.31.35-0115 | 0.129MB
       - GB-82.38.31.61-5010 | 60.984MB
       - NL-193.29.139.151-0118 | 83.332MB
       - GB-146.70.61.37-0240 | 19.949MB
       - GB-82.38.31.218-0115 | 42.743MB
-      - NL-193.29.139.168-6055 | 82.648MB
-      - GB-82.38.31.203-0095 | 59.1MB
-      - NL-193.29.139.204-0114 | 63.25MB
       - GB_1|2.0MB/s
       - GB-82.38.31.181-0086 | 53.736MB
       - GB-82.38.31.206-0110 | 57.975MB
@@ -4367,7 +4381,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-ID-1553..."
       - ES-5.188.181.201-5968 | 1.247MB
       - "[www.v2nodes.com] ss-IT-1559..."
-      - 美国+V2CROSS.COM 4
       - "[www.v2nodes.com] ss-US-1591..."
       - _CA_加拿大_1
       - IT-57.131.48.45-0119 | 37.789MB
@@ -4381,7 +4394,6 @@ proxy-groups:
       - рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮҜрҹҮө_JP_ж—Ҙжң¬
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
-      - "[www.v2nodes.com] ss-CA-1545... #1"
       - "[www.v2nodes.com] ss-GB-1451..."
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
@@ -4394,9 +4406,8 @@ proxy-groups:
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
-      - GB_5d022_0017 2
       - _HK_中国香港_1 2
-      - 北京市+百度电信节点 2
+      - CN_北京市+百度电信节点 2
       - DE_6|4.1MB/s
       - 新加坡+腾讯云
       - FR-13.36.241.80-2667 | 25.925MB
@@ -4416,10 +4427,10 @@ proxy-groups:
       - JP_speednode_0012
       - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
-      - 广东省东莞市+联通
+      - CN_广东省东莞市+联通
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
-      - 广东省东莞市+联通 2
+      - CN_广东省东莞市+联通 2
       - "罗马尼亚 | ROU #1"
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
@@ -4667,12 +4678,7 @@ proxy-groups:
       - UA_1|1.9MB/s
       - TW_1|4.2MB/s
       - CA_speednode_0001
-      - _RU_俄罗斯_1
-      - ES_2|3.0MB/s
-      - _HK_中国香港->🇯🇵_JP_日本_1
-      - KR_6|2.5MB/s
-      - SE_3|3.6MB/s
-      - 广东省广州市+腾讯云
+      - 巴西+V2CROSS.COM 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
