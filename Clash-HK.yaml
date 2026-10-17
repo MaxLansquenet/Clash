@@ -13,8 +13,8 @@ proxies:
     sni: tw01.9999231.xyz
     skip-cert-verify: true
     udp: true
-  - {name: "香港 | HKG #1", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
   - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "香港 | HKG #1", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
   - {name: "香港 | HKG #8", server: 47.244.120.197, port: 23026, type: vmess, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}}
   - {name: _HK_中国香港, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}}
   - {name: HK-103.141.221.101-0150 | 2.291MB, server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
@@ -83,8 +83,8 @@ proxy-groups:
       - "🇹🇼 🇨🇳 台湾 | TWN"
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -151,8 +151,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -220,8 +220,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -301,8 +301,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -368,8 +368,8 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - _HK_中国香港_2
@@ -406,8 +406,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -474,8 +474,8 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -543,8 +543,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
@@ -621,8 +621,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB

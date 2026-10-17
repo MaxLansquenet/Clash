@@ -248,6 +248,17 @@ proxies:
     reality-opts:
       public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
       short-id: 494afdc75f8c2fa8
+  - {name: 美国 V2CROSS.COM, server: oc.imfun.fun, port: 18112, type: vmess, uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94, alterId: 0, cipher: auto, tls: false}
+  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _KR_韩国, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 美国+V2CROSS.COM, server: 150-230-252-217.liao.kdns.fr, port: 50160, type: hysteria2, password: 9cfc9458e48c028ec03ff86ebc71c744, auth: 9cfc9458e48c028ec03ff86ebc71c744, sni: 150-230-252-217.liao.kdns.fr, skip-cert-verify: true}
+  - {name: 巴西+V2CROSS.COM, server: outh.yandex-cloud.org, port: 54183, type: hysteria2, password: 082f5694-9019-4110-b67b-8125dbb9bab8, auth: 082f5694-9019-4110-b67b-8125dbb9bab8, sni: outh.yandex-cloud.org, skip-cert-verify: true}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 美国+CloudFlare节点, server: centurylink.es, port: 8443, type: vless, uuid: c136a12c-4260-48a7-a1e6-fbda83a11045, tls: true, servername: free.sahanwickramasinghe.me, network: ws, ws-opts: {path: /, headers: {Host: free.sahanwickramasinghe.me}}}
+  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "美国 | USA #5", server: 95.169.3.45, port: 46010, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
   - {name: "美国 | USA #3", server: 95.169.3.45, port: 46006, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
   - {name: "美国 | USA #16", server: 95.169.3.45, port: 46005, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
@@ -256,10 +267,8 @@ proxies:
   - {name: 美国+加利福尼亚, server: platform113.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform113, headers: {Host: platform113.halalkhor.info}}}
   - {name: "[www.v2nodes.com] vless-CL-1... #1", server: platform108.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform108, headers: {Host: platform108.halalkhor.info}}}
   - {name: "英国 | GBR #1", server: 172.67.137.209, port: 443, type: vmess, uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /London31, headers: {Host: ukl.lovehk.xyz}}}
-  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: DE_8|1.4MB/s, server: 23.165.200.150, port: 52080, type: vmess, uuid: 672cdade-bb05-4c86-b578-e5d09b79524a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/QQqun-737805443], headers: {Host: [down-cdn.dingtalk.com]}}}
   - {name: 德国 | DEU 9, server: de-bots4.h1cloud.net, port: 25267, type: trojan, password: happybirthdaydaniel, sni: t.me%2fFuckTheWall, skip-cert-verify: true}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
   - {name: "[www.v2nodes.com] vless-ZA-1... #2", server: platform117.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform117, headers: {Host: platform117.halalkhor.info}}}
   - {name: "[www.v2nodes.com] vless- #1", server: platform107.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform107, headers: {Host: platform107.golnamakcert.top}}}
   - {name: CN_北京市+百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
@@ -268,22 +277,19 @@ proxies:
   - {name: _CN_中国, server: 39.108.113.127, port: 10086, type: vmess, uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: JP_4|5.7MB/s, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
   - {name: CN_广东省广州市+腾讯云, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
-  - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "亚太地区+AT&T", server: vpn-au-001.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-au-001.fastervpn.world, skip-cert-verify: true}
   - {name: _CN_中国 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 美国+Amazon+EC2服务器, server: vpn-de-002.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
-  - {name: 美国+V2CROSS.COM, server: 150-230-252-217.liao.kdns.fr, port: 50160, type: hysteria2, password: 9cfc9458e48c028ec03ff86ebc71c744, auth: 9cfc9458e48c028ec03ff86ebc71c744, sni: 150-230-252-217.liao.kdns.fr, skip-cert-verify: true}
   - {name: US_23|3.9MB/s, server: 0FN8ne0VXwJLjT6E.v.3dns.vip, port: 443, type: vmess, uuid: 1d84e480-8fd2-4fae-96de-e46fe36ffe86, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 0FN8ne0VXwJLjT6E.v.3dns.vip}}}
-  - {name: 巴西+V2CROSS.COM, server: finkawwwbroy5.qcloud.surf, port: 20326, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: finkawwwbroy5.qcloud.surf, skip-cert-verify: true}
+  - {name: 巴西+V2CROSS.COM 2, server: finkawwwbroy5.qcloud.surf, port: 20326, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: finkawwwbroy5.qcloud.surf, skip-cert-verify: true}
   - {name: 美国+V2CROSS.COM 2, server: 129.159.156.109, port: 50160, type: hysteria2, password: f25f19f29ce3fb53a35bf1b35b452a43, auth: f25f19f29ce3fb53a35bf1b35b452a43, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 巴西+V2CROSS.COM 2, server: qcloudge1.exitvpn.shop, port: 20270, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: qcloudge1.exitvpn.shop, skip-cert-verify: true}
+  - {name: 巴西+V2CROSS.COM 3, server: qcloudge1.exitvpn.shop, port: 20270, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: qcloudge1.exitvpn.shop, skip-cert-verify: true}
   - {name: SG_5|3.9MB/s, server: Aim7HqTuvNOofcsx.v.3dns.vip, port: 443, type: vmess, uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Aim7HqTuvNOofcsx.v.3dns.vip}}}
   - {name: SG_6|1.4MB/s, server: 5FPTMOqdtsxQRFmA.v.3dns.vip, port: 443, type: vmess, uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 5FPTMOqdtsxQRFmA.v.3dns.vip}}}
   - {name: 印度 | IND 2, server: 64.176.96.237, port: 443, type: trojan, password: Tg3RnK7Xp8B1, sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com, skip-cert-verify: true}
   - {name: "香港 | HKG #1", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
   - {name: "[www.v2nodes.com] ss-SG-1592...", server: ruot.ayucloudservices.nl, port: 40022, type: ss, cipher: aes-128-gcm, password: 85590bd2-807b-49b9-af20-1101c18b9eda}
   - {name: PL_2|2.3MB/s, server: ruot.ayucloudservices.nl, port: 35031, type: ss, cipher: aes-128-gcm, password: 85590bd2-807b-49b9-af20-1101c18b9eda}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "[www.v2nodes.com] ss-CA-1545... #1", server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: NL-193.29.139.204-0114 | 63.25MB, server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
@@ -342,11 +348,9 @@ proxies:
   - {name: US_27|3.7MB/s, server: 142.171.48.179, port: 28167, type: vmess, uuid: f0de320a-bfb8-4add-9288-f742c42556f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 澳大利亚+V2CROSS.COM, server: de1.xiaoliyu.cyou, port: 4433, type: hysteria2, password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45, auth: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45, sni: de1.xiaoliyu.cyou, skip-cert-verify: true}
   - {name: US_22|3.5MB/s, server: 142.171.48.179, port: 28167, type: vmess, uuid: cadb558d-90cf-40da-8628-e53b68fb2dcb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: _KR_韩国, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: US_25|3.0MB/s, server: 142.171.48.179, port: 28167, type: vmess, uuid: bf0edee1-2c43-4b30-ba59-b2c1589fe5fe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: US-140.82.63.79-5267 | 123.597MB, server: 140.82.63.79, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZoZtfPOyVvmKARUN}
   - {name: "英国 | GBR #2", server: 172.67.142.177, port: 443, type: vmess, uuid: af4399b8-a152-486b-9cf6-acdd42d6c40c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /London3, headers: {Host: uk.lovehk.xyz}}}
-  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国_2, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: SG-103.36.91.32-0243 | 0.0MB, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: JP-84.247.155.196-4937 | 4.248MB, server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
@@ -479,7 +483,6 @@ proxies:
   - {name: 美国 | USA 17, server: gz1.polymarket.party, port: 36011, type: vmess, uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3, alterId: 0, cipher: auto, tls: false}
   - {name: 塞舌尔+V2CROSS.COM, server: nl.alpheratzz.org, port: 8443, type: vless, uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8, tls: true, flow: xtls-rprx-vision, servername: api-v1-6ac7858f.vmagnum.win, client-fingerprint: chrome, network: tcp}
   - {name: DE-13.140.91.101-0803 | 0.2MB, server: www.asamping.ir, port: 1468, type: ss, cipher: aes-128-gcm, password: l2NidZbckMu4PnIHsJTYJg}
-  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 美国 | USA 9, server: 103.11.76.248, port: 80, type: ss, cipher: none, password: ODI4ZjAwZGMtNDQz, plugin: obfs, plugin-opts: {mode: http, host: upay.10010.com}}
   - {name: ❓Other_2|4.3MB/s, server: 35.180.75.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "美国 | USA #6", server: 103.11.76.248, port: 28679, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NzJlOTQ5NWYtM2ZkYi00Cg==}
@@ -511,7 +514,7 @@ proxies:
   - {name: 香港+电讯盈科有限公司, server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com, skip-cert-verify: true}
   - {name: _KR_韩国 2, server: ikr100b.zxom.eu.org, port: 20007, type: trojan, password: 178c178666bb4ae5, sni: ikr100b.zxom.eu.org, skip-cert-verify: true}
   - {name: "美国 | USA #5 2", server: 54.208.227.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 美国+CloudFlare节点, server: argo6.5671234.xyz, port: 443, type: vless, uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8, tls: true, servername: argo6.5671234.xyz, network: ws, ws-opts: {path: /e8e2cecb6188f7fb, headers: {Host: argo6.5671234.xyz}}}
+  - {name: 美国+CloudFlare节点 2, server: argo6.5671234.xyz, port: 443, type: vless, uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8, tls: true, servername: argo6.5671234.xyz, network: ws, ws-opts: {path: /e8e2cecb6188f7fb, headers: {Host: argo6.5671234.xyz}}}
   - {name: JP_4|3.9MB/s, server: g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 9c955dfc-c1d6-3de3-8230-deac3bd9c1a2, alterId: 1, cipher: auto, tls: true}
   - {name: 新加坡 | SGP 6, server: gsg192i.zxom.eu.org, port: 20008, type: trojan, password: 5b140fc6a0a74e7f, sni: gsg192i.zxom.eu.org, skip-cert-verify: true}
   - {name: 美国 | USA 3, server: ultimate-jaguar.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: ultimate-jaguar.rooster465.autos, skip-cert-verify: true}
@@ -527,8 +530,8 @@ proxies:
   - {name: "韩国 | KOR #2", server: liked-eft.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: liked-eft.rooster465.autos, skip-cert-verify: true}
   - {name: "美国 | USA #6 2", server: happy-gibbon.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: happy-gibbon.rooster465.autos, skip-cert-verify: true}
   - {name: 加拿大+V2CROSS.COM, server: 216.151.165.219, port: 1655, type: hysteria2, password: 91be3262-93f4-46c5-aa33-ecac2368e8d6, auth: 91be3262-93f4-46c5-aa33-ecac2368e8d6, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 美国+CloudFlare节点 2, server: geo.shkola112.site, port: 443, type: vless, uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94, tls: true, servername: geo.shkola112.site, network: ws, ws-opts: {path: /api-vless, headers: {Host: geo.shkola112.site}}}
-  - {name: 巴西+V2CROSS.COM 3, server: covers.pantera-radio.ru, port: 443, type: hysteria2, password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b, auth: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b, sni: covers.pantera-radio.ru, skip-cert-verify: true}
+  - {name: 美国+CloudFlare节点 3, server: geo.shkola112.site, port: 443, type: vless, uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94, tls: true, servername: geo.shkola112.site, network: ws, ws-opts: {path: /api-vless, headers: {Host: geo.shkola112.site}}}
+  - {name: 巴西+V2CROSS.COM 4, server: covers.pantera-radio.ru, port: 443, type: hysteria2, password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b, auth: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b, sni: covers.pantera-radio.ru, skip-cert-verify: true}
   - {name: 美国+V2CROSS.COM 5, server: 144.31.212.253, port: 443, type: hysteria2, password: cf83b611-6cba-4535-adcb-8da06c6a9146, auth: cf83b611-6cba-4535-adcb-8da06c6a9146, sni: vps155-edge.kermemehori.ru, skip-cert-verify: true}
   - {name: JP_2|2.6MB/s, server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true}
   - {name: HK_1|3.4MB/s, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: 522bf832-cb94-4588-bb4e-a578d1f72603, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bc35dd8f9bb478fdf27856815a6d1dc8.mobgslb.tbcache.com}}}
@@ -726,9 +729,7 @@ proxies:
   - {name: _US_美国->🇩🇪_DE_德国_1, server: po.fastbrokencompony.com, port: 2053, type: vless, uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c, tls: true, network: ws, ws-opts: {path: /, headers: {Host: po.fastbrokencompony.com}}}
   - {name: _HK_中国香港->🇲🇴_MO_中国澳门, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: MX_speednode_0033, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}}
-  - {name: JP_16|5.3MB/s, server: becoming-hare.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: becoming-hare.rooster465.autos, skip-cert-verify: true}
-  - {name: KR_8|5.2MB/s, server: uncommon-feline.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: uncommon-feline.rooster465.autos, skip-cert-verify: true}
-  - {name: SG_1|1.7MB/s, server: sacred-treefrog.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: sacred-treefrog.rooster465.autos, skip-cert-verify: true}
+  - {name: "[www.v2nodes.com] vless-JP-1...", server: cn.uxuan.cfd, port: 443, type: vless, uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4, tls: true, servername: digjp.murphyweb.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /9b8cb96f0fdf/57654fd6b8b4n2M4bV6cC8xX0zZ1aQ3w/e532fbf9-cc5f-4da4-9bb1-66c16ec49137, headers: {Host: digjp.murphyweb.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -754,6 +755,17 @@ proxy-groups:
       - "英国+V2CROSS.COM"
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -762,10 +774,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -774,22 +784,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -848,11 +855,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -985,7 +990,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -1017,7 +1021,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -1033,8 +1037,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -1232,14 +1236,23 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -1248,10 +1261,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -1260,22 +1271,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -1334,11 +1342,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -1471,7 +1477,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -1503,7 +1508,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -1519,8 +1524,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -1718,15 +1723,24 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -1735,10 +1749,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -1747,22 +1759,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -1821,11 +1830,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -1958,7 +1965,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -1990,7 +1996,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -2006,8 +2012,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -2205,9 +2211,7 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2226,6 +2230,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -2234,10 +2249,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -2246,22 +2259,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -2320,11 +2330,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -2457,7 +2465,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -2489,7 +2496,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -2505,8 +2512,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -2704,15 +2711,13 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "香港 | HKG #1"
       - _HK_中国香港_2 2
+      - "香港 | HKG #1"
       - "香港 | HKG #8"
       - _HK_中国香港
       - _HK_中国香港_2
@@ -2740,6 +2745,17 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -2748,10 +2764,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -2760,22 +2774,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -2834,11 +2845,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -2971,7 +2980,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -3003,7 +3011,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -3019,8 +3027,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -3218,14 +3226,23 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -3234,10 +3251,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -3246,22 +3261,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -3320,11 +3332,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -3457,7 +3467,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -3489,7 +3498,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -3505,8 +3514,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -3704,15 +3713,24 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -3721,10 +3739,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -3733,22 +3749,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -3807,11 +3820,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -3944,7 +3955,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -3976,7 +3986,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -3992,8 +4002,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -4191,9 +4201,7 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4209,6 +4217,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国 V2CROSS.COM
+      - ID_2a61e_0010
+      - _KR_韩国
+      - KR_0b85e_0009
+      - 美国+V2CROSS.COM
+      - 巴西+V2CROSS.COM
+      - _SG_新加坡->🇺🇸_US_美国
+      - 美国+CloudFlare节点
+      - _HK_中国香港_2 2
+      - GB_5d022_0017 2
+      - _JP_日本 2
       - "美国 | USA #5"
       - "美国 | USA #3"
       - "美国 | USA #16"
@@ -4217,10 +4236,8 @@ proxy-groups:
       - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - "英国 | GBR #1"
-      - _JP_日本 2
       - DE_8|1.4MB/s
       - 德国 | DEU 9
-      - KR_0b85e_0009
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - CN_北京市+百度电信节点
@@ -4229,22 +4246,19 @@ proxy-groups:
       - _CN_中国
       - JP_4|5.7MB/s
       - CN_广东省广州市+腾讯云
-      - GB_5d022_0017 2
       - "亚太地区+AT&T"
       - _CN_中国 2
       - 美国+Amazon+EC2服务器
-      - 美国+V2CROSS.COM
       - US_23|3.9MB/s
-      - 巴西+V2CROSS.COM
-      - 美国+V2CROSS.COM 2
       - 巴西+V2CROSS.COM 2
+      - 美国+V2CROSS.COM 2
+      - 巴西+V2CROSS.COM 3
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
       - 印度 | IND 2
       - "香港 | HKG #1"
       - "[www.v2nodes.com] ss-SG-1592..."
       - PL_2|2.3MB/s
-      - _SG_新加坡->🇺🇸_US_美国
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "[www.v2nodes.com] ss-CA-1545... #1"
       - NL-193.29.139.204-0114 | 63.25MB
@@ -4303,11 +4317,9 @@ proxy-groups:
       - US_27|3.7MB/s
       - 澳大利亚+V2CROSS.COM
       - US_22|3.5MB/s
-      - _KR_韩国
       - US_25|3.0MB/s
       - US-140.82.63.79-5267 | 123.597MB
       - "英国 | GBR #2"
-      - _HK_中国香港_2 2
       - _CN_中国_2
       - SG-103.36.91.32-0243 | 0.0MB
       - JP-84.247.155.196-4937 | 4.248MB
@@ -4440,7 +4452,6 @@ proxy-groups:
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
-      - ID_2a61e_0010
       - 美国 | USA 9
       - ❓Other_2|4.3MB/s
       - "美国 | USA #6"
@@ -4472,7 +4483,7 @@ proxy-groups:
       - 香港+电讯盈科有限公司
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点
+      - 美国+CloudFlare节点 2
       - JP_4|3.9MB/s
       - 新加坡 | SGP 6
       - 美国 | USA 3
@@ -4488,8 +4499,8 @@ proxy-groups:
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
       - 加拿大+V2CROSS.COM
-      - 美国+CloudFlare节点 2
-      - 巴西+V2CROSS.COM 3
+      - 美国+CloudFlare节点 3
+      - 巴西+V2CROSS.COM 4
       - 美国+V2CROSS.COM 5
       - JP_2|2.6MB/s
       - HK_1|3.4MB/s
@@ -4687,9 +4698,7 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国_1
       - _HK_中国香港->🇲🇴_MO_中国澳门
       - MX_speednode_0033
-      - JP_16|5.3MB/s
-      - KR_8|5.2MB/s
-      - SG_1|1.7MB/s
+      - "[www.v2nodes.com] vless-JP-1..."
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
