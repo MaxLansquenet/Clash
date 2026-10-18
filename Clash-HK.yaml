@@ -14,15 +14,17 @@ proxies:
     skip-cert-verify: true
     udp: true
   - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "香港 | HKG #1", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
+  - {name: _HK_中国香港_2, server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "香港 | HKG #8", server: 47.244.120.197, port: 23026, type: vmess, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}}
+  - {name: "香港 | HKG #5", server: 47.76.57.83, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: vah4urdzl3jdx5r2.v.3dns.vip}}}
+  - {name: HK-103.149.183.80-0172 | 0.0MB, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: "香港 | HKG #1", server: 47.83.207.148, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: VAH4URdZL3jDX5r2.v.3dns.vip}}}
+  - {name: "香港 | HKG #1 2", server: yg1.ygkkk.dpdns.org, port: 443, type: vmess, uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm, headers: {Host: jmp1.907737.xyz}}}
   - {name: _HK_中国香港, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}}
   - {name: HK-103.141.221.101-0150 | 2.291MB, server: 103.141.221.101, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: _HK_中国香港_2, server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: HK-103.149.182.105-5946 | 0.0MB, server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: "香港 | HKG #4", server: 47.243.153.153, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: i2psm3knof5qjjix.v.3dns.vip}}}
   - {name: "香港 | HKG #7", server: 8.218.195.61, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: EX1oGt73NzPQKAc2.v.3dns.vip}}}
-  - {name: "香港 | HKG #1 2", server: 47.83.207.148, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: VAH4URdZL3jDX5r2.v.3dns.vip}}}
   - {name: _CN_中国->🇭🇰_HK_中国香港, server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false}
   - {name: _HK_中国香港_1, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: TW_1|4.5MB/s, server: 211.72.214.20, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
@@ -48,7 +50,6 @@ proxies:
   - {name: _HK_中国香港->🇰🇷_KR_韩国, server: a8zbx9xj.catcat321.com, port: 20088, type: trojan, password: 0010996f-3eab-4804-9b3a-3a889d6767fc, sni: iepl.krz3.cat.bilibili.com, skip-cert-verify: true}
   - {name: _TW_中国台湾->🇺🇸_US_美国, server: lt.badns.help, port: 51360, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false}
   - {name: HK_speednode_0012, server: 16.162.3.11, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
-  - {name: HK-103.149.183.80-0172 | 0.0MB, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: _HK_中国香港->🇮🇳_IN_印度, server: oplosgru-c.catcat321.com, port: 20034, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: _HK_中国香港->🇰🇷_KR_韩国 2, server: oplosgru-c.catcat321.com, port: 20088, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
   - {name: _HK_中国香港->🇲🇴_MO_中国澳门, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true}
@@ -84,15 +85,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -118,7 +121,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -152,15 +154,17 @@ proxy-groups:
     interval: 300
     proxies:
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -186,7 +190,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -221,15 +224,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -255,7 +260,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -302,15 +306,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -336,7 +342,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -369,13 +374,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
-      - "香港 | HKG #8"
-      - _HK_中国香港
       - _HK_中国香港_2
+      - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
+      - _HK_中国香港
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - _HK_中国香港_1 2
@@ -407,15 +413,17 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -441,7 +449,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -475,15 +482,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -509,7 +518,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -544,15 +552,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -578,7 +588,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
@@ -622,15 +631,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _HK_中国香港_2 2
-      - "香港 | HKG #1"
+      - _HK_中国香港_2
       - "香港 | HKG #8"
+      - "香港 | HKG #5"
+      - HK-103.149.183.80-0172 | 0.0MB
+      - "香港 | HKG #1"
+      - "香港 | HKG #1 2"
       - _HK_中国香港
       - HK-103.141.221.101-0150 | 2.291MB
-      - _HK_中国香港_2
       - HK-103.149.182.105-5946 | 0.0MB
       - "香港 | HKG #4"
       - "香港 | HKG #7"
-      - "香港 | HKG #1 2"
       - _CN_中国->🇭🇰_HK_中国香港
       - _HK_中国香港_1
       - TW_1|4.5MB/s
@@ -656,7 +667,6 @@ proxy-groups:
       - _HK_中国香港->🇰🇷_KR_韩国
       - _TW_中国台湾->🇺🇸_US_美国
       - HK_speednode_0012
-      - HK-103.149.183.80-0172 | 0.0MB
       - _HK_中国香港->🇮🇳_IN_印度
       - _HK_中国香港->🇰🇷_KR_韩国 2
       - _HK_中国香港->🇲🇴_MO_中国澳门
