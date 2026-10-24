@@ -13,12 +13,12 @@ proxies:
     sni: tw01.9999231.xyz
     skip-cert-verify: true
     udp: true
-  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_北京市+百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
-  - {name: CN_广东省广州市+腾讯云, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
-  - {name: CN_北京市+百度电信节点 2, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
+  - {name: _HK_中国香港_2 2, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _CN_中国 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_北京市+百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
+  - {name: CN_北京市+百度电信节点 2, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
+  - {name: CN_广东省广州市+腾讯云, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
   - {name: _HK_中国香港_2, server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "香港 | HKG #8", server: 47.244.120.197, port: 23026, type: vmess, uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}}
   - {name: "香港 | HKG #5", server: 47.76.57.83, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: vah4urdzl3jdx5r2.v.3dns.vip}}}
@@ -111,12 +111,12 @@ proxy-groups:
       - "🇹🇼 🇨🇳 台湾 | TWN"
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -207,12 +207,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -304,12 +304,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -413,12 +413,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -547,12 +547,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -643,12 +643,12 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -740,12 +740,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
@@ -846,12 +846,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _HK_中国香港_2 2
       - _CN_中国
-      - CN_北京市+百度电信节点
-      - CN_广东省广州市+腾讯云
-      - CN_北京市+百度电信节点 2
+      - _HK_中国香港_2 2
       - _CN_中国 2
+      - CN_北京市+百度电信节点
+      - CN_北京市+百度电信节点 2
+      - CN_广东省广州市+腾讯云
       - _HK_中国香港_2
       - "香港 | HKG #8"
       - "香港 | HKG #5"
