@@ -45,6 +45,66 @@ proxies:
     sni: iosapps.itunes.apple.com
     skip-cert-verify: true
     udp: true
+  - name: "日本+东京都亚马逊(Amazon)公司数据中心"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 56415
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: www.kaidee.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: cbd39bea0805e2
+  - name: "新加坡+Amazon数据中心"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 46105
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: www.lamer.com.sg
+    skip-cert-verify: false
+    reality-opts:
+      public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+      short-id: 28f5c1f8f98a
+  - name: "日本+V2CROSS.COM"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 30892
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: us1p1.xn--ghq880n3na965a.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+      short-id: 3d31326f95
+  - name: "荷兰+V2CROSS.COM"
+    type: vless
+    server: 213.152.165.203
+    port: 2091
+    uuid: "76b6a658-ce80-4500-b24d-404c94639ac6"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: www.apple.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+      short-id: 08a4b1f473932632
   - name: "挪威+V2CROSS.COM"
     type: vless
     server: 138.124.79.6
@@ -315,16 +375,47 @@ proxies:
     reality-opts:
       public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
       short-id: 494afdc75f8c2fa8
+  - name: "美国+Xerox"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 55688
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: bilibili-vn.biliimg.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
+      short-id: a46bb5972cf50671
+  - name: "德国+V2CROSS.COM"
+    type: vless
+    server: 77.90.61.135
+    port: 443
+    uuid: "8815925b-c7b8-4f94-9c24-9dc864f63a29"
+    network: tcp
+    tls: true
+    udp: true
+    client-fingerprint: safari
+    servername: www.cloudflare.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
+      short-id: ce1dc482
+  - {name: SG_1|1.8MB/s, server: 18.143.63.164, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
+  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 拉脱维亚+V2CROSS.COM, server: xby.mangshe.xyz, port: 2060, type: hysteria2, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, skip-cert-verify: true}
+  - {name: IT-202.50.253.72-2359 | 23.707MB, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: "意大利 | ITA #3", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "意大利 | ITA #2", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: JP_1|1.2MB/s, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: true}
-  - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "意大利 | ITA #3", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: IT-202.50.253.72-2359 | 23.707MB, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "[www.v2nodes.com] ss-IT-1602...", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: IT-202.50.253.45-0391 | 19.24MB, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 拉脱维亚+V2CROSS.COM, server: xby.mangshe.xyz, port: 2060, type: hysteria2, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, skip-cert-verify: true}
   - {name: "意大利 | ITA #1", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: 新西兰+V2CROSS.COM, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: _SG_新加坡->🇨🇦_CA_加拿大, server: sg-transit-3.nebulacloud.win, port: 30330, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ca/getData, headers: {Host: sg-transit-3.nebulacloud.win}}}
@@ -366,7 +457,6 @@ proxies:
   - {name: FR-51.83.192.80-0423 | 31.681MB, server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321}
   - {name: JP-191.223.221.53-2470 | 36.868MB, server: 191.223.221.53, port: 8388, type: ss, cipher: aes-256-gcm, password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv}
   - {name: 美国 V2CROSS.COM, server: oc.imfun.fun, port: 18112, type: vmess, uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94, alterId: 0, cipher: auto, tls: false}
-  - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: _KR_韩国, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: 美国+V2CROSS.COM, server: 150-230-252-217.liao.kdns.fr, port: 50160, type: hysteria2, password: 9cfc9458e48c028ec03ff86ebc71c744, auth: 9cfc9458e48c028ec03ff86ebc71c744, sni: 150-230-252-217.liao.kdns.fr, skip-cert-verify: true}
   - {name: 巴西+V2CROSS.COM, server: outh.yandex-cloud.org, port: 54183, type: hysteria2, password: 082f5694-9019-4110-b67b-8125dbb9bab8, auth: 082f5694-9019-4110-b67b-8125dbb9bab8, sni: outh.yandex-cloud.org, skip-cert-verify: true}
@@ -787,11 +877,7 @@ proxies:
   - {name: JP_3|6.0MB/s, server: 13.231.227.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US_7|3.3MB/s 2, server: 3.85.61.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: RU_speednode_0083, server: 195.133.23.200, port: 1291, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599}
-  - {name: US_6|3.0MB/s, server: speed-01.aliyun-web-tracker.cn, port: 53199, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true}
-  - {name: JP_20|5.4MB/s, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: internal-sunbird.rooster465.autos, skip-cert-verify: true}
-  - {name: SE_4|2.2MB/s, server: 13.62.20.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_11|1.9MB/s, server: 185.132.54.106, port: 55523, type: trojan, password: UaQmDQajuW, sni: b32-10.cmj0502.cn, skip-cert-verify: false}
-  - {name: JP_22|5.9MB/s, server: immense-gnu.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: immense-gnu.rooster465.autos, skip-cert-verify: true}
+  - {name: _US_美国 3, server: 23.106.44.14, port: 443, type: trojan, password: 600421cf-11d7-429f-a65b-c30397f1bc03, sni: sj6.freeguard.org, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -801,6 +887,10 @@ proxy-groups:
       - "🇳🇴 挪威 | NOR"
       - "🇵🇱 波兰 | POL"
       - "🇺🇸 美国 | USA 5"
+      - "日本+东京都亚马逊(Amazon)公司数据中心"
+      - "新加坡+Amazon数据中心"
+      - "日本+V2CROSS.COM"
+      - "荷兰+V2CROSS.COM"
       - "挪威+V2CROSS.COM"
       - "日本+东京Amazon数据中心"
       - "巴西+V2CROSS.COM"
@@ -819,18 +909,22 @@ proxy-groups:
       - "美国+Xerox"
       - "美国+惠普HP"
       - "英国+V2CROSS.COM"
+      - "美国+Xerox"
+      - "德国+V2CROSS.COM"
       - ♻️ 自动选择
       - 🎯 全球直连
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -872,7 +966,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -1293,26 +1386,24 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -1354,7 +1445,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -1775,27 +1865,25 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -1837,7 +1925,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -2258,11 +2345,7 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2281,16 +2364,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -2332,7 +2417,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -2753,11 +2837,7 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2768,16 +2848,18 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -2819,7 +2901,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -3240,26 +3321,24 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -3301,7 +3380,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -3722,27 +3800,25 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -3784,7 +3860,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -4205,11 +4280,7 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4225,16 +4296,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - SG_1|1.8MB/s
+      - ID_2a61e_0010
+      - 拉脱维亚+V2CROSS.COM
+      - IT-202.50.253.72-2359 | 23.707MB
+      - "意大利 | ITA #3"
+      - "C - 🇺🇸 US 49 TG: @nodpai"
+      - _JP_日本 2
       - "意大利 | ITA #2"
       - JP_1|1.2MB/s
-      - "C - 🇺🇸 US 49 TG: @nodpai"
-      - "意大利 | ITA #3"
       - _SG_新加坡->🇺🇸_US_美国
-      - IT-202.50.253.72-2359 | 23.707MB
-      - _JP_日本 2
       - "[www.v2nodes.com] ss-IT-1602..."
       - IT-202.50.253.45-0391 | 19.24MB
-      - 拉脱维亚+V2CROSS.COM
       - "意大利 | ITA #1"
       - 新西兰+V2CROSS.COM
       - _SG_新加坡->🇨🇦_CA_加拿大
@@ -4276,7 +4349,6 @@ proxy-groups:
       - FR-51.83.192.80-0423 | 31.681MB
       - JP-191.223.221.53-2470 | 36.868MB
       - 美国 V2CROSS.COM
-      - ID_2a61e_0010
       - _KR_韩国
       - 美国+V2CROSS.COM
       - 巴西+V2CROSS.COM
@@ -4697,11 +4769,7 @@ proxy-groups:
       - JP_3|6.0MB/s
       - US_7|3.3MB/s 2
       - RU_speednode_0083
-      - US_6|3.0MB/s
-      - JP_20|5.4MB/s
-      - SE_4|2.2MB/s
-      - US_11|1.9MB/s
-      - JP_22|5.9MB/s
+      - _US_美国 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
