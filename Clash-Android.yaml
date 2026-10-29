@@ -437,48 +437,62 @@ proxies:
     reality-opts:
       public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
       short-id: 494afdc75f8c2fa8
-  - {name: US · SSR · clashmeta · C8C20681, server: api.meituan88.com, port: 39266, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
-  - {name: US · SSR · wzmwayne · DC4D1E27, server: api.meituan88.com, port: 44883, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
-  - {name: US · SSR · wzmwayne · C27B2DAC, server: api.meituan88.com, port: 61558, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
-  - {name: ZZ · SS · yudou · 020A32A3, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: KR · VMESS · shaoyouvip · 43C4BB1A, server: 43.155.199.22, port: 80, type: vmess, uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: "DE_86|350KB/s|A004-260618 [784d46490860]", server: de-bots4.h1cloud.net, port: 25267, type: trojan, password: happybirthdaydaniel, sni: t.me%2ffuckthewall, skip-cert-verify: true}
-  - {name: ZZ · SS · yudou · E2493A79, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 美国+CloudFlare节点, server: 104.16.10.185, port: 443, type: vless, uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4, tls: true, servername: jp3.yohototo.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /tyxyws, headers: {Host: jp3.yohototo.top}}}
-  - {name: _SG_新加坡->🇨🇦_CA_加拿大, server: sg-transit-3.nebulacloud.win, port: 30330, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ca/getData, headers: {Host: sg-transit-3.nebulacloud.win}}}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: US · SSR · wzmwayne · 6E9A3A9E, server: api.meituan88.com, port: 27561, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
-  - {name: US · SSR · wzmwayne · 6C946707, server: api.meituan88.com, port: 18534, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
-  - {name: ZZ · SS · yudou · D4FD19F5, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: ZZ · SSR · wzmwayne · 3D888B7B, server: api.meituan88.com, port: 29392, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
-  - {name: ZZ · SS · yudou · 32A24B2A, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: US · SSR · clashmeta · C6D38295, server: api.meituan88.com, port: 27726, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
-  - {name: ZZ · SS · clashstair · D6F9F1E5, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 美国 385, server: bl2.nexfile.net, port: 4444, type: hysteria2, password: 10be1dad-9952-4c5e-aa30-db435f69b727, auth: 10be1dad-9952-4c5e-aa30-db435f69b727, sni: bl2.nexfile.net, skip-cert-verify: true}
+  - {name: 德国 537, server: 3.76.203.180, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
+  - {name: "US_460|389KB/s|S001-260618 [a66364c9e9f6]", server: 69.55.49.177, port: 38182, type: socks5}
+  - {name: "❓Other_17|213KB/s|R002-260618 [01246ba37aaa]", server: 121.169.46.116, port: 1090, type: socks5, username: 121.169.46.116, password: "1090\x00DJjbE0wUWxNMFE2Og"}
+  - {name: 英国 357, server: 92.113.107.120, port: 443, type: vless, uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc, tls: true, servername: indigostar.click, client-fingerprint: firefox, network: ws, ws-opts: {path: /ws, headers: {Host: indigostar.click}}}
+  - {name: 美国+Amazon+EC2服务器, server: vpn-de-002.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
+  - {name: _MY_马来西亚, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: true}
+  - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
+  - {name: ZZ · SS · yudou · 76DCD60C, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: US · SSR · wzmwayne · 60FE7985, server: api.meituan88.com, port: 43694, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
   - {name: 印度 | IND 2, server: 64.176.96.237, port: 443, type: trojan, password: Tg3RnK7Xp8B1, sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com, skip-cert-verify: true}
-  - {name: NL · SSR · clashmeta · 8B79F727, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: US · SSR · wzmwayne · 6C946707, server: api.meituan88.com, port: 18534, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: KR · VMESS · shaoyouvip · 43C4BB1A, server: 43.155.199.22, port: 80, type: vmess, uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: US · SSR · wzmwayne · C27B2DAC, server: api.meituan88.com, port: 61558, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: US · SSR · clashmeta · C8C20681, server: api.meituan88.com, port: 39266, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
+  - {name: US · SSR · clashmeta · 9958C86E, server: api.meituan88.com, port: 44983, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: 美国 | USA 7, server: 54.237.60.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US · SSR · wzmwayne · D8C437AB, server: api.meituan88.com, port: 29790, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
+  - {name: 美国 | USA 14, server: 54.91.51.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: ZZ · SS · yudou · D4FD19F5, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ZZ · SS · yudou · E2493A79, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: US美国(mibei77.com 米贝节点分享)_29, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ZZ · SS · clashstair · D6F9F1E5, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 德国 499, server: 18.193.79.104, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
+  - {name: ZZ · SS · yudou · 32A24B2A, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: JP_2|2.9MB/s, server: rb.mangshe.xyz, port: 2060, type: hysteria2, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, sni: rb.mangshe.xyz, skip-cert-verify: true}
+  - {name: ZZ · SS · yudou · 020A32A3, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: ZZ · SS · clashstair · 8A2BF87B, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: ZZ · SS · clashstair · 4313CE27, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: US · SSR · wzmwayne · 60FE7985, server: api.meituan88.com, port: 43694, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: "IT_24|769KB/s|R002-260618 [aaf6029dcb7b]", server: 212.77.75.25, port: 1088, type: socks5}
+  - {name: NL · SSR · clashmeta · 8B79F727, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: ZZ · SSR · wzmwayne · 3D888B7B, server: api.meituan88.com, port: 29392, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: _SG_新加坡->🇨🇦_CA_加拿大, server: sg-transit-3.nebulacloud.win, port: 30330, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ca/getData, headers: {Host: sg-transit-3.nebulacloud.win}}}
+  - {name: US · TROJAN · shaoyouvip · 231FFFBB, server: 176.114.95.242, port: 443, type: trojan, password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h, sni: us-1.1984.love, skip-cert-verify: false}
+  - {name: NZ · SS · ts-sf-clash · 85D8FD98, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: sg-transit-3.nebulacloud.win, port: 31414, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-3.nebulacloud.win}}}
+  - {name: US · SSR · wzmwayne · DC4D1E27, server: api.meituan88.com, port: 44883, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: "DE_86|350KB/s|A004-260618 [784d46490860]", server: de-bots4.h1cloud.net, port: 25267, type: trojan, password: happybirthdaydaniel, sni: t.me%2ffuckthewall, skip-cert-verify: true}
+  - {name: 美国+CloudFlare节点, server: 104.16.10.185, port: 443, type: vless, uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4, tls: true, servername: jp3.yohototo.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /tyxyws, headers: {Host: jp3.yohototo.top}}}
+  - {name: US · SSR · wzmwayne · 6E9A3A9E, server: api.meituan88.com, port: 27561, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
+  - {name: US · SSR · clashmeta · C6D38295, server: api.meituan88.com, port: 27726, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 23929:563537032, obfs-param: f7d23929.douyin.com}
+  - {name: 美国 385, server: bl2.nexfile.net, port: 4444, type: hysteria2, password: 10be1dad-9952-4c5e-aa30-db435f69b727, auth: 10be1dad-9952-4c5e-aa30-db435f69b727, sni: bl2.nexfile.net, skip-cert-verify: true}
   - {name: ❓未知丨yoyapai.com_36, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
   - {name: 美国 407, server: 144.31.239.226, port: 4444, type: hysteria2, password: 10be1dad-9952-4c5e-aa30-db435f69b727, auth: 10be1dad-9952-4c5e-aa30-db435f69b727, sni: fl2.nexfile.net, skip-cert-verify: true}
-  - {name: ZZ · SS · yudou · 76DCD60C, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: US美国(mibei77.com 米贝节点分享)_29, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
   - {name: 美国+加利福尼亚州洛杉矶, server: vpn-hk-004.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-hk-004.fastervpn.world, skip-cert-verify: true}
-  - {name: _MY_马来西亚, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: true}
   - {name: 西班牙+V2CROSS.COM, server: au6.pad-sservice.lat, port: 8443, type: vless, uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e, tls: true, servername: au6.pad-sservice.lat, network: ws, ws-opts: {path: /AU6W, headers: {Host: au6.pad-sservice.lat}}}
   - {name: "德国 | DEU #4", server: 94.177.145.151, port: 2083, type: ss, cipher: chacha20-ietf-poly1305, password: banJ58KfDF21KoMFZ5TXmg}
   - {name: "C - 🇺🇸 US 49 TG: @nodpai", server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "日本 | JPN #2", server: tjrb.m2k699.com, port: 24999, type: trojan, password: 29086912-33e4-4e06-ba2b-60f1a195864f, sni: www.itunes.com, skip-cert-verify: true}
   - {name: _JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: _SG_新加坡->🇺🇸_US_美国 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: ID_2a61e_0010, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: SG_1|1.8MB/s, server: 18.143.63.164, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}}
   - {name: 拉脱维亚+V2CROSS.COM, server: xby.mangshe.xyz, port: 2060, type: hysteria2, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, skip-cert-verify: true}
   - {name: "美国 | USA #7", server: vpn.liumr.top, port: 443, type: trojan, password: va3E77I9fZCnCVcGKkxBCfz5, sni: vpn.liumr.top, skip-cert-verify: true}
   - {name: NL-213.189.8.70-4865 | 26.33MB, server: dns2.m3hrzd.ir, port: 8044, type: ss, cipher: chacha20-ietf-poly1305, password: eLXzVwBgkN77aIof2pEhaYmpATVZVIlh}
-  - {name: _SG_新加坡->🇺🇸_US_美国 2, server: sg-transit-3.nebulacloud.win, port: 31414, type: vmess, uuid: dfa9f875-3805-49d9-8636-46b6899be24e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /getData/us, headers: {Host: sg-transit-3.nebulacloud.win}}}
   - {name: US_21|3.1MB/s, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: feb7fa9:154948}}
   - {name: GB_5d022_0017 2, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: "[www.v2nodes.com] vless-MY-1... #3", server: platform106.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform106, headers: {Host: platform106.halalkhor.info}}}
@@ -513,7 +527,6 @@ proxies:
   - {name: "[www.v2nodes.com] vless- #1", server: platform107.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform107, headers: {Host: platform107.golnamakcert.top}}}
   - {name: JP_4|5.7MB/s, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
   - {name: "亚太地区+AT&T", server: vpn-au-001.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-au-001.fastervpn.world, skip-cert-verify: true}
-  - {name: 美国+Amazon+EC2服务器, server: vpn-de-002.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
   - {name: US_23|3.9MB/s, server: 0FN8ne0VXwJLjT6E.v.3dns.vip, port: 443, type: vmess, uuid: 1d84e480-8fd2-4fae-96de-e46fe36ffe86, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 0FN8ne0VXwJLjT6E.v.3dns.vip}}}
   - {name: 巴西+V2CROSS.COM 2, server: finkawwwbroy5.qcloud.surf, port: 20326, type: hysteria2, password: 8bd04756-3beb-4348-82c9-d35453df50ce, auth: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: finkawwwbroy5.qcloud.surf, skip-cert-verify: true}
   - {name: 美国+V2CROSS.COM 2, server: 129.159.156.109, port: 50160, type: hysteria2, password: f25f19f29ce3fb53a35bf1b35b452a43, auth: f25f19f29ce3fb53a35bf1b35b452a43, sni: www.bing.com, skip-cert-verify: true}
@@ -618,7 +631,6 @@ proxies:
   - {name: "日本 | JPN #2 3", server: ruot.ayucloudservices.nl, port: 22073, type: ss, cipher: aes-256-gcm, password: bd962c9a-d6f2-4561-bd80-34206c4d5279}
   - {name: ES-5.188.181.201-0173 | 0.0MB, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
   - {name: _KR_韩国_1, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: JP_2|2.9MB/s, server: rb.mangshe.xyz, port: 2060, type: hysteria2, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, sni: rb.mangshe.xyz, skip-cert-verify: true}
   - {name: 美国 | USA 17, server: gz1.polymarket.party, port: 36011, type: vmess, uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3, alterId: 0, cipher: auto, tls: false}
   - {name: 塞舌尔+V2CROSS.COM, server: nl.alpheratzz.org, port: 8443, type: vless, uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8, tls: true, flow: xtls-rprx-vision, servername: api-v1-6ac7858f.vmagnum.win, client-fingerprint: chrome, network: tcp}
   - {name: DE-13.140.91.101-0803 | 0.2MB, server: www.asamping.ir, port: 1468, type: ss, cipher: aes-128-gcm, password: l2NidZbckMu4PnIHsJTYJg}
@@ -671,7 +683,7 @@ proxies:
   - {name: SG_2|4.0MB/s, server: cn08.somethingstranges.com, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}}
   - {name: SG_3|3.8MB/s, server: cn07.somethingstranges.com, port: 8206, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}}
   - {name: _US_美国_1, server: 54.90.169.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 美国 | USA 14, server: 192.236.151.43, port: 443, type: trojan, password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=, sni: 192.236.151.43, skip-cert-verify: true}
+  - {name: 美国 | USA 14 2, server: 192.236.151.43, port: 443, type: trojan, password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=, sni: 192.236.151.43, skip-cert-verify: true}
   - {name: 瑞典 | SWE 2, server: 13.60.213.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_1|2.9MB/s, server: 54.199.248.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_1|3.8MB/s, server: 13.113.166.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -893,18 +905,11 @@ proxies:
   - {name: FR_2|3.2MB/s, server: definite-giraffe.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: definite-giraffe.rooster465.autos, skip-cert-verify: true}
   - {name: KR_5|3.3MB/s 2, server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
   - {name: PL-62.112.222.26-0522 | 38.724MB, server: 62.112.222.26, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
-  - {name: PL-62.112.222.26-0513 | 38.207MB, server: upright-hamster.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: upright-hamster.rooster465.autos, skip-cert-verify: false}
-  - {name: DE_3|4.9MB/s, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: JP_3|2.8MB/s, server: major-duckling.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
-  - {name: DE_4|3.0MB/s, server: aware-pika.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: aware-pika.rooster465.autos, skip-cert-verify: false}
-  - {name: KR_4|3.2MB/s, server: adjusted-labrador.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: adjusted-labrador.rooster465.autos, skip-cert-verify: true}
-  - {name: FR_3|3.8MB/s, server: humane-bird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true}
-  - {name: FR_6|3.2MB/s, server: firm-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: firm-warthog.rooster465.autos, skip-cert-verify: false}
-  - {name: JP_4|2.8MB/s 2, server: enhanced-dassie.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: enhanced-dassie.rooster465.autos, skip-cert-verify: false}
-  - {name: PL_1|2.7MB/s, server: sensible-haddock.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: sensible-haddock.rooster465.autos, skip-cert-verify: false}
-  - {name: SG_2|2.5MB/s, server: still-mastodon.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: still-mastodon.rooster465.autos, skip-cert-verify: true}
-  - {name: SG_4|3.0MB/s, server: glowing-deer.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: false}
-  - {name: NL_4|2.5MB/s, server: 185.247.117.209, port: 56431, type: trojan, password: 8240cd21ddf3112d50c4b6e52a70f0ce, sni: 185.247.117.209.sslip.io, skip-cert-verify: false}
+  - {name: 日本 674, server: 162.159.130.234, port: 2083, type: vmess, uuid: ac251237-576f-40c8-a543-554960c958b1, alterId: 0, cipher: auto, tls: true, servername: cdn.sfacg.uk, network: ws, ws-opts: {path: /or3, headers: {Host: or3.sfacg.uk}}}
+  - {name: ZZ · VMESS · wzmwayne · 09E47A9C, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: ZZ · VMESS · au1rxx-v2ray · 032BD33D, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: US美国丨yoyapai.com_10, server: www.speedtest.net, port: 443, type: vless, uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9, tls: true, servername: party-5cn.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: party-5cn.pages.dev}}}
+  - {name: 日本 472, server: 203.137.165.164, port: 57554, type: vless, uuid: 09de62f5-662a-4906-a66d-b1713b198bff, tls: true, servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -943,48 +948,62 @@ proxy-groups:
       - "英国+V2CROSS.COM"
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -1019,7 +1038,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -1124,7 +1142,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -1177,7 +1194,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -1399,65 +1416,72 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -1492,7 +1516,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -1597,7 +1620,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -1650,7 +1672,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -1872,66 +1894,73 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -1966,7 +1995,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -2071,7 +2099,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -2124,7 +2151,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -2346,18 +2373,11 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2376,48 +2396,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -2452,7 +2486,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -2557,7 +2590,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -2610,7 +2642,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -2832,18 +2864,11 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2854,48 +2879,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -2930,7 +2969,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -3035,7 +3073,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -3088,7 +3125,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -3310,65 +3347,72 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -3403,7 +3447,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -3508,7 +3551,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -3561,7 +3603,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -3783,66 +3825,73 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -3877,7 +3926,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -3982,7 +4030,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -4035,7 +4082,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -4257,18 +4304,11 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4284,48 +4324,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US · SSR · clashmeta · C8C20681
-      - US · SSR · wzmwayne · DC4D1E27
-      - US · SSR · wzmwayne · C27B2DAC
-      - ZZ · SS · yudou · 020A32A3
-      - KR · VMESS · shaoyouvip · 43C4BB1A
-      - DE_86|350KB/s|A004-260618 [784d46490860]
-      - ZZ · SS · yudou · E2493A79
-      - 美国+CloudFlare节点
-      - _SG_新加坡->🇨🇦_CA_加拿大
-      - KR_0b85e_0009
-      - US · SSR · wzmwayne · 6E9A3A9E
-      - US · SSR · wzmwayne · 6C946707
-      - ZZ · SS · yudou · D4FD19F5
-      - ZZ · SSR · wzmwayne · 3D888B7B
-      - ZZ · SS · yudou · 32A24B2A
-      - US · SSR · clashmeta · C6D38295
-      - ZZ · SS · clashstair · D6F9F1E5
-      - 美国 385
+      - 德国 537
+      - US_460|389KB/s|S001-260618 [a66364c9e9f6]
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - 英国 357
+      - 美国+Amazon+EC2服务器
+      - _MY_马来西亚
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - ZZ · SS · yudou · 76DCD60C
+      - US · SSR · wzmwayne · 60FE7985
       - 印度 | IND 2
-      - NL · SSR · clashmeta · 8B79F727
+      - US · SSR · wzmwayne · 6C946707
+      - KR_0b85e_0009
+      - KR · VMESS · shaoyouvip · 43C4BB1A
+      - US · SSR · wzmwayne · C27B2DAC
+      - US · SSR · clashmeta · C8C20681
+      - US · SSR · clashmeta · 9958C86E
+      - 美国 | USA 7
+      - US · SSR · wzmwayne · D8C437AB
+      - 美国 | USA 14
+      - ZZ · SS · yudou · D4FD19F5
+      - ZZ · SS · yudou · E2493A79
+      - US美国(mibei77.com 米贝节点分享)_29
+      - ZZ · SS · clashstair · D6F9F1E5
+      - 德国 499
+      - ZZ · SS · yudou · 32A24B2A
+      - JP_2|2.9MB/s
+      - ZZ · SS · yudou · 020A32A3
       - ZZ · SS · clashstair · 8A2BF87B
       - ZZ · SS · clashstair · 4313CE27
-      - US · SSR · wzmwayne · 60FE7985
+      - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
+      - NL · SSR · clashmeta · 8B79F727
+      - ZZ · SSR · wzmwayne · 3D888B7B
+      - _SG_新加坡->🇨🇦_CA_加拿大
+      - US · TROJAN · shaoyouvip · 231FFFBB
+      - NZ · SS · ts-sf-clash · 85D8FD98
+      - _SG_新加坡->🇺🇸_US_美国
+      - US · SSR · wzmwayne · DC4D1E27
+      - DE_86|350KB/s|A004-260618 [784d46490860]
+      - 美国+CloudFlare节点
+      - US · SSR · wzmwayne · 6E9A3A9E
+      - US · SSR · clashmeta · C6D38295
+      - 美国 385
       - ❓未知丨yoyapai.com_36
       - 美国 407
-      - ZZ · SS · yudou · 76DCD60C
-      - US美国(mibei77.com 米贝节点分享)_29
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国+加利福尼亚州洛杉矶
-      - _MY_马来西亚
       - 西班牙+V2CROSS.COM
       - "德国 | DEU #4"
       - "C - 🇺🇸 US 49 TG: @nodpai"
       - "日本 | JPN #2"
       - _JP_日本 2
-      - _SG_新加坡->🇺🇸_US_美国
+      - _SG_新加坡->🇺🇸_US_美国 2
       - ID_2a61e_0010
       - SG_1|1.8MB/s
       - 拉脱维亚+V2CROSS.COM
       - "美国 | USA #7"
       - NL-213.189.8.70-4865 | 26.33MB
-      - _SG_新加坡->🇺🇸_US_美国 2
       - US_21|3.1MB/s
       - GB_5d022_0017 2
       - "[www.v2nodes.com] vless-MY-1... #3"
@@ -4360,7 +4414,6 @@ proxy-groups:
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
       - "亚太地区+AT&T"
-      - 美国+Amazon+EC2服务器
       - US_23|3.9MB/s
       - 巴西+V2CROSS.COM 2
       - 美国+V2CROSS.COM 2
@@ -4465,7 +4518,6 @@ proxy-groups:
       - "日本 | JPN #2 3"
       - ES-5.188.181.201-0173 | 0.0MB
       - _KR_韩国_1
-      - JP_2|2.9MB/s
       - 美国 | USA 17
       - 塞舌尔+V2CROSS.COM
       - DE-13.140.91.101-0803 | 0.2MB
@@ -4518,7 +4570,7 @@ proxy-groups:
       - SG_2|4.0MB/s
       - SG_3|3.8MB/s
       - _US_美国_1
-      - 美国 | USA 14
+      - 美国 | USA 14 2
       - 瑞典 | SWE 2
       - JP_1|2.9MB/s
       - JP_1|3.8MB/s
@@ -4740,18 +4792,11 @@ proxy-groups:
       - FR_2|3.2MB/s
       - KR_5|3.3MB/s 2
       - PL-62.112.222.26-0522 | 38.724MB
-      - PL-62.112.222.26-0513 | 38.207MB
-      - DE_3|4.9MB/s
-      - JP_3|2.8MB/s
-      - DE_4|3.0MB/s
-      - KR_4|3.2MB/s
-      - FR_3|3.8MB/s
-      - FR_6|3.2MB/s
-      - JP_4|2.8MB/s 2
-      - PL_1|2.7MB/s
-      - SG_2|2.5MB/s
-      - SG_4|3.0MB/s
-      - NL_4|2.5MB/s
+      - 日本 674
+      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
+      - US美国丨yoyapai.com_10
+      - 日本 472
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
