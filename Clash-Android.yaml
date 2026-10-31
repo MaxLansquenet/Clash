@@ -1677,7 +1677,6 @@ proxies:
   - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
   - {name: "美国 | USA #1", server: saas.sin.fan, port: 2083, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp25.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /comics/ads/thread, headers: {Host: vp25.1145678.xyz}}}
   - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: "US_331|76KB/s|M003-260806 [f01f92c4aeaa]", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}}
   - {name: "IT_24|769KB/s|R002-260618 [aaf6029dcb7b]", server: 212.77.75.25, port: 1088, type: socks5}
   - {name: ZZ · SSR · wzmwayne · 3D888B7B, server: api.meituan88.com, port: 29392, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
   - {name: US · SSR · wzmwayne · C27B2DAC, server: api.meituan88.com, port: 61558, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
@@ -2038,11 +2037,7 @@ proxies:
   - {name: US_34|2.2MB/s, server: 134.195.101.119, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}}
   - {name: ES-5.188.181.201-0172 | 0.0MB, server: 5.188.181.201, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
   - {name: 爱尔兰+V2CROSS.COM, server: i.wareznet.ru, port: 8443, type: hysteria2, password: d402d4c0b8354a90b70bb2566dce9a08, auth: d402d4c0b8354a90b70bb2566dce9a08, sni: i.wareznet.ru, skip-cert-verify: true}
-  - {name: CA · VMESS · radikal · 7DCDB108, server: cf.877771.xyz, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}}
-  - {name: JP日本丨yoyapai.com_3, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
-  - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
-  - {name: ZZ · VMESS · au1rxx-v2ray · 032BD33D, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
-  - {name: ZZ · VMESS · wzmwayne · 09E47A9C, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: "乌克兰 | UKR #1", server: 103.126.51.46, port: 8443, type: hysteria2, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: ocober-romania-new.yyuyy.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -2188,7 +2183,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -2549,11 +2543,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2583,7 +2573,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -2944,11 +2933,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -2979,7 +2964,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -3340,11 +3324,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -3387,7 +3367,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -3748,11 +3727,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -3764,7 +3739,6 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
-      - HK香港丨yoyapai.com
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -3795,7 +3769,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -4156,11 +4129,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -4190,7 +4159,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -4551,11 +4519,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -4586,7 +4550,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -4947,11 +4910,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4991,7 +4950,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - "美国 | USA #1"
       - KR_0b85e_0009
-      - US_331|76KB/s|M003-260806 [f01f92c4aeaa]
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -5352,11 +5310,7 @@ proxy-groups:
       - US_34|2.2MB/s
       - ES-5.188.181.201-0172 | 0.0MB
       - 爱尔兰+V2CROSS.COM
-      - CA · VMESS · radikal · 7DCDB108
-      - JP日本丨yoyapai.com_3
-      - HK香港丨yoyapai.com
-      - ZZ · VMESS · au1rxx-v2ray · 032BD33D
-      - ZZ · VMESS · wzmwayne · 09E47A9C
+      - "乌克兰 | UKR #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
