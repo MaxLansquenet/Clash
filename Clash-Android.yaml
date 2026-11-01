@@ -1266,6 +1266,49 @@ proxies:
     reality-opts:
       public-key: yFvOpugh65xKQNAwKrhitv4d2pflD8QwNFMj-jDOmT8
       short-id: 0123456789abcdef
+  - name: "巴西+V2CROSS.COM"
+    type: vless
+    server: 186.246.9.29
+    port: 443
+    uuid: "b2847c3b-5278-4b06-9c66-bc919d2dfec7"
+    network: tcp
+    tls: true
+    udp: true
+    client-fingerprint: firefox
+    servername: wordpress.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
+      short-id: 50ad5564
+  - name: "🇬🇧 英国 637"
+    type: vless
+    server: 107.181.151.128
+    port: 443
+    uuid: "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    servername: www.microsoft.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
+      short-id: 87174b37ce3b
+  - name: "🇪🇪 爱沙尼亚 475"
+    type: vless
+    server: ee.h1cloud.net
+    port: 25895
+    uuid: "f90b7d43-69e2-4b46-a672-8029bc6796a2"
+    network: tcp
+    tls: true
+    udp: true
+    client-fingerprint: chrome
+    servername: www.samsung.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+      short-id: a73f0410d728c823
   - {name: 俄罗斯 652, server: 46.17.46.27, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa}
   - {name: 美国 35, server: 172.66.203.67, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}}
   - {name: Node-019, server: 193.25.215.182, port: 22222, type: socks5}
@@ -1677,6 +1720,13 @@ proxies:
   - {name: _SG_新加坡, server: ss.049.node-for-bigairport.win, port: 19000, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e}
   - {name: FR-162.19.192.89-0528 | 17.298MB, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com}}}
   - {name: GB_2|1.2MB/s, server: 13.40.94.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CA加拿大丨yoyapai.com (20), server: 172.67.79.160, port: 2087, type: vless, uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23, tls: true, servername: cvhpyn.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: cvhpyn.pages.dev}}}
+  - {name: 中国香港 494, server: 202.146.222.174, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
+  - {name: 日本 421, server: 138.3.208.26, port: 50160, type: hysteria2, password: 184cdec28da5a09450803c8debcd2cc9, auth: 184cdec28da5a09450803c8debcd2cc9, sni: 1, skip-cert-verify: true}
+  - {name: CA · VMESS · radikal · 06E1923D, server: 104.18.42.163, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: vmess|www.shopify.com:443|114ms|anaer/Sub, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: vmess|guanwang.awsno.com:443|294ms|anaer/Sub, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
+  - {name: _CN_中国_2, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -1770,6 +1820,9 @@ proxy-groups:
       - "🇺🇸 美国 425"
       - "🇹🇷 土耳其 459"
       - "🇺🇸 美国 577"
+      - "巴西+V2CROSS.COM"
+      - "🇬🇧 英国 637"
+      - "🇪🇪 爱沙尼亚 475"
       - ♻️ 自动选择
       - 🎯 全球直连
       - 俄罗斯 652
@@ -2183,6 +2236,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2599,6 +2659,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -3016,6 +3083,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -3445,6 +3519,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -3456,6 +3537,7 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 494
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -3873,6 +3955,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -4289,6 +4378,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -4706,6 +4802,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -5132,6 +5235,13 @@ proxy-groups:
       - _SG_新加坡
       - FR-162.19.192.89-0528 | 17.298MB
       - GB_2|1.2MB/s
+      - CA加拿大丨yoyapai.com (20)
+      - 中国香港 494
+      - 日本 421
+      - CA · VMESS · radikal · 06E1923D
+      - vmess|www.shopify.com:443|114ms|anaer/Sub
+      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
+      - _CN_中国_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
