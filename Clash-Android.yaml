@@ -143,21 +143,6 @@ proxies:
     reality-opts:
       public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
       short-id: 7c
-  - name: "美国+Xerox2"
-    type: vless
-    server: 13.143.180.104
-    port: 443
-    uuid: "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    servername: s12.bsh-net.ru
-    skip-cert-verify: false
-    reality-opts:
-      public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
-      short-id: 51079f144d661484
   - name: "🇺🇸 美国 46"
     type: vless
     server: 195.123.235.183
@@ -1325,96 +1310,6 @@ proxies:
     reality-opts:
       public-key: yFvOpugh65xKQNAwKrhitv4d2pflD8QwNFMj-jDOmT8
       short-id: 0123456789abcdef
-  - name: "日本+东京都亚马逊(Amazon)公司数据中心"
-    type: vless
-    server: funagfrdfs.alixxplay.com
-    port: 56415
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    servername: www.kaidee.com
-    skip-cert-verify: false
-    reality-opts:
-      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-      short-id: cbd39bea0805e2
-  - name: "美国+惠普HP"
-    type: vless
-    server: 3696b38bsg.murphyweb.sbs
-    port: 32134
-    uuid: "5b01dc2d-6892-49b8-8289-3f73a32e00e4"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: buylite.music.apple.com
-    skip-cert-verify: false
-    reality-opts:
-      public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-      short-id: 6c6c7c97
-  - name: "英国+桑德兰大学"
-    type: vless
-    server: 157.228.128.59
-    port: 443
-    uuid: "df53b6c2-8005-475c-9eb9-74e1be785dc8"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: addons.mozilla.org
-    skip-cert-verify: false
-    reality-opts:
-      public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
-      short-id: 06e00e7c
-  - name: "英国+桑德兰大学2"
-    type: vless
-    server: 157.228.160.166
-    port: 443
-    uuid: "df53b6c2-8005-475c-9eb9-74e1be785dc8"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: addons.mozilla.org
-    skip-cert-verify: false
-    reality-opts:
-      public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-      short-id: 3cef317b
-  - name: "英国+桑德兰大学1"
-    type: vless
-    server: 157.228.150.34
-    port: 443
-    uuid: "df53b6c2-8005-475c-9eb9-74e1be785dc8"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: randomized
-    servername: addons.mozilla.org
-    skip-cert-verify: false
-    reality-opts:
-      public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-      short-id: 3cef317b
-  - name: "美国+Xerox1"
-    type: vless
-    server: gw1.edgemedia.lol
-    port: 13443
-    uuid: "9ebf4fda-7395-4800-b42f-b2dda649880a"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    servername: ya.ru
-    skip-cert-verify: false
-    reality-opts:
-      public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-      short-id: d2061bb1
   - name: "巴西+V2CROSS.COM"
     type: vless
     server: 186.246.9.29
@@ -1506,8 +1401,6 @@ proxies:
   - {name: "US_460|389KB/s|S001-260618 [a66364c9e9f6]", server: 69.55.49.177, port: 38182, type: socks5}
   - {name: US · TROJAN · shaoyouvip · 231FFFBB, server: 176.114.95.242, port: 443, type: trojan, password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h, sni: us-1.1984.love, skip-cert-verify: false}
   - {name: AetrisVPN, server: 217.19.122.156, port: 443, type: vless, uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199, tls: true, servername: z1q3pv4g78.rucdncomp.pro, client-fingerprint: firefox, network: ws, ws-opts: {path: /useraction/events/b892639b7195/, headers: {Host: z1q3pv4g78.rucdncomp.pro}}}
-  - {name: 美国+CloudFlare节点, server: 104.16.10.185, port: 443, type: vless, uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4, tls: true, servername: jp3.yohototo.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /tyxyws, headers: {Host: jp3.yohototo.top}}}
-  - {name: 美国+CloudFlare节点 2, server: 104.16.10.2, port: 443, type: vless, uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4, tls: true, servername: jp3.yohototo.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /tyxyws, headers: {Host: jp3.yohototo.top}}}
   - {name: _MY_马来西亚, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: true}
   - {name: "美国 | USA #1", server: saas.sin.fan, port: 2083, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp25.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /comics/ads/thread, headers: {Host: vp25.1145678.xyz}}}
   - {name: ZZ · SSR · wzmwayne · 3D888B7B, server: api.meituan88.com, port: 29392, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
@@ -1517,7 +1410,6 @@ proxies:
   - {name: 德国 645, server: 92.42.203.240, port: 2052, type: vmess, uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5, alterId: 0, cipher: auto, tls: false}
   - {name: US · SSR · wzmwayne · DC4D1E27, server: api.meituan88.com, port: 44883, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
   - {name: US · SSR · wzmwayne · 60FE7985, server: api.meituan88.com, port: 43694, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
-  - {name: 美国+CloudFlare节点 3, server: saas.sin.fan, port: 443, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp19.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /images/classify/dh, headers: {Host: vp19.1145678.xyz}}}
   - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
   - {name: ❓未知丨yoyapai.com_36, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
   - {name: NL · SSR · clashmeta · 8B79F727, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
@@ -1537,7 +1429,6 @@ proxies:
   - {name: 新加坡 509, server: 45.77.40.28, port: 443, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: sg003.zestapp778.com, network: tcp}
   - {name: GB-82.38.31.217-0114 | 51.261MB, server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
   - {name: 美国 121, server: 155.248.209.237, port: 33333, type: hysteria2, password: bce6c821-200d-421f-bf3d-7159e5246ea0, auth: bce6c821-200d-421f-bf3d-7159e5246ea0, sni: 155.248.209.2, skip-cert-verify: true}
-  - {name: 美国+加利福尼亚州洛杉矶, server: vpn-hk-004.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-hk-004.fastervpn.world, skip-cert-verify: true}
   - {name: 瑞典 412, server: promo.betust.net, port: 443, type: hysteria2, password: d4ca9415f0eac7897472e1e5b86d2e96, auth: d4ca9415f0eac7897472e1e5b86d2e96, sni: promo.betust.net, skip-cert-verify: true}
   - {name: FR-51.83.192.80-0423 | 31.681MB, server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321}
   - {name: 德国 537, server: 3.76.203.180, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
@@ -1611,7 +1502,6 @@ proxies:
   - {name: 波兰 601, server: 2.26.6.1, port: 2087, type: vless, uuid: b9fdc03f-389b-4cda-9be4-155b623bee15, tls: true, servername: 2.26.6.1, client-fingerprint: chrome, network: tcp}
   - {name: 美国 59, server: 15.204.233.41, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: "@FarazV2ray #1", server: 162.249.125.133, port: 443, type: hysteria2, password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s, auth: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s, sni: hy2-new.aspidnet.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: c1b4086fea89914496c7e10967a419216566}
-  - {name: 美国+Amazon+EC2服务器, server: vpn-de-002.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] ss-KR-1185...", server: 141.164.45.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "AE_4|818KB/s|C002-260622 [4921c115e49f]", server: 84.235.244.108, port: 22573, type: vless, uuid: 39947382-3212-41c9-bc3a-589574ac8b23, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uae.unixzone.us}}}
   - {name: 美国 45, server: 216.152.156.49, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com, skip-cert-verify: true}
@@ -1701,13 +1591,11 @@ proxies:
   - {name: "美国 | USA #16", server: 95.169.3.45, port: 46005, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
   - {name: "美国 | USA #8", server: 95.169.3.45, port: 46007, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
   - {name: "美国 | USA #15", server: 95.169.3.45, port: 46009, type: ss, cipher: chacha20-ietf-poly1305, password: 123456}
-  - {name: 美国+加利福尼亚, server: platform113.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform113, headers: {Host: platform113.halalkhor.info}}}
   - {name: "[www.v2nodes.com] vless-CL-1... #1", server: platform108.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform108, headers: {Host: platform108.halalkhor.info}}}
   - {name: DE_8|1.4MB/s, server: 23.165.200.150, port: 52080, type: vmess, uuid: 672cdade-bb05-4c86-b578-e5d09b79524a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/QQqun-737805443], headers: {Host: [down-cdn.dingtalk.com]}}}
   - {name: "[www.v2nodes.com] vless-ZA-1... #2", server: platform117.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform117, headers: {Host: platform117.halalkhor.info}}}
   - {name: "[www.v2nodes.com] vless- #1", server: platform107.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform107, headers: {Host: platform107.golnamakcert.top}}}
   - {name: JP_4|5.7MB/s, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6}
-  - {name: "亚太地区+AT&T", server: vpn-au-001.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-au-001.fastervpn.world, skip-cert-verify: true}
   - {name: US_23|3.9MB/s, server: 0FN8ne0VXwJLjT6E.v.3dns.vip, port: 443, type: vmess, uuid: 1d84e480-8fd2-4fae-96de-e46fe36ffe86, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 0FN8ne0VXwJLjT6E.v.3dns.vip}}}
   - {name: SG_5|3.9MB/s, server: Aim7HqTuvNOofcsx.v.3dns.vip, port: 443, type: vmess, uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Aim7HqTuvNOofcsx.v.3dns.vip}}}
   - {name: SG_6|1.4MB/s, server: 5FPTMOqdtsxQRFmA.v.3dns.vip, port: 443, type: vmess, uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 5FPTMOqdtsxQRFmA.v.3dns.vip}}}
@@ -1743,7 +1631,6 @@ proxies:
   - {name: KR-13.125.29.37-0500 | 22.387MB, server: fancy-skink.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: fancy-skink.rooster465.autos, skip-cert-verify: false}
   - {name: "[www.v2nodes.com] ss-ES-1431...", server: 108.181.121.226, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: WSyL4XTwNsdv}
   - {name: "美国 | USA #4", server: pro-mako.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: pro-mako.rooster465.autos, skip-cert-verify: true}
-  - {name: 新加坡+甲骨文机房, server: 138.2.73.238, port: 50160, type: hysteria2, password: f87376e17da040ed04c9665ce8972930, auth: f87376e17da040ed04c9665ce8972930, sni: 138.2.73.238, skip-cert-verify: true}
   - {name: "日本 | JPN #4", server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true}
   - {name: KR-211.178.105.134-0223 | 0.0MB, server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: DE-213.202.208.199-0179 | 14.777MB, server: 213.202.208.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
@@ -1813,14 +1700,12 @@ proxies:
   - {name: "乌克兰 | UKR #1", server: 103.126.51.46, port: 8443, type: hysteria2, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: ocober-romania-new.yyuyy.com, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] vless-FR-1...", server: fr2.vip-get.ru, port: 443, type: vless, uuid: db4fb2a7-a31d-46d8-b6d2-76eafe8cfe2a, tls: true, servername: fr2.vip-get.ru, client-fingerprint: firefox, network: ws, ws-opts: {path: /api/download, headers: {Host: fr2.vip-get.ru}}}
   - {name: JP_speednode_0012, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 美国 Xerox, server: pl.zhabulik.ru, port: 443, type: trojan, password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj, sni: pl.zhabulik.ru, skip-cert-verify: true}
   - {name: ES-5.188.181.201-0178 | 0.0MB, server: 5.188.181.201, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
   - {name: _FR_法国, server: 52.47.133.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: ES-5.188.181.201-0233 | 0.0MB, server: 5.188.181.201, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
   - {name: "罗马尼亚 | ROU #1", server: 77.74.123.106, port: 4443, type: trojan, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-test-italy.dynuddns.net, skip-cert-verify: true}
   - {name: _KR_韩国 2, server: ikr100b.zxom.eu.org, port: 20007, type: trojan, password: 178c178666bb4ae5, sni: ikr100b.zxom.eu.org, skip-cert-verify: true}
   - {name: "美国 | USA #5 2", server: 54.208.227.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 美国+CloudFlare节点 4, server: argo6.5671234.xyz, port: 443, type: vless, uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8, tls: true, servername: argo6.5671234.xyz, network: ws, ws-opts: {path: /e8e2cecb6188f7fb, headers: {Host: argo6.5671234.xyz}}}
   - {name: 新加坡 | SGP 6, server: gsg192i.zxom.eu.org, port: 20008, type: trojan, password: 5b140fc6a0a74e7f, sni: gsg192i.zxom.eu.org, skip-cert-verify: true}
   - {name: 美国 | USA 3, server: ultimate-jaguar.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: ultimate-jaguar.rooster465.autos, skip-cert-verify: true}
   - {name: 新加坡 | SGP 4, server: inviting-ferret.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: inviting-ferret.rooster465.autos, skip-cert-verify: true}
@@ -1832,7 +1717,6 @@ proxies:
   - {name: "韩国 | KOR #3 2", server: optimum-snapper.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: optimum-snapper.rooster465.autos, skip-cert-verify: true}
   - {name: "韩国 | KOR #2", server: liked-eft.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: liked-eft.rooster465.autos, skip-cert-verify: true}
   - {name: "美国 | USA #6 2", server: happy-gibbon.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: happy-gibbon.rooster465.autos, skip-cert-verify: true}
-  - {name: 美国+CloudFlare节点 5, server: geo.shkola112.site, port: 443, type: vless, uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94, tls: true, servername: geo.shkola112.site, network: ws, ws-opts: {path: /api-vless, headers: {Host: geo.shkola112.site}}}
   - {name: JP_2|2.6MB/s, server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7, alterId: 1, cipher: auto, tls: true}
   - {name: _DE_德国, server: 31.77.8.97, port: 110, type: vmess, uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a, alterId: 0, cipher: auto, tls: false}
   - {name: 瑞典 | SWE 3, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -1859,6 +1743,24 @@ proxies:
   - {name: _JP_日本, server: 38.47.121.14, port: 49432, type: vmess, uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: GB_4|1.4MB/s, server: 158.173.221.214, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: c58d16e593d44f42}
   - {name: FR_1|2.7MB/s, server: 15.237.218.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_32|4.1MB/s, server: 18.191.124.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国 | KOR, server: 49.254.204.134, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$}
+  - {name: _MY_马来西亚 2, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: IE_2|3.6MB/s, server: 52.211.103.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 爱尔兰 | IRL, server: 34.244.71.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CA_2|2.0MB/s, server: 16.54.243.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大 | CAN, server: 16.52.165.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 德国 | DEU 3, server: 212.43.156.143, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-2-62.mirra.now}}}
+  - {name: 美国 | USA 13 2, server: 194.77.229.56, port: 12007, type: ss, cipher: chacha20-ietf-poly1305, password: 1ed0af1c413861ff}
+  - {name: 德国 | DEU 2, server: 87.83.220.214, port: 10210, type: ss, cipher: chacha20-ietf-poly1305, password: c032c3833d4b86b9}
+  - {name: GB_1|4.0MB/s, server: 3.8.209.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GB_7|4.4MB/s, server: 35.178.181.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_1|1.9MB/s, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: GB_6|4.2MB/s, server: 35.179.104.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_1|6.0MB/s, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: KR_2|2.3MB/s, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: _FR_法国 2, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: GB_2|1020KB/s, server: 35.177.213.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: CA加拿大丨yoyapai.com (20), server: 172.67.79.160, port: 2087, type: vless, uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23, tls: true, servername: cvhpyn.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: cvhpyn.pages.dev}}}
   - {name: 中国香港 494, server: 202.146.222.174, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
   - {name: 日本 421, server: 138.3.208.26, port: 50160, type: hysteria2, password: 184cdec28da5a09450803c8debcd2cc9, auth: 184cdec28da5a09450803c8debcd2cc9, sni: 1, skip-cert-verify: true}
@@ -1866,7 +1768,6 @@ proxies:
   - {name: vmess|www.shopify.com:443|114ms|anaer/Sub, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
   - {name: vmess|guanwang.awsno.com:443|294ms|anaer/Sub, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
   - {name: _CN_中国_2, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 美国+CloudFlare节点 6, server: saas.sin.fan, port: 8443, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp17.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /class/toolfp=chrome, headers: {Host: vp17.1145678.xyz}}}
   - {name: 新加坡 | SGP 2, server: ench-snet-app.w-ctrip.cn, port: 15589, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -1885,7 +1786,6 @@ proxy-groups:
       - "❓未知丨yoyapai.com (88)"
       - "🇺🇸_美国 (61)"
       - "🇮🇱 以色列 555"
-      - "美国+Xerox2"
       - "🇺🇸 美国 46"
       - "🇸🇬 新加坡 531"
       - "🇺🇸 美国 662"
@@ -1965,12 +1865,6 @@ proxy-groups:
       - "🇺🇸 美国 425"
       - "🇹🇷 土耳其 459"
       - "🇺🇸 美国 577"
-      - "日本+东京都亚马逊(Amazon)公司数据中心"
-      - "美国+惠普HP"
-      - "英国+桑德兰大学"
-      - "英国+桑德兰大学2"
-      - "英国+桑德兰大学1"
-      - "美国+Xerox1"
       - "巴西+V2CROSS.COM"
       - "🇬🇧 英国 637"
       - "🇪🇪 爱沙尼亚 475"
@@ -2024,8 +1918,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -2035,7 +1927,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -2055,7 +1946,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -2129,7 +2019,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -2219,13 +2108,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -2261,7 +2148,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -2331,14 +2217,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -2350,7 +2234,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -2377,6 +2260,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -2384,7 +2285,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: ♻️ 自动选择
     type: url-test
@@ -2439,8 +2339,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -2450,7 +2348,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -2470,7 +2367,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -2544,7 +2440,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -2634,13 +2529,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -2676,7 +2569,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -2746,14 +2638,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -2765,7 +2655,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -2792,6 +2681,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -2799,7 +2706,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: 🎥 NETFLIX
     type: select
@@ -2855,8 +2761,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -2866,7 +2770,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -2886,7 +2789,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -2960,7 +2862,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -3050,13 +2951,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -3092,7 +2991,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -3162,14 +3060,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -3181,7 +3077,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -3208,6 +3103,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -3215,7 +3128,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: ⛔️ 广告拦截
     type: select
@@ -3283,8 +3195,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -3294,7 +3204,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -3314,7 +3223,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -3388,7 +3296,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -3478,13 +3385,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -3520,7 +3425,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -3590,14 +3494,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -3609,7 +3511,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -3636,6 +3537,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -3643,7 +3562,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: 🌏 国内媒体
     type: select
@@ -3714,8 +3632,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -3725,7 +3641,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -3745,7 +3660,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -3819,7 +3733,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -3909,13 +3822,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -3951,7 +3862,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -4021,14 +3931,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -4040,7 +3948,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -4067,6 +3974,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -4074,7 +3999,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: 📲 电报信息
     type: select
@@ -4129,8 +4053,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -4140,7 +4062,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -4160,7 +4081,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -4234,7 +4154,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -4324,13 +4243,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -4366,7 +4283,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -4436,14 +4352,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -4455,7 +4369,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -4482,6 +4395,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -4489,7 +4420,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: 🍎 苹果服务
     type: select
@@ -4545,8 +4475,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -4556,7 +4484,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -4576,7 +4503,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -4650,7 +4576,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -4740,13 +4665,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -4782,7 +4705,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -4852,14 +4774,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -4871,7 +4791,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -4898,6 +4817,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -4905,7 +4842,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
   - name: 🎯 全球直连
     type: select
@@ -4970,8 +4906,6 @@ proxy-groups:
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - US · TROJAN · shaoyouvip · 231FFFBB
       - AetrisVPN
-      - 美国+CloudFlare节点
-      - 美国+CloudFlare节点 2
       - _MY_马来西亚
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
@@ -4981,7 +4915,6 @@ proxy-groups:
       - 德国 645
       - US · SSR · wzmwayne · DC4D1E27
       - US · SSR · wzmwayne · 60FE7985
-      - 美国+CloudFlare节点 3
       - CN_北京市 百度电信节点
       - ❓未知丨yoyapai.com_36
       - NL · SSR · clashmeta · 8B79F727
@@ -5001,7 +4934,6 @@ proxy-groups:
       - 新加坡 509
       - GB-82.38.31.217-0114 | 51.261MB
       - 美国 121
-      - 美国+加利福尼亚州洛杉矶
       - 瑞典 412
       - FR-51.83.192.80-0423 | 31.681MB
       - 德国 537
@@ -5075,7 +5007,6 @@ proxy-groups:
       - 波兰 601
       - 美国 59
       - "@FarazV2ray #1"
-      - 美国+Amazon+EC2服务器
       - "[www.v2nodes.com] ss-KR-1185..."
       - AE_4|818KB/s|C002-260622 [4921c115e49f]
       - 美国 45
@@ -5165,13 +5096,11 @@ proxy-groups:
       - "美国 | USA #16"
       - "美国 | USA #8"
       - "美国 | USA #15"
-      - 美国+加利福尼亚
       - "[www.v2nodes.com] vless-CL-1... #1"
       - DE_8|1.4MB/s
       - "[www.v2nodes.com] vless-ZA-1... #2"
       - "[www.v2nodes.com] vless- #1"
       - JP_4|5.7MB/s
-      - "亚太地区+AT&T"
       - US_23|3.9MB/s
       - SG_5|3.9MB/s
       - SG_6|1.4MB/s
@@ -5207,7 +5136,6 @@ proxy-groups:
       - KR-13.125.29.37-0500 | 22.387MB
       - "[www.v2nodes.com] ss-ES-1431..."
       - "美国 | USA #4"
-      - 新加坡+甲骨文机房
       - "日本 | JPN #4"
       - KR-211.178.105.134-0223 | 0.0MB
       - DE-213.202.208.199-0179 | 14.777MB
@@ -5277,14 +5205,12 @@ proxy-groups:
       - "乌克兰 | UKR #1"
       - "[www.v2nodes.com] vless-FR-1..."
       - JP_speednode_0012
-      - 美国 Xerox
       - ES-5.188.181.201-0178 | 0.0MB
       - _FR_法国
       - ES-5.188.181.201-0233 | 0.0MB
       - "罗马尼亚 | ROU #1"
       - _KR_韩国 2
       - "美国 | USA #5 2"
-      - 美国+CloudFlare节点 4
       - 新加坡 | SGP 6
       - 美国 | USA 3
       - 新加坡 | SGP 4
@@ -5296,7 +5222,6 @@ proxy-groups:
       - "韩国 | KOR #3 2"
       - "韩国 | KOR #2"
       - "美国 | USA #6 2"
-      - 美国+CloudFlare节点 5
       - JP_2|2.6MB/s
       - _DE_德国
       - 瑞典 | SWE 3
@@ -5323,6 +5248,24 @@ proxy-groups:
       - _JP_日本
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
+      - US_32|4.1MB/s
+      - 韩国 | KOR
+      - _MY_马来西亚 2
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 美国 | USA 13 2
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - _FR_法国 2
+      - GB_2|1020KB/s
       - CA加拿大丨yoyapai.com (20)
       - 中国香港 494
       - 日本 421
@@ -5330,7 +5273,6 @@ proxy-groups:
       - vmess|www.shopify.com:443|114ms|anaer/Sub
       - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
       - _CN_中国_2
-      - 美国+CloudFlare节点 6
       - 新加坡 | SGP 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
