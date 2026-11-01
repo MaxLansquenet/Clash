@@ -69,35 +69,6 @@ proxies:
     sni: iosapps.itunes.apple.com
     skip-cert-verify: true
     udp: true
-  - name: "🇷🇺_俄罗斯 (9)"
-    type: vless
-    server: pl1.h1cloud.net
-    port: 27591
-    uuid: "056405e8-de9f-4d0d-8145-956f13cc34da"
-    network: tcp
-    tls: true
-    udp: true
-    client-fingerprint: qq
-    servername: www.samsung.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-      short-id: 6c5c7900406a1ae7
-  - name: "🇷🇺_俄罗斯 (5)"
-    type: vless
-    server: 178.236.245.59
-    port: 443
-    uuid: "ca14493b-b984-4ffb-bc0e-9cb5da969e15"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    servername: tau1.freerunet.online
-    skip-cert-verify: true
-    reality-opts:
-      public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
-      short-id: 4a7b1c8d
   - name: "❓未知丨yoyapai.com (88)"
     type: vless
     server: tau1.freerunet.online
@@ -113,21 +84,6 @@ proxies:
     reality-opts:
       public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
       short-id: 4a7b1c8d
-  - name: "🇺🇸_美国 (61)"
-    type: vless
-    server: s12.bsh-net.ru
-    port: 443
-    uuid: "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: s12.bsh-net.ru
-    skip-cert-verify: true
-    reality-opts:
-      public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
-      short-id: 51079f144d661484
   - name: "🇮🇱 以色列 555"
     type: vless
     server: 77.91.69.169
@@ -1718,6 +1674,9 @@ proxies:
   - {name: IE_1|2.9MB/s, server: 54.229.177.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: CA_3|1.6MB/s, server: 35.182.118.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: ❓Other_2|1.3MB/s, server: 209.248.32.116, port: 28120, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true}
+  - {name: _SG_新加坡, server: ss.049.node-for-bigairport.win, port: 19000, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e}
+  - {name: FR-162.19.192.89-0528 | 17.298MB, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com}}}
+  - {name: GB_2|1.2MB/s, server: 13.40.94.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -1730,10 +1689,7 @@ proxy-groups:
       - "🇳🇴 挪威 | NOR"
       - "🇵🇱 波兰 | POL"
       - "🇺🇸 美国 | USA 5"
-      - "🇷🇺_俄罗斯 (9)"
-      - "🇷🇺_俄罗斯 (5)"
       - "❓未知丨yoyapai.com (88)"
-      - "🇺🇸_美国 (61)"
       - "🇮🇱 以色列 555"
       - "🇺🇸 美国 46"
       - "🇸🇬 新加坡 531"
@@ -2224,6 +2180,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2637,6 +2596,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -3051,6 +3013,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -3477,6 +3442,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -3902,6 +3870,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: 📲 电报信息
     type: select
     proxies:
@@ -4315,6 +4286,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -4729,6 +4703,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -5152,6 +5129,9 @@ proxy-groups:
       - IE_1|2.9MB/s
       - CA_3|1.6MB/s
       - ❓Other_2|1.3MB/s
+      - _SG_新加坡
+      - FR-162.19.192.89-0528 | 17.298MB
+      - GB_2|1.2MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
