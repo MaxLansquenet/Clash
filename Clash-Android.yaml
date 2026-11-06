@@ -157,22 +157,33 @@ proxies:
     reality-opts:
       public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
       short-id: 6ba85179e30d4fc2
-  - {name: DE_8|1.4MB/s, server: 23.165.200.150, port: 52080, type: vmess, uuid: 672cdade-bb05-4c86-b578-e5d09b79524a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/QQqun-737805443], headers: {Host: [down-cdn.dingtalk.com]}}}
-  - {name: ss|202.50.253.54:19999|330ms|peasoft/NoMo, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: ss|202.50.253.27:19999|376ms|peasoft/NoMo, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: Node-024, server: 213.199.47.140, port: 1080, type: socks5}
-  - {name: "D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac", server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: Node-019, server: 193.25.215.182, port: 22222, type: socks5}
-  - {name: ss|202.50.253.18:19999|319ms|peasoft/NoMo, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: ss|202.50.253.99:19999|534ms|ermaozi/get_, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: Node-025, server: 101.36.104.239, port: 10808, type: socks5}
-  - {name: _US_美国_IPV4 (2), server: 129.146.124.201, port: 51000, type: hysteria2, password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, auth: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, sni: cn.cremedelamer.com, skip-cert-verify: true}
+  - {name: CN 679, server: 39.108.113.127, port: 10086, type: vmess, uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
+  - {name: Node-049, server: 107.174.30.92, port: 1080, type: socks5}
   - {name: ss|202.50.253.90:19999|409ms|ermaozi/get_, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.18:19999|319ms|peasoft/NoMo, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: Node-019, server: 193.25.215.182, port: 22222, type: socks5}
+  - {name: "D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac", server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: ss|202.50.253.54:19999|330ms|peasoft/NoMo, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: Node-024, server: 213.199.47.140, port: 1080, type: socks5}
+  - {name: ss|202.50.253.72:19999|320ms|ermaozi/get_, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.27:19999|376ms|peasoft/NoMo, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.45:19999|2698ms|ermaozi/get_, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: NL · SSR · clashmeta · 8B79F727, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: Node-025, server: 101.36.104.239, port: 10808, type: socks5}
+  - {name: ss|202.50.253.99:19999|534ms|ermaozi/get_, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: Node-051, server: 45.61.188.134, port: 44499, type: socks5}
+  - {name: ss|202.50.253.63:19999|1181ms|peasoft/NoMo, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: SOCKS5-45.61.129.165-9050-16, server: 45.61.129.165, port: 9050, type: socks5}
+  - {name: "❓Other_17|213KB/s|R002-260618 [01246ba37aaa]", server: 121.169.46.116, port: 1090, type: socks5, username: 121.169.46.116, password: "1090\x00x00DJjbE0wUWxNMFE2Og"}
+  - {name: SOCKS5-5.255.113.177-1080-2, server: 5.255.113.177, port: 1080, type: socks5}
+  - {name: "US_12|430KB/s|M003-260806 [200118b25471]", server: cf.0sm.com, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}}
+  - {name: "D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73", server: 209.50.255.91, port: 1080, type: socks5}
+  - {name: DE_8|1.4MB/s, server: 23.165.200.150, port: 52080, type: vmess, uuid: 672cdade-bb05-4c86-b578-e5d09b79524a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/QQqun-737805443], headers: {Host: [down-cdn.dingtalk.com]}}}
+  - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: _US_美国_IPV4 (2), server: 129.146.124.201, port: 51000, type: hysteria2, password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, auth: 1d491f8c-ccaa-43e1-b62d-f255c7832e27, sni: cn.cremedelamer.com, skip-cert-verify: true}
   - {name: ❓未知丨yoyapai.com_36, server: jp.sofast.live, port: 52683, type: vless, uuid: 399b6b23-cc40-4831-a494-61948e2df133, tls: false, network: tcp}
   - {name: "US_460|389KB/s|S001-260618 [a66364c9e9f6]", server: 69.55.49.177, port: 38182, type: socks5}
-  - {name: ss|202.50.253.45:19999|2698ms|ermaozi/get_, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: ss|202.50.253.63:19999|1181ms|peasoft/NoMo, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: _US_美国_IPV4 (2) 2, server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, port: 443, type: trojan, password: 6cddea99-9b18-4d42-8638-131bd9f5374f, sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, skip-cert-verify: true}
   - {name: NZ · SS · ts-sf-clash · 85D8FD98, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
@@ -180,23 +191,15 @@ proxies:
   - {name: CA · VMESS · radikal · 7DCDB108, server: cf.877771.xyz, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}}
   - {name: 美国 35, server: 172.66.203.67, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}}
   - {name: ss|202.50.253.36:19999|335ms|peasoft/NoMo, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: ss|202.50.253.72:19999|320ms|ermaozi/get_, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: NL · SSR · clashmeta · 8B79F727, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: SOCKS5-5.255.113.177-1080-2, server: 5.255.113.177, port: 1080, type: socks5}
   - {name: SOCKS5-5.255.123.162-1080-3, server: 5.255.123.162, port: 1080, type: socks5}
   - {name: "DE_86|350KB/s|A004-260618 [784d46490860]", server: de-bots4.h1cloud.net, port: 25267, type: trojan, password: happybirthdaydaniel, sni: t.me%2ffuckthewall, skip-cert-verify: true}
-  - {name: Node-051, server: 45.61.188.134, port: 44499, type: socks5}
   - {name: "IT_24|769KB/s|R002-260618 [aaf6029dcb7b]", server: 212.77.75.25, port: 1088, type: socks5}
-  - {name: "❓Other_17|213KB/s|R002-260618 [01246ba37aaa]", server: 121.169.46.116, port: 1090, type: socks5, username: 121.169.46.116, password: "1090\x00x00DJjbE0wUWxNMFE2Og"}
   - {name: SOCKS5-176.124.206.150-8443-6, server: 176.124.206.150, port: 8443, type: socks5}
   - {name: Node-029, server: 101.36.104.46, port: 10808, type: socks5}
-  - {name: SOCKS5-45.61.129.165-9050-16, server: 45.61.129.165, port: 9050, type: socks5}
-  - {name: Node-049, server: 107.174.30.92, port: 1080, type: socks5}
   - {name: 俄罗斯 652, server: 46.17.46.27, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa}
   - {name: ZZ · TROJAN · au1rxx-clash · 08741B48, server: 167.88.61.20, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: api.browseseniorrolesandenhanceyourcareertoday.com, skip-cert-verify: false}
   - {name: JP日本丨yoyapai.com_3, server: us22.sofast.live, port: 58011, type: vless, uuid: 0afc6426-606c-48e7-bd70-3c424a416842, tls: false, network: tcp}
   - {name: 美国 | hy2 | 20, server: vpn-us-001.fastervpn.world, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-us-001.fastervpn.world, skip-cert-verify: true}
-  - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
   - {name: 美国 155, server: 216.106.186.82, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.findlocaljobnetworkandbuildcommunityconnections.com, skip-cert-verify: false}
   - {name: US丨yoyapai.com美国, server: 188.164.248.110, port: 443, type: vless, uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd, tls: true, servername: imanvipreserved.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: imanvipreserved.pages.dev}}}
   - {name: DE德国丨yoyapai.com (29), server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network, port: 20065, type: vless, uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c, tls: true, flow: xtls-rprx-vision, servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network, client-fingerprint: chrome, network: tcp}
@@ -640,17 +643,7 @@ proxies:
   - {name: DE_1|1.0MB/s, server: 18.199.102.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US_5|3.0MB/s, server: 18.166.226.204, port: 39024, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true}
   - {name: US-217.28.129.81-0456 | 0.035MB, server: autodiscover.fuzzyaytor.cyou, port: 42982, type: ss, cipher: chacha20-ietf-poly1305, password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS}
-  - {name: JP_19|5.5MB/s, server: nearby-egret.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: nearby-egret.rooster465.autos, skip-cert-verify: true}
-  - {name: GB-82.38.31.35-0446 | 2.234MB, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: JP_11|5.4MB/s, server: picked-guinea.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: picked-guinea.rooster465.autos, skip-cert-verify: true}
-  - {name: vmess|www.shopify.com:443|114ms|anaer/Sub, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
-  - {name: CA · VMESS · radikal · 06E1923D, server: 104.18.42.163, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
-  - {name: ZZ · VMESS · yudou · 3B7F63F3, server: 104.21.7.133, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: vmess.lbw666.dpdns.org}}}
-  - {name: vmess|guanwang.awsno.com:443|294ms|anaer/Sub, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
-  - {name: "[www.v2nodes.com] trojan-AE-... #2", server: sclass-c1.catcat321.com, port: 20086, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: true}
-  - {name: 机场推荐:dafei.de 美国 18_IPV4, server: 172.67.190.164, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}}
   - {name: vmess|188.114.96.3:8443|1763ms|anaer/Sub, server: 188.114.96.3, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}}
-  - {name: "D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73", server: 209.50.255.91, port: 1080, type: socks5}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -671,22 +664,33 @@ proxy-groups:
       - "❓未知丨yoyapai.com_61"
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -694,23 +698,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -1154,38 +1150,39 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -1193,23 +1190,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -1653,39 +1642,40 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -1693,23 +1683,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -2153,17 +2135,7 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2182,22 +2154,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -2205,23 +2188,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -2665,17 +2640,7 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2693,22 +2658,33 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -2716,23 +2692,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -3176,38 +3144,39 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -3215,23 +3184,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -3675,39 +3636,40 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -3715,23 +3677,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -4175,17 +4129,7 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4201,22 +4145,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_8|1.4MB/s
-      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
-      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
-      - Node-024
-      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-      - KR_0b85e_0009
-      - Node-019
-      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
-      - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - Node-025
-      - _US_美国_IPV4 (2)
+      - CN 679
+      - "[www.v2nodes.com] ss-JP-1599..."
+      - Node-049
       - ss|202.50.253.90:19999|409ms|ermaozi/get_
+      - ss|202.50.253.18:19999|319ms|peasoft/NoMo
+      - Node-019
+      - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - Node-024
+      - ss|202.50.253.72:19999|320ms|ermaozi/get_
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
+      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
+      - NL · SSR · clashmeta · 8B79F727
+      - Node-025
+      - ss|202.50.253.99:19999|534ms|ermaozi/get_
+      - Node-051
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - SOCKS5-45.61.129.165-9050-16
+      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
+      - SOCKS5-5.255.113.177-1080-2
+      - US_12|430KB/s|M003-260806 [200118b25471]
+      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
+      - DE_8|1.4MB/s
+      - KR_0b85e_0009
+      - _US_美国_IPV4 (2)
       - ❓未知丨yoyapai.com_36
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
-      - ss|202.50.253.45:19999|2698ms|ermaozi/get_
-      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - _US_美国_IPV4 (2) 2
       - NZ · SS · ts-sf-clash · 85D8FD98
       - HK - zhuhai.uk
@@ -4224,23 +4179,15 @@ proxy-groups:
       - CA · VMESS · radikal · 7DCDB108
       - 美国 35
       - ss|202.50.253.36:19999|335ms|peasoft/NoMo
-      - ss|202.50.253.72:19999|320ms|ermaozi/get_
-      - NL · SSR · clashmeta · 8B79F727
-      - SOCKS5-5.255.113.177-1080-2
       - SOCKS5-5.255.123.162-1080-3
       - DE_86|350KB/s|A004-260618 [784d46490860]
-      - Node-051
       - IT_24|769KB/s|R002-260618 [aaf6029dcb7b]
-      - ❓Other_17|213KB/s|R002-260618 [01246ba37aaa]
       - SOCKS5-176.124.206.150-8443-6
       - Node-029
-      - SOCKS5-45.61.129.165-9050-16
-      - Node-049
       - 俄罗斯 652
       - ZZ · TROJAN · au1rxx-clash · 08741B48
       - JP日本丨yoyapai.com_3
       - 美国 | hy2 | 20
-      - "[www.v2nodes.com] ss-JP-1599..."
       - 美国 155
       - US丨yoyapai.com美国
       - DE德国丨yoyapai.com (29)
@@ -4684,17 +4631,7 @@ proxy-groups:
       - DE_1|1.0MB/s
       - US_5|3.0MB/s
       - US-217.28.129.81-0456 | 0.035MB
-      - JP_19|5.5MB/s
-      - GB-82.38.31.35-0446 | 2.234MB
-      - JP_11|5.4MB/s
-      - vmess|www.shopify.com:443|114ms|anaer/Sub
-      - CA · VMESS · radikal · 06E1923D
-      - ZZ · VMESS · yudou · 3B7F63F3
-      - vmess|guanwang.awsno.com:443|294ms|anaer/Sub
-      - "[www.v2nodes.com] trojan-AE-... #2"
-      - 机场推荐:dafei.de 美国 18_IPV4
       - vmess|188.114.96.3:8443|1763ms|anaer/Sub
-      - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

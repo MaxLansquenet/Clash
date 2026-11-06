@@ -21,6 +21,7 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: true
     udp: true
+  - {name: CN 679, server: 39.108.113.127, port: 10086, type: vmess, uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
   - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
   - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
@@ -45,6 +46,7 @@ proxy-groups:
       - "🇹🇼 🇨🇳 台湾 | TWN"
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -66,6 +68,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -88,6 +91,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -122,6 +126,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -155,6 +160,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -176,6 +182,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -198,6 +205,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
@@ -229,6 +237,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN 679
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
