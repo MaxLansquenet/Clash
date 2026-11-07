@@ -13,22 +13,6 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇼 🇨🇳 台湾 | TWN 3"
-    type: anytls
-    server: er8u54dh.df6h451rh.xin
-    port: 443
-    password: "0324fbc29561"
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-    udp: true
-  - name: "🇹🇼 🇨🇳 台湾 | TWN"
-    type: anytls
-    server: 684616s4.df6h451rh.xin
-    port: 443
-    password: "0324fbc29561"
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-    udp: true
   - name: "🇫🇷FR_5|2.3MB/s"
     type: anytls
     server: ip5.934618.xyz
@@ -556,7 +540,6 @@ proxies:
       public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
       short-id: 6ba85179e30d4fc2
   - {name: SOCKS5-45.61.129.165-9050-16, server: 45.61.129.165, port: 9050, type: socks5}
-  - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
   - {name: "US_460|389KB/s|S001-260618 [a66364c9e9f6]", server: 69.55.49.177, port: 38182, type: socks5}
   - {name: Node-025, server: 101.36.104.239, port: 10808, type: socks5}
   - {name: KR_0b85e_0009, server: 121.169.46.116, port: 1090, type: socks5}
@@ -565,7 +548,6 @@ proxies:
   - {name: "D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac", server: 121.169.46.116, port: 1090, type: socks5}
   - {name: ss|202.50.253.27:19999|376ms|peasoft/NoMo, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: ss|202.50.253.99:19999|534ms|ermaozi/get_, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
   - {name: ss|202.50.253.63:19999|1181ms|peasoft/NoMo, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: Node-051, server: 45.61.188.134, port: 44499, type: socks5}
   - {name: US · SS · kooker · C48CC203, server: 88.216.254.18, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA}
@@ -709,7 +691,6 @@ proxies:
   - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
   - {name: DE德国丨yoyapai.com (29), server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network, port: 20065, type: vless, uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c, tls: true, flow: xtls-rprx-vision, servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network, client-fingerprint: chrome, network: tcp}
   - {name: ID_1|1.4MB/s, server: az-1.linkaa.xyz, port: 55386, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: SG · TROJAN · shaoyouvip · 98505516, server: ench-snet-app.w-ctrip.cn, port: 15589, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
   - {name: US · SSR · wzmwayne · 6E9A3A9E, server: api.meituan88.com, port: 27561, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
   - {name: US · SSR · clashmeta · 9958C86E, server: api.meituan88.com, port: 44983, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
@@ -718,14 +699,9 @@ proxies:
   - {name: JP_4|3.9MB/s, server: g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: 9c955dfc-c1d6-3de3-8230-deac3bd9c1a2, alterId: 1, cipher: auto, tls: true}
   - {name: 法国 214, server: 77.216.2.178, port: 30, type: ss, cipher: chacha20-ietf-poly1305, password: BHxDn8Z67zuaoQsjHqSAMQQs8Dz1CGqJ}
   - {name: SG_1|1.2MB/s, server: az-1.linkaa.xyz, port: 53437, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
   - {name: _MY_马来西亚, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: moltbot.doctoroyy.net, skip-cert-verify: true}
-  - {name: "CN_147 #1", server: ench-snet-app.w-ctrip.cn, port: 30298, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
   - {name: US · TROJAN · shaoyouvip · 231FFFBB, server: 176.114.95.242, port: 443, type: trojan, password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h, sni: us-1.1984.love, skip-cert-verify: false}
-  - {name: HK - zhuhai.uk 02, server: 47.238.126.208, port: 1080, type: socks5}
   - {name: Node-044, server: 67.207.92.87, port: 1088, type: socks5}
-  - {name: HK · VMESS · radikal · 01E57926, server: az-1.linkaa.xyz, port: 53437, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: HK_1|2.0MB/s, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: "美国 | USA #1", server: saas.sin.fan, port: 2083, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp25.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /comics/ads/thread, headers: {Host: vp25.1145678.xyz}}}
   - {name: ZZ · SSR · wzmwayne · 3D888B7B, server: api.meituan88.com, port: 29392, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
   - {name: US · SSR · wzmwayne · C27B2DAC, server: api.meituan88.com, port: 61558, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 218522:0hfCJk, obfs-param: 6f5218522.douyin.com}
@@ -751,7 +727,6 @@ proxies:
   - {name: 德国 537, server: 3.76.203.180, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
   - {name: 瑞士 406, server: 208.69.78.29, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.yourultimateprofessionalcareerhub.com, skip-cert-verify: false}
   - {name: 美国 138, server: 170.101.101.211, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: api.explorecreativejobsandenhanceyourcareerportfolio.com, skip-cert-verify: false}
-  - {name: "[www.v2nodes.com] trojan-HK-... #1", server: 2.27.109.179, port: 45464, type: trojan, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io, skip-cert-verify: false}
   - {name: 美国 134, server: 170.101.101.19, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com, skip-cert-verify: false}
   - {name: 美国 111, server: 169.197.140.171, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com, skip-cert-verify: false}
   - {name: 芬兰 261, server: 65.21.52.113, port: 53731, type: ss, cipher: chacha20-ietf-poly1305, password: QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7}
@@ -785,7 +760,6 @@ proxies:
   - {name: 韩国 506, server: 152.67.200.82, port: 50160, type: hysteria2, password: 3d7634af8cb2c6cb4bac1c0efad8b43d, auth: 3d7634af8cb2c6cb4bac1c0efad8b43d, sni: google.com, skip-cert-verify: true}
   - {name: "US_422|397KB/s|K001-260618 [2476a83e111f]", server: Rib9JXAYoqjGN2KW.v.3dns.vip, port: 443, type: vmess, uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5, alterId: 0, cipher: auto, tls: true, servername: Rib9JXAYoqjGN2KW.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Rib9JXAYoqjGN2KW.v.3dns.vip}}}
   - {name: "US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]", server: 98.98.79.198, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: HK · VMESS · radikal · 0798685C, server: qtkdr8jxe3wefxjm.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: qTKDR8jXE3wEFxJM.v.3dns.vip}}}
   - {name: "US_416|823KB/s|M003-260806 [9173ac2a9de2]", server: rib9jxayoqjgn2kw.v.3dns.vip, port: 443, type: vmess, uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5, alterId: 0, cipher: auto, tls: true, servername: Rib9JXAYoqjGN2KW.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Rib9JXAYoqjGN2KW.v.3dns.vip}}}
   - {name: "US_386|1.7MB/s|A001-260618 [3f49a6a19591]", server: 45.138.100.248, port: 10443, type: vless, uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb, tls: false, network: tcp}
   - {name: 立陶宛 339, server: 195.238.126.20, port: 9012, type: ss, cipher: aes-256-cfb, password: xaupMUvhptwxdDUg}
@@ -823,26 +797,20 @@ proxies:
   - {name: 美国 143, server: www.findlocaljobnetworkandbuildcommunityconnections.com, port: 443, type: trojan, password: 242a3d8eee5e4ed1a6bfa4141d549a25, sni: www.findlocaljobnetworkandbuildcommunityconnections.com, skip-cert-verify: true}
   - {name: 德国 499, server: 18.193.79.104, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-de-002.fastervpn.world, skip-cert-verify: true}
   - {name: 美国 14, server: 216.9.225.189, port: 443, type: ss, cipher: 2022-blake3-aes-256-gcm, password: Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo=}
-  - {name: 中国香港 479, server: 202.146.222.29, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 202.146.222.29, skip-cert-verify: true}
   - {name: ZZ · VMESS · ts-sf-v2ray · 914F1E40, server: 38.107.234.57, port: 80, type: vmess, uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/}}
-  - {name: 中国香港 473, server: 202.146.222.89, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vk.com, skip-cert-verify: true}
   - {name: 美国 11, server: 216.152.155.131, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: true}
   - {name: 西班牙 376, server: 66.163.118.62, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.discovergreatjobsandadvanceyourcareer.com, skip-cert-verify: true}
   - {name: _US_美国_1, server: or3.sfacg.uk, port: 2083, type: vmess, uuid: ac251237-576f-40c8-a543-554960c958b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /or3, headers: {Host: or3.sfacg.uk}}}
   - {name: 立陶宛 322, server: 195.238.126.20, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
   - {name: "SG_129|505KB/s|M003-260806 [a3a847071d23]", server: vpn.cintaku.qzz.io, port: 443, type: vless, uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349, tls: true, servername: vpn.cintaku.qzz.io, network: ws, ws-opts: {path: /vlessws, headers: {Host: vpn.cintaku.qzz.io}}}
   - {name: 乌克兰 169, server: 104.253.216.227, port: 49917, type: ss, cipher: chacha20-ietf-poly1305, password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP}
-  - {name: 中国台湾 437, server: 160.187.100.109, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 160.187.100.109, skip-cert-verify: true}
-  - {name: 中国台湾 346, server: 103.115.109.49, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] vless-TR-1... #1", server: 177.3.208.65, port: 443, type: vless, uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c, tls: true, servername: tgmansion.site, client-fingerprint: firefox, network: ws, ws-opts: {path: /vless-tr, headers: {Host: tgmansion.site}}}
   - {name: "SG_97|915KB/s|A004-260618 [086a38e61cea]", server: 128.1.186.132, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: ZZ · VMESS · jichangx · 2E96DBCD, server: 172.64.229.21, port: 443, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: vmess.lbw666.dpdns.org}}}
   - {name: "SG_96|913KB/s|A004-260618 [9fe74a86c27a]", server: 128.1.186.73, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 中国香港 548, server: 47.243.194.125, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: nycqg19zkwacpm1b.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: nycqg19zkwacpm1b.v.3dns.vip}}}
   - {name: "SG_7|891KB/s|A004-260618 [3ed2ad83e159]", server: 68.183.227.236, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: "SG_30|883KB/s|A004-260618 [730d1af26e26]", server: 128.199.172.224, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
   - {name: "[www.v2nodes.com] ss-CA-1545... #1", server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "香港 | HKG #3", server: 47.243.65.243, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: lcv8v9l7oyamxxfz.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: lcv8v9l7oyamxxfz.v.3dns.vip}}}
   - {name: US · VMESS · radikal · A063687D, server: 67.220.85.46, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false}
   - {name: 瑞典 222, server: 50.7.38.243, port: 443, type: hysteria2, password: d4ca9415f0eac7897472e1e5b86d2e96, auth: d4ca9415f0eac7897472e1e5b86d2e96, sni: promo.betust.net, skip-cert-verify: true}
   - {name: "[www.v2nodes.com] vless-RU-1... #5", server: xsru1.ddnsfree.com, port: 443, type: vless, uuid: c90395e6-2140-47ad-a54d-9b166729d3ef, tls: true, servername: xsru1.ddnsfree.com, client-fingerprint: random, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-ru}}
@@ -1014,13 +982,29 @@ proxies:
   - {name: GB_4|1.4MB/s, server: 158.173.221.214, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: c58d16e593d44f42}
   - {name: FR_1|2.7MB/s, server: 15.237.218.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US_32|4.1MB/s, server: 18.191.124.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国 | KOR, server: 49.254.204.134, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$}
+  - {name: IE_2|3.6MB/s, server: 52.211.103.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 爱尔兰 | IRL, server: 34.244.71.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CA_2|2.0MB/s, server: 16.54.243.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大 | CAN, server: 16.52.165.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 德国 | DEU 3, server: 212.43.156.143, port: 443, type: vmess, uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-2-62.mirra.now}}}
+  - {name: 德国 | DEU 2, server: 87.83.220.214, port: 10210, type: ss, cipher: chacha20-ietf-poly1305, password: c032c3833d4b86b9}
+  - {name: GB_1|4.0MB/s, server: 3.8.209.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GB_7|4.4MB/s, server: 35.178.181.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_1|1.9MB/s, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: GB_6|4.2MB/s, server: 35.179.104.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_1|6.0MB/s, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: KR_2|2.3MB/s, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
+  - {name: GB_2|1020KB/s, server: 35.177.213.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: IE_1|4.5MB/s, server: 54.171.218.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: IE_2|3.9MB/s, server: 54.216.102.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CA_1|3.5MB/s, server: 16.52.76.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GB_3|2.2MB/s, server: 18.130.157.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - "US美国(mibei77.com 米贝节点分享)_49"
-      - "🇹🇼 🇨🇳 台湾 | TWN 3"
-      - "🇹🇼 🇨🇳 台湾 | TWN"
       - "🇫🇷FR_5|2.3MB/s"
       - "🇨🇭 瑞士 | CHE"
       - "🇳🇴 挪威 | NOR"
@@ -1062,7 +1046,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -1071,7 +1054,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -1215,7 +1197,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -1224,14 +1205,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -1257,7 +1233,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -1291,7 +1266,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -1329,26 +1303,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -1520,13 +1488,30 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -1535,7 +1520,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -1679,7 +1663,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -1688,14 +1671,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -1721,7 +1699,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -1755,7 +1732,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -1793,26 +1769,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -1984,6 +1954,24 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1991,7 +1979,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -2000,7 +1987,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -2144,7 +2130,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -2153,14 +2138,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -2186,7 +2166,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -2220,7 +2199,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -2258,26 +2236,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -2449,6 +2421,24 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2468,7 +2458,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -2477,7 +2466,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -2621,7 +2609,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -2630,14 +2617,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -2663,7 +2645,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -2697,7 +2678,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -2735,26 +2715,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -2926,17 +2900,28 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港丨yoyapai.com
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
-      - "香港 | HKG #3"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -2944,7 +2929,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -2953,7 +2937,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -3097,7 +3080,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -3106,14 +3088,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -3139,7 +3116,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -3173,7 +3149,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -3211,26 +3186,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -3402,13 +3371,30 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -3417,7 +3403,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -3561,7 +3546,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -3570,14 +3554,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -3603,7 +3582,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -3637,7 +3615,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -3675,26 +3652,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -3866,6 +3837,24 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3873,7 +3862,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -3882,7 +3870,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -4026,7 +4013,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -4035,14 +4021,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -4068,7 +4049,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -4102,7 +4082,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -4140,26 +4119,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -4331,6 +4304,24 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4347,7 +4338,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - SOCKS5-45.61.129.165-9050-16
-      - HK - zhuhai.uk
       - US_460|389KB/s|S001-260618 [a66364c9e9f6]
       - Node-025
       - KR_0b85e_0009
@@ -4356,7 +4346,6 @@ proxy-groups:
       - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
       - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - ss|202.50.253.99:19999|534ms|ermaozi/get_
-      - HK香港丨yoyapai.com
       - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
       - Node-051
       - US · SS · kooker · C48CC203
@@ -4500,7 +4489,6 @@ proxy-groups:
       - "[www.v2nodes.com] ss-JP-1599..."
       - DE德国丨yoyapai.com (29)
       - ID_1|1.4MB/s
-      - HK · VMESS · shaoyouvip · AC1BFF06
       - SG · TROJAN · shaoyouvip · 98505516
       - US · SSR · wzmwayne · 6E9A3A9E
       - US · SSR · clashmeta · 9958C86E
@@ -4509,14 +4497,9 @@ proxy-groups:
       - JP_4|3.9MB/s
       - 法国 214
       - SG_1|1.2MB/s
-      - CN_北京市 百度电信节点
       - _MY_马来西亚
-      - "CN_147 #1"
       - US · TROJAN · shaoyouvip · 231FFFBB
-      - HK - zhuhai.uk 02
       - Node-044
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
       - "美国 | USA #1"
       - ZZ · SSR · wzmwayne · 3D888B7B
       - US · SSR · wzmwayne · C27B2DAC
@@ -4542,7 +4525,6 @@ proxy-groups:
       - 德国 537
       - 瑞士 406
       - 美国 138
-      - "[www.v2nodes.com] trojan-HK-... #1"
       - 美国 134
       - 美国 111
       - 芬兰 261
@@ -4576,7 +4558,6 @@ proxy-groups:
       - 韩国 506
       - US_422|397KB/s|K001-260618 [2476a83e111f]
       - US_421|1.6MB/s|A004-260618 [1feecb3b9b0d]
-      - HK · VMESS · radikal · 0798685C
       - US_416|823KB/s|M003-260806 [9173ac2a9de2]
       - US_386|1.7MB/s|A001-260618 [3f49a6a19591]
       - 立陶宛 339
@@ -4614,26 +4595,20 @@ proxy-groups:
       - 美国 143
       - 德国 499
       - 美国 14
-      - 中国香港 479
       - ZZ · VMESS · ts-sf-v2ray · 914F1E40
-      - 中国香港 473
       - 美国 11
       - 西班牙 376
       - _US_美国_1
       - 立陶宛 322
       - SG_129|505KB/s|M003-260806 [a3a847071d23]
       - 乌克兰 169
-      - 中国台湾 437
-      - 中国台湾 346
       - "[www.v2nodes.com] vless-TR-1... #1"
       - SG_97|915KB/s|A004-260618 [086a38e61cea]
       - ZZ · VMESS · jichangx · 2E96DBCD
       - SG_96|913KB/s|A004-260618 [9fe74a86c27a]
-      - 中国香港 548
       - SG_7|891KB/s|A004-260618 [3ed2ad83e159]
       - SG_30|883KB/s|A004-260618 [730d1af26e26]
       - "[www.v2nodes.com] ss-CA-1545... #1"
-      - "香港 | HKG #3"
       - US · VMESS · radikal · A063687D
       - 瑞典 222
       - "[www.v2nodes.com] vless-RU-1... #5"
@@ -4805,6 +4780,24 @@ proxy-groups:
       - GB_4|1.4MB/s
       - FR_1|2.7MB/s
       - US_32|4.1MB/s
+      - 韩国 | KOR
+      - IE_2|3.6MB/s
+      - 爱尔兰 | IRL
+      - CA_2|2.0MB/s
+      - 加拿大 | CAN
+      - 德国 | DEU 3
+      - 德国 | DEU 2
+      - GB_1|4.0MB/s
+      - GB_7|4.4MB/s
+      - US_1|1.9MB/s
+      - GB_6|4.2MB/s
+      - JP_1|6.0MB/s
+      - KR_2|2.3MB/s
+      - GB_2|1020KB/s
+      - IE_1|4.5MB/s
+      - IE_2|3.9MB/s
+      - CA_1|3.5MB/s
+      - GB_3|2.2MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
