@@ -21,6 +21,21 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: true
     udp: true
+  - name: "🇹🇼 中国台湾 667"
+    type: vless
+    server: 152.32.167.33
+    port: 443
+    uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    servername: www.amazon.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
+      short-id: cff998a4
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
   - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
   - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
@@ -43,6 +58,7 @@ proxy-groups:
     proxies:
       - "🇹🇼 🇨🇳 台湾 | TWN 3"
       - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "🇹🇼 中国台湾 667"
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
