@@ -36,12 +36,12 @@ proxies:
     reality-opts:
       public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
       short-id: cff998a4
+  - {name: _CN_中国_IPV4, server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
   - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
   - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
   - {name: "CN_147 #1", server: ench-snet-app.w-ctrip.cn, port: 30298, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-  - {name: HK - zhuhai.uk 02, server: 47.238.126.208, port: 1080, type: socks5}
   - {name: HK · VMESS · radikal · 01E57926, server: az-1.linkaa.xyz, port: 53437, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: HK_1|2.0MB/s, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: "[www.v2nodes.com] trojan-HK-... #1", server: 2.27.109.179, port: 45464, type: trojan, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io, skip-cert-verify: false}
@@ -61,12 +61,12 @@ proxy-groups:
       - "🇹🇼 中国台湾 667"
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -82,12 +82,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -104,12 +104,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -138,12 +138,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -171,12 +171,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -192,12 +192,12 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -214,12 +214,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
@@ -245,12 +245,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _CN_中国_IPV4
       - HK - zhuhai.uk
       - HK香港丨yoyapai.com
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
-      - HK - zhuhai.uk 02
       - HK · VMESS · radikal · 01E57926
       - HK_1|2.0MB/s
       - "[www.v2nodes.com] trojan-HK-... #1"
