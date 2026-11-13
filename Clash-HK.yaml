@@ -5,14 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: "🇹🇼 🇨🇳 台湾 | TWN 3"
-    type: anytls
-    server: er8u54dh.df6h451rh.xin
-    port: 443
-    password: "0324fbc29561"
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-    udp: true
   - name: "🇹🇼 🇨🇳 台湾 | TWN"
     type: anytls
     server: 684616s4.df6h451rh.xin
@@ -21,89 +13,105 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: true
     udp: true
-  - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
-  - {name: _CN_中国_IPV4, server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
-  - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
-  - {name: "CN_147 #1", server: ench-snet-app.w-ctrip.cn, port: 30298, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
-  - {name: HK · VMESS · radikal · 01E57926, server: az-1.linkaa.xyz, port: 53437, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: HK_1|2.0MB/s, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
-  - {name: "[www.v2nodes.com] trojan-HK-... #1", server: 2.27.109.179, port: 45464, type: trojan, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io, skip-cert-verify: false}
-  - {name: HK · VMESS · radikal · 0798685C, server: qtkdr8jxe3wefxjm.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: qTKDR8jXE3wEFxJM.v.3dns.vip}}}
-  - {name: 中国香港 479, server: 202.146.222.29, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 202.146.222.29, skip-cert-verify: true}
-  - {name: 中国香港 473, server: 202.146.222.89, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vk.com, skip-cert-verify: true}
-  - {name: 中国台湾 437, server: 160.187.100.109, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 160.187.100.109, skip-cert-verify: true}
-  - {name: 中国台湾 346, server: 103.115.109.49, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
-  - {name: 中国香港 548, server: 47.243.194.125, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: nycqg19zkwacpm1b.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: nycqg19zkwacpm1b.v.3dns.vip}}}
+  - name: "🇹🇼 🇨🇳 台湾 | TWN 3"
+    type: anytls
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    password: "0324fbc29561"
+    sni: px.ads.linkedin.com
+    skip-cert-verify: true
+    udp: true
   - {name: "香港 | HKG #3", server: 47.243.65.243, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: lcv8v9l7oyamxxfz.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: lcv8v9l7oyamxxfz.v.3dns.vip}}}
+  - {name: 中国香港 548, server: 47.243.194.125, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: nycqg19zkwacpm1b.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: nycqg19zkwacpm1b.v.3dns.vip}}}
+  - {name: 中国台湾 346, server: 103.115.109.49, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
+  - {name: 中国台湾 437, server: 160.187.100.109, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 160.187.100.109, skip-cert-verify: true}
+  - {name: 中国香港 473, server: 202.146.222.89, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vk.com, skip-cert-verify: true}
+  - {name: 中国香港 479, server: 202.146.222.29, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: 202.146.222.29, skip-cert-verify: true}
+  - {name: HK · VMESS · radikal · 0798685C, server: qtkdr8jxe3wefxjm.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: qTKDR8jXE3wEFxJM.v.3dns.vip}}}
+  - {name: "[www.v2nodes.com] trojan-HK-... #1", server: 2.27.109.179, port: 45464, type: trojan, password: XuMweB2PWs, sni: 2.27.109.179.sslip.io, skip-cert-verify: false}
+  - {name: HK_1|2.0MB/s, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6E571484-4166-4699-8F58-B34A1823691F, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
+  - {name: HK · VMESS · radikal · 01E57926, server: az-1.linkaa.xyz, port: 53437, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
+  - {name: "CN_147 #1", server: ench-snet-app.w-ctrip.cn, port: 30298, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
+  - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
+  - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
+  - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
+  - {name: _CN_中国_IPV4, server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
+  - {name: HK_3|4.0MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40011, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
+  - {name: HK_4|5.4MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40010, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - "🇹🇼 🇨🇳 台湾 | TWN 3"
       - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "🇹🇼 🇨🇳 台湾 | TWN 3"
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -122,98 +130,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港丨yoyapai.com
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK香港丨yoyapai.com
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,22 +245,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK - zhuhai.uk
-      - _CN_中国_IPV4
-      - HK香港丨yoyapai.com
-      - HK · VMESS · shaoyouvip · AC1BFF06
-      - CN_北京市 百度电信节点
-      - "CN_147 #1"
-      - HK · VMESS · radikal · 01E57926
-      - HK_1|2.0MB/s
-      - "[www.v2nodes.com] trojan-HK-... #1"
-      - HK · VMESS · radikal · 0798685C
-      - 中国香港 479
-      - 中国香港 473
-      - 中国台湾 437
-      - 中国台湾 346
-      - 中国香港 548
       - "香港 | HKG #3"
+      - 中国香港 548
+      - 中国台湾 346
+      - 中国台湾 437
+      - 中国香港 473
+      - 中国香港 479
+      - HK · VMESS · radikal · 0798685C
+      - "[www.v2nodes.com] trojan-HK-... #1"
+      - HK_1|2.0MB/s
+      - HK · VMESS · radikal · 01E57926
+      - "CN_147 #1"
+      - CN_北京市 百度电信节点
+      - HK · VMESS · shaoyouvip · AC1BFF06
+      - HK香港丨yoyapai.com
+      - _CN_中国_IPV4
+      - HK - zhuhai.uk
+      - HK_3|4.0MB/s
+      - HK_4|5.4MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10470,4 +10488,5 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
