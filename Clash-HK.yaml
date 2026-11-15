@@ -22,6 +22,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
+  - {name: _CN_中国->🇭🇰_HK_香港_IPV4, server: 112.49.65.212, port: 18000, type: trojan, password: 3b985d60-e252-4935-8e03-06afeb1144c9, sni: www.biliimg.com, skip-cert-verify: true}
   - {name: HK_4|5.4MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40010, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
   - {name: HK_3|4.0MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40011, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
   - {name: _CN_中国_IPV4, server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -48,6 +49,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -71,6 +73,7 @@ proxy-groups:
     interval: 300
     proxies:
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -95,6 +98,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -131,6 +135,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -152,6 +157,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK香港丨yoyapai.com
       - 中国香港 479
       - 中国香港 473
@@ -166,6 +172,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -189,6 +196,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -213,6 +221,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -246,6 +255,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
+      - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
       - _CN_中国_IPV4
@@ -10488,6 +10498,7 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
 
