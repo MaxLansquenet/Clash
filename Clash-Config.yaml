@@ -121,7 +121,7 @@ proxy-groups:
  
   - name: 🎯 GitHub
     type: url-test
-    url: https://www.github.com/generate_204
+    url: https://api.github.com/health_check
     interval: 300
     tolerance: 50
     include-all: true
@@ -131,7 +131,7 @@ proxy-groups:
 
   - name: 🎥 奈飞视频
     type: url-test
-    url: https://www.netflix.com/generate_204
+    url: https://fast.com
     include-all: true
     interval: 300
     tolerance: 50
@@ -141,7 +141,7 @@ proxy-groups:
 
   - name: 📹 油管视频
     type: url-test
-    url: https://www.youtube.com/generate_204
+    url: https://rr1---sn-xxxxxx.googlevideo.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
@@ -151,7 +151,7 @@ proxy-groups:
 
   - name: 🎥 Tiktok
     type: url-test
-    url: https://www.tiktok.com
+    url: https://www.tiktok.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
@@ -161,7 +161,7 @@ proxy-groups:
     
   - name: 💬 OpenAi
     type: url-test
-    url: https://www.chatgpt.com
+    url: https://chat.openai.com/favicon.ico
     include-all: true
     interval: 300
     tolerance: 50
@@ -172,7 +172,7 @@ proxy-groups:
 
   - name: 📲 电报信息
     type: url-test
-    url: https://www.telegram.org/generate_204
+    url: https://telegram.org/img/favicon.ico
     include-all: true
     interval: 300
     tolerance: 50
@@ -182,7 +182,7 @@ proxy-groups:
 
   - name: Ⓜ️ 微软服务
     type: url-test
-    url: http://www.msftncsi.com/ncsi.txt
+    url: http://www.msftconnecttest.com/connecttest.txt
     include-all: true
     interval: 300
     tolerance: 50
