@@ -31,7 +31,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "HK|香港|hk|hongkong|hong kong"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -40,7 +40,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "台湾|TW"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -49,7 +49,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "新家坡|SG"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -58,7 +58,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "🇯🇵|日本|JP"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -67,7 +67,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "🇰🇷|韩国|KR"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -76,7 +76,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "CN|中国|中國|cn"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
@@ -85,7 +85,7 @@ proxy-groups:
     type: select
     include-all: true
     exclude-filter: "CN|中国|中國|cn|渗透|未知"
-    url: https://store.steampowered.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
