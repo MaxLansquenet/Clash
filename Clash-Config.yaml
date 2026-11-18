@@ -141,7 +141,7 @@ proxy-groups:
 
   - name: 📹 油管视频
     type: url-test
-    url: https://rr1---sn-xxxxxx.googlevideo.com/generate_204
+    url: https://www.youtube.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
