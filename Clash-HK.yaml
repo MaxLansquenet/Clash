@@ -40,6 +40,10 @@ proxies:
   - {name: 中国台湾 346, server: 103.115.109.49, port: 443, type: hysteria2, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, auth: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3, skip-cert-verify: true}
   - {name: 中国香港 548, server: 47.243.194.125, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: nycqg19zkwacpm1b.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: nycqg19zkwacpm1b.v.3dns.vip}}}
   - {name: "香港 | HKG #3", server: 47.243.65.243, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, servername: lcv8v9l7oyamxxfz.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: lcv8v9l7oyamxxfz.v.3dns.vip}}}
+  - {name: twmoon1-cdn-route.couldflare-cdn.com:1443, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true}
+  - {name: 120.232.204.58:31343, server: 120.232.204.58, port: 31343, type: http, tls: true}
+  - {name: fan.240104.xyz:443, server: fan.240104.xyz, port: 443, type: http, username: "null", password: "null", tls: true}
+  - {name: HK-43.199.253.17-0340 | 0.012MB, server: sclass-00.catcat321.com, port: 20123, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -67,6 +71,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -91,6 +99,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -116,6 +128,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -153,6 +169,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -165,6 +185,7 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -190,6 +211,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: 📲 电报信息
     type: select
     proxies:
@@ -214,6 +239,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -239,6 +268,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -273,6 +306,10 @@ proxy-groups:
       - 中国台湾 346
       - 中国香港 548
       - "香港 | HKG #3"
+      - twmoon1-cdn-route.couldflare-cdn.com:1443
+      - 120.232.204.58:31343
+      - fan.240104.xyz:443
+      - HK-43.199.253.17-0340 | 0.012MB
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
