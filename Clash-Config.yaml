@@ -207,7 +207,7 @@ proxy-groups:
     strategy: consistent-hashing   #round-robin
     interval: 300
     tolerance: 50
-    exclude-filter: "CN|中国|中國|cn|渗透|未知"
+    exclude-filter: "CN|中国|中國|cn|渗透|未知|HK|香港|hk|hongkong|hong kong"
     proxies:
 
   - name: ✍ Mozilla
