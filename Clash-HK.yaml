@@ -21,7 +21,53 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: true
     udp: true
+  - name: "TW台湾(mibei77.com 米贝节点分享) (2)"
+    type: vless
+    server: free.fugui.lol
+    port: 51283
+    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: swdist.apple.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+  - name: "TW台湾(mibei77.com 米贝节点分享) (5)"
+    type: vless
+    server: free.fugui.lol
+    port: 19482
+    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: swdist.apple.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+  - name: "TW台湾(mibei77.com 米贝节点分享)"
+    type: vless
+    server: free.fugui.lol
+    port: 47396
+    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: swdist.apple.com
+    skip-cert-verify: false
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
+  - {name: HK_1|2.5MB/s, server: 27.124.5.86, port: 8388, type: ss, cipher: 2022-blake3-aes-256-gcm, password: j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A=}
   - {name: "香港 | HKG #1", server: 31.59.169.225, port: 443, type: hysteria2, password: ca60984f-b1f0-4073-bd33-4c75168f749a, auth: ca60984f-b1f0-4073-bd33-4c75168f749a, sni: ge-beer-1.fantoff.online, skip-cert-verify: true}
   - {name: _CN_中国->🇭🇰_HK_香港_IPV4, server: 112.49.65.212, port: 18000, type: trojan, password: 3b985d60-e252-4935-8e03-06afeb1144c9, sni: www.biliimg.com, skip-cert-verify: true}
   - {name: HK_4|5.4MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40010, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
@@ -50,9 +96,13 @@ proxy-groups:
     proxies:
       - "🇹🇼 🇨🇳 台湾 | TWN 3"
       - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "TW台湾(mibei77.com 米贝节点分享) (2)"
+      - "TW台湾(mibei77.com 米贝节点分享) (5)"
+      - "TW台湾(mibei77.com 米贝节点分享)"
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -81,6 +131,7 @@ proxy-groups:
     interval: 300
     proxies:
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -110,6 +161,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -151,6 +203,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -194,6 +247,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -222,6 +276,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -251,6 +306,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
@@ -289,6 +345,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
+      - HK_1|2.5MB/s
       - "香港 | HKG #1"
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
