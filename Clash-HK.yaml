@@ -5,6 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: "🇭🇰 香港3|@ripaojiedian"
+    type: anytls
+    server: 5641sdds.df6h451rh.xin
+    port: 443
+    password: "0324fbc29561"
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    udp: true
+  - name: "🇹🇼 台湾2|@ripaojiedian"
+    type: anytls
+    server: a54ge.df6h451rh.xin
+    port: 443
+    password: "0324fbc29561"
+    sni: docs.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    type: anytls
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    password: "2902c46c8493"
+    sni: px.ads.linkedin.com
+    skip-cert-verify: true
+    udp: true
   - name: "TW - zhuhai.uk"
     type: anytls
     server: theme.lovehk.xyz
@@ -21,12 +45,12 @@ proxies:
     sni: px.ads.linkedin.com
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+  - name: "🇭🇰 香港2|@ripaojiedian"
     type: anytls
-    server: 684616s4.df6h451rh.xin
+    server: ibsdsf.df6h451rh.xin
     port: 443
-    password: "0324fbc29561"
-    sni: px.ads.linkedin.com
+    password: "2902c46c8493"
+    sni: docs.microsoft.com
     skip-cert-verify: true
     udp: true
   - name: "TW台湾(mibei77.com 米贝节点分享) (2)"
@@ -60,13 +84,20 @@ proxies:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
       short-id: fa514b83
   - {name: HK - zhuhai.uk, server: 61.142.113.42, port: 6666, type: socks5}
-  - {name: HK_1|2.5MB/s, server: 27.124.5.86, port: 8388, type: ss, cipher: 2022-blake3-aes-256-gcm, password: j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A=}
+  - {name: ss|202.50.253.54:19999|330ms|peasoft/NoMo, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.36:19999|335ms|peasoft/NoMo, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.63:19999|1181ms|peasoft/NoMo, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: ss|202.50.253.27:19999|376ms|peasoft/NoMo, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: "香港 | HKG #1", server: 31.59.169.225, port: 443, type: hysteria2, password: ca60984f-b1f0-4073-bd33-4c75168f749a, auth: ca60984f-b1f0-4073-bd33-4c75168f749a, sni: ge-beer-1.fantoff.online, skip-cert-verify: true}
+  - {name: ss|47.85.201.22:443|196ms|peasoft/NoMo, server: 47.85.201.22, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=}
   - {name: _CN_中国->🇭🇰_HK_香港_IPV4, server: 112.49.65.212, port: 18000, type: trojan, password: 3b985d60-e252-4935-8e03-06afeb1144c9, sni: www.biliimg.com, skip-cert-verify: true}
   - {name: HK_4|5.4MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40010, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
   - {name: HK_3|4.0MB/s, server: c17b957c5a76ec76.lebufflonfermegroup.us, port: 40011, type: ss, cipher: aes-128-gcm, password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9}
-  - {name: _CN_中国_IPV4, server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo, server: en001.zestapp778.com, port: 29813, type: trojan, password: 5t6i121em5lkmsmk, sni: en001.zestapp778.com, skip-cert-verify: true}
+  - {name: trojan|66.163.118.131:443|666ms|peasoft/NoMo, server: 66.163.118.131, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.discovergreatjobsandadvanceyourcareer.com, skip-cert-verify: true}
+  - {name: ss|154.46.31.106:443|455ms|peasoft/NoMo, server: 154.46.31.106, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: QFWzCw2uX9B9i6qAYeFBIE}
   - {name: HK香港丨yoyapai.com, server: 152.175.6.229, port: 31884, type: vless, uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80, tls: true, servername: hk010.zestapp778.com, client-fingerprint: chrome, network: tcp}
+  - {name: trojan|139.180.146.200:8886|549ms|peasoft/NoMo, server: 139.180.146.200, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 139.180.146.200, skip-cert-verify: true}
   - {name: HK · VMESS · shaoyouvip · AC1BFF06, server: az-1.linkaa.xyz, port: 53617, type: vmess, uuid: 6e571484-4166-4699-8f58-b34a1823691f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /game/resources, headers: {Host: az-1.linkaa.xyz}}}
   - {name: CN_北京市 百度电信节点, server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, network: tcp}
   - {name: "CN_147 #1", server: ench-snet-app.w-ctrip.cn, port: 30298, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: true}
@@ -83,27 +114,35 @@ proxies:
   - {name: fan.240104.xyz:443, server: fan.240104.xyz, port: 443, type: http, username: "null", password: "null", tls: true}
   - {name: 120.232.204.58:31343, server: 120.232.204.58, port: 31343, type: http, tls: true}
   - {name: twmoon1-cdn-route.couldflare-cdn.com:1443, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true}
-  - {name: _CN_中国_1, server: 150.242.244.116, port: 2648, type: vmess, uuid: aeff933f-0ae6-4465-85bf-12f1394f35af, alterId: 0, cipher: auto, tls: false}
-  - {name: HK-43.199.253.17-0340 | 0.012MB, server: sclass-00.catcat321.com, port: 20123, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - "🇭🇰 香港3|@ripaojiedian"
+      - "🇹🇼 台湾2|@ripaojiedian"
+      - "🇹🇼 🇨🇳 台湾 | TWN"
       - "TW - zhuhai.uk"
       - "🇹🇼 🇨🇳 台湾 | TWN 3"
-      - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "🇭🇰 香港2|@ripaojiedian"
       - "TW台湾(mibei77.com 米贝节点分享) (2)"
       - "TW台湾(mibei77.com 米贝节点分享) (5)"
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -120,21 +159,26 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -151,8 +195,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -160,13 +202,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -183,8 +232,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,13 +251,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -227,8 +281,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -250,13 +302,20 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -273,21 +332,26 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -304,8 +368,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -313,13 +375,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -336,8 +405,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,13 +421,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK - zhuhai.uk
-      - HK_1|2.5MB/s
+      - ss|202.50.253.54:19999|330ms|peasoft/NoMo
+      - ss|202.50.253.36:19999|335ms|peasoft/NoMo
+      - ss|202.50.253.63:19999|1181ms|peasoft/NoMo
+      - ss|202.50.253.27:19999|376ms|peasoft/NoMo
       - "香港 | HKG #1"
+      - ss|47.85.201.22:443|196ms|peasoft/NoMo
       - _CN_中国->🇭🇰_HK_香港_IPV4
       - HK_4|5.4MB/s
       - HK_3|4.0MB/s
-      - _CN_中国_IPV4
+      - trojan|en001.zestapp778.com:29813|536ms|peasoft/NoMo
+      - trojan|66.163.118.131:443|666ms|peasoft/NoMo
+      - ss|154.46.31.106:443|455ms|peasoft/NoMo
       - HK香港丨yoyapai.com
+      - trojan|139.180.146.200:8886|549ms|peasoft/NoMo
       - HK · VMESS · shaoyouvip · AC1BFF06
       - CN_北京市 百度电信节点
       - "CN_147 #1"
@@ -377,8 +451,6 @@ proxy-groups:
       - fan.240104.xyz:443
       - 120.232.204.58:31343
       - twmoon1-cdn-route.couldflare-cdn.com:1443
-      - _CN_中国_1
-      - HK-43.199.253.17-0340 | 0.012MB
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
